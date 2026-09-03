@@ -1,8 +1,6 @@
 # Poster Narrative: Citation-Aware Legal RAG
 
-> Status: working research narrative, not poster layout or final poster copy.
->
-> Purpose: define the empirical argument before choosing visuals, columns, or typography.
+> Working narrative for the empirical argument that will guide the poster copy and visuals. This is not a layout specification or final poster text.
 >
 > Source project: [Agentic-RAG-Challenge](https://github.com/SteinVR/Agentic-RAG-Challenge)
 
@@ -10,7 +8,7 @@
 
 ### Central story
 
-Legal RAG has two distinct jobs: retrieve enough evidence to answer a question, and decide which source pages should be shown as citations. Treating the second job as a separate, answer-aware attribution stage reduces citation noise without causing a complete source miss on any annotated question. The benefit is not uniform, however: aggressive narrowing works well when evidence is concentrated on one page, but can remove supporting evidence when an answer spans several pages or documents.
+Legal RAG must retrieve enough evidence to answer a question and decide which source pages to cite. The studied pipeline handles citation selection in a separate, answer-aware attribution stage. This stage reduces citation noise without causing a complete source miss on any annotated question, but the benefit is uneven: narrowing works well when evidence is concentrated on one page and can remove support when an answer spans several pages or documents.
 
 ### One-sentence takeaway
 
@@ -18,41 +16,33 @@ Legal RAG has two distinct jobs: retrieve enough evidence to answer a question, 
 
 ### Product implication
 
-The product should preserve broad retrieval for answer generation but make citation selection an explicit, traceable step. Narrowing should be conservative when the evidence is distributed across pages or documents.
+The product should retrieve broadly for answer generation and select citations in a separate, traceable step. When evidence is distributed across pages or documents, selection should remain conservative.
 
 ### Scope boundary
 
-This is not a poster about winning a competition or about every feature in the repository. The legal corpus should not be presented as originating from the competition: it consists of publicly available primary legal documents published through the official DIFC Legal Database and DIFC Courts Judgments & Orders repositories. The challenge provides the task context and packaged warm-up evaluation inputs, but it is not the original publisher of the legal documents. The poster's empirical contribution is narrower: it evaluates the page-attribution stage inside a complete legal RAG product.
+The poster evaluates the page-attribution stage rather than competition performance or the repository's full feature set. The legal corpus consists of publicly available primary documents from the official DIFC Legal Database and DIFC Courts Judgments & Orders repositories. The challenge supplies the task context and packaged warm-up evaluation inputs; it did not publish the original legal documents.
 
-The word *agentic* should not be central to the title. The saved implementation is primarily a deterministic, staged pipeline with model-assisted decisions, rather than an autonomous agent that plans and repeatedly acts on an environment.
+The word *agentic* should not lead the title. The saved implementation is a staged, mostly deterministic pipeline with model-assisted decisions, not an autonomous agent that plans and repeatedly acts on an environment.
 
 ## 2. Working title and subtitle
 
-### Recommended title
+**Recommended title:** *Citation-Aware Legal RAG: From Retrieved Chunks to Auditable Source Pages*
 
-**Citation-Aware Legal RAG: From Retrieved Chunks to Auditable Source Pages**
+**Subtitle:** *A paired stage analysis across 100 legal questions and 590 PDF pages*
 
-### Subtitle
-
-**A paired stage analysis across 100 legal questions and 590 PDF pages**
-
-### Alternative, more architecture-oriented title
-
-**Separating Retrieval, Answering, and Page Attribution in a Legal RAG Pipeline**
+**Architecture-oriented alternative:** *Separating Retrieval, Answering, and Page Attribution in a Legal RAG Pipeline*
 
 ## 3. Hypothesis
 
-This section corresponds to the mandatory **Hypothesis** section in the examination guidelines.
-
 ### Research context
 
-Retrieval-augmented generation (RAG) uses retrieved external evidence to support generated answers. Dense retrieval improves semantic matching, while lexical retrieval remains useful for exact legal terms, article numbers, names, and dates. Rank fusion and reranking can combine these signals, but the highest-ranked chunks are not automatically the best final citations.
+Retrieval-augmented generation (RAG) conditions generated answers on external evidence. Dense retrieval supports semantic matching, while lexical retrieval remains useful for exact legal terms, article numbers, names, and dates. Rank fusion and reranking combine these signals, but the highest-ranked chunks are not automatically the best final citations.
 
-This distinction matters in legal question answering. A system may retrieve enough evidence to produce the correct answer while still exposing redundant, weakly related, or incomplete source pages. Prior work on attributed generation and legal RAG evaluation therefore treats citation quality as a separate dimension from answer quality.
+This distinction is consequential in legal question answering: a system may retrieve enough evidence for a correct answer while citing redundant, weakly related, or incomplete pages. Prior work on attributed generation and legal RAG evaluation therefore treats citation quality separately from answer quality.
 
 ### Research gap
 
-Many RAG pipelines propagate the pages attached to retrieved chunks directly into the answer. The studied pipeline instead preserves page identity throughout ingestion and retrieval, then performs a separate answer-aware selection step before emitting citations. The open question is whether this narrowing removes citation noise without creating complete source misses.
+Many RAG pipelines pass the pages attached to retrieved chunks directly into the answer. The studied pipeline preserves page identity through ingestion and retrieval, then selects citations after producing the answer. The open question is whether this narrowing removes citation noise without creating complete source misses.
 
 ### Research question
 
@@ -66,7 +56,7 @@ Many RAG pipelines propagate the pages attached to retrieved chunks directly int
 2. reduce the mean number of cited pages per question; and
 3. preserve question-level hit coverage, defined as retaining at least one gold source page.
 
-Recall and F-beta are treated as guardrail metrics rather than hidden costs. A precision gain does not support the hypothesis if it is achieved by systematically discarding required multi-page evidence.
+Recall and F-beta serve as guardrails. A precision gain does not support the hypothesis if it comes from systematically discarding required multi-page evidence.
 
 ### Operational definitions
 
@@ -78,41 +68,38 @@ Recall and F-beta are treated as guardrail metrics rather than hidden costs. A p
 | Evidence completeness | Page recall |
 | Combined grounding quality | Page F-beta with beta = 2.5, weighting recall more than precision |
 
-### Important epistemic note
+### Study status
 
-The hypothesis is a retrospective framing of a saved development run, not a preregistered prediction. The poster must describe it as a paired stage analysis and should not imply a randomized or independently repeated experiment.
+The hypothesis was formulated retrospectively around a saved development run; it was not preregistered. The poster must describe the study as a paired stage analysis, not as a randomized or independently repeated experiment.
 
 ## 4. Methodology
 
-This section corresponds to the mandatory **Methodology** section in the examination guidelines.
-
 ### Evaluation data
 
-- 30 publicly available DIFC legal PDF documents containing 590 pages: 9 laws or consolidated legal instruments and 21 court judgments or orders.
-- The documents are primary legal materials published through the [DIFC Legal Database](https://www.difc.ae/business/laws-and-regulations/legal-database) and [DIFC Courts Judgments & Orders](https://www.difccourts.ae/rules-decisions/judgments-orders).
-- 100 legal questions.
-- 95 questions have annotated source pages and are eligible for page-level evaluation; 5 have no gold page reference.
-- Answer types: 32 boolean, 30 free text, 17 number, 15 name, 5 name-list, and 1 date question.
-- Benchmark layer: the saved run evaluates a packaged 100-question warm-up set against the corresponding page-level gold references stored in the benchmark artifacts. The challenge remains relevant as benchmark and distribution context, not as the source of the underlying legal documents.
+- **Corpus:** 30 publicly available DIFC legal PDFs containing 590 pages: 9 laws or consolidated legal instruments and 21 court judgments or orders.
+- **Primary sources:** [DIFC Legal Database](https://www.difc.ae/business/laws-and-regulations/legal-database) and [DIFC Courts Judgments & Orders](https://www.difccourts.ae/rules-decisions/judgments-orders).
+- **Benchmark:** 100 legal questions. Of these, 95 have annotated source pages and are eligible for page-level evaluation; 5 have no gold page reference.
+- **Answer types:** 32 boolean, 30 free text, 17 number, 15 name, 5 name-list, and 1 date question.
+- **Evaluation artifacts:** the saved run evaluates the packaged warm-up questions against the corresponding page-level gold references. The challenge provides benchmark and distribution context, not the underlying legal documents.
 
-The phrase *publicly available* is intentional. Public access does not by itself establish an open-content license, so the poster should not call the corpus *openly licensed* unless the applicable source terms are verified.
+The corpus is described as *publicly available*, not *openly licensed*: public access does not establish an open-content license, and the applicable source terms have not been verified.
 
 ### Relation to the term-paper corpus
 
-The related term paper *Parametric Adaptation Methods for Document-Grounded Legal QA* selects eight documents from the same broader DIFC source collection and presents them as publicly available laws, regulations, judgments, and orders from the two official repositories. Five of those eight document IDs also occur in the 30-document corpus evaluated here.
+The related term paper *Parametric Adaptation Methods for Document-Grounded Legal QA* selects eight publicly available laws, regulations, judgments, and orders from the same DIFC source collection. Five of its eight document IDs also occur in the 30-document corpus evaluated here.
 
-The datasets must still be kept separate. The term paper independently authors 200 question-answer pairs and evaluates a 50-question split; that benchmark and its reported scores are not inputs to this poster analysis. Its corpus description and official-source citations are reusable, but its benchmark statistics are not.
+The benchmarks are separate. The term paper independently authors 200 question-answer pairs and evaluates a 50-question split; neither that benchmark nor its scores are inputs to this poster analysis. Only its corpus description and official-source citations carry over.
 
 ### System architecture
 
-The architecture follows a recall-first, precision-later design.
+The system retrieves broadly and narrows citations after answering.
 
-1. **Page-first ingestion.** Each PDF is processed page by page. Native text, structural parsing, tables, and OCR fallback feed a canonical corpus. Every downstream record retains `document_id` and `page_number`.
-2. **Multi-view indexing.** The same source material is represented as page, section, clause, microchunk, and table chunks so that retrieval does not depend on one granularity.
-3. **Hybrid retrieval.** BM25 lexical retrieval and `Qwen3-Embedding-0.6B` dense retrieval generate candidates. Reciprocal Rank Fusion combines ranked lists, and `Qwen3-Reranker-0.6B` reranks the evidence.
+1. **Page-first ingestion.** Each PDF is processed page by page. Native text, structural parsing, tables, and OCR fallback produce a canonical corpus. Every downstream record retains `document_id` and `page_number`.
+2. **Multi-view indexing.** The system represents the same material as page, section, clause, microchunk, and table chunks instead of relying on one granularity.
+3. **Hybrid retrieval.** BM25 lexical retrieval and `Qwen3-Embedding-0.6B` dense retrieval produce candidates. Reciprocal Rank Fusion combines their rankings, and `Qwen3-Reranker-0.6B` reranks the fused evidence.
 4. **Typed answering.** `gpt-5.4-mini` produces schema-constrained answers. Structured outputs pass type-specific normalization and validation, boolean and number answers receive additional deterministic evidence checks, and free-text outputs pass answer-to-evidence support validation.
-5. **Explicit page attribution.** Retrieved chunk pages are collapsed into candidate pages, obvious boilerplate can be filtered, the answer solver identifies relevant evidence, and validation restricts final citations to supported candidate pages with a fallback when narrowing is unsafe.
-6. **Auditable output.** The system stores answers, source pages, per-question traces, validation decisions, and latency telemetry.
+5. **Explicit page attribution.** The system collapses chunk references into candidate pages and filters repeated boilerplate. The answer solver identifies relevant evidence; validation emits supported candidate pages and falls back when narrowing lacks support.
+6. **Auditable output.** Each answer includes source pages, per-question traces, validation decisions, and latency telemetry.
 
 The architectural invariant is:
 
@@ -128,7 +115,7 @@ The experiment compares three citation sets for the same 95 questions:
 | Filter pass A | Raw pages after deterministic repeated-boilerplate suppression; title-page suppression exists in the code but was disabled in the saved run |
 | Final attribution | Candidate pages retained because they support the produced answer, with validation and fallback behavior |
 
-This is a paired within-question comparison. It isolates the effect of progressively narrowing citations inside one saved pipeline run; it is not a comparison of independently trained systems.
+All three stages come from the same run. The paired comparison measures how each question's citation set changes as the pipeline narrows it; it does not compare independently trained systems.
 
 ### Metrics and uncertainty
 
@@ -142,7 +129,7 @@ This is a paired within-question comparison. It isolates the effect of progressi
 
 Repository: <https://github.com/SteinVR/Agentic-RAG-Challenge>
 
-Primary saved-run evidence:
+Evidence from the saved run:
 
 | Artifact | Repository-relative path |
 | --- | --- |
@@ -152,11 +139,9 @@ Primary saved-run evidence:
 | Question-level page ledger | `artifacts/warmup_runs/runs/submission_e2e_20260424_solver_narrowing_no_guard/grounding/ledger.csv` |
 | System-level evaluation | `artifacts/warmup_runs/runs/submission_e2e_20260424_solver_narrowing_no_guard/eval/benchmark_report.json` |
 
-Before submission, the paired bootstrap and slice-analysis code must be added to the repository so every number shown on the poster can be regenerated directly.
+Before submission, the repository must include the paired-bootstrap and slice-analysis code needed to regenerate every reported number.
 
 ## 5. Results
-
-This section corresponds to the mandatory **Results** section in the examination guidelines.
 
 ### Primary results
 
@@ -179,9 +164,9 @@ Final attribution versus raw retrieval:
 
 ### Interpretation
 
-The result supports the primary precision and citation-size predictions. The final stage removes false-positive pages and retains at least one correct page for every eligible question. The recall reduction is small but real in the point estimate, and the uncertainty interval for the overall F-beta change includes zero. Therefore the evidence supports a claim about **cleaner citation sets with preserved question-level coverage**, not a strong claim that every aspect of grounding improved.
+Final attribution meets the precision and citation-size predictions: it removes false-positive pages and retains at least one correct page for every eligible question. The recall point estimate falls by 1.6 percentage points, and the uncertainty interval for the F-beta change includes zero. The evidence therefore supports **cleaner citation sets with preserved question-level coverage**, but not a general improvement in every aspect of grounding.
 
-The deterministic filter alone does not improve macro precision and slightly reduces recall. Most of the useful narrowing occurs after the answer is available, which supports treating attribution as an answer-aware component rather than as generic retrieval cleanup.
+The deterministic filter does not improve macro precision and slightly reduces recall. The measured precision gain appears only after the answer is available, supporting answer-aware attribution rather than generic retrieval cleanup.
 
 ### Exploratory slice analysis
 
@@ -192,28 +177,28 @@ The deterministic filter alone does not improve macro precision and slightly red
 | Single-document gold evidence | 60 | 89.9% | 93.1% | +3.2 pp |
 | Multi-document gold evidence | 35 | 83.9% | 82.5% | -1.4 pp |
 
-These slices are exploratory and should not be presented as confirmatory tests. They identify the central failure mode: answer-aware narrowing is effective when evidence is localized, but can under-cite answers that require distributed support.
+These slices are exploratory, not confirmatory. They expose the central failure mode: answer-aware narrowing helps when evidence is localized but can under-cite answers that require distributed support.
 
 ### Answer to the hypothesis
 
-**Partially supported.** Final answer-aware attribution improves precision, reduces citation-set size, and preserves at least one correct page for all eligible questions. It does not preserve every gold page, and the aggregate F-beta improvement is not conclusive. The safe product conclusion is to keep attribution explicit while adding a conservative policy for multi-page and multi-document evidence.
+**Partially supported.** Final attribution improves precision, reduces citation-set size, and preserves at least one correct page for all eligible questions. It does not preserve every gold page, and the aggregate F-beta improvement remains inconclusive. The supported product decision is to keep attribution explicit and use a conservative policy for multi-page and multi-document evidence.
 
 ## 6. Limitations
 
-The poster should state these limitations visibly rather than hiding them in the appendix.
+The final poster should include these limitations.
 
-- **Single saved run.** There are no repeated end-to-end runs with different random seeds.
-- **Retrospective analysis.** The research question was formulated around existing development artifacts rather than preregistered before experimentation.
+- **Single saved run.** No end-to-end runs were repeated with different random seeds.
+- **Retrospective analysis.** The research question was formulated around existing development artifacts rather than preregistered.
 - **Stage comparison, not a full causal ablation.** Raw and final citations come from the same run, and final attribution depends on the produced answer.
 - **Limited external validity.** The evaluation uses one 100-question warm-up benchmark of legal documents.
 - **Distributed evidence regression.** Multi-page and multi-document questions lose some required support.
-- **OCR is not evaluated separately.** OCR fallback exists, but there is no OCR-on versus OCR-off comparison; all 590 PDF pages expose at least 50 characters of extractable native text.
+- **OCR is not evaluated separately.** The pipeline includes OCR fallback, but there is no OCR-on versus OCR-off comparison; all 590 PDF pages expose at least 50 characters of extractable native text.
 - **Model dependence.** Final page selection partly depends on model-reported relevant evidence and type-specific support checks.
 - **Latency is descriptive only.** Mean first-token latency is 6.39 seconds, but no controlled latency experiment was conducted.
 
 ## 7. Poster narrative flow
 
-The poster should be readable without an oral explanation, in this order:
+Without an oral presentation, the poster must carry this sequence on its own:
 
 1. **Problem:** retrieved evidence is necessary for answering, but retrieved pages are too noisy to serve directly as citations.
 2. **Hypothesis:** a separate answer-aware attribution stage can improve precision without causing complete source misses.
@@ -225,17 +210,17 @@ The poster should be readable without an oral explanation, in this order:
 
 ## 8. Evidence that should become visuals later
 
-This document deliberately does not prescribe layout. The narrative requires three visual objects:
+Three visuals carry the argument:
 
 1. **Architecture flow:** PDFs -> page-stable multi-view index -> hybrid retrieval -> typed answering -> answer-aware page attribution -> auditable answer.
 2. **Primary comparison:** grouped bars or a compact slope chart for precision, recall, and F-beta across raw, filter-pass, and final stages.
 3. **Failure-mode contrast:** single-page versus multi-page F-beta change, making the product limitation immediately visible.
 
-The architecture visual explains the mechanism; the result visuals carry the empirical argument. Decorative product screenshots are lower priority.
+The architecture visual explains the mechanism; the two result visuals provide the evidence. Product screenshots are unnecessary unless they clarify a specific step.
 
 ## 9. Candidate academic references for the appendix
 
-The final appendix must contain complete bibliographic entries. These are the core academic sources currently needed by the narrative:
+Core academic references for the final appendix:
 
 1. Lewis, P., et al. (2020). *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks*. NeurIPS. <https://proceedings.neurips.cc/paper/2020/hash/6b493230-Abstract.html>
 2. Karpukhin, V., et al. (2020). *Dense Passage Retrieval for Open-Domain Question Answering*. EMNLP. <https://aclanthology.org/2020.emnlp-main.550/>
@@ -244,11 +229,11 @@ The final appendix must contain complete bibliographic entries. These are the co
 5. Pipitone, N., and Houir Alami, G. (2024). *LegalBench-RAG: A Benchmark for Retrieval-Augmented Generation in the Legal Domain*. <https://arxiv.org/abs/2408.10343>
 6. Zhang, Y., et al. (2025). *Qwen3 Embedding: Advancing Text Embedding and Reranking Through Foundation Models*. <https://arxiv.org/abs/2506.05176>
 
-Model documentation, dataset documentation, repository software, and the benchmark source should be added as non-academic references where appropriate. The reference list must remain primarily academic, as required by the examination guidelines.
+The appendix should also cite relevant model documentation, dataset documentation, repository software, and benchmark sources. As required by the examination guidelines, the reference list must remain primarily academic.
 
 ### Official corpus sources
 
-These non-academic primary sources establish where the legal documents are publicly available:
+These non-academic primary sources establish where the legal documents are published:
 
 1. DIFC Courts. (n.d.). *Judgments & orders*. <https://www.difccourts.ae/rules-decisions/judgments-orders>
 2. Dubai International Financial Centre. (n.d.). *DIFC legal database*. <https://www.difc.ae/business/laws-and-regulations/legal-database>
@@ -280,7 +265,7 @@ These non-academic primary sources establish where the legal documents are publi
 - [ ] ZIP filename follows `{student_id}.zip` or `{student_id_1}_{student_id_2}.zip` exactly.
 - [ ] Submit through the seminar-group `posters` folder on STUD.IP by 30 September 2026, end of day Central European Time.
 
-These submission conditions are a hard gate: the guidelines state that violating them results in an automatic grade of 5.0.
+The submission rules are a hard gate: violating them results in an automatic grade of 5.0.
 
 ## 11. Open work before layout
 
