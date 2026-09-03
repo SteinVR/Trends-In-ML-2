@@ -1,0 +1,27 @@
+Communication job: By the end, an NLP examiner should understand the product architecture and accept the narrow empirical claim that answer-aware page attribution improves citation precision while preserving at least one correct page on the evaluated legal QA set.
+
+Local project sources:
+- /Users/steinv/Projects/Agentic-RAG-Challenge/README.md
+- /Users/steinv/Projects/Agentic-RAG-Challenge/configs/baseline/v001/config.yaml
+- /Users/steinv/Projects/Agentic-RAG-Challenge/artifacts/warmup_runs/runs/submission_e2e_20260424_solver_narrowing_no_guard/manifest.json
+- /Users/steinv/Projects/Agentic-RAG-Challenge/artifacts/warmup_runs/runs/submission_e2e_20260424_solver_narrowing_no_guard/grounding/ledger.jsonl
+- /Users/steinv/Projects/Agentic-RAG-Challenge/artifacts/warmup_runs/runs/submission_e2e_20260424_solver_narrowing_no_guard/grounding/summary.json
+- /Users/steinv/Projects/Agentic-RAG-Challenge/artifacts/warmup_runs/runs/submission_e2e_20260424_solver_narrowing_no_guard/eval/benchmark_report.json
+
+External academic sources:
+- Lewis et al. (2020), Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks: https://proceedings.neurips.cc/paper/2020/hash/6b493230-Abstract.html
+- Karpukhin et al. (2020), Dense Passage Retrieval for Open-Domain Question Answering: https://aclanthology.org/2020.emnlp-main.550/
+- Cormack, Clarke, and Buettcher (2009), Reciprocal Rank Fusion: https://doi.org/10.1145/1571941.1572114
+- Gao et al. (2023), Enabling Large Language Models to Generate Text with Citations: https://aclanthology.org/2023.emnlp-main.398/
+- Pipitone and Alami (2024), LegalBench-RAG: https://arxiv.org/abs/2408.10343
+- Zhang et al. (2025), Qwen3 Embedding: https://arxiv.org/abs/2506.05176
+
+Analysis contract:
+- Question: Does explicit answer-aware page attribution improve page-level citation precision without causing complete source misses?
+- Grain: one benchmark question; 95 questions with non-empty gold page sets.
+- Stages: raw retrieval pages, pass-A filtered pages, final answer-aware pages.
+- Metrics: macro page precision, macro page recall, F-beta with beta=2.5, pages per question, any-hit count.
+- Uncertainty: paired non-parametric bootstrap over questions, 20,000 resamples, deterministic seed 20260903.
+- Primary visual: clustered column chart comparing precision, recall, and F-beta across the three stages. Raw is neutral gray, pass A is light blue, final is strong blue; labels and ordering carry distinction in addition to color.
+- Caveat: the saved PDFs all expose extractable text, so the experiment does not measure OCR impact.
+
