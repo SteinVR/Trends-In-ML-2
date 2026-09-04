@@ -1,0 +1,19 @@
+Primary local sources
+- /Users/steinv/Uni-Trier/Trends-In-ML-2/poster-narrative.md
+- /Users/steinv/Uni-Trier/Trends-In-ML-2/poster-visual-concepts.md
+- /Users/steinv/Uni-Trier/Trends-In-ML-2/Poster-Examination-Guidelines.pdf
+
+Academic sources named in the poster
+- Lewis et al. (2020), Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks: https://proceedings.neurips.cc/paper/2020/hash/6b493230-Abstract.html
+- Cormack, Clarke, and Buettcher (2009), Reciprocal Rank Fusion: https://doi.org/10.1145/1571941.1572114
+- Gao et al. (2023), Enabling Large Language Models to Generate Text with Citations: https://aclanthology.org/2023.emnlp-main.398/
+- Pipitone and Houir Alami (2024), LegalBench-RAG: https://arxiv.org/abs/2408.10343
+
+Official corpus sources
+- https://www.difc.ae/business/laws-and-regulations/legal-database
+- https://www.difccourts.ae/rules-decisions/judgments-orders
+
+Repository
+- https://github.com/SteinVR/Agentic-RAG-Challenge
+
+No external visual assets are used. All graphics are editable native PowerPoint elements.

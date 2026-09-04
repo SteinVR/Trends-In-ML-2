@@ -1,0 +1,34 @@
+QA LEDGER
+=========
+
+Iteration 1 - artifact-tool render
+- Found: equation factors wrapped by digit; System, Attribution and Boundary copy extended beneath the Results region; references lacked a safe bottom margin.
+- Fixed: rebuilt the System equation, shortened interpretation copy, compressed chart rows without reducing any font below 24 pt, and moved footer content upward.
+
+Iteration 2 - artifact-tool render
+- Confirmed: equation factors stayed on one line; Decision and references were visible.
+- Found: grounding denominator wrapped into a third line; FINAL label was too close to 73.9%; Boundary interpretation still touched the metric-distinction strip.
+- Fixed: changed the denominator to n = 100, moved the attribution plot, shortened the Boundary conclusion and added the uncertain F-beta qualifier.
+
+Iteration 3 - artifact-tool render
+- Confirmed: formula, attribution callouts, Boundary interpretation and references were visible; slides_test.py passed.
+- Exported the editable PPTX at true A1 size and generated a vector PDF through PowerPoint.
+
+PowerPoint PDF inspection
+- Full PDF render: 5046 x 3564 px.
+- Found in the full-size Results crop: the three-line H1 grounding threshold escaped its text box although the slide-level overflow test passed.
+- Fixed: replaced it with the one-line comparison 0.847 < 0.850.
+
+Final inspection
+- Full poster, Results crop, footer crop and A4 preview visually inspected.
+- Equation factors and = 0.759 are stable and separate.
+- Attribution callouts and Boundary interpretation are fully visible above the denominator strip.
+- Multi-page regression -2.6 pp is visible before the limitations section.
+- PPTX XML confirms 841 x 594 mm and minimum 24 pt slide text.
+- Final slides_test.py passed; required PDF text values are present; no image XObjects are embedded in the PDF.
+
+Boundary label polish
+- Moved the unit to the chart subtitle: F-beta delta (pp), raw -> final.
+- Bar labels now read +4.0, -2.6, +3.2 and -1.4 on one line; axis endpoints read -3 and +5.
+- Re-exported PPTX, vector PDF, 5046 x 3564 full raster and A4 preview.
+- Full-size Boundary crop visually inspected; slide size, 24 pt minimum, PDF text and slides_test.py all revalidated.

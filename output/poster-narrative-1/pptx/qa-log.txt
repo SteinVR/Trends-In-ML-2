@@ -1,0 +1,34 @@
+PowerPoint poster QA log
+Date: 2026-09-04
+
+Deliverables
+- poster.pptx: editable one-slide PowerPoint
+- poster.pdf: final PDF exported through LibreOffice Impress
+- poster.png: final PDF rendered at 150 PPI
+
+Format and structure
+- PPTX slide size: 840.999 x 594.000 mm (DIN A1 landscape; rounding from OOXML units)
+- PDF: 1 page, A1, 2383.94 x 1683.78 pt
+- PNG: 4967 x 3508 px, approximately 150 PPI at A1
+- PPTX object count: 156 editable native shapes/text objects
+- Speaker notes: [Sources] block present with local source documents, academic URLs, official corpus sources, and repository URL
+
+Typography
+- PPTX minimum authored font size: 24.00 pt
+- PDF minimum non-space glyph size measured with pdfplumber: 24.009 pt
+- PDF glyphs below 24 pt: 0
+- Intentional placeholders retained: AUTHOR NAME and STUDENT ID
+
+Content verification
+- Verified exact presence of all requested means, differences, confidence intervals, stage values, mismatch counts, and 95/100 eligibility distinction in the final PPTX XML.
+- Mandatory audience-facing sections present: Hypothesis, Methodology, Results, Limitations, Reproducibility, and selected academic references.
+- Architecture copy is explanatory; the poster explicitly states that the stage comparison is diagnostic and not a causal ablation.
+- Pipeline step markers are neutral ink. Blue circles and coral diamonds are reserved for localized and distributed evidence respectively.
+
+Rendering and visual checks
+- slides_test.py: PASS - no content overflow detected.
+- Every slide rendered: 1 of 1.
+- Artifact-tool preview inspected at full resolution.
+- LibreOffice PPTX render inspected at full resolution.
+- Final PDF rendered to poster.png at 150 PPI and visually inspected at full resolution.
+- Final inspection confirmed no unintended overlap, clipping, broken wrapping, malformed connectors, unresolved non-author placeholders, chart/data mismatch, or clipped causal boundary.

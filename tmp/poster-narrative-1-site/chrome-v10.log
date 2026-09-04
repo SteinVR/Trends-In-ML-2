@@ -1,0 +1,4 @@
+Trying to load the allocator multiple times. This is *not* supported.
+249106 bytes written to file /Users/steinv/Uni-Trier/Trends-In-ML-2/tmp/poster-narrative-1-site/poster-v10.pdf
+[47787:292742:0904/024249.580530:ERROR:base/process/process_mac.cc:53] task_policy_set TASK_CATEGORY_POLICY: (os/kern) invalid argument (4)
+[47787:292742:0904/024249.580578:ERROR:base/process/process_mac.cc:98] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)

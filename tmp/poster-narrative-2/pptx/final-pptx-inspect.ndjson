@@ -1,0 +1,185 @@
+{"kind":"deck","id":"pr/9hov9h","name":"Deck"}
+{"kind":"layout","layoutId":"aec4d8fc-655f-441a-af2d-9334546c630f","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"59bfdaf9-da6e-4c59-ac0d-9883da3cba82","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/3oiku6","slide":1,"title":"RESEARCH POSTER  |  NATURAL LANGUAGE PROCESSING","textShapes":109}
+{"kind":"textbox","id":"sh/h0nah8ja","slide":1,"name":"eyebrow","text":"RESEARCH POSTER  |  NATURAL LANGUAGE PROCESSING","textPreview":"RESEARCH POSTER  |  NATURAL LANGUAGE PROCESSING","textChars":47,"textLines":1,"bbox":[92,48,1120,42]}
+{"kind":"textbox","id":"sh/uxwr6t0z","slide":1,"name":"title","text":"From Legal PDFs to Verifiable Answers","textPreview":"From Legal PDFs to Verifiable Answers","textChars":37,"textLines":1,"bbox":[92,92,2360,118]}
+{"kind":"textbox","id":"sh/vy5sfy1k","slide":1,"name":"subtitle","text":"Evaluating answer quality, page-level grounding and latency across 100 legal questions","textPreview":"Evaluating answer quality, page-level grounding and latency across 100 legal questions","textChars":86,"textLines":1,"bbox":[92,212,2300,58]}
+{"kind":"textbox","id":"sh/43ytc3i1","slide":1,"name":"repository","text":"github.com/SteinVR/Agentic-RAG-Challenge","textPreview":"github.com/SteinVR/Agentic-RAG-Challenge","textChars":40,"textLines":1,"bbox":[2366.58,150,720,38]}
+{"kind":"textbox","id":"sh/547al8zm","slide":1,"name":"affiliation","text":"Trends in Machine Learning II  |  Universität Trier","textPreview":"Trends in Machine Learning II  |  Universität Trier","textChars":51,"textLines":1,"bbox":[2366.58,202,720,38]}
+{"kind":"shape","id":"sh/i1wbad0v","slide":1,"name":"header-rule","bbox":[92,282,2994.58,3]}
+{"kind":"shape","id":"sh/j2psjihg","slide":1,"name":"hypothesis-bg","bbox":[92,310,2994.58,220]}
+{"kind":"shape","id":"sh/k7u90jix","slide":1,"name":"hypothesis-label-marker","bbox":[118,344,10,43]}
+{"kind":"textbox","id":"sh/l83a9oj2","slide":1,"name":"hypothesis-label","text":"HYPOTHESIS","textPreview":"HYPOTHESIS","textChars":10,"textLines":1,"bbox":[144,337,334,58]}
+{"kind":"textbox","id":"sh/dcfut0re","slide":1,"name":"research-question","text":"Can a page-traceable Legal RAG pipeline balance answer quality, source grounding, validity and latency?","textPreview":"Can a page-traceable Legal RAG pipeline balance answer quality, source grounding, validity and latency?","textChars":103,"textLines":1,"bbox":[482,330,1520,84]}
+{"kind":"textbox","id":"sh/cb6d0vat","slide":1,"name":"secondary-question","text":"H2: Does answer-aware attribution sharpen citations while retaining at least one correct page per annotated question?","textPreview":"H2: Does answer-aware attribution sharpen citations while retaining at least one correct page per annotated question?","textChars":117,"textLines":1,"bbox":[482,424,1520,66]}
+{"kind":"shape","id":"sh/raxcrq98","slide":1,"name":"hypothesis-divider","bbox":[2042,338,3,150]}
+{"kind":"textbox","id":"sh/q9ovy5s3","slide":1,"name":"hypothesis-finding-label","text":"FINDING","textPreview":"FINDING","textChars":7,"textLines":1,"bbox":[2082,334,250,38]}
+{"kind":"textbox","id":"sh/10zexkrq","slide":1,"name":"hypothesis-finding","text":"H1 is partly supported: grounding missed its 0.85 threshold. H2 holds for precision, compactness and 95/95 hit coverage.","textPreview":"H1 is partly supported: grounding missed its 0.85 threshold. H2 holds for precision, compactness and 95/95 hit coverage.","textChars":120,"textLines":1,"bbox":[2082,382,979.58,108]}
+{"kind":"shape","id":"sh/0zqd4fa5","slide":1,"name":"methodology-label-marker","bbox":[92,572,10,43]}
+{"kind":"textbox","id":"sh/zexwva9k","slide":1,"name":"methodology-label","text":"METHODOLOGY","textPreview":"METHODOLOGY","textChars":11,"textLines":1,"bbox":[118,565,474,58]}
+{"kind":"textbox","id":"sh/edov25sz","slide":1,"name":"methodology-data","text":"100 questions  |  30 publicly available legal PDFs  |  590 pages  |  95 with page annotations","textPreview":"100 questions  |  30 publicly available legal PDFs  |  590 pages  |  95 with page annotations","textChars":93,"textLines":1,"bbox":[652,573,2434.58,44]}
+{"kind":"shape","id":"sh/94ze1krm","slide":1,"name":"methodology-rule","bbox":[92,625,2994.58,2]}
+{"kind":"shape","id":"sh/o3qd8fa1","slide":1,"name":"pipeline-arrow-1","bbox":[551.29,765,30,38]}
+{"kind":"shape","id":"sh/87yx43id","slide":1,"name":"pipeline-arrow-2","bbox":[999.29,765,30,38]}
+{"kind":"shape","id":"sh/t87ydozy","slide":1,"name":"pipeline-arrow-3","bbox":[1557.29,765,30,38]}
+{"kind":"shape","id":"sh/6lgf2t07","slide":1,"name":"pipeline-arrow-4","bbox":[2005.29,765,30,38]}
+{"kind":"shape","id":"sh/76pgbyhs","slide":1,"name":"pipeline-arrow-5","bbox":[2563.29,765,30,38]}
+{"kind":"shape","id":"sh/gbix83i9","slide":1,"name":"provenance-rail","bbox":[165.29,974,2848,12]}
+{"kind":"shape","id":"sh/hcryh8zu","slide":1,"name":"provenance-dot-1","bbox":[329.29,967,26,26]}
+{"kind":"shape","id":"sh/u9gf6t0j","slide":1,"name":"provenance-dot-2","bbox":[777.29,967,26,26]}
+{"kind":"shape","id":"sh/va9gfyho","slide":1,"name":"provenance-dot-3","bbox":[1280.29,967,26,26]}
+{"kind":"shape","id":"sh/cfexwji5","slide":1,"name":"provenance-dot-4","bbox":[1783.29,967,26,26]}
+{"kind":"shape","id":"sh/xgne54zq","slide":1,"name":"provenance-dot-5","bbox":[2286.29,967,26,26]}
+{"kind":"shape","id":"sh/fad0bm18","slide":1,"name":"provenance-dot-6","bbox":[2806.29,967,26,26]}
+{"kind":"shape","id":"sh/e94j2hkn","slide":1,"name":"stage-1-box","bbox":[137.29,660,410,250]}
+{"kind":"shape","id":"sh/1wvidcje","slide":1,"name":"stage-1-accent","bbox":[137.29,660,12,250]}
+{"kind":"textbox","id":"sh/0bm14r2t","slide":1,"name":"stage-1-kicker","text":"01  SOURCE","textPreview":"01  SOURCE","textChars":10,"textLines":1,"bbox":[167.29,685,355,34]}
+{"kind":"textbox","id":"sh/r6t0721w","slide":1,"name":"stage-1-title","text":"Page-stable ingestion","textPreview":"Page-stable ingestion","textChars":21,"textLines":1,"bbox":[167.29,736,355,74]}
+{"kind":"textbox","id":"sh/q5kzyxkr","slide":1,"name":"stage-1-body","text":"Native text + tables\nOCR fallback available","textPreview":"Native text + tables | OCR fallback available","textChars":43,"textLines":2,"bbox":[167.29,816,355,76]}
+{"kind":"shape","id":"sh/d8bi9cj2","slide":1,"name":"stage-2-box","bbox":[585.29,660,410,250]}
+{"kind":"shape","id":"sh/s721072h","slide":1,"name":"stage-2-accent","bbox":[585.29,660,12,250]}
+{"kind":"textbox","id":"sh/32t03210","slide":1,"name":"stage-2-kicker","text":"02  REPRESENT","textPreview":"02  REPRESENT","textChars":13,"textLines":1,"bbox":[615.29,685,355,34]}
+{"kind":"textbox","id":"sh/i10zuxkf","slide":1,"name":"stage-2-title","text":"Multi-view index","textPreview":"Multi-view index","textChars":16,"textLines":1,"bbox":[615.29,736,355,74]}
+{"kind":"textbox","id":"sh/y943ylgz","slide":1,"name":"stage-2-body","text":"Page, section, clause,\nmicrochunk and table","textPreview":"Page, section, clause, | microchunk and table","textChars":43,"textLines":2,"bbox":[615.29,816,355,76]}
+{"kind":"shape","id":"sh/jad47qxk","slide":1,"name":"stage-3-box","bbox":[1033.29,660,520,250]}
+{"kind":"shape","id":"sh/kbm50vy5","slide":1,"name":"stage-3-accent","bbox":[1033.29,660,12,250]}
+{"kind":"textbox","id":"sh/lcvm90fq","slide":1,"name":"stage-3-kicker","text":"03  RETRIEVE","textPreview":"03  RETRIEVE","textChars":12,"textLines":1,"bbox":[1063.29,685,465,34]}
+{"kind":"textbox","id":"sh/alk3ulg3","slide":1,"name":"stage-3-title","text":"Hybrid retrieve + rerank","textPreview":"Hybrid retrieve + rerank","textChars":24,"textLines":1,"bbox":[1063.29,736,465,74]}
+{"kind":"textbox","id":"sh/bmt43qxo","slide":1,"name":"stage-3-body","text":"BM25 + Qwen3 Embedding\nRRF + Qwen3 Reranker","textPreview":"BM25 + Qwen3 Embedding | RRF + Qwen3 Reranker","textChars":43,"textLines":2,"bbox":[1063.29,816,465,76]}
+{"kind":"shape","id":"sh/wn2lwvyt","slide":1,"name":"stage-4-box","bbox":[1591.29,660,410,250]}
+{"kind":"shape","id":"sh/xovm5gfe","slide":1,"name":"stage-4-accent","bbox":[1591.29,660,12,250]}
+{"kind":"textbox","id":"sh/mhk3q1gr","slide":1,"name":"stage-4-kicker","text":"04  ANSWER","textPreview":"04  ANSWER","textChars":10,"textLines":1,"bbox":[1621.29,685,355,34]}
+{"kind":"textbox","id":"sh/nit4z6xc","slide":1,"name":"stage-4-title","text":"Typed answer","textPreview":"Typed answer","textChars":12,"textLines":1,"bbox":[1621.29,736,355,74]}
+{"kind":"textbox","id":"sh/pojyl836","slide":1,"name":"stage-4-body","text":"gpt-5.4-mini\nstrict JSON + validators","textPreview":"gpt-5.4-mini | strict JSON + validators","textChars":37,"textLines":2,"bbox":[1621.29,816,355,76]}
+{"kind":"shape","id":"sh/onaxs3ml","slide":1,"name":"stage-5-box","bbox":[2039.29,660,520,250]}
+{"kind":"shape","id":"sh/3m1gjyl0","slide":1,"name":"stage-5-accent","bbox":[2039.29,660,12,250]}
+{"kind":"textbox","id":"sh/2lsfqt4f","slide":1,"name":"stage-5-kicker","text":"05  ATTRIBUTE","textPreview":"05  ATTRIBUTE","textChars":13,"textLines":1,"bbox":[2069.29,685,465,34]}
+{"kind":"textbox","id":"sh/1kjyho3a","slide":1,"name":"stage-5-title","text":"Answer-aware pages","textPreview":"Answer-aware pages","textChars":18,"textLines":1,"bbox":[2069.29,736,465,74]}
+{"kind":"textbox","id":"sh/gjqxo3mp","slide":1,"name":"stage-5-body","text":"Support check + fallback\nraw -> filter -> final","textPreview":"Support check + fallback | raw -> filter -> final","textChars":47,"textLines":2,"bbox":[2069.29,816,465,76]}
+{"kind":"shape","id":"sh/fihgfyl4","slide":1,"name":"stage-6-box","bbox":[2597.29,660,444,250]}
+{"kind":"shape","id":"sh/eh8fmt4j","slide":1,"name":"stage-6-accent","bbox":[2597.29,660,12,250]}
+{"kind":"textbox","id":"sh/tgzydo3y","slide":1,"name":"stage-6-kicker","text":"06  VERIFY","textPreview":"06  VERIFY","textChars":10,"textLines":1,"bbox":[2627.29,685,389,34]}
+{"kind":"textbox","id":"sh/sfqxkjmd","slide":1,"name":"stage-6-title","text":"Auditable output","textPreview":"Auditable output","textChars":16,"textLines":1,"bbox":[2627.29,736,389,74]}
+{"kind":"textbox","id":"sh/kzux0ju9","slide":1,"name":"stage-6-body","text":"Answer + pages + trace\nvalidity + TTFT","textPreview":"Answer + pages + trace | validity + TTFT","textChars":38,"textLines":2,"bbox":[2627.29,816,389,76]}
+{"kind":"textbox","id":"sh/503y9obu","slide":1,"name":"provenance-label","text":"CONTINUOUS PROVENANCE  |  document_id + page_number","textPreview":"CONTINUOUS PROVENANCE  |  document_id + page_number","textChars":51,"textLines":1,"bbox":[812,940,1580,42]}
+{"kind":"textbox","id":"sh/ixsfy9c3","slide":1,"name":"provenance-explanation","text":"The same identifiers survive every stage, so a final citation can be traced back to the exact PDF page.","textPreview":"The same identifiers survive every stage, so a final citation can be traced back to the exact PDF page.","textChars":103,"textLines":1,"bbox":[492,1005,2194.58,52]}
+{"kind":"textbox","id":"sh/jylg7eto","slide":1,"name":"evaluation-design","text":"Evaluation A: end-to-end profile on 100 questions.  Evaluation B: paired raw -> filter -> final page sets on the same 95 annotated questions.","textPreview":"Evaluation A: end-to-end profile on 100 questions.  Evaluation B: paired raw -> filter -> final page sets on the same 95 annotated questi...","textChars":141,"textLines":1,"bbox":[262,1060,2654.58,48]}
+{"kind":"shape","id":"sh/wvaxwjud","slide":1,"name":"results-top-rule","bbox":[92,1140,2994.58,3]}
+{"kind":"shape","id":"sh/xwjy5oby","slide":1,"name":"results-bottom-rule","bbox":[92,1810,2994.58,2]}
+{"kind":"shape","id":"sh/atsfu9c7","slide":1,"name":"results-separator-1","bbox":[1010,1162,2,590]}
+{"kind":"shape","id":"sh/bu1g3ets","slide":1,"name":"results-separator-2","bbox":[2148,1162,2,590]}
+{"kind":"textbox","id":"sh/greh83uh","slide":1,"name":"results-system-label","text":"RESULTS  |  SYSTEM","textPreview":"RESULTS  |  SYSTEM","textChars":18,"textLines":1,"bbox":[104,1164,888,44]}
+{"kind":"textbox","id":"sh/hsnyh8b2","slide":1,"name":"results-system-title","text":"Grounding limits an otherwise strong system","textPreview":"Grounding limits an otherwise strong system","textChars":43,"textLines":1,"bbox":[104,1210,888,72]}
+{"kind":"shape","id":"sh/rmp072d4","slide":1,"name":"system-equation-panel","bbox":[104,1288,882,286]}
+{"kind":"textbox","id":"sh/qlgjyxwj","slide":1,"name":"eq-times-1","text":"x","textPreview":"x","textChars":1,"textLines":1,"bbox":[254,1321,28,42]}
+{"kind":"textbox","id":"sh/do729cva","slide":1,"name":"eq-times-2","text":"x","textPreview":"x","textChars":1,"textLines":1,"bbox":[416,1321,28,42]}
+{"kind":"textbox","id":"sh/cny107ep","slide":1,"name":"eq-times-3","text":"x","textPreview":"x","textChars":1,"textLines":1,"bbox":[578,1321,28,42]}
+{"kind":"textbox","id":"sh/zq9kbmdg","slide":1,"name":"eq-equals","text":"=","textPreview":"=","textChars":1,"textLines":1,"bbox":[746,1318,48,48]}
+{"kind":"textbox","id":"sh/ep0j2hwv","slide":1,"name":"equation-1-value","text":"0.956","textPreview":"0.956","textChars":5,"textLines":1,"bbox":[118,1314,142,58]}
+{"kind":"textbox","id":"sh/1sr2dwv6","slide":1,"name":"equation-1-label","text":"answer\nquality","textPreview":"answer | quality","textChars":14,"textLines":2,"bbox":[113,1378,152,68]}
+{"kind":"textbox","id":"sh/0ri14rel","slide":1,"name":"equation-2-value","text":"0.847","textPreview":"0.847","textChars":5,"textLines":1,"bbox":[280,1314,142,58]}
+{"kind":"textbox","id":"sh/fu50zidw","slide":1,"name":"equation-2-label","text":"grounding\nn = 100","textPreview":"grounding | n = 100","textChars":17,"textLines":2,"bbox":[275,1378,152,68]}
+{"kind":"textbox","id":"sh/utwjqdwb","slide":1,"name":"equation-3-value","text":"1.000","textPreview":"1.000","textChars":5,"textLines":1,"bbox":[442,1314,142,58]}
+{"kind":"textbox","id":"sh/i5cra1kb","slide":1,"name":"equation-3-label","text":"valid\noutputs","textPreview":"valid | outputs","textChars":13,"textLines":2,"bbox":[437,1378,152,68]}
+{"kind":"textbox","id":"sh/j6l8361w","slide":1,"name":"equation-4-value","text":"0.938","textPreview":"0.938","textChars":5,"textLines":1,"bbox":[604,1314,142,58]}
+{"kind":"textbox","id":"sh/47u9cbih","slide":1,"name":"equation-4-label","text":"latency\nmultiplier","textPreview":"latency | multiplier","textChars":18,"textLines":2,"bbox":[599,1378,152,68]}
+{"kind":"textbox","id":"sh/583q5wj2","slide":1,"name":"equation-5-value","text":"0.759","textPreview":"0.759","textChars":5,"textLines":1,"bbox":[794,1314,168,58]}
+{"kind":"textbox","id":"sh/69cre10n","slide":1,"name":"equation-5-label","text":"total\nscore","textPreview":"total | score","textChars":11,"textLines":2,"bbox":[789,1378,178,68]}
+{"kind":"shape","id":"sh/ral87618","slide":1,"name":"grounding-warning","bbox":[280,1458,142,6]}
+{"kind":"textbox","id":"sh/sbu9gbit","slide":1,"name":"grounding-threshold","text":"0.847 < 0.850","textPreview":"0.847 < 0.850","textChars":13,"textLines":1,"bbox":[249,1482,220,42]}
+{"kind":"textbox","id":"sh/tc3a9gjy","slide":1,"name":"valid-detail","text":"100/100\nvalid outputs","textPreview":"100/100 | valid outputs","textChars":21,"textLines":2,"bbox":[464,1475,180,68]}
+{"kind":"textbox","id":"sh/md8r2hk3","slide":1,"name":"latency-detail","text":"Mean TTFT\n6.39 s","textPreview":"Mean TTFT | 6.39 s","textChars":16,"textLines":2,"bbox":[634,1475,170,68]}
+{"kind":"textbox","id":"sh/7e18vm1o","slide":1,"name":"answer-detail","text":"0.943 deterministic  |  0.987 free text","textPreview":"0.943 deterministic  |  0.987 free text","textChars":39,"textLines":1,"bbox":[112,1600,872,40]}
+{"kind":"textbox","id":"sh/p87u1k36","slide":1,"name":"system-interpretation","text":"H1 is partly supported: quality, validity and latency pass; benchmark grounding misses 0.85.","textPreview":"H1 is partly supported: quality, validity and latency pass; benchmark grounding misses 0.85.","textChars":92,"textLines":1,"bbox":[112,1650,872,82]}
+{"kind":"textbox","id":"sh/o7yt8f21","slide":1,"name":"results-attribution-label","text":"RESULTS  |  ATTRIBUTION","textPreview":"RESULTS  |  ATTRIBUTION","textChars":23,"textLines":1,"bbox":[1030,1164,1100,44]}
+{"kind":"textbox","id":"sh/36pczalg","slide":1,"name":"results-attribution-title","text":"Answer-aware selection removes citation noise","textPreview":"Answer-aware selection removes citation noise","textChars":45,"textLines":1,"bbox":[1030,1210,1100,52]}
+{"kind":"textbox","id":"sh/25gb654v","slide":1,"name":"attribution-sample","text":"Macro averages  |  n = 95 annotated questions","textPreview":"Macro averages  |  n = 95 annotated questions","textChars":45,"textLines":1,"bbox":[1030,1260,1100,38]}
+{"kind":"textbox","id":"sh/dwru5k3i","slide":1,"name":"plot-stage-1","text":"RAW","textPreview":"RAW","textChars":3,"textLines":1,"bbox":[1250,1302,180,34]}
+{"kind":"textbox","id":"sh/cvytcz2x","slide":1,"name":"plot-stage-2","text":"FILTER","textPreview":"FILTER","textChars":6,"textLines":1,"bbox":[1560,1302,180,34]}
+{"kind":"textbox","id":"sh/bupc3ulc","slide":1,"name":"plot-stage-3","text":"FINAL","textPreview":"FINAL","textChars":5,"textLines":1,"bbox":[1870,1302,180,34]}
+{"kind":"textbox","id":"sh/qtgbapkr","slide":1,"name":"precision-row-label","text":"Precision","textPreview":"Precision","textChars":9,"textLines":1,"bbox":[1030,1369,210,38]}
+{"kind":"shape","id":"sh/t0nut03e","slide":1,"name":"precision-line-1","bbox":[1340,1390.93,310,1]}
+{"kind":"shape","id":"sh/szet0vmt","slide":1,"name":"precision-line-2","bbox":[1650,1369.46,310,21.46]}
+{"kind":"shape","id":"sh/xcv61kbq","slide":1,"name":"precision-dot-1","bbox":[1328,1378.93,24,24]}
+{"kind":"textbox","id":"sh/wbm58fa5","slide":1,"name":"precision-value-1","text":"63.8%","textPreview":"63.8%","textChars":5,"textLines":1,"bbox":[1270,1348.93,140,32]}
+{"kind":"shape","id":"sh/vadozatk","slide":1,"name":"precision-dot-2","bbox":[1638,1378.93,24,24]}
+{"kind":"textbox","id":"sh/a94n6psz","slide":1,"name":"precision-value-2","text":"63.8%","textPreview":"63.8%","textChars":5,"textLines":1,"bbox":[1580,1348.93,140,32]}
+{"kind":"shape","id":"sh/50f654bm","slide":1,"name":"precision-dot-3","bbox":[1948,1357.46,24,24]}
+{"kind":"textbox","id":"sh/kz65cza1","slide":1,"name":"precision-value-3","text":"73.9%","textPreview":"73.9%","textChars":5,"textLines":1,"bbox":[1890,1327.46,140,32]}
+{"kind":"textbox","id":"sh/jyxo3utg","slide":1,"name":"recall-row-label","text":"Recall","textPreview":"Recall","textChars":6,"textLines":1,"bbox":[1030,1439,210,38]}
+{"kind":"shape","id":"sh/ix4napsb","slide":1,"name":"recall-line-1","bbox":[1340,1445.2,310,5.1]}
+{"kind":"shape","id":"sh/l4bmt0bi","slide":1,"name":"recall-line-2","bbox":[1650,1450.3,310,8.5]}
+{"kind":"shape","id":"sh/03250vax","slide":1,"name":"recall-dot-1","bbox":[1328,1433.2,24,24]}
+{"kind":"textbox","id":"sh/q903u18v","slide":1,"name":"recall-value-1","text":"96.8%","textPreview":"96.8%","textChars":5,"textLines":1,"bbox":[1270,1403.2,140,32]}
+{"kind":"shape","id":"sh/ba9k369g","slide":1,"name":"recall-dot-2","bbox":[1638,1438.3,24,24]}
+{"kind":"textbox","id":"sh/cbilwbql","slide":1,"name":"recall-value-2","text":"96.2%","textPreview":"96.2%","textChars":5,"textLines":1,"bbox":[1580,1408.3,140,32]}
+{"kind":"shape","id":"sh/dcr25gr6","slide":1,"name":"recall-dot-3","bbox":[1948,1446.8,24,24]}
+{"kind":"textbox","id":"sh/yd03yl8r","slide":1,"name":"recall-value-3","text":"95.2%","textPreview":"95.2%","textChars":5,"textLines":1,"bbox":[1890,1416.8,140,32]}
+{"kind":"textbox","id":"sh/ze9k7q9c","slide":1,"name":"fbeta-row-label","text":"F-beta","textPreview":"F-beta","textChars":6,"textLines":1,"bbox":[1030,1509,210,38]}
+{"kind":"shape","id":"sh/0f2l0bqx","slide":1,"name":"fbeta-line-1","bbox":[1340,1527.34,310,3.89]}
+{"kind":"shape","id":"sh/lgb29gri","slide":1,"name":"fbeta-line-2","bbox":[1650,1512.77,310,18.46]}
+{"kind":"shape","id":"sh/ehgj2hsn","slide":1,"name":"fbeta-dot-1","bbox":[1328,1515.34,24,24]}
+{"kind":"textbox","id":"sh/fipkvm98","slide":1,"name":"fbeta-value-1","text":"87.7%","textPreview":"87.7%","textChars":5,"textLines":1,"bbox":[1270,1485.34,140,32]}
+{"kind":"shape","id":"sh/jml03ip0","slide":1,"name":"fbeta-dot-2","bbox":[1638,1519.23,24,24]}
+{"kind":"textbox","id":"sh/ilczudof","slide":1,"name":"fbeta-value-2","text":"87.3%","textPreview":"87.3%","textChars":5,"textLines":1,"bbox":[1580,1489.23,140,32]}
+{"kind":"shape","id":"sh/5oni5s7q","slide":1,"name":"fbeta-dot-3","bbox":[1948,1500.77,24,24]}
+{"kind":"textbox","id":"sh/knuhwn65","slide":1,"name":"fbeta-value-3","text":"89.2%","textPreview":"89.2%","textChars":5,"textLines":1,"bbox":[1890,1470.77,140,32]}
+{"kind":"textbox","id":"sh/vil0zipo","slide":1,"name":"pages-row-label","text":"Pages / Q","textPreview":"Pages / Q","textChars":9,"textLines":1,"bbox":[1030,1579,210,38]}
+{"kind":"shape","id":"sh/ahczqd83","slide":1,"name":"pages-line-1","bbox":[1340,1581.12,310,1.36]}
+{"kind":"shape","id":"sh/xk3i187u","slide":1,"name":"pages-line-2","bbox":[1650,1582.48,310,21.08]}
+{"kind":"shape","id":"sh/wjuhs3q9","slide":1,"name":"pages-dot-1","bbox":[1328,1569.12,24,24]}
+{"kind":"textbox","id":"sh/fe50b2p8","slide":1,"name":"pages-value-1","text":"2.56","textPreview":"2.56","textChars":4,"textLines":1,"bbox":[1270,1539.12,140,32]}
+{"kind":"shape","id":"sh/edwz2xon","slide":1,"name":"pages-dot-2","bbox":[1638,1570.48,24,24]}
+{"kind":"textbox","id":"sh/czqxwz65","slide":1,"name":"pages-value-2","text":"2.54","textPreview":"2.54","textChars":4,"textLines":1,"bbox":[1580,1540.48,140,32]}
+{"kind":"shape","id":"sh/d0ze54na","slide":1,"name":"pages-dot-3","bbox":[1948,1591.56,24,24]}
+{"kind":"textbox","id":"sh/qx8fupoz","slide":1,"name":"pages-value-3","text":"2.23","textPreview":"2.23","textChars":4,"textLines":1,"bbox":[1890,1561.56,140,32]}
+{"kind":"shape","id":"sh/byhw3u5k","slide":1,"name":"attribution-callout-rule","bbox":[1030,1642,1100,2]}
+{"kind":"shape","id":"sh/0nqx0jm1","slide":1,"name":"callout-accent-1","bbox":[1030,1657,7,88]}
+{"kind":"textbox","id":"sh/loze94nm","slide":1,"name":"callout-value-1","text":"+10.2 pp","textPreview":"+10.2 pp","textChars":8,"textLines":1,"bbox":[1052,1651,336.67,46]}
+{"kind":"textbox","id":"sh/y18fy9ov","slide":1,"name":"callout-label-1","text":"precision\n95% CI +6.3 to +14.4","textPreview":"precision | 95% CI +6.3 to +14.4","textChars":30,"textLines":2,"bbox":[1052,1695,336.67,58]}
+{"kind":"shape","id":"sh/z2hw7e5g","slide":1,"name":"callout-accent-2","bbox":[1396.67,1657,7,88]}
+{"kind":"textbox","id":"sh/8rax4jmx","slide":1,"name":"callout-value-2","text":"-0.33","textPreview":"-0.33","textChars":5,"textLines":1,"bbox":[1418.67,1651,336.67,46]}
+{"kind":"textbox","id":"sh/9sjydoni","slide":1,"name":"callout-label-2","text":"pages / question\n95% CI -0.46 to -0.20","textPreview":"pages / question | 95% CI -0.46 to -0.20","textChars":38,"textLines":2,"bbox":[1418.67,1695,336.67,58]}
+{"kind":"shape","id":"sh/9or6xknm","slide":1,"name":"callout-accent-3","bbox":[1763.33,1657,7,88]}
+{"kind":"textbox","id":"sh/8nip4f61","slide":1,"name":"callout-value-3","text":"95/95","textPreview":"95/95","textChars":5,"textLines":1,"bbox":[1785.33,1651,336.67,46]}
+{"kind":"textbox","id":"sh/7m9ova5g","slide":1,"name":"callout-label-3","text":"hit coverage retained\nF-beta gain uncertain","textPreview":"hit coverage retained | F-beta gain uncertain","textChars":43,"textLines":2,"bbox":[1785.33,1695,336.67,58]}
+{"kind":"textbox","id":"sh/mlgn25ov","slide":1,"name":"results-boundary-label","text":"RESULTS  |  BOUNDARY","textPreview":"RESULTS  |  BOUNDARY","textChars":20,"textLines":1,"bbox":[2166,1164,908.58,44]}
+{"kind":"textbox","id":"sh/lk76t0nq","slide":1,"name":"results-boundary-title","text":"Narrowing helps local - and hurts distributed evidence","textPreview":"Narrowing helps local - and hurts distributed evidence","textChars":54,"textLines":1,"bbox":[2166,1210,908.58,82]}
+{"kind":"textbox","id":"sh/kzy50v65","slide":1,"name":"boundary-subtitle","text":"Exploratory F-beta change, raw -> final","textPreview":"Exploratory F-beta change, raw -> final","textChars":39,"textLines":1,"bbox":[2166,1295,908.58,38]}
+{"kind":"shape","id":"sh/zypora5k","slide":1,"name":"boundary-zero-line","bbox":[2661,1335,3,315]}
+{"kind":"textbox","id":"sh/yxgny5oz","slide":1,"name":"single-page-label","text":"Single page\nn = 59","textPreview":"Single page | n = 59","textChars":18,"textLines":2,"bbox":[2166,1344,285,66]}
+{"kind":"shape","id":"sh/5gb654nu","slide":1,"name":"single-page-bar","bbox":[2661,1355,288,34]}
+{"kind":"textbox","id":"sh/4f2pczm9","slide":1,"name":"single-page-value","text":"+4.0 pp","textPreview":"+4.0 pp","textChars":7,"textLines":1,"bbox":[2963,1350,100,44]}
+{"kind":"textbox","id":"sh/21c3614r","slide":1,"name":"multi-page-label","text":"Multi page\nn = 36","textPreview":"Multi page | n = 36","textChars":17,"textLines":2,"bbox":[2166,1416,285,66]}
+{"kind":"shape","id":"sh/n2l4z6lc","slide":1,"name":"multi-page-bar","bbox":[2473.8,1427,187.2,34]}
+{"kind":"textbox","id":"sh/o3el8bmx","slide":1,"name":"multi-page-value","text":"-2.6 pp","textPreview":"-2.6 pp","textChars":7,"textLines":1,"bbox":[2371.8,1422,100,44]}
+{"kind":"textbox","id":"sh/p4nm1w3i","slide":1,"name":"single-doc-label","text":"Single document\nn = 60","textPreview":"Single document | n = 60","textChars":22,"textLines":2,"bbox":[2166,1488,285,66]}
+{"kind":"shape","id":"sh/exc32h4v","slide":1,"name":"single-doc-bar","bbox":[2661,1499,230.4,34]}
+{"kind":"textbox","id":"sh/fylkvml0","slide":1,"name":"single-doc-value","text":"+3.2 pp","textPreview":"+3.2 pp","textChars":7,"textLines":1,"bbox":[2905.4,1494,100,44]}
+{"kind":"textbox","id":"sh/0zul4rml","slide":1,"name":"multi-doc-label","text":"Multi document\nn = 35","textPreview":"Multi document | n = 35","textChars":21,"textLines":2,"bbox":[2166,1560,285,66]}
+{"kind":"shape","id":"sh/103mxw36","slide":1,"name":"multi-doc-bar","bbox":[2560.2,1571,100.8,34]}
+{"kind":"textbox","id":"sh/ytw3yl4z","slide":1,"name":"multi-doc-value","text":"-1.4 pp","textPreview":"-1.4 pp","textChars":7,"textLines":1,"bbox":[2458.2,1566,100,44]}
+{"kind":"textbox","id":"sh/zup47qlk","slide":1,"name":"boundary-axis-left","text":"-3 pp","textPreview":"-3 pp","textChars":5,"textLines":1,"bbox":[2426,1655,100,34]}
+{"kind":"textbox","id":"sh/veh0zi1w","slide":1,"name":"boundary-axis-zero","text":"0","textPreview":"0","textChars":1,"textLines":1,"bbox":[2631,1655,60,34]}
+{"kind":"textbox","id":"sh/ud8jqdkb","slide":1,"name":"boundary-axis-right","text":"+5 pp","textPreview":"+5 pp","textChars":5,"textLines":1,"bbox":[2976,1655,110,34]}
+{"kind":"textbox","id":"sh/h0zi18j2","slide":1,"name":"boundary-conclusion","text":"Multi-page: -2.6 pp - the clearest failure boundary.","textPreview":"Multi-page: -2.6 pp - the clearest failure boundary.","textChars":52,"textLines":1,"bbox":[2166,1702,908.58,38]}
+{"kind":"shape","id":"sh/wfq1sn2h","slide":1,"name":"metric-distinction-bg","bbox":[92,1758,2994.58,50]}
+{"kind":"textbox","id":"sh/j2h03i1s","slide":1,"name":"metric-distinction","text":"Do not conflate: benchmark grounding 0.847 = all 100 answers; macro page F-beta 0.892 = final attribution on 95 annotated questions.","textPreview":"Do not conflate: benchmark grounding 0.847 = all 100 answers; macro page F-beta 0.892 = final attribution on 95 annotated questions.","textChars":132,"textLines":1,"bbox":[122,1766,2934.58,36]}
+{"kind":"shape","id":"sh/i18judkn","slide":1,"name":"decision-strip","bbox":[92,1825,2994.58,104]}
+{"kind":"textbox","id":"sh/54ji5sjy","slide":1,"name":"decision-label","text":"DECISION","textPreview":"DECISION","textChars":8,"textLines":1,"bbox":[130,1848,270,55]}
+{"kind":"textbox","id":"sh/43a1wn2d","slide":1,"name":"decision-text","text":"Retrieve broadly. Attribute explicitly. Narrow conservatively when evidence spans pages or documents.","textPreview":"Retrieve broadly. Attribute explicitly. Narrow conservatively when evidence spans pages or documents.","textChars":101,"textLines":1,"bbox":[407,1845,2634.58,62]}
+{"kind":"textbox","id":"sh/r6107214","slide":1,"name":"limitations-label","text":"LIMITATIONS","textPreview":"LIMITATIONS","textChars":11,"textLines":1,"bbox":[92,1950,300,42]}
+{"kind":"shape","id":"sh/q5sjyxkj","slide":1,"name":"limitation-rule-1","bbox":[92,2004,85,6]}
+{"kind":"textbox","id":"sh/obuho7yx","slide":1,"name":"limitation-head-1","text":"ONE SAVED RUN","textPreview":"ONE SAVED RUN","textChars":13,"textLines":1,"bbox":[92,2022,971.53,34]}
+{"kind":"textbox","id":"sh/pc3ixcz2","slide":1,"name":"limitation-body-1","text":"Retrospective thresholds and questions; no repeated seeds.","textPreview":"Retrospective thresholds and questions; no repeated seeds.","textChars":58,"textLines":1,"bbox":[92,2060,971.53,62]}
+{"kind":"shape","id":"sh/29szmxgr","slide":1,"name":"limitation-rule-2","bbox":[1103.53,2004,85,6]}
+{"kind":"textbox","id":"sh/nal0v2hc","slide":1,"name":"limitation-head-2","text":"NO CAUSAL ABLATION","textPreview":"NO CAUSAL ABLATION","textChars":18,"textLines":1,"bbox":[1103.53,2022,971.53,34]}
+{"kind":"textbox","id":"sh/07ahknyl","slide":1,"name":"limitation-body-2","text":"Pipeline stages were not independently compared against a baseline.","textPreview":"Pipeline stages were not independently compared against a baseline.","textChars":67,"textLines":1,"bbox":[1103.53,2060,971.53,62]}
+{"kind":"shape","id":"sh/18jitsz6","slide":1,"name":"limitation-rule-3","bbox":[2115.06,2004,85,6]}
+{"kind":"textbox","id":"sh/e5szixgf","slide":1,"name":"limitation-head-3","text":"LIMITED GENERALITY","textPreview":"LIMITED GENERALITY","textChars":18,"textLines":1,"bbox":[2115.06,2022,971.53,34]}
+{"kind":"textbox","id":"sh/f610rih0","slide":1,"name":"limitation-body-3","text":"TTFT only; OCR not exercised; one DIFC corpus and one language setting.","textPreview":"TTFT only; OCR not exercised; one DIFC corpus and one language setting.","textChars":71,"textLines":1,"bbox":[2115.06,2060,971.53,62]}
+{"kind":"shape","id":"sh/s3ahgnyp","slide":1,"name":"references-rule","bbox":[92,2136,2994.58,2]}
+{"kind":"textbox","id":"sh/d4jypszu","slide":1,"name":"references-line-1","text":"[1] Lewis et al., NeurIPS 2020   [2] Karpukhin et al., EMNLP 2020   [3] Cormack et al., SIGIR 2009   [4] Gao et al., EMNLP 2023","textPreview":"[1] Lewis et al., NeurIPS 2020   [2] Karpukhin et al., EMNLP 2020   [3] Cormack et al., SIGIR 2009   [4] Gao et al., EMNLP 2023","textChars":127,"textLines":1,"bbox":[92,2149,2994.58,34]}
+{"kind":"textbox","id":"sh/lg36t0zi","slide":1,"name":"references-line-2","text":"[5] Pipitone & Alami, LegalBench-RAG 2024   [6] Zhang et al., Qwen3 Embedding 2025   |   Full references in appendix.","textPreview":"[5] Pipitone & Alami, LegalBench-RAG 2024   [6] Zhang et al., Qwen3 Embedding 2025   |   Full references in appendix.","textChars":117,"textLines":1,"bbox":[92,2186,2994.58,34]}
+{"kind":"notes","id":"nt/3oiku6","slide":1,"text":"[Sources]\nInternal source of truth: /Users/steinv/Uni-Trier/Trends-In-ML-2/poster-narrative-2.md\nFormal requirements: /Users/steinv/Uni-Trier/Trends-In-ML-2/Poster-Examination-Guidelines.pdf\nPrimary run report: artifacts/warmup_runs/runs/submission_e2e_20260424_solver_narrowing_no_guard/eval/benchmark_report.json\nPrimary page ledger: artifacts/warmup_runs/runs/submission_e2e_20260424_solver_narrowing_no_guard/grounding/ledger.csv\nLewis et al. (2020), https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html\nKarpukhin et al. (2020), https://aclanthology.org/2020.emnlp-main.550/\nCormack et al. (2009), https://doi.org/10.1145/1571941.1572114\nGao et al. (2023), https://aclanthology.org/2023.emnlp-main.398/\nPipitone and Houir Alami (2024), https://arxiv.org/abs/2408.10343\nZhang et al. (2025), https://arxiv.org/abs/2506.05176"}

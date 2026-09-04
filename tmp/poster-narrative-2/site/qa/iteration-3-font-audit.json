@@ -1,0 +1,511 @@
+{
+  "minimumPt": 24,
+  "below24Pt": [],
+  "items": [
+    {
+      "kind": "svg",
+      "text": "01",
+      "effectivePt": 24.22
+    },
+    {
+      "kind": "svg",
+      "text": "Page-stable ingestion",
+      "effectivePt": 25.03
+    },
+    {
+      "kind": "svg",
+      "text": "text · tables · structure",
+      "effectivePt": 24.22
+    },
+    {
+      "kind": "svg",
+      "text": "OCR fallback available",
+      "effectivePt": 24.22
+    },
+    {
+      "kind": "svg",
+      "text": "02",
+      "effectivePt": 24.22
+    },
+    {
+      "kind": "svg",
+      "text": "Multi-view index",
+      "effectivePt": 25.03
+    },
+    {
+      "kind": "svg",
+      "text": "page · section · clause",
+      "effectivePt": 24.22
+    },
+    {
+      "kind": "svg",
+      "text": "microchunk · table",
+      "effectivePt": 24.22
+    },
+    {
+      "kind": "svg",
+      "text": "03",
+      "effectivePt": 24.22
+    },
+    {
+      "kind": "svg",
+      "text": "Hybrid retrieval",
+      "effectivePt": 25.03
+    },
+    {
+      "kind": "svg",
+      "text": "BM25 + Qwen3 embeddings",
+      "effectivePt": 24.22
+    },
+    {
+      "kind": "svg",
+      "text": "RRF candidate fusion",
+      "effectivePt": 24.22
+    },
+    {
+      "kind": "svg",
+      "text": "04",
+      "effectivePt": 24.22
+    },
+    {
+      "kind": "svg",
+      "text": "Rerank + typed answer",
+      "effectivePt": 25.03
+    },
+    {
+      "kind": "svg",
+      "text": "Qwen3 reranker",
+      "effectivePt": 24.22
+    },
+    {
+      "kind": "svg",
+      "text": "gpt-5.4-mini · strict JSON",
+      "effectivePt": 24.22
+    },
+    {
+      "kind": "svg",
+      "text": "05",
+      "effectivePt": 24.22
+    },
+    {
+      "kind": "svg",
+      "text": "Answer-aware attribution",
+      "effectivePt": 25.03
+    },
+    {
+      "kind": "svg",
+      "text": "support check · dedupe",
+      "effectivePt": 24.22
+    },
+    {
+      "kind": "svg",
+      "text": "confidence fallback",
+      "effectivePt": 24.22
+    },
+    {
+      "kind": "svg",
+      "text": "06",
+      "effectivePt": 24.22
+    },
+    {
+      "kind": "svg",
+      "text": "Auditable output",
+      "effectivePt": 25.03
+    },
+    {
+      "kind": "svg",
+      "text": "answer · cited pages",
+      "effectivePt": 24.22
+    },
+    {
+      "kind": "svg",
+      "text": "trace · validators · TTFT",
+      "effectivePt": 24.22
+    },
+    {
+      "kind": "svg",
+      "text": "CONTINUOUS PROVENANCE RAIL · document_id + page_number",
+      "effectivePt": 24.22
+    },
+    {
+      "kind": "svg",
+      "text": "0.956 × 0.847 × 1.000 × 0.938 = 0.759",
+      "effectivePt": 31.57
+    },
+    {
+      "kind": "svg",
+      "text": "ANSWER",
+      "effectivePt": 24.71
+    },
+    {
+      "kind": "svg",
+      "text": "GROUNDING",
+      "effectivePt": 24.71
+    },
+    {
+      "kind": "svg",
+      "text": "TELEMETRY",
+      "effectivePt": 24.71
+    },
+    {
+      "kind": "svg",
+      "text": "LATENCY",
+      "effectivePt": 24.71
+    },
+    {
+      "kind": "svg",
+      "text": "TOTAL",
+      "effectivePt": 24.71
+    },
+    {
+      "kind": "svg",
+      "text": "100 / 100 valid",
+      "effectivePt": 32.94
+    },
+    {
+      "kind": "svg",
+      "text": "TTFT 6.39 s",
+      "effectivePt": 32.94
+    },
+    {
+      "kind": "svg",
+      "text": "RAW",
+      "effectivePt": 24.87
+    },
+    {
+      "kind": "svg",
+      "text": "FILTER",
+      "effectivePt": 24.87
+    },
+    {
+      "kind": "svg",
+      "text": "FINAL",
+      "effectivePt": 24.87
+    },
+    {
+      "kind": "svg",
+      "text": "Precision",
+      "effectivePt": 24.87
+    },
+    {
+      "kind": "svg",
+      "text": "Recall",
+      "effectivePt": 24.87
+    },
+    {
+      "kind": "svg",
+      "text": "Fβ · β=2.5",
+      "effectivePt": 24.87
+    },
+    {
+      "kind": "svg",
+      "text": "Pages / question",
+      "effectivePt": 24.87
+    },
+    {
+      "kind": "svg",
+      "text": "63.8%",
+      "effectivePt": 24.87
+    },
+    {
+      "kind": "svg",
+      "text": "63.8%",
+      "effectivePt": 24.87
+    },
+    {
+      "kind": "svg",
+      "text": "73.9%",
+      "effectivePt": 24.87
+    },
+    {
+      "kind": "svg",
+      "text": "96.8%",
+      "effectivePt": 24.87
+    },
+    {
+      "kind": "svg",
+      "text": "96.2%",
+      "effectivePt": 24.87
+    },
+    {
+      "kind": "svg",
+      "text": "95.2%",
+      "effectivePt": 24.87
+    },
+    {
+      "kind": "svg",
+      "text": "87.7%",
+      "effectivePt": 24.87
+    },
+    {
+      "kind": "svg",
+      "text": "87.3%",
+      "effectivePt": 24.87
+    },
+    {
+      "kind": "svg",
+      "text": "89.2%",
+      "effectivePt": 24.87
+    },
+    {
+      "kind": "svg",
+      "text": "2.56",
+      "effectivePt": 24.87
+    },
+    {
+      "kind": "svg",
+      "text": "2.54",
+      "effectivePt": 24.87
+    },
+    {
+      "kind": "svg",
+      "text": "2.23",
+      "effectivePt": 24.87
+    },
+    {
+      "kind": "svg",
+      "text": "-3",
+      "effectivePt": 25.51
+    },
+    {
+      "kind": "svg",
+      "text": "-2",
+      "effectivePt": 25.51
+    },
+    {
+      "kind": "svg",
+      "text": "-1",
+      "effectivePt": 25.51
+    },
+    {
+      "kind": "svg",
+      "text": "0",
+      "effectivePt": 25.51
+    },
+    {
+      "kind": "svg",
+      "text": "+1",
+      "effectivePt": 25.51
+    },
+    {
+      "kind": "svg",
+      "text": "+2",
+      "effectivePt": 25.51
+    },
+    {
+      "kind": "svg",
+      "text": "+3",
+      "effectivePt": 25.51
+    },
+    {
+      "kind": "svg",
+      "text": "+4 pp",
+      "effectivePt": 25.51
+    },
+    {
+      "kind": "svg",
+      "text": "Single page · n=59",
+      "effectivePt": 25.51
+    },
+    {
+      "kind": "svg",
+      "text": "Multi page · n=36",
+      "effectivePt": 25.51
+    },
+    {
+      "kind": "svg",
+      "text": "Single document · n=60",
+      "effectivePt": 25.51
+    },
+    {
+      "kind": "svg",
+      "text": "Multi document · n=35",
+      "effectivePt": 25.51
+    },
+    {
+      "kind": "svg",
+      "text": "+4.0",
+      "effectivePt": 25.51
+    },
+    {
+      "kind": "svg",
+      "text": "-2.6",
+      "effectivePt": 25.51
+    },
+    {
+      "kind": "svg",
+      "text": "+3.2",
+      "effectivePt": 25.51
+    },
+    {
+      "kind": "svg",
+      "text": "-1.4",
+      "effectivePt": 25.51
+    },
+    {
+      "kind": "html",
+      "text": "Research poster · Natural Language Processing",
+      "effectivePt": 24
+    },
+    {
+      "kind": "html",
+      "text": "From Legal PDFs to Verifiable Answers",
+      "effectivePt": 74
+    },
+    {
+      "kind": "html",
+      "text": "Answer quality, page-level grounding, and latency across 100 legal questions",
+      "effectivePt": 32
+    },
+    {
+      "kind": "html",
+      "text": "github.com/SteinVR/Agentic-RAG-Challenge\n          Trends in Machine Learning II · Universität Trier",
+      "effectivePt": 24
+    },
+    {
+      "kind": "html",
+      "text": "github.com/SteinVR/Agentic-RAG-Challenge",
+      "effectivePt": 24
+    },
+    {
+      "kind": "html",
+      "text": "01 Hypothesis",
+      "effectivePt": 38
+    },
+    {
+      "kind": "html",
+      "text": "01",
+      "effectivePt": 24
+    },
+    {
+      "kind": "html",
+      "text": "Research question",
+      "effectivePt": 24
+    },
+    {
+      "kind": "html",
+      "text": "Can a page-traceable Legal RAG pipeline balance answer quality, grounding, valid output, and latency?",
+      "effectivePt": 30
+    },
+    {
+      "kind": "html",
+      "text": "02 Methodology",
+      "effectivePt": 38
+    },
+    {
+      "kind": "html",
+      "text": "02",
+      "effectivePt": 24
+    },
+    {
+      "kind": "html",
+      "text": "03 Results",
+      "effectivePt": 38
+    },
+    {
+      "kind": "html",
+      "text": "03",
+      "effectivePt": 24
+    },
+    {
+      "kind": "html",
+      "text": "Strong answers, multiplicative bottlenecks",
+      "effectivePt": 31
+    },
+    {
+      "kind": "html",
+      "text": "End-to-end benchmark profile · all 100 answers",
+      "effectivePt": 24
+    },
+    {
+      "kind": "html",
+      "text": "Do not merge the two grounding views: benchmark grounding is 0.847 on 100 answers; macro page Fβ is 0.892 on 95 annotated questions.",
+      "effectivePt": 24
+    },
+    {
+      "kind": "html",
+      "text": "Attribution removes excess pages without complete misses",
+      "effectivePt": 31
+    },
+    {
+      "kind": "html",
+      "text": "Sequential states of the same 95 annotated answers",
+      "effectivePt": 24
+    },
+    {
+      "kind": "html",
+      "text": "H2 is supported in its primary effects. Recall fell 1.6 pp; Fβ rose 1.5 pp, but its paired interval spans zero (-0.3 to +3.1 pp).",
+      "effectivePt": 24
+    },
+    {
+      "kind": "html",
+      "text": "Narrowing helps local evidence, hurts distributed evidence",
+      "effectivePt": 31
+    },
+    {
+      "kind": "html",
+      "text": "Final attribution minus raw retrieval · macro Fβ",
+      "effectivePt": 24
+    },
+    {
+      "kind": "html",
+      "text": "Distributed support is the failure boundary: the selector becomes too aggressive when evidence spans pages or documents.",
+      "effectivePt": 27
+    },
+    {
+      "kind": "html",
+      "text": "Exploratory split, not a pre-registered causal test. The pipeline stages are architecture, not a component ablation.",
+      "effectivePt": 24
+    },
+    {
+      "kind": "html",
+      "text": "Decision",
+      "effectivePt": 24
+    },
+    {
+      "kind": "html",
+      "text": "Retrieve broadly. Attribute explicitly. Narrow conservatively when support spans pages or documents.",
+      "effectivePt": 32
+    },
+    {
+      "kind": "html",
+      "text": "Sequential states of the same answers - not three independent systems.",
+      "effectivePt": 24
+    },
+    {
+      "kind": "html",
+      "text": "Limitations",
+      "effectivePt": 24
+    },
+    {
+      "kind": "html",
+      "text": "One saved run; no repeated seeds or end-to-end uncertainty estimate.",
+      "effectivePt": 24
+    },
+    {
+      "kind": "html",
+      "text": "Retrospective thresholds; no full component ablation or independent baseline.",
+      "effectivePt": 24
+    },
+    {
+      "kind": "html",
+      "text": "One DIFC corpus; TTFT only; OCR fallback was not separately exercised.",
+      "effectivePt": 24
+    },
+    {
+      "kind": "html",
+      "text": "References [1] Lewis et al., NeurIPS 2020. [2] Karpukhin et al., EMNLP 2020. [3] Cormack et al., SIGIR 2009. [4] Gao et al., EMNLP 2023. [5] Pipitone & Alami, LegalBench-RAG 2024. [6] Zhang et al., Qwen3 Embedding 2025.",
+      "effectivePt": 24
+    },
+    {
+      "kind": "html",
+      "text": "ReproducibilitySteinVR/Agentic-RAG-Challenge",
+      "effectivePt": 24
+    },
+    {
+      "kind": "html",
+      "text": "SteinVR/Agentic-RAG-Challenge",
+      "effectivePt": 24
+    }
+  ]
+}

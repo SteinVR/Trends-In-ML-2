@@ -1,0 +1,24 @@
+Communication job
+By the end, NLP seminar examiners should understand that answer quality and source grounding separate when legal evidence spans pages, because the same saved RAG run shows a small, uncertain answer-score difference but a large grounding gap that widens during citation narrowing.
+
+Narrative arc
+Problem and hypothesis -> provenance-preserving method -> primary localized/distributed contrast -> raw-to-final diagnostic -> product implication and non-causal boundary -> limitations and reproducibility.
+
+Visual route
+Explicit custom direction: Quiet Twin Track. No Codex Grid or external template.
+One A1 landscape slide: 3178.58 x 2245.04 px at 96 CSS px/in, equivalent to 841 x 594 mm.
+Warm paper background, deep ink type, muted blue circles for localized evidence, muted coral diamonds for distributed evidence, brass rules only as accents.
+Georgia title; Arial body because the preferred Source families are not installed.
+Minimum visible text size: 32 px (24 pt equivalent) for body, labels, captions, limitations, and references.
+
+Composition
+Top title band: title, 100-question subtitle, author/student placeholders, plain-language takeaway.
+Left rail: Hypothesis and compact study design.
+Upper center/right: shallow editable evidence-flow diagram.
+Center: hero twin-track dot plots plus separate difference/CI plots.
+Right: editable raw-to-final slope chart and mismatch diagnostic.
+Bottom: decision, limitations, reproducibility, compact academic references.
+
+Data discipline
+The benchmark has 100 questions; the evidence-shape analysis uses 95 eligible questions (59 localized, 36 distributed). These counts must never be merged.
+Architecture is explanatory, not causal. Raw-to-final is a within-run diagnostic, not an ablation.

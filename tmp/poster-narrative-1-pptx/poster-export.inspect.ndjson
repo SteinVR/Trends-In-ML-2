@@ -1,0 +1,161 @@
+{"kind":"deck","id":"pr/zee71f","name":"Deck"}
+{"kind":"layout","layoutId":"cdd43faf-eaa6-499d-bb9e-9ea66aecf3bb","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"e4844775-0892-46a1-9332-8bbfd3d880e4","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/phwysb","slide":1,"title":"RESEARCH POSTER  /  LEGAL NLP  /  EVIDENCE-SHAPE ANALYSIS","textShapes":94}
+{"kind":"textbox","id":"sh/9sfex4rq","slide":1,"name":"eyebrow","text":"RESEARCH POSTER  /  LEGAL NLP  /  EVIDENCE-SHAPE ANALYSIS","textPreview":"RESEARCH POSTER  /  LEGAL NLP  /  EVIDENCE-SHAPE ANALYSIS","textChars":57,"textLines":1,"bbox":[130,64,1300,44]}
+{"kind":"textbox","id":"sh/m54vm9sz","slide":1,"name":"author-placeholder","text":"AUTHOR NAME  ·  UNIVERSITY OF TRIER  ·  STUDENT ID: ______","textPreview":"AUTHOR NAME  ·  UNIVERSITY OF TRIER  ·  STUDENT ID: ______","textChars":58,"textLines":1,"bbox":[1830,64,1218,44]}
+{"kind":"textbox","id":"sh/76dwve9k","slide":1,"name":"poster-title","text":"Correct Answers, Uneven Grounding:\nThe Distributed-Evidence Gap in Legal RAG","textPreview":"Correct Answers, Uneven Grounding: | The Distributed-Evidence Gap in Legal RAG","textChars":76,"textLines":2,"bbox":[130,126,2918,184]}
+{"kind":"textbox","id":"sh/wv6dsjah","slide":1,"name":"poster-subtitle","text":"An evidence-shape analysis across a 100-question legal benchmark and 590 PDF pages","textPreview":"An evidence-shape analysis across a 100-question legal benchmark and 590 PDF pages","textChars":82,"textLines":1,"bbox":[132,329,2300,44]}
+{"kind":"textbox","id":"sh/hwfe1orm","slide":1,"name":"takeaway-a","text":"Answers stay level.","textPreview":"Answers stay level.","textChars":19,"textLines":1,"bbox":[130,405,685,64]}
+{"kind":"textbox","id":"sh/utovq9sb","slide":1,"name":"takeaway-b","text":"Grounding separates when evidence spans pages.","textPreview":"Grounding separates when evidence spans pages.","textChars":46,"textLines":1,"bbox":[820,405,1910,64]}
+{"kind":"shape","id":"sh/vuxwze9w","slide":1,"name":"title-rule","bbox":[130,516,2918,0.5]}
+{"kind":"shape","id":"sh/4z6xw3ad","slide":1,"name":"left-rail-divider","bbox":[770,572,0.5,1224]}
+{"kind":"shape","id":"sh/50ze5ory","slide":1,"name":"method-result-divider","bbox":[820,913,2228,0.5]}
+{"kind":"shape","id":"sh/lgfqtw7i","slide":1,"name":"results-right-divider","bbox":[2270,955,0.5,827]}
+{"kind":"shape","id":"sh/kf6pkr6x","slide":1,"name":"footer-divider","bbox":[130,1834,2918,0.5]}
+{"kind":"textbox","id":"sh/jex8rmpc","slide":1,"name":"section-01-number","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[130,575,62,52]}
+{"kind":"textbox","id":"sh/ydo7ihor","slide":1,"name":"section-01-label","text":"HYPOTHESIS","textPreview":"HYPOTHESIS","textChars":10,"textLines":1,"bbox":[204,579,536,48]}
+{"kind":"textbox","id":"sh/t4zqxg7e","slide":1,"name":"hypothesis-context","text":"RAG can find enough evidence to answer while still emitting an incomplete citation set [1,3]. In legal QA, one correct page is not the same as complete support.","textPreview":"RAG can find enough evidence to answer while still emitting an incomplete citation set [1,3]. In legal QA, one correct page is not the sa...","textChars":160,"textLines":1,"bbox":[130,647,600,145]}
+{"kind":"textbox","id":"sh/8jqpob6t","slide":1,"name":"rq-label","text":"RESEARCH QUESTION","textPreview":"RESEARCH QUESTION","textChars":17,"textLines":1,"bbox":[130,820,600,42]}
+{"kind":"textbox","id":"sh/7ix8v6p8","slide":1,"name":"research-question","text":"How does distributed evidence affect the relationship between answer quality and source grounding?","textPreview":"How does distributed evidence affect the relationship between answer quality and source grounding?","textChars":98,"textLines":1,"bbox":[130,870,600,166]}
+{"kind":"textbox","id":"sh/6ho7m1o3","slide":1,"name":"h1-label","text":"H1","textPreview":"H1","textChars":2,"textLines":1,"bbox":[130,1064,70,48]}
+{"kind":"textbox","id":"sh/9ov6lc7a","slide":1,"name":"h1-copy","text":"Multi-page evidence will leave answer scores comparable but lower final page grounding; a uniform citation-narrowing policy may widen the gap.","textPreview":"Multi-page evidence will leave answer scores comparable but lower final page grounding; a uniform citation-narrowing policy may widen the...","textChars":142,"textLines":1,"bbox":[210,1064,520,190]}
+{"kind":"shape","id":"sh/onmpc7qp","slide":1,"name":"study-rule","bbox":[130,1280,600,0.5]}
+{"kind":"textbox","id":"sh/0rqps7yl","slide":1,"name":"eligible-big","text":"95 / 100","textPreview":"95 / 100","textChars":8,"textLines":1,"bbox":[130,1302,330,86]}
+{"kind":"textbox","id":"sh/1szq1cf6","slide":1,"name":"eligible-caption","text":"questions had annotated gold pages and were eligible for this analysis","textPreview":"questions had annotated gold pages and were eligible for this analysis","textChars":70,"textLines":1,"bbox":[130,1390,560,82]}
+{"kind":"shape","id":"sh/ep87qhgf","slide":1,"name":"localized-key-circle","bbox":[138,1501,34,34]}
+{"kind":"textbox","id":"sh/fqh8z2x0","slide":1,"name":"localized-count","text":"59","textPreview":"59","textChars":2,"textLines":1,"bbox":[190,1481,105,72]}
+{"kind":"textbox","id":"sh/ovqpwreh","slide":1,"name":"localized-label","text":"localized - one gold page","textPreview":"localized - one gold page","textChars":25,"textLines":1,"bbox":[300,1491,410,54]}
+{"kind":"shape","id":"sh/pwjq5wf2","slide":1,"name":"distributed-key-diamond","bbox":[135,1574,40,40]}
+{"kind":"textbox","id":"sh/2t87uhgr","slide":1,"name":"distributed-count","text":"36","textPreview":"36","textChars":2,"textLines":1,"bbox":[190,1557,105,72]}
+{"kind":"textbox","id":"sh/nuh83mxw","slide":1,"name":"distributed-label","text":"distributed - multiple gold pages","textPreview":"distributed - multiple gold pages","textChars":33,"textLines":1,"bbox":[300,1567,410,54]}
+{"kind":"textbox","id":"sh/cza90ret","slide":1,"name":"metric-definition","text":"PAGE GROUNDING\nPer-question Fβ over emitted vs gold (document, page) pairs; β = 2.5 weights recall more than precision.","textPreview":"PAGE GROUNDING | Per-question Fβ over emitted vs gold (document, page) pairs; β = 2.5 weights recall more than precision.","textChars":119,"textLines":2,"bbox":[130,1650,600,132]}
+{"kind":"textbox","id":"sh/xkjq9wfe","slide":1,"name":"section-02-number","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[820,575,62,52]}
+{"kind":"textbox","id":"sh/7elszqhg","slide":1,"name":"section-02-label","text":"METHODOLOGY - PAGE-STABLE EVIDENCE FLOW","textPreview":"METHODOLOGY - PAGE-STABLE EVIDENCE FLOW","textChars":39,"textLines":1,"bbox":[894,579,2154,48]}
+{"kind":"shape","id":"sh/mtcbq50v","slide":1,"name":"flow-connector-1","bbox":[926,710,383,0.5]}
+{"kind":"shape","id":"sh/9gna10zm","slide":1,"name":"flow-arrowhead-1","bbox":[1304,696,28,28]}
+{"kind":"shape","id":"sh/8fetsvy1","slide":1,"name":"flow-connector-2","bbox":[1361,710,383,0.5]}
+{"kind":"shape","id":"sh/zqlsvqh4","slide":1,"name":"flow-arrowhead-2","bbox":[1739,696,28,28]}
+{"kind":"shape","id":"sh/ypcbml0z","slide":1,"name":"flow-connector-3","bbox":[1796,710,383,0.5]}
+{"kind":"shape","id":"sh/ls3ax0za","slide":1,"name":"flow-arrowhead-3","bbox":[2174,696,28,28]}
+{"kind":"shape","id":"sh/krutovip","slide":1,"name":"flow-connector-4","bbox":[2231,710,383,0.5]}
+{"kind":"shape","id":"sh/jm5c7aho","slide":1,"name":"flow-arrowhead-4","bbox":[2609,696,28,28]}
+{"kind":"shape","id":"sh/ilwbypg3","slide":1,"name":"flow-node-1","bbox":[874,684,52,52]}
+{"kind":"textbox","id":"sh/qtcf29w7","slide":1,"name":"flow-node-number-1","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[880,689,40,42]}
+{"kind":"textbox","id":"sh/ru5wveds","slide":1,"name":"flow-node-title-1","text":"30 DIFC PDFs\n590 pages","textPreview":"30 DIFC PDFs | 590 pages","textChars":22,"textLines":2,"bbox":[715,755,370,82]}
+{"kind":"textbox","id":"sh/svex4jed","slide":1,"name":"flow-node-detail-1","text":"public primary legal documents","textPreview":"public primary legal documents","textChars":30,"textLines":1,"bbox":[710,838,380,60]}
+{"kind":"shape","id":"sh/dwnexovy","slide":1,"name":"flow-node-2","bbox":[1309,684,52,52]}
+{"kind":"textbox","id":"sh/i5cvy9wb","slide":1,"name":"flow-node-number-2","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[1315,689,40,42]}
+{"kind":"textbox","id":"sh/3qlwrudw","slide":1,"name":"flow-node-title-2","text":"Page-stable\nmulti-view index","textPreview":"Page-stable | multi-view index","textChars":28,"textLines":2,"bbox":[1150,755,370,82]}
+{"kind":"textbox","id":"sh/4rux0zeh","slide":1,"name":"flow-node-detail-2","text":"page · section · clause · chunk · table","textPreview":"page · section · clause · chunk · table","textChars":39,"textLines":1,"bbox":[1145,838,380,60]}
+{"kind":"shape","id":"sh/5s3et4vm","slide":1,"name":"flow-node-3","bbox":[1744,684,52,52]}
+{"kind":"textbox","id":"sh/m1gfatwf","slide":1,"name":"flow-node-number-3","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[1750,689,40,42]}
+{"kind":"textbox","id":"sh/nmpw3yd0","slide":1,"name":"flow-node-title-3","text":"Hybrid retrieval","textPreview":"Hybrid retrieval","textChars":16,"textLines":1,"bbox":[1585,755,370,82]}
+{"kind":"textbox","id":"sh/xsbqpwje","slide":1,"name":"flow-node-detail-3","text":"BM25 + Qwen3 · RRF + rerank","textPreview":"BM25 + Qwen3 · RRF + rerank","textChars":27,"textLines":1,"bbox":[1580,838,380,60]}
+{"kind":"shape","id":"sh/wr29gr2t","slide":1,"name":"flow-node-4","bbox":[2179,684,52,52]}
+{"kind":"textbox","id":"sh/v6t8nm18","slide":1,"name":"flow-node-number-4","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[2185,689,40,42]}
+{"kind":"textbox","id":"sh/a507ehkn","slide":1,"name":"flow-node-title-4","text":"Typed answer","textPreview":"Typed answer","textChars":12,"textLines":1,"bbox":[2020,755,370,82]}
+{"kind":"textbox","id":"sh/94rqlcji","slide":1,"name":"flow-node-detail-4","text":"GPT-5.4-mini · schema + evidence checks","textPreview":"GPT-5.4-mini · schema + evidence checks","textChars":39,"textLines":1,"bbox":[2015,838,380,60]}
+{"kind":"shape","id":"sh/83ipc72x","slide":1,"name":"flow-node-5","bbox":[2614,684,52,52]}
+{"kind":"textbox","id":"sh/n298j21c","slide":1,"name":"flow-node-number-5","text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[2620,689,40,42]}
+{"kind":"textbox","id":"sh/m107ahkr","slide":1,"name":"flow-node-title-5","text":"Final page\nattribution","textPreview":"Final page | attribution","textChars":22,"textLines":2,"bbox":[2455,755,370,82]}
+{"kind":"textbox","id":"sh/t0vqxgjm","slide":1,"name":"flow-node-detail-5","text":"support validation + fallback","textPreview":"support validation + fallback","textChars":29,"textLines":1,"bbox":[2450,838,380,60]}
+{"kind":"textbox","id":"sh/szm9ob21","slide":1,"name":"provenance-invariant","text":"INVARIANT  Every evidence record retains document_id + page_number.","textPreview":"INVARIANT  Every evidence record retains document_id + page_number.","textChars":67,"textLines":1,"bbox":[1690,584,1328,40]}
+{"kind":"textbox","id":"sh/s3utkfqd","slide":1,"name":"section-03-number","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[820,950,62,52]}
+{"kind":"textbox","id":"sh/d43atkry","slide":1,"name":"section-03-label","text":"RESULTS","textPreview":"RESULTS","textChars":7,"textLines":1,"bbox":[894,954,1336,48]}
+{"kind":"textbox","id":"sh/q1sbi587","slide":1,"name":"results-claim","text":"Answer quality stays close; final page grounding does not.","textPreview":"Answer quality stays close; final page grounding does not.","textChars":58,"textLines":1,"bbox":[820,1016,1380,60]}
+{"kind":"textbox","id":"sh/r2lsra9s","slide":1,"name":"estimate-heading","text":"GROUP MEANS (%)","textPreview":"GROUP MEANS (%)","textChars":15,"textLines":1,"bbox":[820,1092,600,42]}
+{"kind":"textbox","id":"sh/4zatgfq1","slide":1,"name":"difference-heading","text":"DISTRIBUTED - LOCALIZED (PP, 95% CI)","textPreview":"DISTRIBUTED - LOCALIZED (PP, 95% CI)","textChars":36,"textLines":1,"bbox":[1735,1092,500,44]}
+{"kind":"shape","id":"sh/50jap0rm","slide":1,"name":"answer-track-baseline","bbox":[1050,1218,610,0.5]}
+{"kind":"shape","id":"sh/idsbe58b","slide":1,"name":"answer-track-tick-75","bbox":[1050,1208,0.5,20]}
+{"kind":"shape","id":"sh/3y1sna9g","slide":1,"name":"answer-track-tick-80","bbox":[1172,1208,0.5,20]}
+{"kind":"shape","id":"sh/gba9cvq5","slide":1,"name":"answer-track-tick-85","bbox":[1294,1208,0.5,20]}
+{"kind":"shape","id":"sh/hcjal0rq","slide":1,"name":"answer-track-tick-90","bbox":[1416,1208,0.5,20]}
+{"kind":"shape","id":"sh/j6hcvqtc","slide":1,"name":"answer-track-tick-95","bbox":[1538,1208,0.5,20]}
+{"kind":"shape","id":"sh/y58b2lcr","slide":1,"name":"answer-track-tick-100","bbox":[1660,1208,0.5,20]}
+{"kind":"shape","id":"sh/l8zux0bi","slide":1,"name":"grounding-track-baseline","bbox":[1050,1406,610,0.5]}
+{"kind":"shape","id":"sh/k7qtovux","slide":1,"name":"grounding-track-tick-75","bbox":[1050,1396,0.5,20]}
+{"kind":"shape","id":"sh/7ahczato","slide":1,"name":"grounding-track-tick-80","bbox":[1172,1396,0.5,20]}
+{"kind":"shape","id":"sh/698bq5c3","slide":1,"name":"grounding-track-tick-85","bbox":[1294,1396,0.5,20]}
+{"kind":"shape","id":"sh/twju10be","slide":1,"name":"grounding-track-tick-90","bbox":[1416,1396,0.5,20]}
+{"kind":"shape","id":"sh/8batsvu9","slide":1,"name":"grounding-track-tick-95","bbox":[1538,1396,0.5,20]}
+{"kind":"shape","id":"sh/vy1c3atk","slide":1,"name":"grounding-track-tick-100","bbox":[1660,1396,0.5,20]}
+{"kind":"textbox","id":"sh/uxsbu5cz","slide":1,"name":"answer-row-label","text":"Answer\nquality","textPreview":"Answer | quality","textChars":14,"textLines":2,"bbox":[820,1165,210,90]}
+{"kind":"textbox","id":"sh/2l8fy98j","slide":1,"name":"grounding-row-label","text":"Final page\ngrounding","textPreview":"Final page | grounding","textChars":20,"textLines":2,"bbox":[820,1352,210,92]}
+{"kind":"shape","id":"sh/3mhwrepo","slide":1,"name":"answer-localized-marker","bbox":[1538.96,1173,42,42]}
+{"kind":"shape","id":"sh/4nqx0jq9","slide":1,"name":"answer-distributed-marker","bbox":[1500.36,1220,46,46]}
+{"kind":"shape","id":"sh/pozyt47u","slide":1,"name":"grounding-localized-marker","bbox":[1487.72,1361,42,42]}
+{"kind":"shape","id":"sh/q9sf298f","slide":1,"name":"grounding-distributed-marker","bbox":[1188.04,1408,46,46]}
+{"kind":"textbox","id":"sh/ra1gvep0","slide":1,"name":"answer-localized-value","text":"95.9","textPreview":"95.9","textChars":4,"textLines":1,"bbox":[1481.96,1138,156,42]}
+{"kind":"textbox","id":"sh/cbax4jql","slide":1,"name":"answer-distributed-value","text":"94.4","textPreview":"94.4","textChars":4,"textLines":1,"bbox":[1445.36,1264,156,42]}
+{"kind":"textbox","id":"sh/dcjyxo76","slide":1,"name":"grounding-localized-value","text":"93.8","textPreview":"93.8","textChars":4,"textLines":1,"bbox":[1430.72,1326,156,42]}
+{"kind":"textbox","id":"sh/ydsf6t8b","slide":1,"name":"grounding-distributed-value","text":"81.6","textPreview":"81.6","textChars":4,"textLines":1,"bbox":[1133.04,1452,156,42]}
+{"kind":"textbox","id":"sh/ze1gzypw","slide":1,"name":"score-tick-label-75","text":"75","textPreview":"75","textChars":2,"textLines":1,"bbox":[1012,1492,76,38]}
+{"kind":"textbox","id":"sh/98nipsre","slide":1,"name":"score-tick-label-80","text":"80","textPreview":"80","textChars":2,"textLines":1,"bbox":[1134,1492,76,38]}
+{"kind":"textbox","id":"sh/87uhwnat","slide":1,"name":"score-tick-label-85","text":"85","textPreview":"85","textChars":2,"textLines":1,"bbox":[1256,1492,76,38]}
+{"kind":"textbox","id":"sh/n6l0ni98","slide":1,"name":"score-tick-label-90","text":"90","textPreview":"90","textChars":2,"textLines":1,"bbox":[1378,1492,76,38]}
+{"kind":"textbox","id":"sh/m5czudsn","slide":1,"name":"score-tick-label-95","text":"95","textPreview":"95","textChars":2,"textLines":1,"bbox":[1500,1492,76,38]}
+{"kind":"textbox","id":"sh/xcnitsra","slide":1,"name":"score-tick-label-100","text":"100","textPreview":"100","textChars":3,"textLines":1,"bbox":[1622,1492,76,38]}
+{"kind":"shape","id":"sh/wbe10nap","slide":1,"name":"difference-zero-line","bbox":[2059.33,1160,0.5,307]}
+{"kind":"shape","id":"sh/va50r294","slide":1,"name":"answer-ci","bbox":[1912.81,1218,237.42,0.5]}
+{"kind":"shape","id":"sh/a9wzyxsj","slide":1,"name":"answer-ci-left-cap","bbox":[1912.81,1202,0.5,32]}
+{"kind":"shape","id":"sh/507ixcrm","slide":1,"name":"answer-ci-right-cap","bbox":[2150.23,1202,0.5,32]}
+{"kind":"shape","id":"sh/kze147a1","slide":1,"name":"answer-difference-marker","bbox":[2018.98,1198,40,40]}
+{"kind":"shape","id":"sh/dwrq1wza","slide":1,"name":"grounding-ci","bbox":[1801.57,1406,177.72,0.5]}
+{"kind":"shape","id":"sh/cbi9srip","slide":1,"name":"grounding-ci-left-cap","bbox":[1801.57,1390,0.5,32]}
+{"kind":"shape","id":"sh/ba98z6h4","slide":1,"name":"grounding-ci-right-cap","bbox":[1979.29,1390,0.5,32]}
+{"kind":"shape","id":"sh/q9g7q10j","slide":1,"name":"grounding-difference-marker","bbox":[1873.82,1386,40,40]}
+{"kind":"textbox","id":"sh/l0rq5gz6","slide":1,"name":"answer-difference-label","text":"-1.5  [-10.8, +6.7]","textPreview":"-1.5  [-10.8, +6.7]","textChars":19,"textLines":1,"bbox":[1760,1257,470,42]}
+{"kind":"textbox","id":"sh/0zi9wbil","slide":1,"name":"grounding-difference-label","text":"-12.2  [-19.0, -5.9]","textPreview":"-12.2  [-19.0, -5.9]","textChars":20,"textLines":1,"bbox":[1740,1445,500,42]}
+{"kind":"textbox","id":"sh/zy9836h0","slide":1,"name":"difference-tick--20","text":"-20","textPreview":"-20","textChars":3,"textLines":1,"bbox":[1746,1492,84,38]}
+{"kind":"textbox","id":"sh/yx0ru10v","slide":1,"name":"difference-tick--10","text":"-10","textPreview":"-10","textChars":3,"textLines":1,"bbox":[1881.67,1492,84,38]}
+{"kind":"textbox","id":"sh/94bq9gzi","slide":1,"name":"difference-tick-0","text":"0","textPreview":"0","textChars":1,"textLines":1,"bbox":[2017.33,1492,84,38]}
+{"kind":"textbox","id":"sh/83290byx","slide":1,"name":"difference-tick-10","text":"+10","textPreview":"+10","textChars":3,"textLines":1,"bbox":[2153,1492,84,38]}
+{"kind":"textbox","id":"sh/69cnudgf","slide":1,"name":"mismatch-title","text":"PERFECT ANSWER, BUT PAGE GROUNDING < 0.8","textPreview":"PERFECT ANSWER, BUT PAGE GROUNDING < 0.8","textChars":40,"textLines":1,"bbox":[820,1550,1400,42]}
+{"kind":"textbox","id":"sh/ralonix0","slide":1,"name":"mismatch-localized-label","text":"Localized","textPreview":"Localized","textChars":9,"textLines":1,"bbox":[820,1618,205,42]}
+{"kind":"textbox","id":"sh/sbe5wny5","slide":1,"name":"mismatch-distributed-label","text":"Distributed","textPreview":"Distributed","textChars":11,"textLines":1,"bbox":[820,1711,205,42]}
+{"kind":"shape","id":"sh/tcn6psfq","slide":1,"name":"mismatch-localized-base","bbox":[1040,1621,900,34]}
+{"kind":"shape","id":"sh/edwnyxgb","slide":1,"name":"mismatch-localized-fill","bbox":[1040,1621,65.7,34]}
+{"kind":"shape","id":"sh/fe5or2xw","slide":1,"name":"mismatch-distributed-base","bbox":[1040,1714,900,34]}
+{"kind":"shape","id":"sh/gfe507yh","slide":1,"name":"mismatch-distributed-fill","bbox":[1040,1714,423.9,34]}
+{"kind":"textbox","id":"sh/1gn6tsf2","slide":1,"name":"mismatch-localized-value","text":"4 / 55  (7.3%)","textPreview":"4 / 55  (7.3%)","textChars":14,"textLines":1,"bbox":[1965,1608,260,48]}
+{"kind":"textbox","id":"sh/2hwn2xgn","slide":1,"name":"mismatch-distributed-value","text":"16 / 34  (47.1%)","textPreview":"16 / 34  (47.1%)","textChars":16,"textLines":1,"bbox":[1930,1701,295,48]}
+{"kind":"textbox","id":"sh/3ipov2xs","slide":1,"name":"mismatch-caption","text":"Denominators are perfectly scored answers, not all questions.","textPreview":"Denominators are perfectly scored answers, not all questions.","textChars":61,"textLines":1,"bbox":[1040,1763,1185,38]}
+{"kind":"textbox","id":"sh/z6p4j2d0","slide":1,"name":"section-04-number","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[2320,950,62,52]}
+{"kind":"textbox","id":"sh/y5gnqxcf","slide":1,"name":"section-04-label","text":"WHERE THE GAP WIDENS","textPreview":"WHERE THE GAP WIDENS","textChars":20,"textLines":1,"bbox":[2394,954,654,48]}
+{"kind":"textbox","id":"sh/l87mlcv6","slide":1,"name":"diagnostic-subtitle","text":"Raw retrieval -> final attribution","textPreview":"Raw retrieval -> final attribution","textChars":34,"textLines":1,"bbox":[2320,1015,728,48]}
+{"kind":"shape","id":"sh/07y5s7ul","slide":1,"name":"slope-grid-80","bbox":[2390,1410,585,0.5]}
+{"kind":"textbox","id":"sh/bip4f2d4","slide":1,"name":"slope-y-80","text":"80","textPreview":"80","textChars":2,"textLines":1,"bbox":[2335,1390,48,40]}
+{"kind":"shape","id":"sh/qhwnmxcj","slide":1,"name":"slope-grid-85","bbox":[2390,1310,585,0.5]}
+{"kind":"textbox","id":"sh/d47mhcvu","slide":1,"name":"slope-y-85","text":"85","textPreview":"85","textChars":2,"textLines":1,"bbox":[2335,1290,48,40]}
+{"kind":"shape","id":"sh/cjy5o7up","slide":1,"name":"slope-grid-90","bbox":[2390,1210,585,0.5]}
+{"kind":"textbox","id":"sh/3e54bids","slide":1,"name":"slope-y-90","text":"90","textPreview":"90","textChars":2,"textLines":1,"bbox":[2335,1190,48,40]}
+{"kind":"shape","id":"sh/2dw3idc7","slide":1,"name":"slope-grid-95","bbox":[2390,1110,585,0.5]}
+{"kind":"textbox","id":"sh/sju1sja5","slide":1,"name":"slope-y-95","text":"95","textPreview":"95","textChars":2,"textLines":1,"bbox":[2335,1090,48,40]}
+{"kind":"shape","id":"sh/tk32lobq","slide":1,"name":"localized-slope","bbox":[2420,1134,525,80]}
+{"kind":"shape","id":"sh/6hsjq9sz","slide":1,"name":"distributed-slope","bbox":[2420,1326,525,52]}
+{"kind":"shape","id":"sh/rilkjetk","slide":1,"name":"localized-raw-marker","bbox":[2399,1193,42,42]}
+{"kind":"shape","id":"sh/gnu1w3ah","slide":1,"name":"localized-final-marker","bbox":[2924,1113,42,42]}
+{"kind":"shape","id":"sh/1o32p8bm","slide":1,"name":"distributed-raw-marker","bbox":[2397,1303,46,46]}
+{"kind":"shape","id":"sh/elcjutsb","slide":1,"name":"distributed-final-marker","bbox":[2922,1355,46,46]}
+{"kind":"textbox","id":"sh/fmlknytw","slide":1,"name":"localized-raw-value","text":"89.8","textPreview":"89.8","textChars":4,"textLines":1,"bbox":[2346,1154,148,42]}
+{"kind":"textbox","id":"sh/wra1kzax","slide":1,"name":"localized-final-value","text":"93.8","textPreview":"93.8","textChars":4,"textLines":1,"bbox":[2871,1074,148,42]}
+{"kind":"textbox","id":"sh/xsjid4bi","slide":1,"name":"distributed-raw-value","text":"84.2","textPreview":"84.2","textChars":4,"textLines":1,"bbox":[2346,1354,148,42]}
+{"kind":"textbox","id":"sh/p8vut4b2","slide":1,"name":"distributed-final-value","text":"81.6","textPreview":"81.6","textChars":4,"textLines":1,"bbox":[2871,1406,148,42]}
+{"kind":"textbox","id":"sh/o7mtkzah","slide":1,"name":"raw-label","text":"RAW","textPreview":"RAW","textChars":3,"textLines":1,"bbox":[2310,1443,220,42]}
+{"kind":"textbox","id":"sh/nmtsrutw","slide":1,"name":"final-label","text":"FINAL","textPreview":"FINAL","textChars":5,"textLines":1,"bbox":[2835,1443,220,42]}
+{"kind":"textbox","id":"sh/2lkbipsb","slide":1,"name":"localized-change","text":"+4.0 pp","textPreview":"+4.0 pp","textChars":7,"textLines":1,"bbox":[2565,1130,240,46]}
+{"kind":"textbox","id":"sh/1kbap4bq","slide":1,"name":"distributed-change","text":"-2.6 pp","textPreview":"-2.6 pp","textChars":7,"textLines":1,"bbox":[2565,1330,240,46]}
+{"kind":"textbox","id":"sh/0j2tgza5","slide":1,"name":"implication-label","text":"DESIGN IMPLICATION","textPreview":"DESIGN IMPLICATION","textChars":18,"textLines":1,"bbox":[2320,1510,728,42]}
+{"kind":"textbox","id":"sh/fitsnutk","slide":1,"name":"implication-title","text":"Treat evidence shape as a routing signal.","textPreview":"Treat evidence shape as a routing signal.","textChars":41,"textLines":1,"bbox":[2320,1560,728,102]}
+{"kind":"textbox","id":"sh/ehkbepsf","slide":1,"name":"implication-copy","text":"Narrow localized support; preserve and aggregate distributed support. At inference time, route on observable evidence spread or claim-level support.","textPreview":"Narrow localized support; preserve and aggregate distributed support. At inference time, route on observable evidence spread or claim-lev...","textChars":148,"textLines":1,"bbox":[2320,1666,728,96]}
+{"kind":"textbox","id":"sh/tgbalkbu","slide":1,"name":"diagnostic-boundary","text":"Observed association; not a causal ablation.","textPreview":"Observed association; not a causal ablation.","textChars":44,"textLines":1,"bbox":[2320,1770,728,42]}
+{"kind":"textbox","id":"sh/sf2tcfa9","slide":1,"name":"section-05-number","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[130,1863,62,52]}
+{"kind":"textbox","id":"sh/ilgrml87","slide":1,"name":"section-05-label","text":"LIMITATIONS","textPreview":"LIMITATIONS","textChars":11,"textLines":1,"bbox":[204,1867,1226,48]}
+{"kind":"textbox","id":"sh/jmp8fq9c","slide":1,"name":"limitations-copy","text":"• Single saved run; retrospective, non-preregistered hypothesis.\n• Observational slice: page and document distribution are confounded (35/36 multi-page questions are also multi-document).\n• Heterogeneous answer scoring and uneven answer-type composition.\n• Raw-to-final comparison is diagnostic, not a causal ablation.","textPreview":"• Single saved run; retrospective, non-preregistered hypothesis. | • Observational slice: page and document distribution are confounded (...","textChars":318,"textLines":4,"bbox":[130,1930,1325,265]}
+{"kind":"textbox","id":"sh/4ny9ovqx","slide":1,"name":"section-06-number","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1530,1863,62,52]}
+{"kind":"textbox","id":"sh/5orqh0ri","slide":1,"name":"section-06-label","text":"REPRODUCIBILITY","textPreview":"REPRODUCIBILITY","textChars":15,"textLines":1,"bbox":[1604,1867,686,48]}
+{"kind":"textbox","id":"sh/uhg7i18v","slide":1,"name":"repro-copy","text":"github.com/SteinVR/Agentic-RAG-Challenge\nSaved artifacts: config, manifest, answer-score checkpoint, page ledger.\n20,000 stratified bootstrap resamples; seed 20260903.\nCorpus: DIFC Legal Database + DIFC Courts.","textPreview":"github.com/SteinVR/Agentic-RAG-Challenge | Saved artifacts: config, manifest, answer-score checkpoint, page ledger. | 20,000 stratified b...","textChars":210,"textLines":4,"bbox":[1530,1930,770,265]}
+{"kind":"textbox","id":"sh/vip8b69g","slide":1,"name":"references-head","text":"SELECTED REFERENCES","textPreview":"SELECTED REFERENCES","textChars":19,"textLines":1,"bbox":[2380,1870,668,44]}
+{"kind":"textbox","id":"sh/wjypkbq1","slide":1,"name":"references-copy","text":"[1] Lewis et al., NeurIPS 2020.\n[2] Cormack et al., SIGIR 2009.\n[3] Gao et al., EMNLP 2023.\n[4] Pipitone & Houir Alami, 2024.","textPreview":"[1] Lewis et al., NeurIPS 2020. | [2] Cormack et al., SIGIR 2009. | [3] Gao et al., EMNLP 2023. | [4] Pipitone & Houir Alami, 2024.","textChars":125,"textLines":4,"bbox":[2380,1930,668,215]}
+{"kind":"notes","id":"nt/phwysb","slide":1,"text":"[Sources]\n- /Users/steinv/Uni-Trier/Trends-In-ML-2/poster-narrative.md (research question, operational definitions, corpus, architecture, all reported estimates, intervals, limitations, and reproducibility paths)\n- /Users/steinv/Uni-Trier/Trends-In-ML-2/poster-visual-concepts.md (Quiet Twin Track visual direction)\n- /Users/steinv/Uni-Trier/Trends-In-ML-2/Poster-Examination-Guidelines.pdf (required sections, DIN A1 format, minimum 24 pt paragraph text, appendix and submission constraints)\n- https://proceedings.neurips.cc/paper/2020/hash/6b493230-Abstract.html (Lewis et al., 2020)\n- https://doi.org/10.1145/1571941.1572114 (Cormack et al., 2009)\n- https://aclanthology.org/2023.emnlp-main.398/ (Gao et al., 2023)\n- https://arxiv.org/abs/2408.10343 (Pipitone and Houir Alami, 2024)\n- https://www.difc.ae/business/laws-and-regulations/legal-database (official corpus source)\n- https://www.difccourts.ae/rules-decisions/judgments-orders (official corpus source)\n- https://github.com/SteinVR/Agentic-RAG-Challenge (implementation and saved run artifacts)\n[/Sources]"}

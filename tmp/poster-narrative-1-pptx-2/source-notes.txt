@@ -1,0 +1,3 @@
+Source image: /Users/steinv/Uni-Trier/Trends-In-ML-2/output/poster-narrative-1/site/poster.png
+Purpose: preserve the approved A1 poster design exactly in a one-slide PowerPoint file.
+No external images or additional claims were introduced.

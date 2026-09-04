@@ -1,0 +1,31 @@
+POSTER COMPARISON RUBRIC
+
+Hard gates
+- Exactly one DIN A1 landscape page (841 x 594 mm; aspect ratio 1.4158).
+- Visible sections: Hypothesis, Methodology, Results.
+- Paragraph, chart-label, and reference text is at least 24 pt.
+- No clipping, unintended overlap, broken glyphs, or unresolved placeholders.
+- No invented author/student ID or unsupported scientific claim.
+- 0.847 is labelled as benchmark grounding on 100 answers.
+- 0.892/89.2% is labelled as macro page F-beta on 95 annotated questions.
+- Multiplicative score is exactly 0.956 x 0.847 x 1.000 x 0.938 = 0.759.
+- Attribution effect: +10.2 pp precision, -0.33 pages/question, 95/95 hit coverage.
+- Boundary effect: single-page +4.0 pp, multi-page -2.6 pp, single-document +3.2 pp, multi-document -1.4 pp.
+- Mean TTFT is 6.39 s and is not described as efficient without a baseline.
+- Editable/native source, final PDF, high-resolution PNG, A4-scale preview, and QA notes exist.
+
+Visual score (0-5 each)
+1. Thirty-second comprehension: research question, total score/bottleneck, attribution gain, and multi-page regression are all findable.
+2. Reading order: title -> hypothesis -> pipeline -> evidence -> decision works without oral explanation.
+3. Evidence hierarchy: result numbers dominate prose; comparisons and denominators are unambiguous.
+4. Method clarity: page provenance visibly persists through the pipeline, without implying component ablation.
+5. Typography: readable at full A1 and useful at A4 preview; no paragraph is solved by shrinking type.
+6. Composition: balanced density, disciplined alignment, and no dashboard-card monotony.
+7. Chart craft: equation strip, attribution comparison, and zero-centred boundary bars encode the right relationships.
+8. Scientific honesty: partial support, uncertainty, limitations, and distributed-evidence regression remain prominent.
+9. Production quality: clean PDF, crisp SVG/native vectors, sufficient raster resolution, reliable reproduction.
+10. Distinctiveness: a memorable visual thesis that remains academic and avoids legal-tech cliches.
+
+Selection rule
+- Any hard-gate failure disqualifies a candidate until corrected.
+- Among passing candidates, prefer the highest visual score; if scores are within two points, prefer the more editable and reproducible source.

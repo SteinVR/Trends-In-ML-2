@@ -1,0 +1,31 @@
+CANVA POSTER QA LEDGER
+
+Iteration 1 - local browser/PDF render
+- Inspected full A1 composition.
+- Found header/subtitle collision, Hypothesis overflow into Methodology, clipped System conclusion, and an overfull footer.
+- Shortened copy and vertical spacing without reducing the required type sizes.
+
+Iteration 2 - revised local render
+- Confirmed the reading order and three-result structure.
+- Replaced all audience-facing SVG text with explicit 24-26 pt HTML text after PDF font inspection exposed ambiguous 7.8-9.2 pt SVG internals.
+- Explicitly separated benchmark grounding 0.847 on 100 answers from macro page F-beta 89.2% on 95 annotated questions.
+
+Iteration 3 - chart and content audit
+- Confirmed all attribution and boundary labels were at least 24 pt.
+- Removed the redundant undersized Boundary callout.
+- Rebuilt the score contract as one continuous expression: 0.956 x 0.847 x 1.000 x 0.938 = 0.759.
+- Standardized Boundary sample sizes and kept every label on one line.
+
+Iteration 4 - final local render
+- Inspected the 5046 x 3564 full-poster PNG and the 1682 x 1188 A4 preview.
+- Verified a one-page A1 landscape vector PDF.
+- Effective PDF font audit: minimum 24.0 pt; zero undersized text runs.
+- No clipping, overlap, unintended wrapping, metric ambiguity, or broken reading order observed.
+
+Canva verification
+- Imported the final HTML once as editable Canva design DAHUL57xGqw.
+- Verified one custom-size page (3178 x 2245 px) with get-design and get-design-pages.
+- Verified editable rich text content with get-design-content.
+- Downloaded and visually inspected the returned Canva page thumbnail; composition remained intact.
+
+Final status: PASS

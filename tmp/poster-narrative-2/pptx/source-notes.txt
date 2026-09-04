@@ -1,0 +1,18 @@
+[Sources]
+
+Scientific and factual source of truth:
+- /Users/steinv/Uni-Trier/Trends-In-ML-2/poster-narrative-2.md
+- /Users/steinv/Uni-Trier/Trends-In-ML-2/Poster-Examination-Guidelines.pdf
+- /Users/steinv/Projects/Agentic-RAG-Challenge/artifacts/warmup_runs/runs/submission_e2e_20260424_solver_narrowing_no_guard/eval/benchmark_report.json
+- /Users/steinv/Projects/Agentic-RAG-Challenge/artifacts/warmup_runs/runs/submission_e2e_20260424_solver_narrowing_no_guard/grounding/summary.json
+- /Users/steinv/Projects/Agentic-RAG-Challenge/artifacts/warmup_runs/runs/submission_e2e_20260424_solver_narrowing_no_guard/grounding/ledger.csv
+
+Academic references used on the poster:
+- Lewis et al. (2020), Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks, NeurIPS.
+- Karpukhin et al. (2020), Dense Passage Retrieval for Open-Domain Question Answering, EMNLP.
+- Cormack et al. (2009), Reciprocal Rank Fusion Outperforms Condorcet and Individual Rank Learning Methods, SIGIR.
+- Gao et al. (2023), Enabling Large Language Models to Generate Text with Citations, EMNLP.
+- Pipitone and Houir Alami (2024), LegalBench-RAG.
+- Zhang et al. (2025), Qwen3 Embedding.
+
+No external images or stock assets are used. All diagrams and charts are native editable PowerPoint shapes.

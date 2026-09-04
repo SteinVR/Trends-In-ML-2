@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "design_id": "DAHUL57xGqw",
+  "title": "From Legal PDFs to Verifiable Answers — A1 Research Poster",
+  "urls": {
+    "edit": "https://www.canva.com/d/j3UVJ5HTQZZjEBl",
+    "view": "https://www.canva.com/d/s-y9RmfgwTPpfXf"
+  },
+  "page_count": 1,
+  "creation": {
+    "method": "Canva import-design-from-url with design_file",
+    "intended_design_type": "poster",
+    "source_file": "canva-source.html",
+    "source_page_attribute": "data-document-role=page",
+    "single_final_import": true,
+    "editing_transaction_used": false
+  },
+  "canva_page": {
+    "page_id": "PB7S0jRzZjmdMzrb",
+    "index": 1,
+    "design_type": "custom",
+    "width_px": 3178,
+    "height_px": 2245,
+    "aspect_ratio": 1.4155902004,
+    "target_aspect_ratio": "841:594",
+    "relative_ratio_difference_percent": -0.016578,
+    "resized_after_import": false,
+    "resize_decision": "No resize: Canva rounded the imported CSS page to integer pixels; the 0.0166% ratio difference is visually negligible and a resize would create an unnecessary derivative design."
+  },
+  "local_artifacts": {
+    "pdf": "poster-narrative-2-canva.pdf",
+    "full_png": "poster-narrative-2-canva.png",
+    "full_png_dimensions": "5046x3564",
+    "full_png_ppi": 152.4,
+    "a4_preview": "poster-narrative-2-canva-a4.png",
+    "a4_preview_dimensions": "1682x1188",
+    "canva_thumbnail": "canva-page-thumbnail.png",
+    "html_source": "canva-source.html"
+  },
+  "verification": {
+    "get_design_verified": true,
+    "get_design_pages_verified": true,
+    "editable_richtexts_verified": true,
+    "canva_thumbnail_downloaded_and_inspected": true,
+    "pdf_pages": 1,
+    "pdf_page_size": "A1 landscape, 2383.92 x 1684.08 pt",
+    "minimum_effective_pdf_font_pt": 24.0,
+    "undersized_pdf_text_runs": 0,
+    "final_local_visual_qa": "pass",
+    "final_canva_thumbnail_qa": "pass"
+  }
+}

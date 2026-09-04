@@ -1,0 +1,1018 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>From Legal PDFs to Verifiable Answers</title>
+  <style>
+    @page { size: 841mm 594mm; margin: 0; }
+
+    :root {
+      --blue: #3D8DFF;
+      --cyan: #69C5E8;
+      --neutral: #AEB5C0;
+      --amber: #E97132;
+      --ink: #111318;
+      --muted: #58606B;
+      --panel: #F3F6F9;
+      --line: #CCD3DB;
+      --white: #FFFFFF;
+    }
+
+    * { box-sizing: border-box; }
+
+    html,
+    body {
+      width: 841mm;
+      height: 594mm;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: var(--white);
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    body { text-rendering: geometricPrecision; }
+
+    .poster {
+      width: 841mm;
+      height: 594mm;
+      padding: 20mm;
+      display: grid;
+      grid-template-rows: 65mm 55mm 118mm 205mm 61mm 30mm;
+      row-gap: 4mm;
+      background:
+        linear-gradient(90deg, rgba(61, 141, 255, 0.035) 0, rgba(61, 141, 255, 0.035) 1px, transparent 1px, transparent 100%),
+        var(--white);
+      background-size: 66.75mm 100%;
+    }
+
+    .header {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 205mm;
+      column-gap: 12mm;
+      border-bottom: 0.7mm solid var(--ink);
+      padding-bottom: 5mm;
+    }
+
+    .kicker,
+    .eyebrow,
+    .section-index,
+    .stage-number,
+    .metric-caption,
+    .footer-label {
+      font-size: 24pt;
+      line-height: 1;
+      font-weight: 700;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+    }
+
+    .kicker { color: var(--blue); }
+
+    h1 {
+      margin: 3.2mm 0 2.2mm;
+      font-size: 76pt;
+      line-height: 0.94;
+      letter-spacing: -0.035em;
+      font-weight: 800;
+    }
+
+    .subtitle {
+      margin: 0;
+      font-size: 32pt;
+      line-height: 1.1;
+      color: var(--muted);
+      max-width: 615mm;
+    }
+
+    .header-meta {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      align-items: flex-end;
+      text-align: right;
+      font-size: 24pt;
+      line-height: 1.2;
+      color: var(--muted);
+    }
+
+    .header-meta a {
+      color: var(--blue);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .author-slot {
+      min-height: 16mm;
+      width: 100%;
+      flex: 1;
+    }
+
+    .hypothesis {
+      display: grid;
+      grid-template-columns: 158mm minmax(0, 1fr);
+      background: var(--panel);
+      border-left: 5mm solid var(--blue);
+    }
+
+    .hypothesis-label {
+      padding: 8mm 8mm 6mm 9mm;
+      border-right: 0.5mm solid var(--line);
+    }
+
+    .section-index { color: var(--blue); }
+
+    .section-title {
+      margin: 2.5mm 0 0;
+      font-size: 39pt;
+      line-height: 1;
+      font-weight: 800;
+      letter-spacing: -0.015em;
+    }
+
+    .hypothesis-copy {
+      min-width: 0;
+      padding: 4mm 9mm 3.5mm;
+      display: grid;
+      grid-template-rows: auto 1fr;
+      row-gap: 2.5mm;
+    }
+
+    .research-question {
+      font-size: 26pt;
+      line-height: 1.12;
+      font-weight: 700;
+    }
+
+    .hypothesis-columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 10mm;
+    }
+
+    .hypothesis-columns p {
+      margin: 0;
+      font-size: 26pt;
+      line-height: 1.18;
+      color: var(--muted);
+    }
+
+    .hypothesis-columns strong { color: var(--ink); }
+
+    .methodology {
+      display: grid;
+      grid-template-rows: 14mm 62mm 16mm 18mm;
+      row-gap: 2.65mm;
+    }
+
+    .section-heading {
+      display: flex;
+      align-items: baseline;
+      gap: 5mm;
+      border-bottom: 0.5mm solid var(--line);
+    }
+
+    .section-heading h2 {
+      margin: 0;
+      font-size: 38pt;
+      line-height: 1;
+      font-weight: 800;
+      letter-spacing: -0.015em;
+    }
+
+    .section-heading .section-index { min-width: 17mm; }
+
+    .pipeline {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      gap: 6mm;
+      align-items: stretch;
+    }
+
+    .stage {
+      position: relative;
+      min-width: 0;
+      padding: 6mm 5.5mm 5mm;
+      background: var(--panel);
+      border-top: 2.2mm solid var(--neutral);
+    }
+
+    .stage:not(:last-child)::after {
+      content: "";
+      position: absolute;
+      top: 24mm;
+      right: -6mm;
+      width: 6mm;
+      height: 5mm;
+      background: var(--neutral);
+      clip-path: polygon(0 20%, 62% 20%, 62% 0, 100% 50%, 62% 100%, 62% 80%, 0 80%);
+    }
+
+    .stage:nth-child(2),
+    .stage:nth-child(3),
+    .stage:nth-child(4) { border-top-color: var(--cyan); }
+
+    .stage:nth-child(5) { border-top-color: var(--blue); }
+
+    .stage:last-child {
+      background: var(--blue);
+      color: var(--white);
+      border-top-color: var(--blue);
+    }
+
+    .stage-number {
+      color: var(--blue);
+      font-size: 24pt;
+    }
+
+    .stage:last-child .stage-number { color: var(--white); }
+
+    .stage h3 {
+      margin: 4mm 0 3mm;
+      font-size: 28pt;
+      line-height: 1.04;
+      font-weight: 800;
+      letter-spacing: -0.015em;
+    }
+
+    .stage p {
+      margin: 0;
+      font-size: 24pt;
+      line-height: 1.14;
+      color: var(--muted);
+    }
+
+    .stage:last-child p { color: var(--white); }
+
+    .provenance-rail {
+      position: relative;
+      width: 100%;
+      height: 16mm;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--ink);
+      overflow: hidden;
+      font-size: 24pt;
+      line-height: 1;
+      font-weight: 700;
+      color: var(--white);
+      letter-spacing: 0.025em;
+    }
+
+    .rail-track {
+      position: absolute;
+      left: 16mm;
+      right: 16mm;
+      top: 50%;
+      height: 1.4mm;
+      transform: translateY(-50%);
+      background: var(--blue);
+    }
+
+    .rail-node {
+      position: absolute;
+      top: 50%;
+      width: 5.2mm;
+      height: 5.2mm;
+      transform: translate(-50%, -50%);
+      border: 1.2mm solid var(--blue);
+      border-radius: 50%;
+      background: var(--white);
+    }
+
+    .rail-label {
+      position: relative;
+      z-index: 2;
+      padding: 1.6mm 7mm;
+      background: var(--ink);
+    }
+
+    .method-meta {
+      display: grid;
+      grid-template-columns: 1.06fr 0.92fr 1.52fr;
+      gap: 6mm;
+    }
+
+    .method-meta div {
+      display: flex;
+      align-items: center;
+      gap: 3mm;
+      padding: 0 5mm;
+      background: var(--panel);
+      border-left: 1.4mm solid var(--neutral);
+      font-size: 24pt;
+      line-height: 1.05;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+
+    .method-meta strong { color: var(--ink); }
+
+    .method-meta div:nth-child(2) { border-left-color: var(--cyan); }
+    .method-meta div:nth-child(3) { border-left-color: var(--blue); }
+
+    .results {
+      display: grid;
+      grid-template-rows: 16mm minmax(0, 1fr);
+      border-top: 0.7mm solid var(--ink);
+      background: rgba(243, 246, 249, 0.58);
+    }
+
+    .results-heading {
+      display: flex;
+      align-items: center;
+      gap: 5mm;
+      padding: 0 1mm;
+    }
+
+    .results-heading h2 {
+      margin: 0;
+      font-size: 40pt;
+      line-height: 1;
+      font-weight: 800;
+    }
+
+    .results-grid {
+      min-height: 0;
+      display: grid;
+      grid-template-columns: 30fr 38fr 32fr;
+      border-top: 0.5mm solid var(--line);
+    }
+
+    .result-panel {
+      min-width: 0;
+      min-height: 0;
+      padding: 7mm 8mm 6mm;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .result-panel + .result-panel { border-left: 0.6mm solid var(--line); }
+
+    .result-panel .eyebrow {
+      color: var(--blue);
+      margin-bottom: 2.8mm;
+    }
+
+    .result-panel.boundary .eyebrow { color: var(--amber); }
+
+    .result-panel h3 {
+      margin: 0;
+      font-size: 30pt;
+      line-height: 1.06;
+      font-weight: 800;
+      letter-spacing: -0.015em;
+    }
+
+    .panel-subtitle {
+      margin: 3mm 0 0;
+      font-size: 24pt;
+      line-height: 1.16;
+      color: var(--muted);
+    }
+
+    .equation {
+      margin-top: 7mm;
+      padding: 5.5mm 0 5mm;
+      border-top: 0.7mm solid var(--line);
+      border-bottom: 0.7mm solid var(--line);
+    }
+
+    .equation-line {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 2mm;
+      font-size: 32pt;
+      line-height: 1;
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      white-space: nowrap;
+    }
+
+    .equation-line .operator {
+      color: var(--neutral);
+      font-size: 28pt;
+    }
+
+    .equation-line .constraint { color: var(--amber); }
+
+    .equation-line .score-final {
+      color: var(--blue);
+      font-size: 46pt;
+      letter-spacing: -0.04em;
+    }
+
+    .equation-labels {
+      margin-top: 4mm;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      column-gap: 2mm;
+      text-align: center;
+      font-size: 24pt;
+      line-height: 1.08;
+      color: var(--muted);
+    }
+
+    .equation-summary {
+      margin: 5mm 0 0;
+      font-size: 24pt;
+      line-height: 1.15;
+      color: var(--muted);
+    }
+
+    .equation-summary strong { color: var(--ink); }
+
+    .system-facts {
+      margin-top: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5mm;
+      padding-top: 6mm;
+    }
+
+    .system-fact {
+      border-left: 1.6mm solid var(--blue);
+      padding-left: 4mm;
+      font-size: 24pt;
+      line-height: 1.12;
+      color: var(--muted);
+    }
+
+    .system-fact strong {
+      display: block;
+      color: var(--ink);
+      font-size: 28pt;
+      margin-bottom: 1.5mm;
+    }
+
+    .attribution-chart {
+      margin-top: 4mm;
+      display: grid;
+      grid-template-rows: 12mm repeat(3, 21mm);
+      row-gap: 2mm;
+    }
+
+    .attribution-head,
+    .metric-row {
+      display: grid;
+      grid-template-columns: 74mm minmax(0, 1fr);
+      column-gap: 4mm;
+      align-items: center;
+    }
+
+    .stage-heads,
+    .metric-sequence {
+      display: grid;
+      grid-template-columns: 1fr 12mm 1fr 12mm 1fr;
+      align-items: center;
+      text-align: center;
+    }
+
+    .stage-heads span {
+      font-size: 24pt;
+      line-height: 1;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+    }
+
+    .stage-heads span:nth-child(3) { color: var(--cyan); }
+    .stage-heads span:nth-child(5) { color: var(--blue); }
+
+    .metric-row {
+      border-top: 0.45mm solid var(--line);
+    }
+
+    .metric-name {
+      font-size: 24pt;
+      line-height: 1.04;
+      font-weight: 700;
+      color: var(--ink);
+    }
+
+    .metric-name span {
+      display: block;
+      margin-top: 1mm;
+      color: var(--muted);
+      font-weight: 400;
+    }
+
+    .stage-reading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2.5mm;
+      font-size: 25pt;
+      line-height: 1;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .stage-reading.final { color: var(--blue); }
+
+    .dot {
+      width: 5mm;
+      height: 5mm;
+      border-radius: 50%;
+      background: var(--neutral);
+      flex: 0 0 auto;
+    }
+
+    .stage-reading.filter .dot { background: var(--cyan); }
+    .stage-reading.final .dot { background: var(--blue); }
+
+    .metric-arrow {
+      position: relative;
+      height: 1.1mm;
+      background: var(--neutral);
+    }
+
+    .metric-arrow::after {
+      content: "";
+      position: absolute;
+      right: -0.4mm;
+      top: 50%;
+      width: 3.2mm;
+      height: 3.2mm;
+      border-top: 1.1mm solid var(--neutral);
+      border-right: 1.1mm solid var(--neutral);
+      transform: translateY(-50%) rotate(45deg);
+    }
+
+    .impact-row {
+      margin-top: auto;
+      display: grid;
+      grid-template-columns: 1.08fr 1fr 0.92fr;
+      gap: 5mm;
+      padding-top: 4mm;
+      border-top: 0.7mm solid var(--line);
+    }
+
+    .impact {
+      min-width: 0;
+      border-left: 1.7mm solid var(--blue);
+      padding-left: 4mm;
+    }
+
+    .impact:nth-child(2) { border-left-color: var(--ink); }
+    .impact:nth-child(3) { border-left-color: var(--cyan); }
+
+    .impact strong {
+      display: block;
+      font-size: 36pt;
+      line-height: 1;
+      letter-spacing: -0.025em;
+    }
+
+    .impact span {
+      display: block;
+      margin-top: 2mm;
+      font-size: 24pt;
+      line-height: 1.12;
+      color: var(--muted);
+    }
+
+    .boundary-chart {
+      height: 87mm;
+      margin-top: 4mm;
+      display: grid;
+      grid-template-rows: 12mm repeat(4, 16.5mm);
+      row-gap: 2.25mm;
+    }
+
+    .boundary-axis,
+    .boundary-row {
+      display: grid;
+      grid-template-columns: 82mm minmax(0, 1fr);
+      column-gap: 4mm;
+      align-items: center;
+    }
+
+    .axis-scale {
+      position: relative;
+      height: 100%;
+      font-size: 24pt;
+      line-height: 1;
+      color: var(--muted);
+    }
+
+    .axis-scale span {
+      position: absolute;
+      bottom: 1mm;
+      transform: translateX(-50%);
+    }
+
+    .axis-scale span:nth-child(1) { left: 18%; }
+    .axis-scale span:nth-child(2) { left: 50%; font-weight: 700; color: var(--ink); }
+    .axis-scale span:nth-child(3) { left: 82%; }
+
+    .boundary-label {
+      font-size: 24pt;
+      line-height: 1.02;
+      font-weight: 700;
+      color: var(--ink);
+      white-space: nowrap;
+    }
+
+    .boundary-label span {
+      display: inline;
+      margin-left: 2mm;
+      color: var(--muted);
+      font-weight: 400;
+    }
+
+    .bar-track {
+      position: relative;
+      height: 100%;
+      border-top: 0.45mm solid var(--line);
+    }
+
+    .bar-track::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      width: 0.7mm;
+      transform: translateX(-50%);
+      background: var(--ink);
+    }
+
+    .bar {
+      position: absolute;
+      top: 50%;
+      height: 9mm;
+      transform: translateY(-50%);
+    }
+
+    .bar.positive {
+      left: 50%;
+      background: var(--blue);
+    }
+
+    .bar.negative {
+      right: 50%;
+      background: var(--amber);
+    }
+
+    .bar-value {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 24pt;
+      line-height: 1;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .bar-value.positive { color: var(--blue); }
+    .bar-value.negative { color: var(--amber); }
+
+    .bar-track.single-page .bar { width: 32%; }
+    .bar-track.single-page .bar-value { left: 78%; }
+    .bar-track.multi-page .bar { width: 20.8%; }
+    .bar-track.multi-page .bar-value { right: 74%; }
+    .bar-track.single-doc .bar { width: 25.6%; }
+    .bar-track.single-doc .bar-value { left: 75%; }
+    .bar-track.multi-doc .bar { width: 11.2%; }
+    .bar-track.multi-doc .bar-value { right: 63.5%; }
+
+    .decision-row {
+      display: grid;
+      grid-template-columns: 1.22fr 1fr;
+      gap: 7mm;
+    }
+
+    .decision {
+      padding: 7mm 9mm;
+      display: grid;
+      grid-template-columns: 118mm 1fr;
+      column-gap: 8mm;
+      align-items: center;
+      background: var(--blue);
+      color: var(--white);
+    }
+
+    .decision .eyebrow { color: var(--white); }
+
+    .decision h2 {
+      margin: 2.5mm 0 0;
+      font-size: 36pt;
+      line-height: 1;
+      font-weight: 800;
+    }
+
+    .decision-statement {
+      font-size: 34pt;
+      line-height: 1.12;
+      font-weight: 800;
+      letter-spacing: -0.018em;
+    }
+
+    .limitations {
+      padding: 5.5mm 7mm;
+      background: var(--panel);
+      border-top: 1.7mm solid var(--amber);
+    }
+
+    .limitations h2 {
+      margin: 0 0 3.5mm;
+      font-size: 30pt;
+      line-height: 1;
+      font-weight: 800;
+    }
+
+    .limitations ul {
+      margin: 0;
+      padding-left: 8mm;
+      display: grid;
+      gap: 1.6mm;
+    }
+
+    .limitations li {
+      padding-left: 1mm;
+      font-size: 24pt;
+      line-height: 1.13;
+      color: var(--muted);
+    }
+
+    .footer {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 145mm;
+      column-gap: 10mm;
+      align-items: start;
+      border-top: 0.7mm solid var(--ink);
+      padding-top: 4mm;
+      font-size: 24pt;
+      line-height: 1.16;
+      color: var(--muted);
+    }
+
+    .footer p { margin: 0 0 2mm; }
+
+    .footer strong { color: var(--ink); }
+
+    .footer-meta { text-align: right; }
+
+    .footer a {
+      color: var(--blue);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    @media screen {
+      body { background: #D9DEE5; }
+      .poster { box-shadow: 0 4mm 14mm rgba(17, 19, 24, 0.18); }
+    }
+
+    @media print {
+      body { background: var(--white); }
+      .poster { box-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+  <main class="poster" data-document-role="page" data-label="From Legal PDFs to Verifiable Answers">
+    <header class="header">
+      <div>
+        <div class="kicker">Research poster · Natural language processing</div>
+        <h1>From Legal PDFs to Verifiable Answers</h1>
+        <p class="subtitle">Evaluating answer quality, page grounding, valid output, and latency across 100 legal questions</p>
+      </div>
+      <div class="header-meta">
+        <a href="https://github.com/SteinVR/Agentic-RAG-Challenge">github.com/SteinVR/Agentic-RAG-Challenge</a>
+        <div>100-question DIFC legal benchmark</div>
+        <!-- Reserved editable header area for author and student ID. Intentionally invisible in the final render. -->
+        <div class="author-slot" aria-label="Reserved author details area"></div>
+      </div>
+    </header>
+
+    <section class="hypothesis" aria-labelledby="hypothesis-title">
+      <div class="hypothesis-label">
+        <div class="section-index">01</div>
+        <h2 class="section-title" id="hypothesis-title">Hypothesis</h2>
+      </div>
+      <div class="hypothesis-copy">
+        <div class="research-question">Can a Legal RAG pipeline balance answer quality, grounding, valid output, and latency while preserving auditable page provenance?</div>
+        <div class="hypothesis-columns">
+          <p><strong>H1 · System profile.</strong> Targets: answer ≥0.90; grounding ≥0.85; 100% valid; every annotated question retains a correct page; latency multiplier ≥0.90.</p>
+          <p><strong>H2 · Attribution.</strong> Select pages after answering to raise macro precision, reduce citation size, and retain a correct page for all 95 annotated questions.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="methodology" aria-labelledby="method-title">
+      <div class="section-heading">
+        <div class="section-index">02</div>
+        <h2 id="method-title">Methodology · one auditable chain</h2>
+      </div>
+
+      <div class="pipeline" aria-label="Six stage Legal RAG pipeline">
+        <article class="stage">
+          <div class="stage-number">01</div>
+          <h3>Legal PDFs</h3>
+          <p>30 public files · 590 pages</p>
+        </article>
+        <article class="stage">
+          <div class="stage-number">02</div>
+          <h3>Page-stable corpus</h3>
+          <p>Text · tables · OCR fallback</p>
+        </article>
+        <article class="stage">
+          <div class="stage-number">03</div>
+          <h3>Multi-view index</h3>
+          <p>Page · section · clause · table</p>
+        </article>
+        <article class="stage">
+          <div class="stage-number">04</div>
+          <h3>Hybrid retrieval</h3>
+          <p>BM25 · dense · RRF · rerank</p>
+        </article>
+        <article class="stage">
+          <div class="stage-number">05</div>
+          <h3>Typed answer</h3>
+          <p>Strict JSON · support checks</p>
+        </article>
+        <article class="stage">
+          <div class="stage-number">06</div>
+          <h3>Attribution + output</h3>
+          <p>Pages · trace · telemetry</p>
+        </article>
+      </div>
+
+      <div class="provenance-rail" role="img" aria-label="Continuous document ID and page number provenance rail">
+        <div class="rail-track"></div>
+        <span class="rail-node" style="left: 5.5%"></span>
+        <span class="rail-node" style="left: 22%"></span>
+        <span class="rail-node" style="left: 38.5%"></span>
+        <span class="rail-node" style="left: 55%"></span>
+        <span class="rail-node" style="left: 71.5%"></span>
+        <span class="rail-node" style="left: 94.5%"></span>
+        <span class="rail-label">CONTINUOUS PROVENANCE · document_id + page_number</span>
+      </div>
+
+      <div class="method-meta">
+        <div><strong>Data</strong> 100 questions · 95 page-annotated</div>
+        <div><strong>Evaluation</strong> paired stages · β = 2.5</div>
+        <div><strong>Models</strong> Qwen3 Embedding/Reranker 0.6B · gpt-5.4-mini</div>
+      </div>
+    </section>
+
+    <section class="results" aria-labelledby="results-title">
+      <div class="results-heading">
+        <div class="section-index">03</div>
+        <h2 id="results-title">Results</h2>
+      </div>
+
+      <div class="results-grid">
+        <article class="result-panel system">
+          <div class="eyebrow">System · 100 answers</div>
+          <h3>Grounding and latency constrain strong answers</h3>
+          <p class="panel-subtitle">H1 is partially supported: grounding 0.847 falls 0.003 below the retrospective 0.85 target.</p>
+
+          <div class="equation" aria-label="0.956 times 0.847 times 1.000 times 0.938 equals 0.759">
+            <div class="equation-line">
+              <span>0.956</span><span class="operator">×</span>
+              <span class="constraint">0.847</span><span class="operator">×</span>
+              <span>1.000</span><span class="operator">×</span>
+              <span class="constraint">0.938</span><span class="operator">=</span>
+              <span class="score-final">0.759</span>
+            </div>
+            <div class="equation-labels">
+              <span>answer<br>quality</span>
+              <span>benchmark<br>grounding</span>
+              <span>valid<br>telemetry</span>
+              <span>latency<br>multiplier</span>
+              <span>total<br>score</span>
+            </div>
+          </div>
+
+          <p class="equation-summary"><strong>Multiplicative contract:</strong> strong answer quality is discounted by grounding and latency.</p>
+
+          <div class="system-facts">
+            <div class="system-fact"><strong>100 / 100 valid</strong>All outputs passed schema checks.</div>
+            <div class="system-fact"><strong>TTFT 6.39 s</strong>Mean time to first token.</div>
+          </div>
+        </article>
+
+        <article class="result-panel attribution">
+          <div class="eyebrow">Attribution · 95 annotated questions</div>
+          <h3>Answer-aware selection removes noise, not every risk</h3>
+          <p class="panel-subtitle">Macro page metrics on 95 annotated questions: the final 89.2% Fβ is separate from benchmark grounding 0.847 on all 100 answers.</p>
+
+          <div class="attribution-chart" role="img" aria-label="Raw, deterministic filter, and final attribution page metrics">
+            <div class="attribution-head">
+              <div></div>
+              <div class="stage-heads">
+                <span>RAW</span><i></i><span>FILTER</span><i></i><span>FINAL</span>
+              </div>
+            </div>
+            <div class="metric-row">
+              <div class="metric-name">PRECISION</div>
+              <div class="metric-sequence">
+                <div class="stage-reading raw"><i class="dot"></i><strong>63.8%</strong></div>
+                <i class="metric-arrow"></i>
+                <div class="stage-reading filter"><i class="dot"></i><strong>63.8%</strong></div>
+                <i class="metric-arrow"></i>
+                <div class="stage-reading final"><i class="dot"></i><strong>73.9%</strong></div>
+              </div>
+            </div>
+            <div class="metric-row">
+              <div class="metric-name">RECALL</div>
+              <div class="metric-sequence">
+                <div class="stage-reading raw"><i class="dot"></i><strong>96.8%</strong></div>
+                <i class="metric-arrow"></i>
+                <div class="stage-reading filter"><i class="dot"></i><strong>96.2%</strong></div>
+                <i class="metric-arrow"></i>
+                <div class="stage-reading final"><i class="dot"></i><strong>95.2%</strong></div>
+              </div>
+            </div>
+            <div class="metric-row">
+              <div class="metric-name">MACRO PAGE Fβ<span>β = 2.5 · n = 95</span></div>
+              <div class="metric-sequence">
+                <div class="stage-reading raw"><i class="dot"></i><strong>87.7%</strong></div>
+                <i class="metric-arrow"></i>
+                <div class="stage-reading filter"><i class="dot"></i><strong>87.3%</strong></div>
+                <i class="metric-arrow"></i>
+                <div class="stage-reading final"><i class="dot"></i><strong>89.2%</strong></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="impact-row">
+            <div class="impact"><strong>+10.2 pp</strong><span>precision · 95% CI +6.3 to +14.4</span></div>
+            <div class="impact"><strong>-0.33</strong><span>pages per question · 2.56 → 2.23</span></div>
+            <div class="impact"><strong>95 / 95</strong><span>retain ≥1 correct page</span></div>
+          </div>
+        </article>
+
+        <article class="result-panel boundary">
+          <div class="eyebrow">Boundary · exploratory split</div>
+          <h3>Narrowing helps local evidence and harms distributed evidence</h3>
+          <p class="panel-subtitle">Raw-to-final change in page Fβ. Blue improves; amber regresses. Sample sizes sum to the same 95 questions.</p>
+
+          <div class="boundary-chart" role="img" aria-label="Zero-centered F beta changes by evidence shape">
+            <div class="boundary-axis">
+              <div></div>
+              <div class="axis-scale"><span>-4</span><span>0 pp</span><span>+4</span></div>
+            </div>
+            <div class="boundary-row">
+              <div class="boundary-label">SINGLE PAGE · <span>n=59</span></div>
+              <div class="bar-track single-page"><i class="bar positive"></i><strong class="bar-value positive">+4.0 pp</strong></div>
+            </div>
+            <div class="boundary-row">
+              <div class="boundary-label">MULTI PAGE · <span>n=36</span></div>
+              <div class="bar-track multi-page"><i class="bar negative"></i><strong class="bar-value negative">-2.6 pp</strong></div>
+            </div>
+            <div class="boundary-row">
+              <div class="boundary-label">SINGLE DOC · <span>n=60</span></div>
+              <div class="bar-track single-doc"><i class="bar positive"></i><strong class="bar-value positive">+3.2 pp</strong></div>
+            </div>
+            <div class="boundary-row">
+              <div class="boundary-label">MULTI DOC · <span>n=35</span></div>
+              <div class="bar-track multi-doc"><i class="bar negative"></i><strong class="bar-value negative">-1.4 pp</strong></div>
+            </div>
+          </div>
+
+        </article>
+      </div>
+    </section>
+
+    <section class="decision-row" aria-label="Decision and limitations">
+      <div class="decision">
+        <div>
+          <div class="eyebrow">04 · Decision</div>
+          <h2>Engineering rule</h2>
+        </div>
+        <div class="decision-statement">Retrieve broadly. Attribute explicitly. Narrow conservatively when support spans pages or documents.</div>
+      </div>
+
+      <div class="limitations">
+        <h2>Limitations</h2>
+        <ul>
+          <li>One saved run; retrospective thresholds; no component ablation.</li>
+          <li>One DIFC benchmark; OCR fallback was implemented but not exercised.</li>
+          <li>Only TTFT was measured - not full latency, throughput, cost, or energy.</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>
+        <p><strong>Selected references</strong> · [1] Lewis et al., 2020 · [2] Cormack et al., 2009 · [3] Gao et al., 2023 · [4] Pipitone &amp; Alami, 2024 · [5] Zhang et al., 2025</p>
+        <p><strong>Reproducibility</strong> · <a href="https://github.com/SteinVR/Agentic-RAG-Challenge">github.com/SteinVR/Agentic-RAG-Challenge</a> · paired bootstrap: 20,000 samples, seed 20260903</p>
+      </div>
+      <div class="footer-meta">
+        <p><strong>Universität Trier</strong></p>
+        <p>Trends in Machine Learning II</p>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>

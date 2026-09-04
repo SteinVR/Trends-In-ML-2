@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="841mm" height="594mm" viewBox="0 0 1682 1188">
+  <defs>
+    <style>
+      .serif{font-family:"Charter","Georgia",serif;fill:#172234;font-weight:700}
+      .sans{font-family:"Avenir Next","Helvetica Neue",Arial,sans-serif;fill:#172234}
+      .sec{font-family:"Avenir Next","Helvetica Neue",Arial,sans-serif;fill:#172234;font-size:25px;font-weight:700;letter-spacing:1.3px}
+      .body{font-family:"Avenir Next","Helvetica Neue",Arial,sans-serif;fill:#172234;font-size:17px}
+      .b{font-family:"Avenir Next","Helvetica Neue",Arial,sans-serif;fill:#172234;font-size:17px;font-weight:700}
+      .label{font-family:"Avenir Next","Helvetica Neue",Arial,sans-serif;fill:#172234;font-size:15px;font-weight:700;letter-spacing:.7px}
+      .small{font-family:"Avenir Next","Helvetica Neue",Arial,sans-serif;fill:#545A61;font-size:14px}
+      .tiny{font-family:"Avenir Next","Helvetica Neue",Arial,sans-serif;fill:#666B70;font-size:12px}
+      .blue{fill:#2F6F89}.coral{fill:#B64A3E}.paper{fill:#F3EFE6}.ink{fill:#172234}
+    </style>
+  </defs>
+  <rect width="1682" height="1188" fill="#F3EFE6"/>
+  <rect width="16" height="1188" fill="#172234"/>
+
+  <!-- Header -->
+  <text x="56" y="41" class="sans" font-size="13" font-weight="700" letter-spacing="2.3" fill="#B58A3A">LEGAL RAG · EVIDENCE-SHAPE ANALYSIS</text>
+  <text x="1626" y="41" class="sans" font-size="13" text-anchor="end">[AUTHOR NAME] · UNIVERSITY OF TRIER · STUDENT ID [000000]</text>
+  <text x="56" y="100" class="serif" font-size="49">Correct Answers, Uneven Grounding</text>
+  <text x="58" y="139" class="sans" font-size="21" font-weight="700">THE DISTRIBUTED-EVIDENCE GAP IN LEGAL RAG</text>
+  <line x1="944" y1="60" x2="944" y2="173" stroke="#C9C4BA" stroke-width="3"/>
+  <circle cx="980" cy="80" r="10" fill="#2F6F89"/>
+  <text x="1004" y="90" class="sans" font-size="25" font-weight="700" fill="#2F6F89">Answers stay level.</text>
+  <path d="M969 119l11-11 11 11-11 11z" fill="#B64A3E"/>
+  <text x="1004" y="128" class="sans" font-size="25" font-weight="700" fill="#B64A3E">Grounding falls when evidence spans pages.</text>
+  <text x="980" y="164" class="body">Similar answer quality does not guarantee complete source support.</text>
+  <line x1="56" y1="194" x2="1626" y2="194" stroke="#172234" stroke-width="3"/>
+
+  <!-- Hypothesis -->
+  <text x="56" y="235" class="sec">1  HYPOTHESIS</text>
+  <line x1="56" y1="249" x2="416" y2="249" stroke="#B58A3A" stroke-width="4"/>
+  <text x="56" y="286" class="label">RESEARCH QUESTION</text>
+  <text x="56" y="320" class="body">
+    <tspan x="56" dy="0">How does distributed evidence affect</tspan><tspan x="56" dy="25">the relationship between answer quality</tspan>
+    <tspan x="56" dy="25">and source grounding in a legal RAG</tspan><tspan x="56" dy="25">pipeline?</tspan>
+  </text>
+  <text x="56" y="431" class="label">H1</text>
+  <text x="56" y="465" class="body">
+    <tspan x="56">Multi-page questions will retain</tspan><tspan x="56" dy="25">comparable answer scores but show lower</tspan>
+    <tspan x="56" dy="25">final page grounding; uniform citation</tspan><tspan x="56" dy="25">narrowing may widen the gap.</tspan>
+  </text>
+  <text x="56" y="578" class="label">STUDY COHORT</text>
+  <circle cx="124" cy="631" r="34" fill="#2F6F89"/>
+  <text x="124" y="642" class="sans" font-size="28" font-weight="700" fill="#F3EFE6" text-anchor="middle">59</text>
+  <text x="124" y="687" class="b" text-anchor="middle">LOCALIZED</text>
+  <text x="124" y="712" class="body" text-anchor="middle">one gold page</text>
+  <path d="M304 597l34 34-34 34-34-34z" fill="#B64A3E"/>
+  <text x="304" y="642" class="sans" font-size="28" font-weight="700" fill="#F3EFE6" text-anchor="middle">36</text>
+  <text x="304" y="687" class="b" text-anchor="middle">DISTRIBUTED</text>
+  <text x="304" y="712" class="body" text-anchor="middle">multiple gold pages</text>
+  <rect x="56" y="748" width="360" height="159" fill="#E7E2D7"/>
+  <text x="78" y="786" class="sans" font-size="23" font-weight="700">100-question benchmark</text>
+  <text x="78" y="822" class="sans" font-size="21" font-weight="700">95 eligible questions</text>
+  <text x="78" y="851" class="body">with annotated source pages</text>
+  <text x="78" y="882" class="body">Page F-beta, beta = 2.5 · recall-weighted</text>
+  <text x="56" y="949" class="b">Exploratory retrospective slice analysis</text>
+  <text x="56" y="976" class="body">of one saved development run.</text>
+
+  <!-- Method -->
+  <text x="450" y="235" class="sec">2  METHODOLOGY</text>
+  <text x="1626" y="235" class="body" text-anchor="end">30 public DIFC legal PDFs · 590 pages</text>
+  <line x1="450" y1="249" x2="1626" y2="249" stroke="#B58A3A" stroke-width="4"/>
+  <line x1="504" y1="318" x2="1569" y2="318" stroke="#96938B" stroke-width="4" stroke-dasharray="9 11"/>
+  <g fill="#F3EFE6" stroke="#172234" stroke-width="4">
+    <circle cx="504" cy="318" r="28"/><circle cx="717" cy="318" r="28"/><circle cx="930" cy="318" r="28"/>
+    <circle cx="1143" cy="318" r="28"/><circle cx="1356" cy="318" r="28"/><circle cx="1569" cy="318" r="28"/>
+  </g>
+  <g class="b" text-anchor="middle"><text x="504" y="325">01</text><text x="717" y="325">02</text><text x="930" y="325">03</text><text x="1143" y="325">04</text><text x="1356" y="325">05</text><text x="1569" y="325">06</text></g>
+  <g text-anchor="middle">
+    <text x="504" y="372" class="b">PDF pages</text>
+    <text x="717" y="372" class="b">Page-stable index</text><text x="717" y="396" class="small">multiple chunk views</text>
+    <text x="930" y="372" class="b">BM25 + Qwen3</text><text x="930" y="396" class="small">embedding</text>
+    <text x="1143" y="372" class="b">RRF + Qwen3</text><text x="1143" y="396" class="small">reranker</text>
+    <text x="1356" y="372" class="b">Typed answer</text><text x="1356" y="396" class="small">GPT-5.4-mini</text>
+    <text x="1569" y="372" class="b">Validated pages</text><text x="1569" y="396" class="small">attribution</text>
+  </g>
+  <rect x="450" y="421" width="1176" height="52" fill="#E7E2D7"/>
+  <text x="474" y="455" class="b">Every chunk retains document and page identity.</text>
+  <text x="1602" y="455" class="body" text-anchor="end">59 vs 36 · 20,000 stratified bootstraps · seed 20260903</text>
+
+  <!-- Results -->
+  <text x="450" y="522" class="sec">3  RESULTS</text>
+  <text x="626" y="522" class="sans" font-size="18" font-weight="700">ANSWER QUALITY STAYS CLOSE · GROUNDING SEPARATES</text>
+  <line x1="450" y1="536" x2="1626" y2="536" stroke="#B58A3A" stroke-width="4"/>
+  <rect x="450" y="557" width="1176" height="382" fill="#FBF8F1"/>
+
+  <!-- Hero paired tracks -->
+  <text x="478" y="593" class="label">GROUP MEANS · COMMON 75-100% SCALE</text>
+  <text x="478" y="670" class="sans" font-size="22" font-weight="700">Answer quality</text>
+  <line x1="688" y1="666" x2="1085" y2="666" stroke="#C5C0B6" stroke-width="6"/>
+  <circle cx="1020" cy="651" r="17" fill="#2F6F89"/>
+  <text x="1010" y="625" class="sans" font-size="24" font-weight="700" text-anchor="end" fill="#2F6F89">95.9% localized</text>
+  <path d="M997 666l17-17 17 17-17 17z" fill="#B64A3E"/>
+  <text x="1003" y="706" class="sans" font-size="24" font-weight="700" text-anchor="end" fill="#B64A3E">94.4% distributed</text>
+
+  <text x="478" y="797" class="sans" font-size="22" font-weight="700">Final page grounding</text>
+  <line x1="688" y1="793" x2="1085" y2="793" stroke="#C5C0B6" stroke-width="6"/>
+  <circle cx="987" cy="778" r="17" fill="#2F6F89"/>
+  <text x="976" y="752" class="sans" font-size="24" font-weight="700" text-anchor="end" fill="#2F6F89">93.8% localized</text>
+  <path d="M753 793l17-17 17 17-17 17z" fill="#B64A3E"/>
+  <text x="770" y="834" class="sans" font-size="24" font-weight="700" text-anchor="middle" fill="#B64A3E">81.6% distributed</text>
+  <line x1="688" y1="875" x2="1085" y2="875" stroke="#77756F" stroke-width="3"/>
+  <g class="small" text-anchor="middle"><text x="688" y="904">75</text><text x="767" y="904">80</text><text x="847" y="904">85</text><text x="926" y="904">90</text><text x="1006" y="904">95</text><text x="1085" y="904">100%</text></g>
+
+  <!-- Difference intervals -->
+  <line x1="1120" y1="580" x2="1120" y2="908" stroke="#D0CBC1" stroke-width="3"/>
+  <text x="1148" y="593" class="label">DISTRIBUTED - LOCALIZED</text>
+  <text x="1148" y="636" class="sans" font-size="21" font-weight="700">Answer  -1.5 pp</text>
+  <text x="1148" y="665" class="body">95% CI -10.8 to +6.7</text>
+  <line x1="1162" y1="700" x2="1356" y2="700" stroke="#B64A3E" stroke-width="7"/>
+  <line x1="1162" y1="686" x2="1162" y2="714" stroke="#B64A3E" stroke-width="5"/>
+  <line x1="1356" y1="686" x2="1356" y2="714" stroke="#B64A3E" stroke-width="5"/>
+  <path d="M1265 700l13-13 13 13-13 13z" fill="#B64A3E"/>
+  <line x1="1305" y1="680" x2="1305" y2="912" stroke="#77756F" stroke-width="3" stroke-dasharray="6 7"/>
+  <rect x="1140" y="739" width="244" height="56" fill="#FBF8F1"/>
+  <text x="1148" y="759" class="sans" font-size="21" font-weight="700">Grounding  -12.2 pp</text>
+  <text x="1148" y="788" class="body">95% CI -19.0 to -5.9</text>
+  <line x1="1148" y1="823" x2="1290" y2="823" stroke="#B64A3E" stroke-width="7"/>
+  <line x1="1148" y1="809" x2="1148" y2="837" stroke="#B64A3E" stroke-width="5"/>
+  <line x1="1290" y1="809" x2="1290" y2="837" stroke="#B64A3E" stroke-width="5"/>
+  <path d="M1217 823l13-13 13 13-13 13z" fill="#B64A3E"/>
+  <text x="1148" y="886" class="small">Answer CI crosses zero;</text>
+  <text x="1148" y="909" class="small">grounding CI does not.</text>
+
+  <!-- Slope diagnostic -->
+  <line x1="1390" y1="580" x2="1390" y2="908" stroke="#D0CBC1" stroke-width="3"/>
+  <text x="1418" y="593" class="label">RAW → FINAL</text>
+  <line x1="1432" y1="667" x2="1587" y2="626" stroke="#2F6F89" stroke-width="8"/>
+  <circle cx="1432" cy="667" r="15" fill="#2F6F89"/><circle cx="1587" cy="626" r="15" fill="#2F6F89"/>
+  <text x="1418" y="641" class="sans" font-size="20" font-weight="700" fill="#2F6F89">89.8</text>
+  <text x="1608" y="632" class="sans" font-size="20" font-weight="700" fill="#2F6F89">93.8</text>
+  <text x="1511" y="623" class="sans" font-size="22" font-weight="700" text-anchor="middle" fill="#2F6F89">+4.0 pp</text>
+  <line x1="1432" y1="753" x2="1587" y2="797" stroke="#B64A3E" stroke-width="8"/>
+  <path d="M1432 738l15 15-15 15-15-15z" fill="#B64A3E"/><path d="M1587 782l15 15-15 15-15-15z" fill="#B64A3E"/>
+  <text x="1418" y="733" class="sans" font-size="20" font-weight="700" fill="#B64A3E">84.2</text>
+  <text x="1608" y="803" class="sans" font-size="20" font-weight="700" fill="#B64A3E">81.6</text>
+  <text x="1511" y="820" class="sans" font-size="22" font-weight="700" text-anchor="middle" fill="#B64A3E">-2.6 pp</text>
+  <text x="1418" y="858" class="b">Citation narrowing</text>
+  <text x="1418" y="881" class="b">moves the groups in</text>
+  <text x="1418" y="904" class="b">opposite directions.</text>
+  <text x="1418" y="928" class="small">Within-run; not a causal ablation.</text>
+
+  <!-- mismatch ribbon -->
+  <rect x="450" y="954" width="1176" height="82" fill="#E7E2D7"/>
+  <text x="474" y="985" class="label">PERFECT ANSWER, GROUNDING &lt; 0.8</text>
+  <circle cx="822" cy="986" r="13" fill="#2F6F89"/><text x="849" y="995" class="sans" font-size="24" font-weight="700" fill="#2F6F89">4 / 55 · 7.3%</text>
+  <path d="M1112 973l13 13-13 13-13-13z" fill="#B64A3E"/><text x="1140" y="995" class="sans" font-size="24" font-weight="700" fill="#B64A3E">16 / 34 · 47.1%</text>
+
+  <!-- footer -->
+  <line x1="56" y1="1058" x2="1626" y2="1058" stroke="#172234" stroke-width="3"/>
+  <text x="56" y="1090" class="sans" font-size="13" font-weight="700" letter-spacing="2" fill="#B58A3A">DECISION</text>
+  <text x="56" y="1123" class="serif" font-size="30">Preserve evidence when support is spread.</text>
+  <text x="56" y="1152" class="body">Route on observable evidence spread or claim-level checks: narrow localized support;</text>
+  <text x="56" y="1175" class="body">aggregate distributed support conservatively. Association consistent with H1; not causal.</text>
+
+  <line x1="783" y1="1075" x2="783" y2="1176" stroke="#C8C3B9" stroke-width="3"/>
+  <text x="810" y="1090" class="sans" font-size="13" font-weight="700" letter-spacing="2" fill="#B58A3A">LIMITATIONS</text>
+  <text x="810" y="1120" class="small">• Single run; retrospective hypothesis; observational association.</text>
+  <text x="810" y="1144" class="small">• Page/document confounding: 35/36 multi-page are multi-document.</text>
+  <text x="810" y="1168" class="small">• Heterogeneous scoring; uneven answer types; limited external validity.</text>
+
+  <line x1="1300" y1="1075" x2="1300" y2="1176" stroke="#C8C3B9" stroke-width="3"/>
+  <text x="1327" y="1090" class="sans" font-size="13" font-weight="700" letter-spacing="2" fill="#B58A3A">REPRODUCIBILITY</text>
+  <text x="1327" y="1120" class="label">github.com/SteinVR/Agentic-RAG-Challenge</text>
+  <text x="1327" y="1144" class="tiny">Run: submission_e2e_20260424_solver_narrowing_no_guard</text>
+  <text x="1327" y="1165" class="tiny">Lewis 2020 · Cormack 2009 · Gao 2023 · Zhang 2025</text>
+  <text x="1327" y="1178" class="tiny">Complete references + integrity declaration: appendix</text>
+</svg>
