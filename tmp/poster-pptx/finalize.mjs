@@ -1,0 +1,10 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {createHash} from 'node:crypto';
+import {pathToFileURL} from 'node:url';
+const root='/home/xeliaray/Projects/Trends-In-ML-2';
+const SKILL_DIR='/home/xeliaray/.codex/plugins/cache/openai-primary-runtime/presentations/26.915.20218/skills/presentations';
+const {finalizePresentation}=await import(pathToFileURL(path.join(SKILL_DIR,'container_tools/artifact_tool_utils.mjs')).href);
+const ref=path.join(root,'output/poster-narrative-3/poster/poster.pdf');
+const result=await finalizePresentation({workspaceDir:root,candidatePath:path.join(root,'tmp/poster-pptx/refined.pptx'),finalPath:path.join(root,'output/poster-narrative-3/powerpoint/legal-rag-poster.pptx'),pythonExecutable:'/home/xeliaray/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3',integrityValidatorPath:path.join(SKILL_DIR,'container_tools/inspect_presentation_package_integrity.py'),layoutValidatorPath:path.join(SKILL_DIR,'container_tools/inspect_presentation_layout_geometry.py'),layoutArgs:['--expected-slide-size-emu','21384000,30276000','--validate-bullet-geometry','--validate-heading-fit'],explicitTotalSlideCount:1,requiredNativeTableOwnerSlides:[],requiredNativeChartOwnerSlides:[],fontPolicy:{basis:'design',families:['Noto Sans']},verifyArtifactToolImport:true,receiptPath:path.join(root,'tmp/poster-pptx/final-validation-3.json')});
+console.log(JSON.stringify(result,null,2));

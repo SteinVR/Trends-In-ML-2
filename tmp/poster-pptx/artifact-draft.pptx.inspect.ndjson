@@ -1,0 +1,130 @@
+{"kind":"deck","id":"pr/27983s","name":"Deck"}
+{"kind":"layout","layoutId":"60399ed6-aa33-4c9e-9df7-81aa2a5dbe18","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"ded327ce-44f4-49ab-b5a2-c7806d324106","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/eyimv9","slide":1,"title":"TRENDS IN MACHINE LEARNING II","textShapes":81}
+{"kind":"shape","id":"sh/hoj6d8vu","slide":1,"name":"s0","bbox":[68.03,324.28,2108.97,3]}
+{"kind":"shape","id":"sh/uls72tw3","slide":1,"name":"s1","bbox":[1154.84,399.53,1022.16,181.67]}
+{"kind":"shape","id":"sh/vm1obydo","slide":1,"name":"s2","bbox":[1154.84,399.53,5,181.67]}
+{"kind":"shape","id":"sh/4rup83e5","slide":1,"name":"s3","bbox":[68.03,646.03,2108.97,3]}
+{"kind":"shape","id":"sh/5s36h8vq","slide":1,"name":"s4","bbox":[68.03,721.28,2108.97,64.83]}
+{"kind":"shape","id":"sh/ipc76dwz","slide":1,"name":"s5","bbox":[68.03,1344.31,2108.97,1]}
+{"kind":"shape","id":"sh/jqlofydk","slide":1,"name":"s6","bbox":[68.03,1410.14,2108.97,3]}
+{"kind":"shape","id":"sh/sfupcneh","slide":1,"name":"s7","bbox":[68.03,1485.39,4,94.59]}
+{"kind":"shape","id":"sh/tgnqlsvm","slide":1,"name":"s8","bbox":[781.09,1485.39,4,94.59]}
+{"kind":"shape","id":"sh/pwnexwb6","slide":1,"name":"s9","bbox":[1494.17,1485.39,4,94.59]}
+{"kind":"shape","id":"sh/4vex4rul","slide":1,"name":"s10","bbox":[1141.41,2331.56,1,367.86]}
+{"kind":"shape","id":"sh/3u5wvmt0","slide":1,"name":"s11","bbox":[68.03,2722.09,2108.97,165.3]}
+{"kind":"shape","id":"sh/2twv2hcf","slide":1,"name":"s12","bbox":[68.03,2948.44,2108.97,1]}
+{"kind":"textbox","id":"sh/dk7e1wb2","slide":1,"name":"s13","text":"TRENDS IN MACHINE LEARNING II\n[AUTHOR NAME]","textPreview":"TRENDS IN MACHINE LEARNING II | [AUTHOR NAME]","textChars":43,"textLines":2,"bbox":[68.03,68.03,545.16,89.59]}
+{"kind":"textbox","id":"sh/cjyx8ruh","slide":1,"name":"s14","text":"Building Legal RAG:\nwhat each component contributes","textPreview":"Building Legal RAG: | what each component contributes","textChars":51,"textLines":2,"bbox":[68.03,155.17,2062.83,163]}
+{"kind":"textbox","id":"sh/ripwzmtc","slide":1,"name":"s15","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[68.03,339.61,42.66,47]}
+{"kind":"textbox","id":"sh/qxwf61cr","slide":1,"name":"s16","text":"HYPOTHESIS","textPreview":"HYPOTHESIS","textChars":10,"textLines":1,"bbox":[122.8,334.61,274.38,56]}
+{"kind":"textbox","id":"sh/to3epcby","slide":1,"name":"s17","text":"Research question & rationale","textPreview":"Research question & rationale","textChars":29,"textLines":1,"bbox":[1726.11,341.2,453.89,43]}
+{"kind":"textbox","id":"sh/snudw7ud","slide":1,"name":"s18","text":"How can we build Legal RAG with better answers and\nprecise, complete citations?","textPreview":"How can we build Legal RAG with better answers and | precise, complete citations?","textChars":79,"textLines":2,"bbox":[68.03,396.53,1055.8,98.78]}
+{"kind":"textbox","id":"sh/k7yxc729","slide":1,"name":"s19","text":"Legal answers need evidence: readable documents, relevant passages\nand verifiable page citations.","textPreview":"Legal answers need evidence: readable documents, relevant passages | and verifiable page citations.","textChars":97,"textLines":2,"bbox":[68.03,501.42,1055.8,81.39]}
+{"kind":"textbox","id":"sh/l87e5cju","slide":1,"name":"s20","text":"Testing the complete pipeline","textPreview":"Testing the complete pipeline","textChars":29,"textLines":1,"bbox":[1182.52,415.42,974.81,49]}
+{"kind":"textbox","id":"sh/y5gfaxk3","slide":1,"name":"s21","text":"We expect the full pipeline to outperform baseline. H1–H6 test\nwhether each addition improves answer quality or citations.","textPreview":"We expect the full pipeline to outperform baseline. H1–H6 test | whether each addition improves answer quality or citations.","textChars":122,"textLines":2,"bbox":[1182.52,469.94,974.81,81.39]}
+{"kind":"textbox","id":"sh/j6pw321o","slide":1,"name":"s22","text":"Prior work: RAG [1], legal retrieval [2], citation evaluation [3]. We test one pipeline, component by component.","textPreview":"Prior work: RAG [1], legal retrieval [2], citation evaluation [3]. We test one pipeline, component by component.","textChars":112,"textLines":1,"bbox":[68.03,589.53,2111.97,43]}
+{"kind":"textbox","id":"sh/8byxgr25","slide":1,"name":"s23","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[68.03,661.36,42.66,47]}
+{"kind":"textbox","id":"sh/tcre9cjq","slide":1,"name":"s24","text":"METHODOLOGY","textPreview":"METHODOLOGY","textChars":11,"textLines":1,"bbox":[122.8,656.36,345.17,56]}
+{"kind":"textbox","id":"sh/69gfehkf","slide":1,"name":"s25","text":"Sequential component additions","textPreview":"Sequential component additions","textChars":30,"textLines":1,"bbox":[1688.77,662.95,491.23,43]}
+{"kind":"textbox","id":"sh/7apw7m10","slide":1,"name":"s26","text":"R0 · Baseline. PDF text → 300-token chunks → dense retrieval → answer. Citations include all pages in the supplied context.","textPreview":"R0 · Baseline. PDF text → 300-token chunks → dense retrieval → answer. Citations include all pages in the supplied context.","textChars":123,"textLines":1,"bbox":[86.92,731.5,2074.17,64.83]}
+{"kind":"textbox","id":"sh/gzixkr2h","slide":1,"name":"s27","text":"Dataset & comparisons","textPreview":"Dataset & comparisons","textChars":21,"textLines":1,"bbox":[68.03,1068.41,1040.47,49]}
+{"kind":"textbox","id":"sh/h0redwj2","slide":1,"name":"s28","text":"30 DIFC PDFs · 590 pages · 100 questions.\n70 structured / 30 free-text answers;\n95 questions with gold source pages.","textPreview":"30 DIFC PDFs · 590 pages · 100 questions. | 70 structured / 30 free-text answers; | 95 questions with gold source pages.","textChars":116,"textLines":3,"bbox":[68.03,1122.92,1040.47,119.78]}
+{"kind":"textbox","id":"sh/b6d8zupg","slide":1,"name":"s29","text":"Mixed corpus: 10 PDFs / 107 pages rasterised at 300 DPI. R0–R6 on\nmixed; R0/R1 also on originals.","textPreview":"Mixed corpus: 10 PDFs / 107 pages rasterised at 300 DPI. R0–R6 on | mixed; R0/R1 also on originals.","textChars":97,"textLines":2,"bbox":[68.03,1249.42,1040.47,81.39]}
+{"kind":"textbox","id":"sh/q54rqp8v","slide":1,"name":"s30","text":"Evaluation","textPreview":"Evaluation","textChars":10,"textLines":1,"bbox":[1139.52,1068.41,1040.48,49]}
+{"kind":"textbox","id":"sh/d8fq1k7m","slide":1,"name":"s31","text":"Q = 0.7 × S + 0.3 × F. S / F: mean structured / free-text scores; free\ntext is evaluated by an LLM.","textPreview":"Q = 0.7 × S + 0.3 × F. S / F: mean structured / free-text scores; free | text is evaluated by an LLM.","textChars":99,"textLines":2,"bbox":[1139.52,1122.92,1040.48,81.39]}
+{"kind":"textbox","id":"sh/c7m9sfq1","slide":1,"name":"s32","text":"Precision: share of cited pages that are gold pages. Recall: share of\ngold pages that are cited. Both metrics are averaged across\nquestions.","textPreview":"Precision: share of cited pages that are gold pages. Recall: share of | gold pages that are cited. Both metrics are averaged across | que...","textChars":140,"textLines":3,"bbox":[1139.52,1211.03,1040.48,119.78]}
+{"kind":"textbox","id":"sh/3id8vap4","slide":1,"name":"s33","text":"Fixed: GPT-5.4-mini / high; 24 candidates; ≤ 2,400 context tokens. OCR: PP-OCRv5. Embedding / reranker: Qwen3-0.6B.","textPreview":"Fixed: GPT-5.4-mini / high; 24 candidates; ≤ 2,400 context tokens. OCR: PP-OCRv5. Embedding / reranker: Qwen3-0.6B.","textChars":115,"textLines":1,"bbox":[68.03,1353.64,2111.97,50.72]}
+{"kind":"textbox","id":"sh/2h47m58z","slide":1,"name":"s34","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[68.03,1425.47,42.66,47]}
+{"kind":"textbox","id":"sh/p4vqxk7a","slide":1,"name":"s35","text":"RESULTS","textPreview":"RESULTS","textChars":7,"textLines":1,"bbox":[122.8,1420.47,187.75,56]}
+{"kind":"textbox","id":"sh/o3mpofqp","slide":1,"name":"s36","text":"Baseline R0 → complete pipeline R6","textPreview":"Baseline R0 → complete pipeline R6","textChars":34,"textLines":1,"bbox":[1640.28,1427.06,539.72,43]}
+{"kind":"textbox","id":"sh/nex87epo","slide":1,"name":"s37","text":"46.2 → 84.4","textPreview":"46.2 → 84.4","textChars":11,"textLines":1,"bbox":[87.14,1480.39,666.72,61]}
+{"kind":"textbox","id":"sh/mdory983","slide":1,"name":"s38","text":"Answer quality Q, %","textPreview":"Answer quality Q, %","textChars":19,"textLines":1,"bbox":[87.14,1538.59,666.72,43]}
+{"kind":"textbox","id":"sh/ul4bmt47","slide":1,"name":"s39","text":"7.6 → 61.8","textPreview":"7.6 → 61.8","textChars":10,"textLines":1,"bbox":[800.2,1480.39,666.73,61]}
+{"kind":"textbox","id":"sh/vmdcvyls","slide":1,"name":"s40","text":"Citation precision, %","textPreview":"Citation precision, %","textChars":21,"textLines":1,"bbox":[800.2,1538.59,666.73,43]}
+{"kind":"textbox","id":"sh/wn6to3md","slide":1,"name":"s41","text":"38.5 → 74.7","textPreview":"38.5 → 74.7","textChars":11,"textLines":1,"bbox":[1513.28,1480.39,666.72,61]}
+{"kind":"textbox","id":"sh/hofux83y","slide":1,"name":"s42","text":"Citation recall, %","textPreview":"Citation recall, %","textChars":18,"textLines":1,"bbox":[1513.28,1538.59,666.72,43]}
+{"kind":"textbox","id":"sh/mh4bit4b","slide":1,"name":"s43","text":"Gains are not monotonic. Sequential additions on the mixed corpus:","textPreview":"Gains are not monotonic. Sequential additions on the mixed corpus:","textChars":66,"textLines":1,"bbox":[68.03,1595.87,2111.97,43]}
+{"kind":"textbox","id":"sh/7idcrylw","slide":1,"name":"s44","text":"R0 → R6: Q +38.2 percentage points; precision +54.2; recall +36.2.","textPreview":"R0 → R6: Q +38.2 percentage points; precision +54.2; recall +36.2.","textChars":66,"textLines":1,"bbox":[68.03,2267.5,2111.97,43]}
+{"kind":"textbox","id":"sh/8jmtk3m1","slide":1,"name":"s45","text":"OCR recovers answer quality","textPreview":"OCR recovers answer quality","textChars":27,"textLines":1,"bbox":[68.03,2328.56,1038.59,49]}
+{"kind":"textbox","id":"sh/9kvuto3m","slide":1,"name":"s46","text":"Replacing text PDFs with scans reduces Q from 65.4% to 46.2%. OCR\nrestores it to 63.2%, with no change on the original PDFs.","textPreview":"Replacing text PDFs with scans reduces Q from 65.4% to 46.2%. OCR | restores it to 63.2%, with no change on the original PDFs.","textChars":124,"textLines":2,"bbox":[68.03,2619.64,1038.59,81.39]}
+{"kind":"textbox","id":"sh/6dovud4f","slide":1,"name":"s47","text":"Hypothesis checks","textPreview":"Hypothesis checks","textChars":17,"textLines":1,"bbox":[1168.86,2328.56,1011.14,49]}
+{"kind":"textbox","id":"sh/rehc3il0","slide":1,"name":"s48","text":"H1","textPreview":"H1","textChars":2,"textLines":1,"bbox":[1168.86,2383.08,59.69,43]}
+{"kind":"textbox","id":"sh/18jetcn2","slide":1,"name":"s49","text":"OCR: Q and recall increase.","textPreview":"OCR: Q and recall increase.","textChars":27,"textLines":1,"bbox":[1233.09,2383.08,946.91,43]}
+{"kind":"textbox","id":"sh/g7ax076h","slide":1,"name":"s50","text":"H2","textPreview":"H2","textChars":2,"textLines":1,"bbox":[1168.86,2426,59.69,43]}
+{"kind":"textbox","id":"sh/f61wrm5w","slide":1,"name":"s51","text":"Multiscale: Q and recall decrease.","textPreview":"Multiscale: Q and recall decrease.","textChars":34,"textLines":1,"bbox":[1233.09,2426,946.91,43]}
+{"kind":"textbox","id":"sh/el8fyhor","slide":1,"name":"s52","text":"H3","textPreview":"H3","textChars":2,"textLines":1,"bbox":[1168.86,2468.92,59.69,43]}
+{"kind":"textbox","id":"sh/tkzepcn6","slide":1,"name":"s53","text":"Lexical search: Q and recall increase.","textPreview":"Lexical search: Q and recall increase.","textChars":38,"textLines":1,"bbox":[1233.09,2468.92,946.91,43]}
+{"kind":"textbox","id":"sh/sjqxw76l","slide":1,"name":"s54","text":"H4","textPreview":"H4","textChars":2,"textLines":1,"bbox":[1168.86,2511.84,59.69,43]}
+{"kind":"textbox","id":"sh/rihwn250","slide":1,"name":"s55","text":"Reranker: Q increases by 9.8 pp.","textPreview":"Reranker: Q increases by 9.8 pp.","textChars":32,"textLines":1,"bbox":[1233.09,2511.84,946.91,43]}
+{"kind":"textbox","id":"sh/6h8fuxof","slide":1,"name":"s56","text":"H5","textPreview":"H5","textChars":2,"textLines":1,"bbox":[1168.86,2554.77,59.69,43]}
+{"kind":"textbox","id":"sh/xg3y1wna","slide":1,"name":"s57","text":"Typed processing: no score gain.","textPreview":"Typed processing: no score gain.","textChars":32,"textLines":1,"bbox":[1233.09,2554.77,946.91,43]}
+{"kind":"textbox","id":"sh/cfux8b6p","slide":1,"name":"s58","text":"H6","textPreview":"H6","textChars":2,"textLines":1,"bbox":[1168.86,2597.69,59.69,43]}
+{"kind":"textbox","id":"sh/wj2h4fe1","slide":1,"name":"s59","text":"Citation selection: precision ↑, recall ↓.","textPreview":"Citation selection: precision ↑, recall ↓.","textChars":42,"textLines":1,"bbox":[1233.09,2597.69,946.91,43]}
+{"kind":"textbox","id":"sh/xkbixkvm","slide":1,"name":"s60","text":"Supported: H1, H3, H4, H6; not H2 or H5.","textPreview":"Supported: H1, H3, H4, H6; not H2 or H5.","textChars":40,"textLines":1,"bbox":[1168.86,2647.41,1011.14,43]}
+{"kind":"textbox","id":"sh/ah0z25wv","slide":1,"name":"s61","text":"Conclusion","textPreview":"Conclusion","textChars":10,"textLines":1,"bbox":[90.7,2737.98,2066.62,49]}
+{"kind":"textbox","id":"sh/vit0vadg","slide":1,"name":"s62","text":"Components address different failures: OCR recovers scans; hybrid retrieval and reranking improve answers; citation selection trades\nsome recall for higher precision. Evaluate answers and citations separately.","textPreview":"Components address different failures: OCR recovers scans; hybrid retrieval and reranking improve answers; citation selection trades | so...","textChars":209,"textLines":2,"bbox":[90.7,2788.72,2066.62,81.39]}
+{"kind":"textbox","id":"sh/8fih0vep","slide":1,"name":"s63","text":"Scope: development dataset; synthetic scans; LLM-scored free text. One run per condition; statistical significance was not assessed.","textPreview":"Scope: development dataset; synthetic scans; LLM-scored free text. One run per condition; statistical significance was not assessed.","textChars":132,"textLines":1,"bbox":[68.03,2899.5,2111.97,43]}
+{"kind":"textbox","id":"sh/9gryt0va","slide":1,"name":"s64","text":"References","textPreview":"References","textChars":10,"textLines":1,"bbox":[68.03,2953.98,1177.92,43]}
+{"kind":"textbox","id":"sh/md0zy5wz","slide":1,"name":"s65","text":"[1] Lewis et al. RAG. NeurIPS, 2020.","textPreview":"[1] Lewis et al. RAG. NeurIPS, 2020.","textChars":36,"textLines":1,"bbox":[68.03,2999.92,1177.92,43]}
+{"kind":"textbox","id":"sh/ne9grqdk","slide":1,"name":"s66","text":"[2] Pipitone & Alami. LegalBench-RAG, 2024.","textPreview":"[2] Pipitone & Alami. LegalBench-RAG, 2024.","textChars":43,"textLines":1,"bbox":[68.03,3042.08,1177.92,43]}
+{"kind":"textbox","id":"sh/0rihwvet","slide":1,"name":"s67","text":"[3] Gao et al. ALCE. EMNLP, 2023.","textPreview":"[3] Gao et al. ALCE. EMNLP, 2023.","textChars":33,"textLines":1,"bbox":[68.03,3084.23,1177.92,43]}
+{"kind":"textbox","id":"sh/lcryp0ve","slide":1,"name":"s68","text":"Code & materials","textPreview":"Code & materials","textChars":16,"textLines":1,"bbox":[1273.19,2953.98,906.8,43]}
+{"kind":"textbox","id":"sh/3mp0zqx0","slide":1,"name":"s69","text":"github.com/SteinVR/Legal-RAG-Challenge","textPreview":"github.com/SteinVR/Legal-RAG-Challenge","textChars":38,"textLines":1,"bbox":[1273.19,2999.92,906.8,43]}
+{"kind":"textbox","id":"sh/2lgz6lgv","slide":1,"name":"s70","text":"Original RAG implementation","textPreview":"Original RAG implementation","textChars":27,"textLines":1,"bbox":[1273.19,3042.08,906.8,43]}
+{"kind":"textbox","id":"sh/po7i1gf6","slide":1,"name":"s71","text":"Research paper · Metrics · Protocol","textPreview":"Research paper · Metrics · Protocol","textChars":35,"textLines":1,"bbox":[1273.19,3084.23,906.8,43]}
+{"kind":"shape","id":"sh/4nyh8vyl","slide":1,"name":"s72","bbox":[68.06,808.25,311.32,108.46]}
+{"kind":"shape","id":"sh/bq903qxc","slide":1,"name":"s73","bbox":[427.58,808.25,311.32,108.46]}
+{"kind":"shape","id":"sh/qpgjalgr","slide":1,"name":"s74","bbox":[787.1,808.25,311.32,108.46]}
+{"kind":"shape","id":"sh/dcri50fi","slide":1,"name":"s75","bbox":[1146.62,808.25,311.32,108.46]}
+{"kind":"shape","id":"sh/cbi1cvyx","slide":1,"name":"s76","bbox":[68.06,946.83,311.32,108.46]}
+{"kind":"shape","id":"sh/ze907ax8","slide":1,"name":"s77","bbox":[427.58,946.83,311.32,108.46]}
+{"kind":"shape","id":"sh/yd0je5gn","slide":1,"name":"s78","bbox":[787.1,946.83,311.32,108.46]}
+{"kind":"shape","id":"sh/m1g32pc7","slide":1,"name":"s79","bbox":[1146.62,946.83,311.32,108.46]}
+{"kind":"shape","id":"sh/72p4buds","slide":1,"name":"s80","bbox":[1506.14,946.83,311.32,108.46]}
+{"kind":"shape","id":"sh/8nyl4zux","slide":1,"name":"s81","bbox":[1865.66,946.83,311.32,108.46]}
+{"kind":"shape","id":"sh/9o7md4vi","slide":1,"name":"s82","bbox":[384.38,866.5,35.15,1]}
+{"kind":"shape","id":"sh/up0369c3","slide":1,"name":"s83","bbox":[405.47,860.47,14.06,12.05]}
+{"kind":"shape","id":"sh/vq94fedo","slide":1,"name":"s84","bbox":[743.91,866.5,35.15,1]}
+{"kind":"shape","id":"sh/wril8ju9","slide":1,"name":"s85","bbox":[765,860.47,14.06,12.05]}
+{"kind":"shape","id":"sh/hsrmhovu","slide":1,"name":"s86","bbox":[1103.43,866.5,35.15,1]}
+{"kind":"shape","id":"sh/it0na9cf","slide":1,"name":"s87","bbox":[1124.52,860.47,14.06,12.05]}
+{"kind":"shape","id":"sh/ju94jet0","slide":1,"name":"s88","bbox":[583.22,917.71,719.06,26.11]}
+{"kind":"shape","id":"sh/d0vypcje","slide":1,"name":"s89","bbox":[577.2,929.77,12.05,14.06]}
+{"kind":"shape","id":"sh/szmxw7it","slide":1,"name":"s90","bbox":[384.38,1006.09,35.15,1]}
+{"kind":"shape","id":"sh/rydgn218","slide":1,"name":"s91","bbox":[405.47,1000.06,14.06,12.05]}
+{"kind":"shape","id":"sh/qx4fux0n","slide":1,"name":"s92","bbox":[743.91,1006.09,35.15,1]}
+{"kind":"shape","id":"sh/1ofytwja","slide":1,"name":"s93","bbox":[765,1000.06,14.06,12.05]}
+{"kind":"shape","id":"sh/036x0rip","slide":1,"name":"s94","bbox":[1103.43,1006.09,35.15,1]}
+{"kind":"shape","id":"sh/f2xgrm14","slide":1,"name":"s95","bbox":[1124.52,1000.06,14.06,12.05]}
+{"kind":"shape","id":"sh/e1ofyh0j","slide":1,"name":"s96","bbox":[1462.96,1006.09,35.15,1]}
+{"kind":"shape","id":"sh/psfyxwz6","slide":1,"name":"s97","bbox":[1484.05,1000.06,14.06,12.05]}
+{"kind":"shape","id":"sh/or6x4ri1","slide":1,"name":"s98","bbox":[1822.49,1006.09,35.15,1]}
+{"kind":"shape","id":"sh/hk3et8rq","slide":1,"name":"s99","bbox":[1843.58,1000.06,14.06,12.05]}
+{"kind":"textbox","id":"sh/wjux03q5","slide":1,"name":"s100","text":"Legal PDFs","textPreview":"Legal PDFs","textChars":10,"textLines":1,"bbox":[88.14,816.87,192.89,49.21]}
+{"kind":"textbox","id":"sh/vi1wry9k","slide":1,"name":"s101","text":"Text and scans","textPreview":"Text and scans","textChars":14,"textLines":1,"bbox":[88.14,866.29,225.09,44.99]}
+{"kind":"textbox","id":"sh/uhsfyt8z","slide":1,"name":"s102","text":"Text extraction","textPreview":"Text extraction","textChars":15,"textLines":1,"bbox":[447.66,812.85,268.27,49.21]}
+{"kind":"textbox","id":"sh/583ex8rm","slide":1,"name":"s103","text":"R1 + OCR","textPreview":"R1 + OCR","textChars":8,"textLines":1,"bbox":[447.66,864.28,144.93,44.99]}
+{"kind":"textbox","id":"sh/47ux43q1","slide":1,"name":"s104","text":"Chunks","textPreview":"Chunks","textChars":6,"textLines":1,"bbox":[807.18,812.85,135.47,49.21]}
+{"kind":"textbox","id":"sh/jmlwvy9g","slide":1,"name":"s105","text":"R2  + Multiscale","textPreview":"R2  + Multiscale","textChars":16,"textLines":1,"bbox":[807.18,864.28,231.94,44.99]}
+{"kind":"textbox","id":"sh/ilcf2t8b","slide":1,"name":"s106","text":"Index","textPreview":"Index","textChars":5,"textLines":1,"bbox":[1166.7,812.85,104.96,49.21]}
+{"kind":"textbox","id":"sh/dcny1sry","slide":1,"name":"s107","text":"Chunk + page ID","textPreview":"Chunk + page ID","textChars":15,"textLines":1,"bbox":[1166.7,864.28,255.45,44.99]}
+{"kind":"textbox","id":"sh/sbex8nqd","slide":1,"name":"s108","text":"R1–R6: added components","textPreview":"R1–R6: added components","textChars":23,"textLines":1,"bbox":[1554.34,815.07,424.41,44.99]}
+{"kind":"textbox","id":"sh/axob25ov","slide":1,"name":"s109","text":"Each includes all earlier additions","textPreview":"Each includes all earlier additions","textChars":35,"textLines":1,"bbox":[1554.34,861.27,506.89,44.99]}
+{"kind":"textbox","id":"sh/bixcvapg","slide":1,"name":"s110","text":"Question","textPreview":"Question","textChars":8,"textLines":1,"bbox":[88.14,956.46,164.75,49.21]}
+{"kind":"textbox","id":"sh/cj6t4f6l","slide":1,"name":"s111","text":"User query","textPreview":"User query","textChars":10,"textLines":1,"bbox":[88.14,1005.88,171.61,44.99]}
+{"kind":"textbox","id":"sh/xkzuxk76","slide":1,"name":"s112","text":"Retrieval","textPreview":"Retrieval","textChars":9,"textLines":1,"bbox":[447.66,951.44,162.3,49.21]}
+{"kind":"textbox","id":"sh/yl8b6por","slide":1,"name":"s113","text":"R3 + Lexical","textPreview":"R3 + Lexical","textChars":12,"textLines":1,"bbox":[447.66,1002.87,180.86,44.99]}
+{"kind":"textbox","id":"sh/zmhczupc","slide":1,"name":"s114","text":"Reranking","textPreview":"Reranking","textChars":9,"textLines":1,"bbox":[807.18,951.44,185.2,49.21]}
+{"kind":"textbox","id":"sh/knqd8z6x","slide":1,"name":"s115","text":"R4 + Reranker","textPreview":"R4 + Reranker","textChars":13,"textLines":1,"bbox":[807.18,1002.87,216.69,44.99]}
+{"kind":"textbox","id":"sh/lozu147i","slide":1,"name":"s116","text":"Generation","textPreview":"Generation","textChars":10,"textLines":1,"bbox":[1166.7,951.44,201.78,49.21]}
+{"kind":"textbox","id":"sh/mp8vapo3","slide":1,"name":"s117","text":"GPT-5.4-mini","textPreview":"GPT-5.4-mini","textChars":12,"textLines":1,"bbox":[1166.7,1002.87,196.92,44.99]}
+{"kind":"textbox","id":"sh/7qhc3up8","slide":1,"name":"s118","text":"Post-processing","textPreview":"Post-processing","textChars":15,"textLines":1,"bbox":[1526.22,951.44,281.94,49.21]}
+{"kind":"textbox","id":"sh/ju1srelg","slide":1,"name":"s119","text":"R5 + Typed checks","textPreview":"R5 + Typed checks","textChars":17,"textLines":1,"bbox":[1526.22,1002.87,280.48,44.99]}
+{"kind":"textbox","id":"sh/itsbi94v","slide":1,"name":"s120","text":"Final answer","textPreview":"Final answer","textChars":12,"textLines":1,"bbox":[1885.74,951.44,226.8,49.21]}
+{"kind":"textbox","id":"sh/5gjut43m","slide":1,"name":"s121","text":"R6 + Select pages","textPreview":"R6 + Select pages","textChars":17,"textLines":1,"bbox":[1885.74,1002.87,268.11,44.99]}
+{"kind":"image","id":"im/1wjmhcr2","slide":1,"name":"","alt":"Universität Trier","bbox":[1855.75,68.03,321.25,80.97]}
+{"kind":"image","id":"im/q5s32xsf","slide":1,"name":"","alt":"Q for R0 to R6: 46.2, 63.2, 49.8, 74.6, 84.4, 84.4, 84.4%. Precision: 7.6, 11.2, 14.7, 22.2, 27.1, 27.1, 61.8%. Recall: 38.5, 61.6, 52.9, 72.7, 78.9, 78.9, 74.7%.","bbox":[68.03,1656.16,2108.97,614.34]}
+{"kind":"image","id":"im/r614b2t0","slide":1,"name":"","alt":"Q: 65.4% on original PDFs without OCR; 46.2% on mixed PDFs without OCR; 63.2% on mixed PDFs with OCR.","bbox":[68.03,2389.84,1035.59,214.08]}
+{"kind":"notes","id":"nt/eyimv9","slide":1,"text":"Sources: local research paper and completed experiment metrics (output/poster-narrative-3). Logo: https://www.uni-trier.de/typo3conf/ext/zimktheme_unitrier/Resources/Public/Logos/Logo_Universitaet.svg . References: https://arxiv.org/abs/2005.11401 ; https://arxiv.org/abs/2408.10343 ; https://doi.org/10.18653/v1/2023.emnlp-main.398 ."}

@@ -1,2 +1,3 @@
 .DS_Store
 /tmp/pdfs/guidelines/
+.env

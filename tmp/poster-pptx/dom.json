@@ -1,0 +1,3599 @@
+{
+  "width": 2245.0393700787404,
+  "height": 3178.5826771653547,
+  "items": [
+    {
+      "id": "s0",
+      "kind": "rect",
+      "left": 68.03125,
+      "top": 324.28125,
+      "width": 2108.96875,
+      "height": 3,
+      "fill": "#0069aa",
+      "stroke": "none",
+      "name": "Rule section-title"
+    },
+    {
+      "id": "s1",
+      "kind": "rect",
+      "left": 1154.84375,
+      "top": 399.53125,
+      "width": 1022.15625,
+      "height": 181.671875,
+      "fill": "#eff6fa",
+      "stroke": "none",
+      "name": "Panel hypothesis"
+    },
+    {
+      "id": "s2",
+      "kind": "rect",
+      "left": 1154.84375,
+      "top": 399.53125,
+      "width": 5,
+      "height": 181.671875,
+      "fill": "#007ac3",
+      "stroke": "none",
+      "name": "Rule hypothesis"
+    },
+    {
+      "id": "s3",
+      "kind": "rect",
+      "left": 68.03125,
+      "top": 646.03125,
+      "width": 2108.96875,
+      "height": 3,
+      "fill": "#0069aa",
+      "stroke": "none",
+      "name": "Rule section-title"
+    },
+    {
+      "id": "s4",
+      "kind": "rect",
+      "left": 68.03125,
+      "top": 721.28125,
+      "width": 2108.96875,
+      "height": 64.828125,
+      "fill": "#eff6fa",
+      "stroke": "none",
+      "name": "Panel baseline"
+    },
+    {
+      "id": "s5",
+      "kind": "rect",
+      "left": 68.03125,
+      "top": 1344.3125,
+      "width": 2108.96875,
+      "height": 1,
+      "fill": "#cfdee8",
+      "stroke": "none",
+      "name": "Rule models"
+    },
+    {
+      "id": "s6",
+      "kind": "rect",
+      "left": 68.03125,
+      "top": 1410.140625,
+      "width": 2108.96875,
+      "height": 3,
+      "fill": "#0069aa",
+      "stroke": "none",
+      "name": "Rule section-title"
+    },
+    {
+      "id": "s7",
+      "kind": "rect",
+      "left": 68.03125,
+      "top": 1485.390625,
+      "width": 4,
+      "height": 94.59375,
+      "fill": "#007ac3",
+      "stroke": "none",
+      "name": "Rule metric"
+    },
+    {
+      "id": "s8",
+      "kind": "rect",
+      "left": 781.09375,
+      "top": 1485.390625,
+      "width": 4,
+      "height": 94.59375,
+      "fill": "#007ac3",
+      "stroke": "none",
+      "name": "Rule metric"
+    },
+    {
+      "id": "s9",
+      "kind": "rect",
+      "left": 1494.171875,
+      "top": 1485.390625,
+      "width": 4,
+      "height": 94.59375,
+      "fill": "#007ac3",
+      "stroke": "none",
+      "name": "Rule metric"
+    },
+    {
+      "id": "s10",
+      "kind": "rect",
+      "left": 1141.40625,
+      "top": 2331.5625,
+      "width": 1,
+      "height": 367.859375,
+      "fill": "#cfdee8",
+      "stroke": "none",
+      "name": "Rule "
+    },
+    {
+      "id": "s11",
+      "kind": "rect",
+      "left": 68.03125,
+      "top": 2722.09375,
+      "width": 2108.96875,
+      "height": 165.296875,
+      "fill": "#07568a",
+      "stroke": "none",
+      "name": "Panel conclusion"
+    },
+    {
+      "id": "s12",
+      "kind": "rect",
+      "left": 68.03125,
+      "top": 2948.4375,
+      "width": 2108.96875,
+      "height": 1,
+      "fill": "#cfdee8",
+      "stroke": "none",
+      "name": "Rule "
+    },
+    {
+      "id": "s13",
+      "kind": "text",
+      "left": 68.03125,
+      "top": 68.03125,
+      "width": 545.15625,
+      "height": 89.59375,
+      "lines": [
+        {
+          "y": 68.03125,
+          "height": 43,
+          "runs": [
+            {
+              "text": "TRENDS IN MACHINE LEARNING II",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#0069aa",
+                "tracking": 0.96,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 610.1875
+        },
+        {
+          "y": 112.828125,
+          "height": 43,
+          "runs": [
+            {
+              "text": "[AUTHOR NAME]",
+              "style": {
+                "fontSize": 32,
+                "bold": true,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 329.390625
+        }
+      ],
+      "lineHeight": 44.8,
+      "name": "TRENDS IN MACHINE LEARNING II\n[AUTHOR NAME]"
+    },
+    {
+      "id": "s14",
+      "kind": "text",
+      "left": 68.03125,
+      "top": 155.171875,
+      "width": 2062.828125,
+      "height": 163,
+      "lines": [
+        {
+          "y": 155.171875,
+          "height": 91,
+          "runs": [
+            {
+              "text": "Building Legal RAG:",
+              "style": {
+                "fontSize": 66.6667,
+                "bold": true,
+                "color": "#073d65",
+                "tracking": -2.33333,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 667.8125
+        },
+        {
+          "y": 227.171875,
+          "height": 91,
+          "runs": [
+            {
+              "text": "what each component contributes",
+              "style": {
+                "fontSize": 66.6667,
+                "bold": true,
+                "color": "#073d65",
+                "tracking": -2.33333,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 1140.265625
+        }
+      ],
+      "lineHeight": 72,
+      "name": "Building Legal RAG:\nwhat each component contributes"
+    },
+    {
+      "id": "s15",
+      "kind": "text",
+      "left": 68.03125,
+      "top": 339.609375,
+      "width": 42.65625,
+      "height": 47,
+      "lines": [
+        {
+          "y": 339.609375,
+          "height": 47,
+          "runs": [
+            {
+              "text": "01",
+              "style": {
+                "fontSize": 34.6667,
+                "bold": true,
+                "color": "#0069aa",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 107.6875
+        }
+      ],
+      "lineHeight": 41.6,
+      "name": "01"
+    },
+    {
+      "id": "s16",
+      "kind": "text",
+      "left": 122.796875,
+      "top": 334.609375,
+      "width": 274.375,
+      "height": 56,
+      "lines": [
+        {
+          "y": 334.609375,
+          "height": 56,
+          "runs": [
+            {
+              "text": "HYPOTHESIS",
+              "style": {
+                "fontSize": 41.3333,
+                "bold": true,
+                "color": "#173248",
+                "tracking": 1.65333,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 122.796875,
+          "right": 394.171875
+        }
+      ],
+      "lineHeight": 49.6,
+      "name": "HYPOTHESIS"
+    },
+    {
+      "id": "s17",
+      "kind": "text",
+      "left": 1726.109375,
+      "top": 341.203125,
+      "width": 453.890625,
+      "height": 43,
+      "lines": [
+        {
+          "y": 341.203125,
+          "height": 43,
+          "runs": [
+            {
+              "text": "Research question & rationale",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#516578",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1726.109375,
+          "right": 2177
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "Research question & rationale"
+    },
+    {
+      "id": "s18",
+      "kind": "text",
+      "left": 68.03125,
+      "top": 396.53125,
+      "width": 1055.796875,
+      "height": 98.78125,
+      "lines": [
+        {
+          "y": 396.53125,
+          "height": 52,
+          "runs": [
+            {
+              "text": "How can we build Legal RAG with better answers and",
+              "style": {
+                "fontSize": 38.6667,
+                "bold": true,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 1090.34375
+        },
+        {
+          "y": 443.3125,
+          "height": 52,
+          "runs": [
+            {
+              "text": "precise, complete citations?",
+              "style": {
+                "fontSize": 38.6667,
+                "bold": true,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 604.734375
+        }
+      ],
+      "lineHeight": 46.7867,
+      "name": "How can we build Legal RAG with better answers and precise, complete citations?"
+    },
+    {
+      "id": "s19",
+      "kind": "text",
+      "left": 68.03125,
+      "top": 501.421875,
+      "width": 1055.796875,
+      "height": 81.390625,
+      "lines": [
+        {
+          "y": 501.421875,
+          "height": 43,
+          "runs": [
+            {
+              "text": "Legal answers need evidence: readable documents, relevant passages",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 1119.4375
+        },
+        {
+          "y": 539.8125,
+          "height": 43,
+          "runs": [
+            {
+              "text": "and verifiable page citations.",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 500.71875
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "Legal answers need evidence: readable documents, relevant passages and verifiabl"
+    },
+    {
+      "id": "s20",
+      "kind": "text",
+      "left": 1182.515625,
+      "top": 415.421875,
+      "width": 974.8125,
+      "height": 49,
+      "lines": [
+        {
+          "y": 415.421875,
+          "height": 49,
+          "runs": [
+            {
+              "text": "Testing the complete pipeline",
+              "style": {
+                "fontSize": 36,
+                "bold": true,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1182.515625,
+          "right": 1713.890625
+        }
+      ],
+      "lineHeight": 43.2,
+      "name": "Testing the complete pipeline"
+    },
+    {
+      "id": "s21",
+      "kind": "text",
+      "left": 1182.515625,
+      "top": 469.9375,
+      "width": 974.8125,
+      "height": 81.390625,
+      "lines": [
+        {
+          "y": 469.9375,
+          "height": 43,
+          "runs": [
+            {
+              "text": "We expect the full pipeline to outperform baseline. H1–H6 test",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1182.515625,
+          "right": 2116.703125
+        },
+        {
+          "y": 508.328125,
+          "height": 43,
+          "runs": [
+            {
+              "text": "whether each addition improves answer quality or citations.",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1182.515625,
+          "right": 2080.578125
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "We expect the full pipeline to outperform baseline. H1–H6 test whether each addi"
+    },
+    {
+      "id": "s22",
+      "kind": "text",
+      "left": 68.03125,
+      "top": 589.53125,
+      "width": 2111.96875,
+      "height": 43,
+      "lines": [
+        {
+          "y": 589.53125,
+          "height": 43,
+          "runs": [
+            {
+              "text": "Prior work: RAG [1], legal retrieval [2], citation evaluation [3]. We test one pipeline, component by component.",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#516578",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 1708.109375
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "Prior work: RAG [1], legal retrieval [2], citation evaluation [3]. We test one p"
+    },
+    {
+      "id": "s23",
+      "kind": "text",
+      "left": 68.03125,
+      "top": 661.359375,
+      "width": 42.65625,
+      "height": 47,
+      "lines": [
+        {
+          "y": 661.359375,
+          "height": 47,
+          "runs": [
+            {
+              "text": "02",
+              "style": {
+                "fontSize": 34.6667,
+                "bold": true,
+                "color": "#0069aa",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 107.6875
+        }
+      ],
+      "lineHeight": 41.6,
+      "name": "02"
+    },
+    {
+      "id": "s24",
+      "kind": "text",
+      "left": 122.796875,
+      "top": 656.359375,
+      "width": 345.171875,
+      "height": 56,
+      "lines": [
+        {
+          "y": 656.359375,
+          "height": 56,
+          "runs": [
+            {
+              "text": "METHODOLOGY",
+              "style": {
+                "fontSize": 41.3333,
+                "bold": true,
+                "color": "#173248",
+                "tracking": 1.65333,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 122.796875,
+          "right": 464.96875
+        }
+      ],
+      "lineHeight": 49.6,
+      "name": "METHODOLOGY"
+    },
+    {
+      "id": "s25",
+      "kind": "text",
+      "left": 1688.765625,
+      "top": 662.953125,
+      "width": 491.234375,
+      "height": 43,
+      "lines": [
+        {
+          "y": 662.953125,
+          "height": 43,
+          "runs": [
+            {
+              "text": "Sequential component additions",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#516578",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1688.765625,
+          "right": 2177
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "Sequential component additions"
+    },
+    {
+      "id": "s26",
+      "kind": "text",
+      "left": 86.921875,
+      "top": 731.5,
+      "width": 2074.1735500000004,
+      "height": 64.828125,
+      "lines": [
+        {
+          "y": 731.5,
+          "height": 43,
+          "runs": [
+            {
+              "text": "R0 · Baseline.",
+              "style": {
+                "fontSize": 32,
+                "bold": true,
+                "color": "#0069aa",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            },
+            {
+              "text": " PDF text → 300-token chunks → dense retrieval → answer. Citations include all pages in the supplied context.",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 86.921875,
+          "right": 1936.65625
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "R0 · Baseline. PDF text → 300-token chunks → dense retrieval → answer. Citations"
+    },
+    {
+      "id": "s27",
+      "kind": "text",
+      "left": 68.03125,
+      "top": 1068.40625,
+      "width": 1040.46875,
+      "height": 49,
+      "lines": [
+        {
+          "y": 1068.40625,
+          "height": 49,
+          "runs": [
+            {
+              "text": "Dataset & comparisons",
+              "style": {
+                "fontSize": 36,
+                "bold": true,
+                "color": "#07568a",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 483.4375
+        }
+      ],
+      "lineHeight": 43.2,
+      "name": "Dataset & comparisons"
+    },
+    {
+      "id": "s28",
+      "kind": "text",
+      "left": 68.03125,
+      "top": 1122.921875,
+      "width": 1040.46875,
+      "height": 119.78125,
+      "lines": [
+        {
+          "y": 1122.921875,
+          "height": 43,
+          "runs": [
+            {
+              "text": "30 DIFC PDFs · 590 pages · 100 questions.",
+              "style": {
+                "fontSize": 32,
+                "bold": true,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 710.21875
+        },
+        {
+          "y": 1161.3125,
+          "height": 43,
+          "runs": [
+            {
+              "text": "70 structured / 30 free-text answers;",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 612.421875
+        },
+        {
+          "y": 1199.703125,
+          "height": 43,
+          "runs": [
+            {
+              "text": "95 questions with gold source pages.",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 624.78125
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "30 DIFC PDFs · 590 pages · 100 questions.\n70 structured / 30 free-text answers;\n"
+    },
+    {
+      "id": "s29",
+      "kind": "text",
+      "left": 68.03125,
+      "top": 1249.421875,
+      "width": 1040.46875,
+      "height": 81.390625,
+      "lines": [
+        {
+          "y": 1249.421875,
+          "height": 43,
+          "runs": [
+            {
+              "text": "Mixed corpus: 10 PDFs / 107 pages rasterised at 300 DPI. R0–R6 on",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 1067.34375
+        },
+        {
+          "y": 1287.8125,
+          "height": 43,
+          "runs": [
+            {
+              "text": "mixed; R0/R1 also on originals.",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 529.09375
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "Mixed corpus: 10 PDFs / 107 pages rasterised at 300 DPI. R0–R6 on mixed; R0/R1 a"
+    },
+    {
+      "id": "s30",
+      "kind": "text",
+      "left": 1139.515625,
+      "top": 1068.40625,
+      "width": 1040.484375,
+      "height": 49,
+      "lines": [
+        {
+          "y": 1068.40625,
+          "height": 49,
+          "runs": [
+            {
+              "text": "Evaluation",
+              "style": {
+                "fontSize": 36,
+                "bold": true,
+                "color": "#07568a",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1139.515625,
+          "right": 1329.78125
+        }
+      ],
+      "lineHeight": 43.2,
+      "name": "Evaluation"
+    },
+    {
+      "id": "s31",
+      "kind": "text",
+      "left": 1139.515625,
+      "top": 1122.921875,
+      "width": 1040.484375,
+      "height": 81.390625,
+      "lines": [
+        {
+          "y": 1122.921875,
+          "height": 43,
+          "runs": [
+            {
+              "text": "Q = 0.7 × S + 0.3 × F.",
+              "style": {
+                "fontSize": 32,
+                "bold": true,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            },
+            {
+              "text": " S / F: mean structured / free-text scores; free",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1139.515625,
+          "right": 2113.765625
+        },
+        {
+          "y": 1161.3125,
+          "height": 43,
+          "runs": [
+            {
+              "text": "text is evaluated by an LLM.",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1139.515625,
+          "right": 1553.25
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "Q = 0.7 × S + 0.3 × F. S / F: mean structured / free-text scores; free text is e"
+    },
+    {
+      "id": "s32",
+      "kind": "text",
+      "left": 1139.515625,
+      "top": 1211.03125,
+      "width": 1040.484375,
+      "height": 119.78125,
+      "lines": [
+        {
+          "y": 1211.03125,
+          "height": 43,
+          "runs": [
+            {
+              "text": "Precision:",
+              "style": {
+                "fontSize": 32,
+                "bold": true,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            },
+            {
+              "text": " share of cited pages that are gold pages. ",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            },
+            {
+              "text": "Recall:",
+              "style": {
+                "fontSize": 32,
+                "bold": true,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            },
+            {
+              "text": " share of",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1139.515625,
+          "right": 2156.390625
+        },
+        {
+          "y": 1249.421875,
+          "height": 43,
+          "runs": [
+            {
+              "text": "gold pages that are cited. Both metrics are averaged across",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1139.515625,
+          "right": 2030.796875
+        },
+        {
+          "y": 1287.8125,
+          "height": 43,
+          "runs": [
+            {
+              "text": "questions.",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1139.515625,
+          "right": 1295.203125
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "Precision: share of cited pages that are gold pages. Recall: share of gold pages"
+    },
+    {
+      "id": "s33",
+      "kind": "text",
+      "left": 68.03125,
+      "top": 1353.640625,
+      "width": 2111.96875,
+      "height": 50.71875,
+      "lines": [
+        {
+          "y": 1353.640625,
+          "height": 43,
+          "runs": [
+            {
+              "text": "Fixed:",
+              "style": {
+                "fontSize": 32,
+                "bold": true,
+                "color": "#516578",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            },
+            {
+              "text": " GPT-5.4-mini / high; 24 candidates; ≤ 2,400 context tokens. OCR: PP-OCRv5. Embedding / reranker: Qwen3-0.6B.",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#516578",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 1839.140625
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "Fixed: GPT-5.4-mini / high; 24 candidates; ≤ 2,400 context tokens. OCR: PP-OCRv5"
+    },
+    {
+      "id": "s34",
+      "kind": "text",
+      "left": 68.03125,
+      "top": 1425.46875,
+      "width": 42.65625,
+      "height": 47,
+      "lines": [
+        {
+          "y": 1425.46875,
+          "height": 47,
+          "runs": [
+            {
+              "text": "03",
+              "style": {
+                "fontSize": 34.6667,
+                "bold": true,
+                "color": "#0069aa",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 107.6875
+        }
+      ],
+      "lineHeight": 41.6,
+      "name": "03"
+    },
+    {
+      "id": "s35",
+      "kind": "text",
+      "left": 122.796875,
+      "top": 1420.46875,
+      "width": 187.75,
+      "height": 56,
+      "lines": [
+        {
+          "y": 1420.46875,
+          "height": 56,
+          "runs": [
+            {
+              "text": "RESULTS",
+              "style": {
+                "fontSize": 41.3333,
+                "bold": true,
+                "color": "#173248",
+                "tracking": 1.65333,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 122.796875,
+          "right": 307.546875
+        }
+      ],
+      "lineHeight": 49.6,
+      "name": "RESULTS"
+    },
+    {
+      "id": "s36",
+      "kind": "text",
+      "left": 1640.28125,
+      "top": 1427.0625,
+      "width": 539.71875,
+      "height": 43,
+      "lines": [
+        {
+          "y": 1427.0625,
+          "height": 43,
+          "runs": [
+            {
+              "text": "Baseline R0 → complete pipeline R6",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#516578",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1640.28125,
+          "right": 2177
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "Baseline R0 → complete pipeline R6"
+    },
+    {
+      "id": "s37",
+      "kind": "text",
+      "left": 87.140625,
+      "top": 1480.390625,
+      "width": 666.71875,
+      "height": 61,
+      "lines": [
+        {
+          "y": 1480.390625,
+          "height": 61,
+          "runs": [
+            {
+              "text": "46.2 → 84.4",
+              "style": {
+                "fontSize": 45.3333,
+                "bold": true,
+                "color": "#0069aa",
+                "tracking": -1.58667,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 87.140625,
+          "right": 319.640625
+        }
+      ],
+      "lineHeight": 51.68,
+      "name": "46.2 → 84.4"
+    },
+    {
+      "id": "s38",
+      "kind": "text",
+      "left": 87.140625,
+      "top": 1538.59375,
+      "width": 666.71875,
+      "height": 43,
+      "lines": [
+        {
+          "y": 1538.59375,
+          "height": 43,
+          "runs": [
+            {
+              "text": "Answer quality Q, %",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 87.140625,
+          "right": 384.75
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "Answer quality Q, %"
+    },
+    {
+      "id": "s39",
+      "kind": "text",
+      "left": 800.203125,
+      "top": 1480.390625,
+      "width": 666.734375,
+      "height": 61,
+      "lines": [
+        {
+          "y": 1480.390625,
+          "height": 61,
+          "runs": [
+            {
+              "text": "7.6 → 61.8",
+              "style": {
+                "fontSize": 45.3333,
+                "bold": true,
+                "color": "#0069aa",
+                "tracking": -1.58667,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 800.203125,
+          "right": 1008.359375
+        }
+      ],
+      "lineHeight": 51.68,
+      "name": "7.6 → 61.8"
+    },
+    {
+      "id": "s40",
+      "kind": "text",
+      "left": 800.203125,
+      "top": 1538.59375,
+      "width": 666.734375,
+      "height": 43,
+      "lines": [
+        {
+          "y": 1538.59375,
+          "height": 43,
+          "runs": [
+            {
+              "text": "Citation precision, %",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 800.203125,
+          "right": 1105.59375
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "Citation precision, %"
+    },
+    {
+      "id": "s41",
+      "kind": "text",
+      "left": 1513.28125,
+      "top": 1480.390625,
+      "width": 666.71875,
+      "height": 61,
+      "lines": [
+        {
+          "y": 1480.390625,
+          "height": 61,
+          "runs": [
+            {
+              "text": "38.5 → 74.7",
+              "style": {
+                "fontSize": 45.3333,
+                "bold": true,
+                "color": "#0069aa",
+                "tracking": -1.58667,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1513.28125,
+          "right": 1745.78125
+        }
+      ],
+      "lineHeight": 51.68,
+      "name": "38.5 → 74.7"
+    },
+    {
+      "id": "s42",
+      "kind": "text",
+      "left": 1513.28125,
+      "top": 1538.59375,
+      "width": 666.71875,
+      "height": 43,
+      "lines": [
+        {
+          "y": 1538.59375,
+          "height": 43,
+          "runs": [
+            {
+              "text": "Citation recall, %",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1513.28125,
+          "right": 1762.46875
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "Citation recall, %"
+    },
+    {
+      "id": "s43",
+      "kind": "text",
+      "left": 68.03125,
+      "top": 1595.875,
+      "width": 2111.96875,
+      "height": 43,
+      "lines": [
+        {
+          "y": 1595.875,
+          "height": 43,
+          "runs": [
+            {
+              "text": "Gains are not monotonic.",
+              "style": {
+                "fontSize": 32,
+                "bold": true,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            },
+            {
+              "text": " Sequential additions on the mixed corpus:",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 1110.84375
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "Gains are not monotonic. Sequential additions on the mixed corpus:"
+    },
+    {
+      "id": "s44",
+      "kind": "text",
+      "left": 68.03125,
+      "top": 2267.5,
+      "width": 2111.96875,
+      "height": 43,
+      "lines": [
+        {
+          "y": 2267.5,
+          "height": 43,
+          "runs": [
+            {
+              "text": "R0 → R6: Q +38.2 percentage points; precision +54.2; recall +36.2.",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#516578",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 1046.09375
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "R0 → R6: Q +38.2 percentage points; precision +54.2; recall +36.2."
+    },
+    {
+      "id": "s45",
+      "kind": "text",
+      "left": 68.03125,
+      "top": 2328.5625,
+      "width": 1038.59375,
+      "height": 49,
+      "lines": [
+        {
+          "y": 2328.5625,
+          "height": 49,
+          "runs": [
+            {
+              "text": "OCR recovers answer quality",
+              "style": {
+                "fontSize": 36,
+                "bold": true,
+                "color": "#07568a",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 581.578125
+        }
+      ],
+      "lineHeight": 43.2,
+      "name": "OCR recovers answer quality"
+    },
+    {
+      "id": "s46",
+      "kind": "text",
+      "left": 68.03125,
+      "top": 2619.640625,
+      "width": 1038.59375,
+      "height": 81.390625,
+      "lines": [
+        {
+          "y": 2619.640625,
+          "height": 43,
+          "runs": [
+            {
+              "text": "Replacing text PDFs with scans reduces Q from 65.4% to 46.2%. OCR",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 1088.484375
+        },
+        {
+          "y": 2658.03125,
+          "height": 43,
+          "runs": [
+            {
+              "text": "restores it to 63.2%, with no change on the original PDFs.",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 924.390625
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "Replacing text PDFs with scans reduces Q from 65.4% to 46.2%. OCR restores it to"
+    },
+    {
+      "id": "s47",
+      "kind": "text",
+      "left": 1168.859375,
+      "top": 2328.5625,
+      "width": 1011.140625,
+      "height": 49,
+      "lines": [
+        {
+          "y": 2328.5625,
+          "height": 49,
+          "runs": [
+            {
+              "text": "Hypothesis checks",
+              "style": {
+                "fontSize": 36,
+                "bold": true,
+                "color": "#07568a",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1168.859375,
+          "right": 1501.4375
+        }
+      ],
+      "lineHeight": 43.2,
+      "name": "Hypothesis checks"
+    },
+    {
+      "id": "s48",
+      "kind": "text",
+      "left": 1168.859375,
+      "top": 2383.078125,
+      "width": 59.6875,
+      "height": 43,
+      "lines": [
+        {
+          "y": 2383.078125,
+          "height": 43,
+          "runs": [
+            {
+              "text": "H1",
+              "style": {
+                "fontSize": 32,
+                "bold": true,
+                "color": "#0069aa",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1168.859375,
+          "right": 1211.65625
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "H1"
+    },
+    {
+      "id": "s49",
+      "kind": "text",
+      "left": 1233.09375,
+      "top": 2383.078125,
+      "width": 946.90625,
+      "height": 43,
+      "lines": [
+        {
+          "y": 2383.078125,
+          "height": 43,
+          "runs": [
+            {
+              "text": "OCR: Q and recall increase.",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1233.09375,
+          "right": 1636.84375
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "OCR: Q and recall increase."
+    },
+    {
+      "id": "s50",
+      "kind": "text",
+      "left": 1168.859375,
+      "top": 2426,
+      "width": 59.6875,
+      "height": 43,
+      "lines": [
+        {
+          "y": 2426,
+          "height": 43,
+          "runs": [
+            {
+              "text": "H2",
+              "style": {
+                "fontSize": 32,
+                "bold": true,
+                "color": "#0069aa",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1168.859375,
+          "right": 1211.65625
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "H2"
+    },
+    {
+      "id": "s51",
+      "kind": "text",
+      "left": 1233.09375,
+      "top": 2426,
+      "width": 946.90625,
+      "height": 43,
+      "lines": [
+        {
+          "y": 2426,
+          "height": 43,
+          "runs": [
+            {
+              "text": "Multiscale: Q and recall decrease.",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1233.09375,
+          "right": 1733.234375
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "Multiscale: Q and recall decrease."
+    },
+    {
+      "id": "s52",
+      "kind": "text",
+      "left": 1168.859375,
+      "top": 2468.921875,
+      "width": 59.6875,
+      "height": 43,
+      "lines": [
+        {
+          "y": 2468.921875,
+          "height": 43,
+          "runs": [
+            {
+              "text": "H3",
+              "style": {
+                "fontSize": 32,
+                "bold": true,
+                "color": "#0069aa",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1168.859375,
+          "right": 1211.65625
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "H3"
+    },
+    {
+      "id": "s53",
+      "kind": "text",
+      "left": 1233.09375,
+      "top": 2468.921875,
+      "width": 946.90625,
+      "height": 43,
+      "lines": [
+        {
+          "y": 2468.921875,
+          "height": 43,
+          "runs": [
+            {
+              "text": "Lexical search: Q and recall increase.",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1233.09375,
+          "right": 1780.015625
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "Lexical search: Q and recall increase."
+    },
+    {
+      "id": "s54",
+      "kind": "text",
+      "left": 1168.859375,
+      "top": 2511.84375,
+      "width": 59.6875,
+      "height": 43,
+      "lines": [
+        {
+          "y": 2511.84375,
+          "height": 43,
+          "runs": [
+            {
+              "text": "H4",
+              "style": {
+                "fontSize": 32,
+                "bold": true,
+                "color": "#0069aa",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1168.859375,
+          "right": 1211.65625
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "H4"
+    },
+    {
+      "id": "s55",
+      "kind": "text",
+      "left": 1233.09375,
+      "top": 2511.84375,
+      "width": 946.90625,
+      "height": 43,
+      "lines": [
+        {
+          "y": 2511.84375,
+          "height": 43,
+          "runs": [
+            {
+              "text": "Reranker: Q increases by 9.8 pp.",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1233.09375,
+          "right": 1714.03125
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "Reranker: Q increases by 9.8 pp."
+    },
+    {
+      "id": "s56",
+      "kind": "text",
+      "left": 1168.859375,
+      "top": 2554.765625,
+      "width": 59.6875,
+      "height": 43,
+      "lines": [
+        {
+          "y": 2554.765625,
+          "height": 43,
+          "runs": [
+            {
+              "text": "H5",
+              "style": {
+                "fontSize": 32,
+                "bold": true,
+                "color": "#0069aa",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1168.859375,
+          "right": 1211.65625
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "H5"
+    },
+    {
+      "id": "s57",
+      "kind": "text",
+      "left": 1233.09375,
+      "top": 2554.765625,
+      "width": 946.90625,
+      "height": 43,
+      "lines": [
+        {
+          "y": 2554.765625,
+          "height": 43,
+          "runs": [
+            {
+              "text": "Typed processing: no score gain.",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1233.09375,
+          "right": 1723.28125
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "Typed processing: no score gain."
+    },
+    {
+      "id": "s58",
+      "kind": "text",
+      "left": 1168.859375,
+      "top": 2597.6875,
+      "width": 59.6875,
+      "height": 43,
+      "lines": [
+        {
+          "y": 2597.6875,
+          "height": 43,
+          "runs": [
+            {
+              "text": "H6",
+              "style": {
+                "fontSize": 32,
+                "bold": true,
+                "color": "#0069aa",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1168.859375,
+          "right": 1211.65625
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "H6"
+    },
+    {
+      "id": "s59",
+      "kind": "text",
+      "left": 1233.09375,
+      "top": 2597.6875,
+      "width": 946.90625,
+      "height": 43,
+      "lines": [
+        {
+          "y": 2597.6875,
+          "height": 43,
+          "runs": [
+            {
+              "text": "Citation selection: precision ↑, recall ↓.",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1233.09375,
+          "right": 1800.4375
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "Citation selection: precision ↑, recall ↓."
+    },
+    {
+      "id": "s60",
+      "kind": "text",
+      "left": 1168.859375,
+      "top": 2647.40625,
+      "width": 1011.140625,
+      "height": 43,
+      "lines": [
+        {
+          "y": 2647.40625,
+          "height": 43,
+          "runs": [
+            {
+              "text": "Supported: H1, H3, H4, H6; not H2 or H5.",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1168.859375,
+          "right": 1780.796875
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "Supported: H1, H3, H4, H6; not H2 or H5."
+    },
+    {
+      "id": "s61",
+      "kind": "text",
+      "left": 90.703125,
+      "top": 2737.984375,
+      "width": 2066.625,
+      "height": 49,
+      "lines": [
+        {
+          "y": 2737.984375,
+          "height": 49,
+          "runs": [
+            {
+              "text": "Conclusion",
+              "style": {
+                "fontSize": 36,
+                "bold": true,
+                "color": "#ffffff",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 90.703125,
+          "right": 287.15625
+        }
+      ],
+      "lineHeight": 43.2,
+      "name": "Conclusion"
+    },
+    {
+      "id": "s62",
+      "kind": "text",
+      "left": 90.703125,
+      "top": 2788.71875,
+      "width": 2066.625,
+      "height": 81.390625,
+      "lines": [
+        {
+          "y": 2788.71875,
+          "height": 43,
+          "runs": [
+            {
+              "text": "Components address different failures: OCR recovers scans; hybrid retrieval and reranking improve answers; citation selection trades",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#ffffff",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 90.703125,
+          "right": 2083.453125
+        },
+        {
+          "y": 2827.109375,
+          "height": 43,
+          "runs": [
+            {
+              "text": "some recall for higher precision. Evaluate answers and citations separately.",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#ffffff",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 90.703125,
+          "right": 1216.4375
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "Components address different failures: OCR recovers scans; hybrid retrieval and "
+    },
+    {
+      "id": "s63",
+      "kind": "text",
+      "left": 68.03125,
+      "top": 2899.5,
+      "width": 2111.96875,
+      "height": 43,
+      "lines": [
+        {
+          "y": 2899.5,
+          "height": 43,
+          "runs": [
+            {
+              "text": "Scope:",
+              "style": {
+                "fontSize": 32,
+                "bold": true,
+                "color": "#516578",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            },
+            {
+              "text": " development dataset; synthetic scans; LLM-scored free text. One run per condition; statistical significance was not assessed.",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#516578",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 2037.078125
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "Scope: development dataset; synthetic scans; LLM-scored free text. One run per c"
+    },
+    {
+      "id": "s64",
+      "kind": "text",
+      "left": 68.03125,
+      "top": 2953.984375,
+      "width": 1177.921875,
+      "height": 43,
+      "lines": [
+        {
+          "y": 2953.984375,
+          "height": 43,
+          "runs": [
+            {
+              "text": "References",
+              "style": {
+                "fontSize": 32,
+                "bold": true,
+                "color": "#07568a",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 244.875
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "References"
+    },
+    {
+      "id": "s65",
+      "kind": "text",
+      "left": 68.03125,
+      "top": 2999.921875,
+      "width": 1177.921875,
+      "height": 43,
+      "lines": [
+        {
+          "y": 2999.921875,
+          "height": 43,
+          "runs": [
+            {
+              "text": "[1] Lewis et al. RAG. NeurIPS, 2020.",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": true,
+                "link": "https://arxiv.org/abs/2005.11401"
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 589.703125
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "[1] Lewis et al. RAG. NeurIPS, 2020."
+    },
+    {
+      "id": "s66",
+      "kind": "text",
+      "left": 68.03125,
+      "top": 3042.078125,
+      "width": 1177.921875,
+      "height": 43,
+      "lines": [
+        {
+          "y": 3042.078125,
+          "height": 43,
+          "runs": [
+            {
+              "text": "[2] Pipitone & Alami. LegalBench-RAG, 2024.",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": true,
+                "link": "https://arxiv.org/abs/2408.10343"
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 728.265625
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "[2] Pipitone & Alami. LegalBench-RAG, 2024."
+    },
+    {
+      "id": "s67",
+      "kind": "text",
+      "left": 68.03125,
+      "top": 3084.234375,
+      "width": 1177.921875,
+      "height": 43,
+      "lines": [
+        {
+          "y": 3084.234375,
+          "height": 43,
+          "runs": [
+            {
+              "text": "[3] Gao et al. ALCE. EMNLP, 2023.",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": true,
+                "link": "https://doi.org/10.18653/v1/2023.emnlp-main.398"
+              }
+            }
+          ],
+          "x": 68.03125,
+          "right": 558.953125
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "[3] Gao et al. ALCE. EMNLP, 2023."
+    },
+    {
+      "id": "s68",
+      "kind": "text",
+      "left": 1273.1875,
+      "top": 2953.984375,
+      "width": 906.796875,
+      "height": 43,
+      "lines": [
+        {
+          "y": 2953.984375,
+          "height": 43,
+          "runs": [
+            {
+              "text": "Code & materials",
+              "style": {
+                "fontSize": 32,
+                "bold": true,
+                "color": "#07568a",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1273.1875,
+          "right": 1545.703125
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "Code & materials"
+    },
+    {
+      "id": "s69",
+      "kind": "text",
+      "left": 1273.1875,
+      "top": 2999.921875,
+      "width": 906.796875,
+      "height": 43,
+      "lines": [
+        {
+          "y": 2999.921875,
+          "height": 43,
+          "runs": [
+            {
+              "text": "github.com/SteinVR/Legal-RAG-Challenge",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": "https://github.com/SteinVR/Legal-RAG-Challenge"
+              }
+            }
+          ],
+          "x": 1273.1875,
+          "right": 1897.578125
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "github.com/SteinVR/Legal-RAG-Challenge"
+    },
+    {
+      "id": "s70",
+      "kind": "text",
+      "left": 1273.1875,
+      "top": 3042.078125,
+      "width": 906.796875,
+      "height": 43,
+      "lines": [
+        {
+          "y": 3042.078125,
+          "height": 43,
+          "runs": [
+            {
+              "text": "Original RAG implementation",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ],
+          "x": 1273.1875,
+          "right": 1713.578125
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "Original RAG implementation"
+    },
+    {
+      "id": "s71",
+      "kind": "text",
+      "left": 1273.1875,
+      "top": 3084.234375,
+      "width": 906.796875,
+      "height": 43,
+      "lines": [
+        {
+          "y": 3084.234375,
+          "height": 43,
+          "runs": [
+            {
+              "text": "Research paper",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": "../research-paper.pdf"
+              }
+            },
+            {
+              "text": " · ",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            },
+            {
+              "text": "Metrics",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": "../results/metrics.csv"
+              }
+            },
+            {
+              "text": " · ",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            },
+            {
+              "text": "Protocol",
+              "style": {
+                "fontSize": 32,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": "../../../research/legal-rag/experiments/README.md"
+              }
+            }
+          ],
+          "x": 1273.1875,
+          "right": 1793.5
+        }
+      ],
+      "lineHeight": 38.4,
+      "name": "Research paper · Metrics · Protocol"
+    },
+    {
+      "id": "s72",
+      "kind": "rect",
+      "left": 68.05880737304688,
+      "top": 808.2484741210938,
+      "width": 311.3158264160156,
+      "height": 108.45843505859375,
+      "fill": "#eff6fa",
+      "stroke": "#b9d4e5",
+      "strokeWidth": 2.0085416666666664,
+      "radius": 6.025625,
+      "name": "Pipeline node"
+    },
+    {
+      "id": "s73",
+      "kind": "rect",
+      "left": 427.578369140625,
+      "top": 808.2484741210938,
+      "width": 311.3157958984375,
+      "height": 108.45843505859375,
+      "fill": "#eff6fa",
+      "stroke": "#b9d4e5",
+      "strokeWidth": 2.0085416666666664,
+      "radius": 6.025625,
+      "name": "Pipeline node"
+    },
+    {
+      "id": "s74",
+      "kind": "rect",
+      "left": 787.0979614257812,
+      "top": 808.2484741210938,
+      "width": 311.31573486328125,
+      "height": 108.45843505859375,
+      "fill": "#eff6fa",
+      "stroke": "#b9d4e5",
+      "strokeWidth": 2.0085416666666664,
+      "radius": 6.025625,
+      "name": "Pipeline node"
+    },
+    {
+      "id": "s75",
+      "kind": "rect",
+      "left": 1146.6175537109375,
+      "top": 808.2484741210938,
+      "width": 311.3157958984375,
+      "height": 108.45843505859375,
+      "fill": "#eff6fa",
+      "stroke": "#b9d4e5",
+      "strokeWidth": 2.0085416666666664,
+      "radius": 6.025625,
+      "name": "Pipeline node"
+    },
+    {
+      "id": "s76",
+      "kind": "rect",
+      "left": 68.05880737304688,
+      "top": 946.834228515625,
+      "width": 311.3158264160156,
+      "height": 108.4583740234375,
+      "fill": "#ffffff",
+      "stroke": "#86b6d4",
+      "strokeWidth": 2.0085416666666664,
+      "radius": 6.025625,
+      "name": "Pipeline node"
+    },
+    {
+      "id": "s77",
+      "kind": "rect",
+      "left": 427.578369140625,
+      "top": 946.834228515625,
+      "width": 311.3157958984375,
+      "height": 108.4583740234375,
+      "fill": "#ffffff",
+      "stroke": "#86b6d4",
+      "strokeWidth": 2.0085416666666664,
+      "radius": 6.025625,
+      "name": "Pipeline node"
+    },
+    {
+      "id": "s78",
+      "kind": "rect",
+      "left": 787.0979614257812,
+      "top": 946.834228515625,
+      "width": 311.31573486328125,
+      "height": 108.4583740234375,
+      "fill": "#ffffff",
+      "stroke": "#86b6d4",
+      "strokeWidth": 2.0085416666666664,
+      "radius": 6.025625,
+      "name": "Pipeline node"
+    },
+    {
+      "id": "s79",
+      "kind": "rect",
+      "left": 1146.6175537109375,
+      "top": 946.834228515625,
+      "width": 311.3157958984375,
+      "height": 108.4583740234375,
+      "fill": "#ffffff",
+      "stroke": "#86b6d4",
+      "strokeWidth": 2.0085416666666664,
+      "radius": 6.025625,
+      "name": "Pipeline node"
+    },
+    {
+      "id": "s80",
+      "kind": "rect",
+      "left": 1506.1370849609375,
+      "top": 946.834228515625,
+      "width": 311.3157958984375,
+      "height": 108.4583740234375,
+      "fill": "#ffffff",
+      "stroke": "#86b6d4",
+      "strokeWidth": 2.0085416666666664,
+      "radius": 6.025625,
+      "name": "Pipeline node"
+    },
+    {
+      "id": "s81",
+      "kind": "rect",
+      "left": 1865.6566162109375,
+      "top": 946.834228515625,
+      "width": 311.3157958984375,
+      "height": 108.4583740234375,
+      "fill": "#ffffff",
+      "stroke": "#86b6d4",
+      "strokeWidth": 2.0085416666666664,
+      "radius": 6.025625,
+      "name": "Pipeline node"
+    },
+    {
+      "id": "s82",
+      "kind": "path",
+      "left": 384.3765625,
+      "top": 866.4963541666666,
+      "width": 35.14947916666665,
+      "height": 1,
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 35.14947916666665,
+          "y": 0
+        }
+      ],
+      "stroke": "#6a9bb9",
+      "strokeWidth": 3.0128125,
+      "name": "Pipeline arrow"
+    },
+    {
+      "id": "s83",
+      "kind": "path",
+      "left": 405.46624999999995,
+      "top": 860.4707291666666,
+      "width": 14.059791666666683,
+      "height": 12.051249999999982,
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 14.059791666666683,
+          "y": 6.025624999999991
+        },
+        {
+          "x": 0,
+          "y": 12.051249999999982
+        }
+      ],
+      "stroke": "#6a9bb9",
+      "strokeWidth": 3.0128125,
+      "name": "Arrowhead"
+    },
+    {
+      "id": "s84",
+      "kind": "path",
+      "left": 743.9055208333333,
+      "top": 866.4963541666666,
+      "width": 35.14947916666665,
+      "height": 1,
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 35.14947916666665,
+          "y": 0
+        }
+      ],
+      "stroke": "#6a9bb9",
+      "strokeWidth": 3.0128125,
+      "name": "Pipeline arrow"
+    },
+    {
+      "id": "s85",
+      "kind": "path",
+      "left": 764.9952083333333,
+      "top": 860.4707291666666,
+      "width": 14.059791666666683,
+      "height": 12.051249999999982,
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 14.059791666666683,
+          "y": 6.025624999999991
+        },
+        {
+          "x": 0,
+          "y": 12.051249999999982
+        }
+      ],
+      "stroke": "#6a9bb9",
+      "strokeWidth": 3.0128125,
+      "name": "Arrowhead"
+    },
+    {
+      "id": "s86",
+      "kind": "path",
+      "left": 1103.4344791666665,
+      "top": 866.4963541666666,
+      "width": 35.14947916666665,
+      "height": 1,
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 35.14947916666665,
+          "y": 0
+        }
+      ],
+      "stroke": "#6a9bb9",
+      "strokeWidth": 3.0128125,
+      "name": "Pipeline arrow"
+    },
+    {
+      "id": "s87",
+      "kind": "path",
+      "left": 1124.5241666666666,
+      "top": 860.4707291666666,
+      "width": 14.05979166666657,
+      "height": 12.051249999999982,
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 14.05979166666657,
+          "y": 6.025624999999991
+        },
+        {
+          "x": 0,
+          "y": 12.051249999999982
+        }
+      ],
+      "stroke": "#6a9bb9",
+      "strokeWidth": 3.0128125,
+      "name": "Arrowhead"
+    },
+    {
+      "id": "s88",
+      "kind": "path",
+      "left": 583.2221874999999,
+      "top": 917.7141666666666,
+      "width": 719.0579166666665,
+      "height": 26.111041666666665,
+      "points": [
+        {
+          "x": 719.0579166666665,
+          "y": 0
+        },
+        {
+          "x": 719.0579166666665,
+          "y": 17.07260416666668
+        },
+        {
+          "x": 0,
+          "y": 17.07260416666668
+        },
+        {
+          "x": 0,
+          "y": 26.111041666666665
+        }
+      ],
+      "stroke": "#6a9bb9",
+      "strokeWidth": 3.0128125,
+      "name": "Pipeline arrow"
+    },
+    {
+      "id": "s89",
+      "kind": "path",
+      "left": 577.1965624999999,
+      "top": 929.7654166666666,
+      "width": 12.051249999999982,
+      "height": 14.059791666666683,
+      "points": [
+        {
+          "x": 12.051249999999982,
+          "y": 0
+        },
+        {
+          "x": 6.025624999999991,
+          "y": 14.059791666666683
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "stroke": "#6a9bb9",
+      "strokeWidth": 3.0128125,
+      "name": "Arrowhead"
+    },
+    {
+      "id": "s90",
+      "kind": "path",
+      "left": 384.3765625,
+      "top": 1006.0899999999999,
+      "width": 35.14947916666665,
+      "height": 1,
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 35.14947916666665,
+          "y": 0
+        }
+      ],
+      "stroke": "#6a9bb9",
+      "strokeWidth": 3.0128125,
+      "name": "Pipeline arrow"
+    },
+    {
+      "id": "s91",
+      "kind": "path",
+      "left": 405.46624999999995,
+      "top": 1000.0643749999999,
+      "width": 14.059791666666683,
+      "height": 12.051249999999982,
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 14.059791666666683,
+          "y": 6.025624999999991
+        },
+        {
+          "x": 0,
+          "y": 12.051249999999982
+        }
+      ],
+      "stroke": "#6a9bb9",
+      "strokeWidth": 3.0128125,
+      "name": "Arrowhead"
+    },
+    {
+      "id": "s92",
+      "kind": "path",
+      "left": 743.9055208333333,
+      "top": 1006.0899999999999,
+      "width": 35.14947916666665,
+      "height": 1,
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 35.14947916666665,
+          "y": 0
+        }
+      ],
+      "stroke": "#6a9bb9",
+      "strokeWidth": 3.0128125,
+      "name": "Pipeline arrow"
+    },
+    {
+      "id": "s93",
+      "kind": "path",
+      "left": 764.9952083333333,
+      "top": 1000.0643749999999,
+      "width": 14.059791666666683,
+      "height": 12.051249999999982,
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 14.059791666666683,
+          "y": 6.025624999999991
+        },
+        {
+          "x": 0,
+          "y": 12.051249999999982
+        }
+      ],
+      "stroke": "#6a9bb9",
+      "strokeWidth": 3.0128125,
+      "name": "Arrowhead"
+    },
+    {
+      "id": "s94",
+      "kind": "path",
+      "left": 1103.4344791666665,
+      "top": 1006.0899999999999,
+      "width": 35.14947916666665,
+      "height": 1,
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 35.14947916666665,
+          "y": 0
+        }
+      ],
+      "stroke": "#6a9bb9",
+      "strokeWidth": 3.0128125,
+      "name": "Pipeline arrow"
+    },
+    {
+      "id": "s95",
+      "kind": "path",
+      "left": 1124.5241666666666,
+      "top": 1000.0643749999999,
+      "width": 14.05979166666657,
+      "height": 12.051249999999982,
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 14.05979166666657,
+          "y": 6.025624999999991
+        },
+        {
+          "x": 0,
+          "y": 12.051249999999982
+        }
+      ],
+      "stroke": "#6a9bb9",
+      "strokeWidth": 3.0128125,
+      "name": "Arrowhead"
+    },
+    {
+      "id": "s96",
+      "kind": "path",
+      "left": 1462.9634374999998,
+      "top": 1006.0899999999999,
+      "width": 35.14947916666665,
+      "height": 1,
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 35.14947916666665,
+          "y": 0
+        }
+      ],
+      "stroke": "#6a9bb9",
+      "strokeWidth": 3.0128125,
+      "name": "Pipeline arrow"
+    },
+    {
+      "id": "s97",
+      "kind": "path",
+      "left": 1484.053125,
+      "top": 1000.0643749999999,
+      "width": 14.05979166666657,
+      "height": 12.051249999999982,
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 14.05979166666657,
+          "y": 6.025624999999991
+        },
+        {
+          "x": 0,
+          "y": 12.051249999999982
+        }
+      ],
+      "stroke": "#6a9bb9",
+      "strokeWidth": 3.0128125,
+      "name": "Arrowhead"
+    },
+    {
+      "id": "s98",
+      "kind": "path",
+      "left": 1822.4923958333331,
+      "top": 1006.0899999999999,
+      "width": 35.14947916666665,
+      "height": 1,
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 35.14947916666665,
+          "y": 0
+        }
+      ],
+      "stroke": "#6a9bb9",
+      "strokeWidth": 3.0128125,
+      "name": "Pipeline arrow"
+    },
+    {
+      "id": "s99",
+      "kind": "path",
+      "left": 1843.5820833333332,
+      "top": 1000.0643749999999,
+      "width": 14.05979166666657,
+      "height": 12.051249999999982,
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 14.05979166666657,
+          "y": 6.025624999999991
+        },
+        {
+          "x": 0,
+          "y": 12.051249999999982
+        }
+      ],
+      "stroke": "#6a9bb9",
+      "strokeWidth": 3.0128125,
+      "name": "Arrowhead"
+    },
+    {
+      "id": "s100",
+      "kind": "text",
+      "left": 88.14370727539062,
+      "top": 816.8703109375,
+      "width": 192.890625,
+      "height": 49.20927083333333,
+      "lines": [
+        {
+          "runs": [
+            {
+              "text": "Legal PDFs",
+              "style": {
+                "fontSize": 35.149479166666666,
+                "bold": true,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ]
+        }
+      ],
+      "lineHeight": 42.179375,
+      "name": "Diagram: Legal PDFs"
+    },
+    {
+      "id": "s101",
+      "kind": "text",
+      "left": 88.14370727539062,
+      "top": 866.2874658333333,
+      "width": 225.09375,
+      "height": 44.99133333333332,
+      "lines": [
+        {
+          "runs": [
+            {
+              "text": "Text and scans",
+              "style": {
+                "fontSize": 32.13666666666666,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ]
+        }
+      ],
+      "lineHeight": 38.56399999999999,
+      "name": "Diagram: Text and scans"
+    },
+    {
+      "id": "s102",
+      "kind": "text",
+      "left": 447.66326904296875,
+      "top": 812.8532276041667,
+      "width": 268.265625,
+      "height": 49.20927083333333,
+      "lines": [
+        {
+          "runs": [
+            {
+              "text": "Text extraction",
+              "style": {
+                "fontSize": 35.149479166666666,
+                "bold": true,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ]
+        }
+      ],
+      "lineHeight": 42.179375,
+      "name": "Diagram: Text extraction"
+    },
+    {
+      "id": "s103",
+      "kind": "text",
+      "left": 447.66326904296875,
+      "top": 864.2789241666667,
+      "width": 144.92620849609375,
+      "height": 44.99133333333332,
+      "lines": [
+        {
+          "runs": [
+            {
+              "text": "R1",
+              "style": {
+                "fontSize": 32.13666666666666,
+                "bold": true,
+                "color": "#0069aa",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            },
+            {
+              "text": " + OCR",
+              "style": {
+                "fontSize": 32.13666666666666,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ]
+        }
+      ],
+      "lineHeight": 38.56399999999999,
+      "name": "Diagram: R1 + OCR"
+    },
+    {
+      "id": "s104",
+      "kind": "text",
+      "left": 807.1828002929688,
+      "top": 812.8532276041667,
+      "width": 135.46875,
+      "height": 49.20927083333333,
+      "lines": [
+        {
+          "runs": [
+            {
+              "text": "Chunks",
+              "style": {
+                "fontSize": 35.149479166666666,
+                "bold": true,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ]
+        }
+      ],
+      "lineHeight": 42.179375,
+      "name": "Diagram: Chunks"
+    },
+    {
+      "id": "s105",
+      "kind": "text",
+      "left": 807.1828002929688,
+      "top": 864.2789241666667,
+      "width": 231.93756103515625,
+      "height": 44.99133333333332,
+      "lines": [
+        {
+          "runs": [
+            {
+              "text": "R2",
+              "style": {
+                "fontSize": 32.13666666666666,
+                "bold": true,
+                "color": "#0069aa",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            },
+            {
+              "text": "  + Multiscale",
+              "style": {
+                "fontSize": 32.13666666666666,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ]
+        }
+      ],
+      "lineHeight": 38.56399999999999,
+      "name": "Diagram: R2  + Multiscale"
+    },
+    {
+      "id": "s106",
+      "kind": "text",
+      "left": 1166.702392578125,
+      "top": 812.8532276041667,
+      "width": 104.960693359375,
+      "height": 49.20927083333333,
+      "lines": [
+        {
+          "runs": [
+            {
+              "text": "Index",
+              "style": {
+                "fontSize": 35.149479166666666,
+                "bold": true,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ]
+        }
+      ],
+      "lineHeight": 42.179375,
+      "name": "Diagram: Index"
+    },
+    {
+      "id": "s107",
+      "kind": "text",
+      "left": 1166.702392578125,
+      "top": 864.2789241666667,
+      "width": 255.453125,
+      "height": 44.99133333333332,
+      "lines": [
+        {
+          "runs": [
+            {
+              "text": "Chunk + page ID",
+              "style": {
+                "fontSize": 32.13666666666666,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ]
+        }
+      ],
+      "lineHeight": 38.56399999999999,
+      "name": "Diagram: Chunk + page ID"
+    },
+    {
+      "id": "s108",
+      "kind": "text",
+      "left": 1554.3408203125,
+      "top": 815.0696533333333,
+      "width": 424.40625,
+      "height": 44.99133333333332,
+      "lines": [
+        {
+          "runs": [
+            {
+              "text": "R1–R6: added components",
+              "style": {
+                "fontSize": 32.13666666666666,
+                "bold": true,
+                "color": "#0069aa",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ]
+        }
+      ],
+      "lineHeight": 38.56399999999999,
+      "name": "Diagram: R1–R6: added components"
+    },
+    {
+      "id": "s109",
+      "kind": "text",
+      "left": 1554.3408203125,
+      "top": 861.2661116666666,
+      "width": 506.890625,
+      "height": 44.99133333333332,
+      "lines": [
+        {
+          "runs": [
+            {
+              "text": "Each includes all earlier additions",
+              "style": {
+                "fontSize": 32.13666666666666,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ]
+        }
+      ],
+      "lineHeight": 38.56399999999999,
+      "name": "Diagram: Each includes all earlier additions"
+    },
+    {
+      "id": "s110",
+      "kind": "text",
+      "left": 88.14370727539062,
+      "top": 956.4639567708333,
+      "width": 164.75,
+      "height": 49.20927083333333,
+      "lines": [
+        {
+          "runs": [
+            {
+              "text": "Question",
+              "style": {
+                "fontSize": 35.149479166666666,
+                "bold": true,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ]
+        }
+      ],
+      "lineHeight": 42.179375,
+      "name": "Diagram: Question"
+    },
+    {
+      "id": "s111",
+      "kind": "text",
+      "left": 88.14370727539062,
+      "top": 1005.8811116666666,
+      "width": 171.6060791015625,
+      "height": 44.99133333333332,
+      "lines": [
+        {
+          "runs": [
+            {
+              "text": "User query",
+              "style": {
+                "fontSize": 32.13666666666666,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ]
+        }
+      ],
+      "lineHeight": 38.56399999999999,
+      "name": "Diagram: User query"
+    },
+    {
+      "id": "s112",
+      "kind": "text",
+      "left": 447.66326904296875,
+      "top": 951.4426026041667,
+      "width": 162.296875,
+      "height": 49.20927083333333,
+      "lines": [
+        {
+          "runs": [
+            {
+              "text": "Retrieval",
+              "style": {
+                "fontSize": 35.149479166666666,
+                "bold": true,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ]
+        }
+      ],
+      "lineHeight": 42.179375,
+      "name": "Diagram: Retrieval"
+    },
+    {
+      "id": "s113",
+      "kind": "text",
+      "left": 447.66326904296875,
+      "top": 1002.8682991666667,
+      "width": 180.859375,
+      "height": 44.99133333333332,
+      "lines": [
+        {
+          "runs": [
+            {
+              "text": "R3",
+              "style": {
+                "fontSize": 32.13666666666666,
+                "bold": true,
+                "color": "#0069aa",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            },
+            {
+              "text": " + Lexical",
+              "style": {
+                "fontSize": 32.13666666666666,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ]
+        }
+      ],
+      "lineHeight": 38.56399999999999,
+      "name": "Diagram: R3 + Lexical"
+    },
+    {
+      "id": "s114",
+      "kind": "text",
+      "left": 807.1828002929688,
+      "top": 951.4426026041667,
+      "width": 185.203125,
+      "height": 49.20927083333333,
+      "lines": [
+        {
+          "runs": [
+            {
+              "text": "Reranking",
+              "style": {
+                "fontSize": 35.149479166666666,
+                "bold": true,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ]
+        }
+      ],
+      "lineHeight": 42.179375,
+      "name": "Diagram: Reranking"
+    },
+    {
+      "id": "s115",
+      "kind": "text",
+      "left": 807.1828002929688,
+      "top": 1002.8682991666667,
+      "width": 216.68756103515625,
+      "height": 44.99133333333332,
+      "lines": [
+        {
+          "runs": [
+            {
+              "text": "R4",
+              "style": {
+                "fontSize": 32.13666666666666,
+                "bold": true,
+                "color": "#0069aa",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            },
+            {
+              "text": " + Reranker",
+              "style": {
+                "fontSize": 32.13666666666666,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ]
+        }
+      ],
+      "lineHeight": 38.56399999999999,
+      "name": "Diagram: R4 + Reranker"
+    },
+    {
+      "id": "s116",
+      "kind": "text",
+      "left": 1166.702392578125,
+      "top": 951.4426026041667,
+      "width": 201.7811279296875,
+      "height": 49.20927083333333,
+      "lines": [
+        {
+          "runs": [
+            {
+              "text": "Generation",
+              "style": {
+                "fontSize": 35.149479166666666,
+                "bold": true,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ]
+        }
+      ],
+      "lineHeight": 42.179375,
+      "name": "Diagram: Generation"
+    },
+    {
+      "id": "s117",
+      "kind": "text",
+      "left": 1166.702392578125,
+      "top": 1002.8682991666667,
+      "width": 196.921875,
+      "height": 44.99133333333332,
+      "lines": [
+        {
+          "runs": [
+            {
+              "text": "GPT-5.4-mini",
+              "style": {
+                "fontSize": 32.13666666666666,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ]
+        }
+      ],
+      "lineHeight": 38.56399999999999,
+      "name": "Diagram: GPT-5.4-mini"
+    },
+    {
+      "id": "s118",
+      "kind": "text",
+      "left": 1526.221923828125,
+      "top": 951.4426026041667,
+      "width": 281.9375,
+      "height": 49.20927083333333,
+      "lines": [
+        {
+          "runs": [
+            {
+              "text": "Post-processing",
+              "style": {
+                "fontSize": 35.149479166666666,
+                "bold": true,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ]
+        }
+      ],
+      "lineHeight": 42.179375,
+      "name": "Diagram: Post-processing"
+    },
+    {
+      "id": "s119",
+      "kind": "text",
+      "left": 1526.221923828125,
+      "top": 1002.8682991666667,
+      "width": 280.4844970703125,
+      "height": 44.99133333333332,
+      "lines": [
+        {
+          "runs": [
+            {
+              "text": "R5",
+              "style": {
+                "fontSize": 32.13666666666666,
+                "bold": true,
+                "color": "#0069aa",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            },
+            {
+              "text": " + Typed checks",
+              "style": {
+                "fontSize": 32.13666666666666,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ]
+        }
+      ],
+      "lineHeight": 38.56399999999999,
+      "name": "Diagram: R5 + Typed checks"
+    },
+    {
+      "id": "s120",
+      "kind": "text",
+      "left": 1885.741455078125,
+      "top": 951.4426026041667,
+      "width": 226.797607421875,
+      "height": 49.20927083333333,
+      "lines": [
+        {
+          "runs": [
+            {
+              "text": "Final answer",
+              "style": {
+                "fontSize": 35.149479166666666,
+                "bold": true,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ]
+        }
+      ],
+      "lineHeight": 42.179375,
+      "name": "Diagram: Final answer"
+    },
+    {
+      "id": "s121",
+      "kind": "text",
+      "left": 1885.741455078125,
+      "top": 1002.8682991666667,
+      "width": 268.109375,
+      "height": 44.99133333333332,
+      "lines": [
+        {
+          "runs": [
+            {
+              "text": "R6",
+              "style": {
+                "fontSize": 32.13666666666666,
+                "bold": true,
+                "color": "#0069aa",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            },
+            {
+              "text": " + Select pages",
+              "style": {
+                "fontSize": 32.13666666666666,
+                "bold": false,
+                "color": "#173248",
+                "tracking": 0,
+                "underlined": false,
+                "link": null
+              }
+            }
+          ]
+        }
+      ],
+      "lineHeight": 38.56399999999999,
+      "name": "Diagram: R6 + Select pages"
+    },
+    {
+      "id": "s122",
+      "kind": "image",
+      "left": 1855.75,
+      "top": 68.03125,
+      "width": 321.25,
+      "height": 80.96875,
+      "src": "assets/trier-university.svg",
+      "name": "Universität Trier"
+    },
+    {
+      "id": "s123",
+      "kind": "image",
+      "left": 68.03125,
+      "top": 1656.15625,
+      "width": 2108.96875,
+      "height": 614.34375,
+      "src": "assets/sequence.svg",
+      "name": "Q for R0 to R6: 46.2, 63.2, 49.8, 74.6, 84.4, 84.4, 84.4%. Precision: 7.6, 11.2, 14.7, 22.2, 27.1, 27.1, 61.8%. Recall: 38.5, 61.6, 52.9, 72.7, 78.9, 78.9, 74.7%."
+    },
+    {
+      "id": "s124",
+      "kind": "image",
+      "left": 68.03125,
+      "top": 2389.84375,
+      "width": 1035.59375,
+      "height": 214.078125,
+      "src": "assets/ocr.svg",
+      "name": "Q: 65.4% on original PDFs without OCR; 46.2% on mixed PDFs without OCR; 63.2% on mixed PDFs with OCR."
+    }
+  ]
+}
