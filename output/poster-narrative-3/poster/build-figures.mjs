@@ -33,7 +33,7 @@ for(const [panel,[key,title,n,color]] of metrics.entries()){
 }
 
 svg+='</svg>';
-await fs.writeFile(path.join(dir,'assets/sequence-readable.svg'),svg+'\n');
+await fs.writeFile(path.join(dir,'../results/pipeline-metrics.svg'),svg+'\n');
 const original=rows.find(r=>r.corpus==='original'&&r.variant==='R0');
 const controls=[
  ['Original corpus · R0',fmt(original.Q),'#91aabd'],
@@ -47,5 +47,5 @@ for(const [i,[label,value,color]] of controls.entries()){
 }
 for(const value of [0,50,100])ocr+=text(value*10,267,value===100?'100%':String(value),'axis',value===0?'start':value===100?'end':'middle');
 ocr+='</svg>';
-await fs.writeFile(path.join(dir,'assets/ocr-readable.svg'),ocr+'\n');
-console.log('Updated HTML SVGs from metrics.csv; frozen PDF/PPTX untouched.');
+await fs.writeFile(path.join(dir,'../results/ocr-control.svg'),ocr+'\n');
+console.log('Updated canonical SVG figures from metrics.csv.');

@@ -16,6 +16,7 @@ Trends-In-ML-2/
 ├── output/
 │   ├── poster-narrative-1/            — нарратив 1 и его Canva/PPTX/site-артефакты
 │   ├── poster-narrative-2/            — нарратив 2 и его Canva/PPTX/site-артефакты
+│   ├── poster-narrative-3/            — актуальный постер, PowerPoint и результаты
 │   └── old_poster/                    — архив старой версии, только для чтения
 └── tmp/                               — временные сборочные файлы и рендеры
 ```

@@ -1,0 +1,14 @@
+{
+  "output/poster-narrative-3/results/retrieval_diagnostics.csv": "9f20b7e26ce80b8d69acb578211354b29c61809fa4b4b10a0c557a41ebbc6b1b",
+  "output/poster-narrative-3/results/metrics.csv": "75bfc6fc8ac2063ef98fd581274df5490764879a66a80272015a06afef675027",
+  "output/poster-narrative-3/results/per-question-scores.csv": "1652da3354d0030b9d361ce966319a00396a08d26fe19465c3defe7214df825f",
+  "output/poster-narrative-3/results/comparisons.csv": "532d0affb25bc78fd2f57709df5a4a08b8bc5784e5983f2c0b6a36b0bc079536",
+  "output/poster-narrative-3/results/retrieval_diagnostics.json": "a5a4174d04181039f18a73204404ac88adb7adf7017edbe097476b007095cf85",
+  "output/poster-narrative-3/results/offline_verification.json": "0a5fb3724ab99f499bf37469b6e4284f5b4df7a71e8db7ca99e132cec6e9fab8",
+  "output/poster-narrative-3/results/protocol.json": "2c4f870a258a3a5beedbb885391151f85450fdffc2eb4f9e824e679047a96422",
+  "output/poster-narrative-3/results/metrics.json": "00d650712aafb582820dec2e7e418d24c17cee881eb6d960317c898ff537ab47",
+  "output/poster-narrative-3/results/comparisons.json": "0dfe5cee3c7902e14f6739813065794627b88b25f2a51a2b2f1a5848afb0b83e",
+  "output/poster-narrative-3/results/run-verification.json": "2cf54caf7e119baaf64e00bb6e23cbaa68e87a8cf17ea1795bae2512f782dfaa",
+  "output/poster-narrative-3/powerpoint/legal-rag-poster.pptx": "6d5bb0dc75c9692732c52ba6ca50ac1b59033bd925aea828c2b5d7cf88727fc9",
+  "output/poster-narrative-3/powerpoint/preview.png": "f0ca45ec41eaee41007b08a12a4b5ea94a6947a1b812bf80dc3b82afcf200aae"
+}

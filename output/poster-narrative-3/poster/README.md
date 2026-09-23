@@ -1,38 +1,16 @@
-# Legal RAG research poster
+# Актуальный постер
 
-English, white/blue, A1 portrait. Author intentionally remains **[AUTHOR NAME]**.
+Утверждённый макет: [index.html](index.html). Готовые экспорты: [poster.pdf](poster.pdf) и [poster.png](poster.png). Один лист DIN A1 (594 × 841 мм), без имён авторов. PDF сохраняет векторную графику; PNG предназначен для просмотра.
 
-- `index.html`: editable master; opens locally, fits the browser width, with a 100% viewing toggle.
-- `poster.pdf`: single-page print export, vector logo, diagrams and charts.
-- `poster.png`: full poster preview.
-- `assets/`: local logo, fonts and figures; no CDN or network connection required to display the poster.
-- `build-figures.py`: reads `../results/metrics.csv` and renders the two SVG figures.
-- `export.mjs`: Chromium export and basic layout checks; `layout-check.json` records the latest result.
+Графики читаются из `../results/`, шрифты и логотип — из `assets/`. Редактируемая PowerPoint-версия и её собственный PNG находятся в `../powerpoint/`.
 
-## Evidence and design
+Для пересборки из корня репозитория нужны Node.js, Playwright и Chromium:
 
-The narrative is based on `../research-paper.md`. R0–R6 are sequential additions on the mixed corpus, not independent leave-one-out ablations. Q is an aggregate answer score, not the percentage of fully correct answers. Citation metrics are macro-averaged over 95 questions. H5 concerns the structured-answer score. The OCR comparison uses original R0, mixed R0 and mixed R1. Rounded labels use one decimal place; deltas are calculated from unrounded values.
-
-R4–R6 reuse the same generated response. The references and scope note are retained; the poster does not claim statistical significance. The main text and references are 24 pt or larger. The charts use vector paths, so their lettering does not depend on fonts installed on the viewer's machine.
-
-Official logo downloaded unchanged on 2026-09-20 from:
-https://www.uni-trier.de/typo3conf/ext/zimktheme_unitrier/Resources/Public/Logos/Logo_Universitaet.svg
-
-Logo source page: https://www.uni-trier.de/
-
-The palette uses blue and white, with the logo's blue `#007ac3` as an accent. This is a custom academic layout, not an official university template. Noto Sans regular/bold are bundled from the local font installation.
-
-## Rebuild from repository root
-
-```bash
-research/legal-rag/.venv/bin/python output/poster-narrative-3/poster/build-figures.py
-NODE_PATH=/home/xeliaray/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules \
-  /home/xeliaray/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node \
-  output/poster-narrative-3/poster/export.mjs
+```sh
+node output/poster-narrative-3/poster/build-figures.mjs
+NODE_PATH=<directory-containing-playwright> node output/poster-narrative-3/poster/export.mjs
 ```
 
-Requires Python with matplotlib, Node with Playwright, and Chromium (default `/usr/bin/chromium`; override with `CHROMIUM_PATH`). Figures regenerate from measured results; this does not rerun the RAG experiments.
+`CHROMIUM_PATH` позволяет указать браузер вместо `/usr/bin/chromium`. Экспорт обновляет PDF/PNG постера и обоих графиков; диагностика сохраняется в `tmp/poster-narrative-3/`. PowerPoint автоматически не пересобирается.
 
-## Before academic submission
-
-Replace the author placeholder. The public repository link currently identifies the original RAG implementation. The isolated experimental code, protocol and results are local workspace artifacts and have not been published by this poster task; link their published version before claiming external reproducibility. Links to the companion paper/metrics/protocol are local navigation aids, not substitutes for a public experiment repository. No appendix or submission archive was created in this task.
+Для просмотра через HTTP запускайте сервер из `output/poster-narrative-3/` и открывайте `/poster/index.html`, чтобы были доступны соседние графики.
