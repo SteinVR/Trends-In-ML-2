@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Building Legal RAG · Universität Trier</title>
+<style>
+@font-face{font-family:Noto;src:url('assets/NotoSans-Regular.ttf');font-weight:400}
+@font-face{font-family:Noto;src:url('assets/NotoSans-Bold.ttf');font-weight:700}
+:root{--blue:#0069aa;--brand:#007ac3;--ink:#173248;--muted:#516578;--line:#cfdee8;--pale:#eff6fa}
+*{box-sizing:border-box}html,body{margin:0;padding:0}body{font-family:Noto,sans-serif;color:var(--ink);background:#dce7ed;font-size:24pt;line-height:1.18}
+.poster{width:594mm;min-height:841mm;margin:12mm auto;background:white;padding:14mm 18mm 12mm;box-shadow:0 3mm 18mm #17324820}
+p,h1,h2,h3,figure{margin:0}strong{font-weight:700}a{color:inherit;text-decoration:none}
+header{position:relative}.masthead{display:flex;justify-content:space-between;align-items:center;margin-bottom:3mm}.course{font-size:24pt;letter-spacing:.03em;color:var(--blue)}.logo{width:85mm;height:auto;position:absolute;right:0;top:0}
+h1{font-size:50pt;line-height:1.08;letter-spacing:-.035em;font-weight:700;margin-bottom:4mm;color:#073d65}
+section{margin-top:3mm}.section-title{display:flex;gap:4mm;align-items:center;padding-top:3mm;margin-bottom:3mm;border-top:1mm solid var(--blue)}.num{font-size:26pt;font-weight:700;color:var(--blue)}h2{font-size:31pt;letter-spacing:.03em;text-transform:uppercase}.english{font-size:24pt;color:var(--muted);font-weight:400;margin-left:auto}
+h3{font-size:26pt;line-height:1.16;color:#07568a;margin-bottom:2mm}.grid{display:grid;grid-template-columns:1fr 1fr;gap:8mm}.three{grid-template-columns:repeat(3,1fr);gap:8mm}
+.context{margin-bottom:3mm}.question{font-size:28pt;line-height:1.18;font-weight:700;color:#073d65;margin:3mm 0 4mm}
+.hypotheses{background:var(--pale);padding:4mm 5mm}.hypotheses h3{font-size:25pt}.hypotheses p{line-height:1.18}
+.data{margin-bottom:3mm}.design-note{margin-bottom:3mm;color:var(--muted)}.baseline{padding:3mm 4mm;background:var(--pale);margin-bottom:3mm}.baseline strong{color:var(--blue)}
+.stages{display:grid;grid-template-columns:repeat(6,1fr);column-gap:5mm;margin:3mm 0}.stage-group{font-weight:700;color:var(--blue);border-bottom:.5mm solid var(--line);padding-bottom:2mm;margin-bottom:2mm;font-size:24pt}.processing{grid-column:span 2}.retrieval{grid-column:span 2}
+.step{border-top:1mm solid var(--brand);padding-top:2.5mm;position:relative}.step h3{font-size:25pt;margin-bottom:2mm}.step p{margin-top:2mm}.step .tech{color:var(--muted)}.step .arrow{position:absolute;right:-4.5mm;top:14mm;color:#6a9bb9;font-size:26pt}
+.controls{padding:3mm 0;border-top:.4mm solid var(--line);margin-top:3mm;color:var(--muted)}
+.evaluation{margin-top:3mm}.evaluation-intro{margin-bottom:3mm}.evaluation>p+p{margin-top:1.5mm}.evaluation h3{font-size:25pt}.evaluation p+p{margin-top:1.5mm}.muted{color:var(--muted)}
+.metrics-line{display:flex;gap:8mm;margin-bottom:3mm}.metric{flex:1;border-left:1.2mm solid var(--brand);padding-left:4mm}.metric strong{display:block;font-size:32pt;line-height:1.12;color:var(--blue);letter-spacing:-.025em}.metric span{display:block;margin-top:1mm}
+.chart{width:100%;display:block}.chart-caption{color:var(--muted);margin-top:0}.result-intro{margin-bottom:3mm}
+.detail-grid{margin-top:4mm;grid-template-columns:.95fr 1.05fr}.detail-grid>div+div{border-left:.5mm solid var(--line);padding-left:6mm}.ocr{width:100%;margin:2mm 0}.hyp-row{margin-bottom:2.5mm}.hyp-row:last-child{margin-bottom:0}.hyp-row strong{color:#07568a}.detail-note{margin-top:2.5mm;color:var(--muted)}
+.conclusion{margin-top:4mm;background:#07568a;color:white;padding:4mm 5mm}.conclusion h3{color:white;margin-bottom:2mm}.scope{margin-top:3mm;color:var(--muted)}
+footer{margin-top:3mm;padding-top:2mm;border-top:.5mm solid var(--line);display:block;font-size:24pt;line-height:1.18}footer h3{font-size:24pt;margin-bottom:1mm}footer p+p{margin-top:1mm}footer .code{overflow-wrap:anywhere}.refs a{text-decoration:underline;text-decoration-color:#afc6d5;text-underline-offset:3px}
+.toolbar{display:flex;gap:16px;position:fixed;bottom:16px;right:20px;background:#173248;color:white;padding:12px 16px;border-radius:5px;font:16px Noto,sans-serif;z-index:4}.toolbar a{text-decoration:underline}.toolbar button{border:0;background:none;color:inherit;font:inherit;padding:0;cursor:pointer;text-decoration:underline}
+@page{size:594mm 841mm;margin:0}@media print{html,body{background:white;width:594mm;height:841mm}.poster{margin:0;box-shadow:none;min-height:0;height:841mm;zoom:1!important}.toolbar{display:none}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+</style>
+</head>
+<body>
+<main class="poster">
+<header>
+ <div class="masthead"><p class="course">TRENDS IN MACHINE LEARNING II</p><img class="logo" src="assets/trier-university.svg" alt="Universität Trier"></div>
+ <h1>Building Legal RAG:<br>what each component contributes</h1>
+</header>
+
+<section aria-labelledby="hypothesis-title">
+ <div class="section-title"><span class="num">01</span><h2 id="hypothesis-title">Context and hypothesis</h2></div>
+ <p class="context">Retrieval-augmented generation (RAG) grounds language-model answers in external documents [1]. Legal QA needs correct answers and precise, complete source-page citations [2, 3]. PDFs may lack searchable text; evidence spans different text scales and may require exact legal terms. Retrieving more passages can also introduce irrelevant pages.</p>
+ <p class="question">How can a legal RAG pipeline improve answer quality<br>while keeping source-page citations both precise and complete?</p>
+ <div class="grid three hypotheses">
+  <div><h3>H1 · Retrieval</h3><p>Multiple text scales, hybrid search and reranking will improve answers and evidence retrieval over R0.</p></div>
+  <div><h3>H2 · Scan robustness</h3><p>Recovering text from scanned documents will reduce the performance loss caused by the missing text layer.</p></div>
+  <div><h3>H3 · Citation selection</h3><p>Selecting pages after answer generation will improve citation precision while retaining most of the relevant evidence.</p></div>
+ </div>
+</section>
+
+<section aria-labelledby="method-title">
+ <div class="section-title"><span class="num">02</span><h2 id="method-title">Methodology</h2></div>
+ <p class="data"><strong>Data:</strong> 30 DIFC legal PDFs (590 pages), 100 questions: 70 structured-answer and 30 free-text. Reference source pages are available for 95 questions. In the mixed corpus, 10 PDFs (107 pages) become synthetic scans: page images at 300 DPI with the text layer removed.</p>
+ <p class="baseline"><strong>R0 · Baseline. R1–R6 each include all earlier additions.</strong> PDF text → 300-token passages → semantic retrieval → GPT-5.4-mini → answer + retrieved pages as citations. Semantic search uses Qwen3-Embedding-0.6B.</p>
+ <div class="stages" role="group" aria-label="Six cumulative pipeline additions, R1 to R6">
+  <p class="stage-group processing">Document processing</p><p class="stage-group retrieval">Retrieval</p><p class="stage-group">Answering</p><p class="stage-group">Citations</p>
+  <div class="step"><h3>R1 · Read<br>scans</h3><p>Recover searchable text from page images.</p><p class="tech">OCR:<br>PP-OCRv5</p><p class="arrow" aria-hidden="true">→</p></div>
+  <div class="step"><h3>R2 · Multiple<br>text scales</h3><p>Represent evidence at different levels.</p><p class="tech">Pages, sections, clauses, microchunks, tables</p><p class="arrow" aria-hidden="true">→</p></div>
+  <div class="step"><h3>R3 · Find<br>exact terms</h3><p>Combine semantic and lexical search.</p><p class="tech">BM25 + rank fusion (RRF)</p><p class="arrow" aria-hidden="true">→</p></div>
+  <div class="step"><h3>R4 · Rank<br>evidence</h3><p>Prioritize the most relevant passages.</p><p class="tech">Qwen3-<br>Reranker-0.6B</p><p class="arrow" aria-hidden="true">→</p></div>
+  <div class="step"><h3>R5 · Check<br>answer type</h3><p>Normalize and validate the expected type.</p><p class="tech">Type checks, confidence thresholds</p><p class="arrow" aria-hidden="true">→</p></div>
+  <div class="step"><h3>R6 · Refine<br>citations</h3><p>Select pages linked to supporting passages.</p><p class="tech">Generator's supporting-chunk references</p></div>
+ </div>
+ <p class="controls"><strong>Fixed:</strong> GPT-5.4-mini / high, 24 retrieval candidates, ≤ 2,400 context tokens and the generation schema. R4–R6 reuse one generated response. R0–R6 run on the mixed corpus; R0/R1 also on originals.</p>
+ <div class="evaluation">
+  <p><strong>Evaluation:</strong> Correct answers can still have poor citations. We score answers and citations separately.</p>
+  <p><strong>Answer quality Q = 0.7 × S + 0.3 × F.</strong> S / F: mean structured / free-text scores. Free text is LLM-scored.</p>
+  <p><strong>Citation precision:</strong> share of cited pages that match annotated source pages. Are the citations relevant?</p>
+  <p><strong>Citation recall:</strong> share of annotated source pages cited. Is the evidence complete? Both average 95 questions.</p>
+ </div>
+</section>
+
+<section aria-labelledby="results-title">
+ <div class="section-title"><span class="num">03</span><h2 id="results-title">Results</h2><span class="english">R0 to R6 on the mixed corpus</span></div>
+
+ <figure><img class="chart" src="assets/sequence.svg" alt="Q for R0 to R6: 46.2, 63.2, 49.8, 74.6, 84.4, 84.4, 84.4%. Precision: 7.6, 11.2, 14.7, 22.2, 27.1, 27.1, 61.8%. Recall: 38.5, 61.6, 52.9, 72.7, 78.9, 78.9, 74.7%."/><figcaption class="chart-caption">Q is an aggregate score, not the share of fully correct answers. R5 adds no score gain.</figcaption></figure>
+ <div class="grid detail-grid">
+  <div><h3>OCR recovers performance on scans</h3><img class="ocr" src="assets/ocr.svg" alt="Answer quality: original corpus R0 65.4%; mixed corpus R0 46.2%; mixed corpus with OCR R1 63.2%."><p>Scanning 10 of 30 PDFs lowers Q from 65.4% to 46.2%. OCR restores most of this loss, reaching 63.2%.</p></div>
+  <div><h3>Hypothesis evaluation</h3>
+   <p class="hyp-row"><strong>H1 · Partially supported.</strong> Multiple scales alone reduce Q; lexical retrieval and reranking improve Q and recall.</p>
+   <p class="hyp-row"><strong>H2 · Supported.</strong> OCR restores most of the loss caused by removing the text layer.</p>
+   <p class="hyp-row"><strong>H3 · Supported with a trade-off.</strong> Precision rises from 27.1% to 61.8%; recall falls from 78.9% to 74.7% (−4.2 pp).</p>
+  </div>
+ </div>
+ <div class="conclusion"><h3>Conclusion</h3><p>OCR recovers text from scans, hybrid retrieval and reranking improve answers, and citation selection trades recall for precision. Evaluate and optimize answer quality and citations separately.</p></div>
+ <p class="scope"><strong>Limitations:</strong> one DIFC development corpus, 100 questions and synthetic scans; sequential additions; one run per condition, no significance testing; LLM-scored free text.</p>
+</section>
+
+<footer>
+ <p class="refs"><strong>References:</strong> <a href="https://arxiv.org/abs/2005.11401">[1] Lewis et al. RAG (2020).</a> <a href="https://arxiv.org/abs/2408.10343">[2] Pipitone &amp; Alami. LegalBench-RAG (2024).</a> <a href="https://doi.org/10.18653/v1/2023.emnlp-main.398">[3] Gao et al. ALCE (2023).</a></p>
+ <p class="code"><strong>Code, protocol &amp; results:</strong> <a href="https://github.com/SteinVR/Trends-in-NLP-Poster">github.com/SteinVR/Trends-in-NLP-Poster</a></p>
+</footer>
+</main>
+<nav class="toolbar" aria-label="Materials"><button id="zoom-toggle" type="button">100% size</button><a href="poster.pdf">PDF A1</a><a href="powerpoint/legal-rag-poster-updated.pptx">PowerPoint</a></nav>
+<script>
+let actualSize=false;
+function fitPoster(){document.querySelector('.poster').style.zoom=actualSize?1:Math.min(1,(window.innerWidth-40)/(594*96/25.4));}
+document.querySelector('#zoom-toggle').addEventListener('click',()=>{actualSize=!actualSize;document.querySelector('#zoom-toggle').textContent=actualSize?'Fit width':'100% size';fitPoster();});
+window.addEventListener('resize',fitPoster);fitPoster();
+</script>
+</body>
+</html>

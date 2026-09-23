@@ -1,0 +1,18 @@
+{
+  "scope": "HTML and HTML assets only",
+  "pipeline_cards": 6,
+  "result_values_checked": 21,
+  "ocr_values_checked": [
+    "65.4",
+    "46.2",
+    "63.2"
+  ],
+  "chart_text_collisions": 0,
+  "chart_label_line_collisions": 0,
+  "chart_clipped_text": 0,
+  "content_bottom_px": 3121.859375,
+  "content_limit_px": 3133.223825,
+  "minimum_body_font_pt": 24,
+  "frozen_exports_unchanged": true,
+  "visual_review": "Latest full HTML render inspected against all five user corrections."
+}
