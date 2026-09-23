@@ -26,12 +26,16 @@ h3{font-size:26pt;line-height:1.16;color:#07568a;margin-bottom:2mm}.grid{display
 .card-body{padding:3mm 3mm 2mm;display:flex;flex-direction:column;flex:1}.pipeline-card h3{font-size:25pt;line-height:1.12;color:var(--ink);min-height:20mm;margin:0 0 2mm}.pipeline-card .purpose{min-height:29mm}.pipeline-card .icon{color:var(--stage);width:17mm;height:17mm;margin:1mm auto 0}.pipeline-card .technology{background:var(--band);padding:2.5mm 3mm;min-height:34mm;border-radius:0 0 2.6mm 2.6mm;display:flex;align-items:flex-start;font-size:24pt}
 .pipeline-card:not(:last-child)::after{content:'';position:absolute;width:5mm;height:7mm;right:-5.8mm;top:43%;background:var(--stage);clip-path:polygon(0 30%,52% 30%,52% 0,100% 50%,52% 100%,52% 70%,0 70%)}
 .cumulative-note{text-align:center;margin-top:2mm;padding:2mm 3mm;background:#edf1f5;border-radius:2mm;font-weight:700}
-.controls{padding:2mm 0;border-top:.4mm solid var(--line);margin-top:3mm;color:var(--muted)}
-.evaluation{margin-top:3mm}.evaluation-intro{margin-bottom:3mm}.evaluation>p+p{margin-top:1.5mm}.evaluation h3{font-size:25pt}.evaluation p+p{margin-top:1.5mm}.muted{color:var(--muted)}
-.metrics-line{display:flex;gap:8mm;margin-bottom:3mm}.metric{flex:1;border-left:1.2mm solid var(--brand);padding-left:4mm}.metric strong{display:block;font-size:32pt;line-height:1.12;color:var(--blue);letter-spacing:-.025em}.metric span{display:block;margin-top:1mm}
-.chart{width:100%;display:block;margin:1mm 0 2mm}.chart-caption{color:var(--muted);margin-top:0}.result-intro{margin-bottom:3mm}
+.answer-generation{padding:2mm 0;border-top:.4mm solid var(--line);margin-top:3mm;color:var(--muted)}
+.evaluation{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8mm;margin-top:3mm}
+.evaluation h3{font-size:25pt;margin-bottom:1.5mm}
+.evaluation .metric-question{font-style:italic;margin-bottom:1.5mm}
+.evaluation .formula{font-weight:700}
+.chart{width:100%;display:block;margin:1mm 0 2mm}
 .detail-grid{margin-top:4mm;grid-template-columns:1fr 1fr}.detail-grid>div+div{border-left:.5mm solid var(--line);padding-left:6mm}.ocr{width:100%;display:block;margin:3mm 0 2mm}.hyp-row{margin-bottom:2.5mm}.hyp-row:last-child{margin-bottom:0}.hyp-row strong{color:#07568a}.detail-note{margin-top:2.5mm;color:var(--muted)}
-.conclusion{margin-top:4mm;background:#07568a;color:white;padding:4mm 5mm}.conclusion h3{color:white;margin-bottom:2mm}.scope{margin-top:3mm;color:var(--muted)}
+.limitations{margin-top:3mm;padding-top:2mm;border-top:.5mm solid var(--line);color:var(--muted)}
+.limitations h3{font-size:25pt;margin-bottom:1.5mm}
+.conclusion{margin-top:4mm;background:#07568a;color:white;padding:4mm 5mm}.conclusion h3{color:white;margin-bottom:2mm}
 footer{margin-top:3mm;padding-top:2mm;border-top:.5mm solid var(--line);display:block;font-size:24pt;line-height:1.18}footer h3{font-size:24pt;margin-bottom:1mm}footer p+p{margin-top:1mm}footer .code{overflow-wrap:anywhere}.refs a{text-decoration:underline;text-decoration-color:#afc6d5;text-underline-offset:3px}
 .toolbar{display:flex;gap:16px;position:fixed;bottom:16px;right:20px;background:#173248;color:white;padding:12px 16px;border-radius:5px;font:16px Noto,sans-serif;z-index:4}.toolbar a{text-decoration:underline}.toolbar button{border:0;background:none;color:inherit;font:inherit;padding:0;cursor:pointer;text-decoration:underline}
 @page{size:594mm 841mm;margin:0}@media print{html,body{background:white;width:594mm;height:841mm}.poster{margin:0;box-shadow:none;min-height:0;height:841mm;zoom:1!important}.toolbar{display:none}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
@@ -85,28 +89,46 @@ footer{margin-top:3mm;padding-top:2mm;border-top:.5mm solid var(--line);display:
   <div class="pipeline-card citation-stage"><div class="card-body"><h3>R6 · Citation<br>selection</h3><p class="purpose">Select pages from supporting chunks</p><svg class="icon" aria-hidden="true"><use href="#icon-link"/></svg></div><p class="technology">Supporting-chunk references + page validation</p></div>
  </div>
  <p class="cumulative-note">Each variant (R1–R6) includes all previous additions.</p>
- <p class="controls"><strong>Fixed:</strong> GPT-5.4-mini / high, 24 retrieval candidates, ≤ 2,400 context tokens and the generation schema. R4–R6 reuse one generated response. R0–R6 run on the mixed corpus; R0/R1 also on originals.</p>
- <div class="evaluation">
-  <p><strong>Answer quality Q = 0.7 × S + 0.3 × F.</strong> S / F: mean structured / free-text scores. Free text is LLM-scored.</p>
-  <p><strong>Citation precision:</strong> share of cited pages that match annotated source pages. <strong>Recall:</strong> share of annotated pages cited.</p>
-  <p>Q averages 100 questions; citation metrics average 95. A correct answer can still have poor citations.</p>
+ <p class="answer-generation"><strong>Answer generation:</strong> A fixed GPT-5.4-mini configuration is used across variants, so changes in performance reflect modifications to the surrounding pipeline rather than a change of the generating LLM.</p>
+ <div class="evaluation" role="group" aria-label="Evaluation metrics">
+  <div>
+   <h3>Answer quality</h3>
+   <p class="metric-question">Is the generated answer correct?</p>
+   <p class="formula">Q = 0.7 × structured score<br>+ 0.3 × free-text score</p>
+  </div>
+  <div>
+   <h3>Citation precision</h3>
+   <p class="metric-question">Are the cited pages actually relevant?</p>
+   <p>Share of cited pages that support the answer.</p>
+  </div>
+  <div>
+   <h3>Citation recall</h3>
+   <p class="metric-question">Did the system cite all required evidence?</p>
+   <p>Share of annotated supporting pages that were cited.</p>
+  </div>
  </div>
 </section>
 
 <section aria-labelledby="results-title">
  <div class="section-title"><span class="num">03</span><h2 id="results-title">Results</h2><span class="english">R0 to R6 on the mixed corpus</span></div>
 
- <figure><img class="chart" src="assets/sequence-readable.svg" alt="Q for R0 to R6: 46.2, 63.2, 49.8, 74.6, 84.4, 84.4, 84.4%. Precision: 7.6, 11.2, 14.7, 22.2, 27.1, 27.1, 61.8%. Recall: 38.5, 61.6, 52.9, 72.7, 78.9, 78.9, 74.7%."/><figcaption class="chart-caption">Q is an aggregate score, not the share of fully correct answers. R5 adds no score gain.</figcaption></figure>
+ <figure><img class="chart" src="assets/sequence-readable.svg" alt="Q for R0 to R6: 46.2, 63.2, 49.8, 74.6, 84.4, 84.4, 84.4%. Precision: 7.6, 11.2, 14.7, 22.2, 27.1, 27.1, 61.8%. Recall: 38.5, 61.6, 52.9, 72.7, 78.9, 78.9, 74.7%."/></figure>
  <div class="grid detail-grid">
-  <div><h3>OCR recovers performance on scans</h3><img class="ocr" src="assets/ocr-readable.svg" alt="Answer quality: original corpus R0 65.4%; mixed corpus R0 46.2%; mixed corpus with OCR R1 63.2%."><p>Converting 10 documents into synthetic scans reduces answer quality from 65.4% to 46.2%. OCR restores most of this loss, reaching 63.2%.</p></div>
+  <div><h3>OCR recovers performance on scanned documents</h3><img class="ocr" src="assets/ocr-readable.svg" alt="Answer quality: original corpus R0 65.4%; mixed corpus R0 46.2%; mixed corpus with OCR R1 63.2%."><p>Converting 10 documents into synthetic scans reduces answer quality from 65.4% to 46.2%. OCR restores most of this loss, reaching 63.2%.</p></div>
   <div><h3>Hypothesis evaluation</h3>
    <p class="hyp-row"><strong>H1 · Partially supported.</strong> Multiple scales alone reduce Q; lexical retrieval and reranking improve Q and recall.</p>
    <p class="hyp-row"><strong>H2 · Supported.</strong> OCR restores most of the loss caused by removing the text layer.</p>
    <p class="hyp-row"><strong>H3 · Supported with a trade-off.</strong> Precision rises from 27.1% to 61.8%; recall falls from 78.9% to 74.7% (−4.2 pp).</p>
+   <div class="limitations">
+    <h3>Limitations</h3>
+    <p>one DIFC corpus and 100 questions; one run per condition with no significance testing; LLM-based evaluation of free-text answers.</p>
+   </div>
   </div>
  </div>
- <div class="conclusion"><h3>Conclusion</h3><p>OCR recovers text from scans, hybrid retrieval and reranking improve answers, and citation selection trades recall for precision. Evaluate and optimize answer quality and citations separately.</p></div>
- <p class="scope"><strong>Limitations:</strong> one DIFC development corpus, 100 questions and synthetic scans; sequential additions; one run per condition, no significance testing; LLM-scored free text.</p>
+ <div class="conclusion">
+  <h3>Conclusion</h3>
+  <p>Legal RAG should be designed as a multi-stage pipeline: OCR improves robustness to unreadable PDFs, hybrid retrieval and reranking improve answer quality, and post-answer citation selection improves citation precision. However, citation selection introduces a precision–recall trade-off, so answer quality and citation quality should be optimized and evaluated separately.</p>
+ </div>
 </section>
 
 <footer>
