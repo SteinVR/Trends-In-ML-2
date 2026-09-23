@@ -1,0 +1,123 @@
+answer mixed-R4 1/76 9596fb7544
+answer mixed-R4 2/76 9f48d8eca6
+answer mixed-R4 3/76 802d12a655
+answer mixed-R4 4/76 84ef7f354a
+answer mixed-R4 5/76 5046b4e3fa
+answer mixed-R4 6/76 042ddf2ed1
+answer mixed-R4 7/76 e14ad29680
+answer mixed-R4 8/76 f33177fc2e
+answer mixed-R4 9/76 f29159d38b
+answer mixed-R4 10/76 2e8b251fd5
+answer mixed-R4 11/76 fa672c8426
+answer mixed-R4 12/76 7aae865f32
+answer mixed-R4 13/76 e0798bd394
+answer mixed-R4 14/76 32bb32856c
+answer mixed-R4 15/76 698e303853
+answer mixed-R4 16/76 52a35cfabe
+answer mixed-R4 17/76 a341025df4
+answer mixed-R4 18/76 acd7d2aea6
+answer mixed-R4 19/76 f2a28b01db
+answer mixed-R4 20/76 3c33f9a4de
+answer mixed-R4 21/76 b982f3b308
+answer mixed-R4 22/76 cdddeb6a06
+answer mixed-R4 23/76 f5c27c961e
+answer mixed-R4 24/76 7b31467fd9
+answer mixed-R4 25/76 6b20dd63f6
+answer mixed-R4 26/76 a499c8553e
+answer mixed-R4 27/76 de67a8574c
+answer mixed-R4 28/76 e153746c20
+answer mixed-R4 29/76 922dcd5ae0
+answer mixed-R4 30/76 f950917f9b
+answer mixed-R4 31/76 254c8499b2
+answer mixed-R4 32/76 322674cd65
+answer mixed-R4 33/76 87a1294f4e
+answer mixed-R4 34/76 b2fcc22c0b
+answer mixed-R4 35/76 8167b0cfeb
+answer mixed-R4 36/76 2e211d0cdb
+answer mixed-R4 37/76 89f4b2e86c
+answer mixed-R4 38/76 98d473221f
+answer mixed-R4 39/76 5cb2e9e631
+answer mixed-R4 40/76 30167c4bda
+answer mixed-R4 41/76 30040cc854
+answer mixed-R4 42/76 33060f268e
+answer mixed-R4 43/76 0149374f16
+answer mixed-R4 44/76 5c3ca60614
+answer mixed-R4 45/76 52e9e31a6d
+answer mixed-R4 46/76 fdeb03aeca
+answer mixed-R4 47/76 eeffebf44c
+answer mixed-R4 48/76 6c32a091c7
+answer mixed-R4 49/76 f564b1fd73
+answer mixed-R4 50/76 b31a702f36
+answer mixed-R4 51/76 b13500141f
+answer mixed-R4 52/76 43f77ed8a3
+answer mixed-R4 53/76 12eaaba413
+answer mixed-R4 54/76 1097af38db
+answer mixed-R4 55/76 0a414e1d99
+answer mixed-R4 56/76 146567e3d0
+answer mixed-R4 57/76 81d5652bd7
+answer mixed-R4 58/76 ca8aebcc86
+answer mixed-R4 59/76 d9d27c9cac
+answer mixed-R4 60/76 be35b591e2
+answer mixed-R4 61/76 8bf189fe86
+answer mixed-R4 62/76 c9f0dd67c6
+answer mixed-R4 63/76 84a7c35640
+answer mixed-R4 64/76 b9e824da7b
+answer mixed-R4 65/76 3ab3489605
+answer mixed-R4 66/76 ec0aa69922
+answer mixed-R4 67/76 e9b7a25f2b
+answer mixed-R4 68/76 d6eb4a640e
+answer mixed-R4 69/76 88f62d0952
+answer mixed-R4 70/76 dd736c7955
+answer mixed-R4 71/76 84941458c4
+answer mixed-R4 72/76 ff1b357588
+answer mixed-R4 73/76 f2ea23e9f8
+answer mixed-R4 74/76 095cb50318
+answer mixed-R4 75/76 c2cf8224f1
+answer mixed-R4 76/76 cd69f5dfe0
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/xeliaray/Projects/Trends-In-ML-2/research/legal-rag/experiments/answer.py", line 126, in <module>
+    main()
+  File "/home/xeliaray/Projects/Trends-In-ML-2/research/legal-rag/experiments/answer.py", line 118, in main
+    for i,qid in enumerate(pool.map(run,pending),1):
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/xeliaray/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/xeliaray/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/xeliaray/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/xeliaray/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/xeliaray/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/xeliaray/Projects/Trends-In-ML-2/research/legal-rag/experiments/answer.py", line 114, in run
+    write_json(folder/"answers"/f"{q['id']}.json",result)
+  File "/home/xeliaray/Projects/Trends-In-ML-2/research/legal-rag/experiments/retrieval.py", line 30, in write_json
+    tmp.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/xeliaray/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/home/xeliaray/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/home/xeliaray/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/home/xeliaray/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/home/xeliaray/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/home/xeliaray/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/home/xeliaray/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/home/xeliaray/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type PageReference is not JSON serializable
