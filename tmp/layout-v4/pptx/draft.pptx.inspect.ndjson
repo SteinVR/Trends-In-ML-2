@@ -1,0 +1,406 @@
+{"kind":"deck","id":"pr/ews8eg","name":"Deck"}
+{"kind":"layout","layoutId":"6ec8fddc-7854-46ff-b909-03c3018568c5","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"aae20235-1cd3-4ff2-861c-cc5016a17ebd","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/n9li1a","slide":1,"title":"46.2","textShapes":289}
+{"kind":"shape","id":"sh/ex0filsb","slide":1,"name":"s0","bbox":[30.23,123.84,3118.11,2]}
+{"kind":"shape","id":"sh/1kbydgr2","slide":1,"name":"s1","bbox":[30.23,143.84,904.25,54.31]}
+{"kind":"shape","id":"sh/0jixkbah","slide":1,"name":"s2","bbox":[30.23,198.16,904.25,363.94]}
+{"kind":"shape","id":"sh/nmtgfq98","slide":1,"name":"s3","bbox":[30.23,588.22,904.25,54.31]}
+{"kind":"shape","id":"sh/mlkfmlsn","slide":1,"name":"s4","bbox":[30.23,642.53,904.25,518.31]}
+{"kind":"shape","id":"sh/9obyh0ry","slide":1,"name":"s5","bbox":[30.23,1186.97,904.25,54.31]}
+{"kind":"shape","id":"sh/on2xovad","slide":1,"name":"s6","bbox":[30.23,1241.28,904.25,143.97]}
+{"kind":"shape","id":"sh/bqtgja94","slide":1,"name":"s7","bbox":[30.23,1411.38,904.25,54.31]}
+{"kind":"shape","id":"sh/apkfq5sj","slide":1,"name":"s8","bbox":[30.23,1465.69,904.25,229.56]}
+{"kind":"shape","id":"sh/gzix0va9","slide":1,"name":"s9","bbox":[30.23,1721.38,904.25,54.31]}
+{"kind":"shape","id":"sh/10re90re","slide":1,"name":"s10","bbox":[30.23,1781.69,904.25,433.11]}
+{"kind":"shape","id":"sh/ex0fy5s3","slide":1,"name":"s11","bbox":[30.23,1781.69,904.25,162.77]}
+{"kind":"shape","id":"sh/fy9w7a9o","slide":1,"name":"s12","bbox":[30.23,1950.45,904.25,129.17]}
+{"kind":"shape","id":"sh/o32x4fa5","slide":1,"name":"s13","bbox":[30.23,2085.62,904.25,129.17]}
+{"kind":"shape","id":"sh/p4bydkrq","slide":1,"name":"s14","bbox":[952.48,143.84,1231.64,54.31]}
+{"kind":"shape","id":"sh/210f25sz","slide":1,"name":"s15","bbox":[952.48,198.16,1231.64,1085.67]}
+{"kind":"shape","id":"sh/32twba9k","slide":1,"name":"s16","bbox":[969.48,493.09,1197.64,140.56]}
+{"kind":"shape","id":"sh/c72x8fah","slide":1,"name":"s17","bbox":[969.48,647.66,391.2,44.78]}
+{"kind":"shape","id":"sh/dsbyhkrm","slide":1,"name":"s18","bbox":[1372.69,647.66,391.22,44.78]}
+{"kind":"shape","id":"sh/lo7elkj6","slide":1,"name":"s19","bbox":[1775.91,647.66,189.61,44.78]}
+{"kind":"shape","id":"sh/knyxsf2l","slide":1,"name":"s20","bbox":[1977.52,647.66,189.59,44.78]}
+{"kind":"shape","id":"sh/zmpwja10","slide":1,"name":"s21","bbox":[969.48,700.44,189.59,480.2]}
+{"kind":"shape","id":"sh/ylgfqpkf","slide":1,"name":"s22","bbox":[970.48,1023.45,187.59,156.19]}
+{"kind":"shape","id":"sh/9crep4j2","slide":1,"name":"s23","bbox":[1171.08,700.44,189.61,480.2]}
+{"kind":"shape","id":"sh/8rixwz2h","slide":1,"name":"s24","bbox":[1172.08,1023.45,187.61,156.19]}
+{"kind":"shape","id":"sh/7q9wnu1w","slide":1,"name":"s25","bbox":[1372.69,700.44,189.61,480.2]}
+{"kind":"shape","id":"sh/mp0fupkb","slide":1,"name":"s26","bbox":[1373.69,1023.45,187.61,156.19]}
+{"kind":"shape","id":"sh/pgned0jy","slide":1,"name":"s27","bbox":[1574.3,700.44,189.61,480.2]}
+{"kind":"shape","id":"sh/ovedkv2d","slide":1,"name":"s28","bbox":[1575.3,1023.45,187.61,156.19]}
+{"kind":"shape","id":"sh/eps3yhwz","slide":1,"name":"s29","bbox":[1775.91,700.44,189.61,480.2]}
+{"kind":"shape","id":"sh/fq1k72dk","slide":1,"name":"s30","bbox":[1776.91,1023.45,187.61,156.19]}
+{"kind":"shape","id":"sh/gbal07ep","slide":1,"name":"s31","bbox":[1977.52,700.44,189.59,480.2]}
+{"kind":"shape","id":"sh/1c329cva","slide":1,"name":"s32","bbox":[1978.52,1023.45,187.59,156.19]}
+{"kind":"shape","id":"sh/2dc32hwv","slide":1,"name":"s33","bbox":[969.48,1191.64,1197.64,1]}
+{"kind":"shape","id":"sh/3el4bmdg","slide":1,"name":"s34","bbox":[952.48,1293.83,1231.64,54.31]}
+{"kind":"shape","id":"sh/oful4re1","slide":1,"name":"s35","bbox":[952.48,1348.14,1231.64,348.14]}
+{"kind":"shape","id":"sh/pg3mdwvm","slide":1,"name":"s36","bbox":[969.48,1473.92,392.55,208.36]}
+{"kind":"shape","id":"sh/ih83qxwr","slide":1,"name":"s37","bbox":[1372.03,1473.92,392.55,208.36]}
+{"kind":"shape","id":"sh/jihkzidc","slide":1,"name":"s38","bbox":[1774.58,1473.92,392.55,208.36]}
+{"kind":"shape","id":"sh/ze903e50","slide":1,"name":"s39","bbox":[952.48,1708.33,1231.64,54.31]}
+{"kind":"shape","id":"sh/yd0ju9of","slide":1,"name":"s40","bbox":[952.48,1762.64,1231.64,452.16]}
+{"kind":"shape","id":"sh/lgri5on6","slide":1,"name":"s41","bbox":[2202.13,143.84,946.22,54.31]}
+{"kind":"shape","id":"sh/kfi1wj6l","slide":1,"name":"s42","bbox":[2202.13,198.16,946.22,361.47]}
+{"kind":"shape","id":"sh/7it07y5w","slide":1,"name":"s43","bbox":[2219.13,288.48,830.11,20]}
+{"kind":"shape","id":"sh/mhkjytor","slide":1,"name":"s44","bbox":[2219.13,288.48,542.89,20]}
+{"kind":"shape","id":"sh/94bi9on2","slide":1,"name":"s45","bbox":[2219.13,351.27,830.11,20]}
+{"kind":"shape","id":"sh/8j21036h","slide":1,"name":"s46","bbox":[2219.13,351.27,383.5,20]}
+{"kind":"shape","id":"sh/v6t0by58","slide":1,"name":"s47","bbox":[2219.13,414.05,830.11,20]}
+{"kind":"shape","id":"sh/u5kj2ton","slide":1,"name":"s48","bbox":[2219.13,414.05,524.62,20]}
+{"kind":"shape","id":"sh/sbmhs3m1","slide":1,"name":"s49","bbox":[2202.13,569.7,946.22,54.31]}
+{"kind":"shape","id":"sh/dcvi1836","slide":1,"name":"s50","bbox":[2202.13,624.02,946.22,336.16]}
+{"kind":"shape","id":"sh/q94zqt4v","slide":1,"name":"s51","bbox":[2215.13,637.02,920.22,121.78]}
+{"kind":"shape","id":"sh/rad0zylg","slide":1,"name":"s52","bbox":[2215.13,764.8,920.22,88.19]}
+{"kind":"shape","id":"sh/472ho3mp","slide":1,"name":"s53","bbox":[2215.13,858.98,920.22,88.19]}
+{"kind":"shape","id":"sh/58vix83a","slide":1,"name":"s54","bbox":[2202.13,970.25,946.22,54.31]}
+{"kind":"shape","id":"sh/ilkzmt4j","slide":1,"name":"s55","bbox":[2202.13,1024.56,946.22,598.91]}
+{"kind":"shape","id":"sh/j6t0vyl4","slide":1,"name":"s56","bbox":[2219.13,1034.56,912.22,195.97]}
+{"kind":"shape","id":"sh/wj2hkjmt","slide":1,"name":"s57","bbox":[2219.13,1535.28,912.22,1]}
+{"kind":"shape","id":"sh/hkbito3e","slide":1,"name":"s58","bbox":[2202.13,1633.55,946.22,54.31]}
+{"kind":"shape","id":"sh/xoj61grq","slide":1,"name":"s59","bbox":[2202.13,1687.86,946.22,89.19]}
+{"kind":"shape","id":"sh/c3ap8ba5","slide":1,"name":"s60","bbox":[2202.13,1787.13,946.22,48.55]}
+{"kind":"shape","id":"sh/b21oz69k","slide":1,"name":"s61","bbox":[2202.13,1835.67,946.22,379.13]}
+{"kind":"shape","id":"sh/a1s76lsz","slide":1,"name":"s62","bbox":[2215.13,2127.61,920.22,1]}
+{"kind":"shape","id":"sh/p0j6xgru","slide":1,"name":"s63","bbox":[1159.08,981.45,11,18]}
+{"kind":"shape","id":"sh/oza54ba9","slide":1,"name":"s64","bbox":[1360.69,981.45,11,18]}
+{"kind":"shape","id":"sh/nyhov69o","slide":1,"name":"s65","bbox":[1562.3,981.45,11,18]}
+{"kind":"shape","id":"sh/2x8n21s3","slide":1,"name":"s66","bbox":[1763.91,981.45,11,18]}
+{"kind":"shape","id":"sh/9w3690ry","slide":1,"name":"s67","bbox":[1965.52,981.45,11,18]}
+{"kind":"shape","id":"sh/8vupgvad","slide":1,"name":"s68","bbox":[1019.4,2123.82,324.35,0.01]}
+{"kind":"shape","id":"sh/q1o3ux8v","slide":1,"name":"s69","bbox":[1019.4,2013.23,324.35,0.01]}
+{"kind":"shape","id":"sh/r2x432pg","slide":1,"name":"s70","bbox":[1019.4,1902.64,324.35,0.01]}
+{"kind":"shape","id":"sh/s36lw7q1","slide":1,"name":"s71","bbox":[1019.4,1937.15,314.37,84.49]}
+{"kind":"shape","id":"sh/d4fm5c7m","slide":1,"name":"s72","bbox":[1013.16,2015.4,12.48,12.48]}
+{"kind":"shape","id":"sh/id43qx8z","slide":1,"name":"s73","bbox":[1065.55,1977.8,12.48,12.48]}
+{"kind":"shape","id":"sh/3yd4z2p4","slide":1,"name":"s74","bbox":[1117.95,2007.43,12.48,12.48]}
+{"kind":"shape","id":"sh/4zmlsnqp","slide":1,"name":"s75","bbox":[1170.35,1952.58,12.48,12.48]}
+{"kind":"shape","id":"sh/50fm1s7a","slide":1,"name":"s76","bbox":[1222.74,1930.91,12.48,12.48]}
+{"kind":"shape","id":"sh/29832h83","slide":1,"name":"s77","bbox":[1275.14,1930.91,12.48,12.48]}
+{"kind":"shape","id":"sh/nuh4bmpo","slide":1,"name":"s78","bbox":[1327.53,1930.91,12.48,12.48]}
+{"kind":"shape","id":"sh/bqd4vmhs","slide":1,"name":"s79","bbox":[1422.34,2123.82,324.35,0.01]}
+{"kind":"shape","id":"sh/ap43mh07","slide":1,"name":"s80","bbox":[1422.34,2013.23,324.35,0.01]}
+{"kind":"shape","id":"sh/xsvmxwzy","slide":1,"name":"s81","bbox":[1422.34,1902.64,324.35,0.01]}
+{"kind":"shape","id":"sh/wrmlorid","slide":1,"name":"s82","bbox":[1422.34,1987.21,314.37,119.8]}
+{"kind":"shape","id":"sh/nmdkr2hg","slide":1,"name":"s83","bbox":[1416.11,2100.77,12.48,12.48]}
+{"kind":"shape","id":"sh/mlk3ih0b","slide":1,"name":"s84","bbox":[1468.5,2092.77,12.48,12.48]}
+{"kind":"shape","id":"sh/9ovmtczm","slide":1,"name":"s85","bbox":[1520.9,2085,12.48,12.48]}
+{"kind":"shape","id":"sh/onmlk7i1","slide":1,"name":"s86","bbox":[1573.29,2068.52,12.48,12.48]}
+{"kind":"shape","id":"sh/zytkn2hk","slide":1,"name":"s87","bbox":[1625.69,2057.69,12.48,12.48]}
+{"kind":"shape","id":"sh/exk3ex0z","slide":1,"name":"s88","bbox":[1678.09,2057.69,12.48,12.48]}
+{"kind":"shape","id":"sh/43i1o3yx","slide":1,"name":"s89","bbox":[1730.48,1980.97,12.48,12.48]}
+{"kind":"shape","id":"sh/p4rix8fi","slide":1,"name":"s90","bbox":[1825.29,2123.82,324.35,0.01]}
+{"kind":"shape","id":"sh/i1gjmtgr","slide":1,"name":"s91","bbox":[1825.29,2013.23,324.35,0.01]}
+{"kind":"shape","id":"sh/32p0vyxc","slide":1,"name":"s92","bbox":[1825.29,1902.64,324.35,0.01]}
+{"kind":"shape","id":"sh/cri1s3yt","slide":1,"name":"s93","bbox":[1825.29,1949.21,314.37,89.43]}
+{"kind":"shape","id":"sh/dsri18fe","slide":1,"name":"s94","bbox":[1819.06,2032.41,12.48,12.48]}
+{"kind":"shape","id":"sh/qp0jqdg3","slide":1,"name":"s95","bbox":[1871.45,1981.28,12.48,12.48]}
+{"kind":"shape","id":"sh/rq90zyx8","slide":1,"name":"s96","bbox":[1923.85,2000.6,12.48,12.48]}
+{"kind":"shape","id":"sh/8vehgjyp","slide":1,"name":"s97","bbox":[1976.24,1956.84,12.48,12.48]}
+{"kind":"shape","id":"sh/tw7ipofa","slide":1,"name":"s98","bbox":[2028.64,1942.97,12.48,12.48]}
+{"kind":"shape","id":"sh/2p0b614v","slide":1,"name":"s99","bbox":[2081.03,1942.97,12.48,12.48]}
+{"kind":"shape","id":"sh/3q9sz6lg","slide":1,"name":"s100","bbox":[2133.43,1952.28,12.48,12.48]}
+{"kind":"textbox","id":"sh/obit8bm1","slide":1,"name":"s101","text":"46.2","textPreview":"46.2","textChars":4,"textLines":1,"bbox":[994.69,2029.06,55.75,41]}
+{"kind":"textbox","id":"sh/pcra1g3m","slide":1,"name":"s102","text":"63.2","textPreview":"63.2","textChars":4,"textLines":1,"bbox":[1047.83,1932.83,54.26,41]}
+{"kind":"textbox","id":"sh/qd0bal4r","slide":1,"name":"s103","text":"49.8","textPreview":"49.8","textChars":4,"textLines":1,"bbox":[1099.52,2017.47,55.33,41]}
+{"kind":"textbox","id":"sh/bets3qlc","slide":1,"name":"s104","text":"74.6","textPreview":"74.6","textChars":4,"textLines":1,"bbox":[1152.36,1907.61,54.45,41]}
+{"kind":"textbox","id":"sh/cf2tcvmx","slide":1,"name":"s105","text":"84.4","textPreview":"84.4","textChars":4,"textLines":1,"bbox":[1203.56,1885.94,56.84,41]}
+{"kind":"textbox","id":"sh/dgba503i","slide":1,"name":"s106","text":"84.4","textPreview":"84.4","textChars":4,"textLines":1,"bbox":[1255.95,1944.57,56.84,41]}
+{"kind":"textbox","id":"sh/6hgryh4n","slide":1,"name":"s107","text":"84.4","textPreview":"84.4","textChars":4,"textLines":1,"bbox":[1308.35,1885.94,56.84,41]}
+{"kind":"textbox","id":"sh/ripsrm58","slide":1,"name":"s108","text":"7.6","textPreview":"7.6","textChars":3,"textLines":1,"bbox":[1406.38,2055.8,37.92,41]}
+{"kind":"textbox","id":"sh/9ofmtor2","slide":1,"name":"s109","text":"11.2","textPreview":"11.2","textChars":4,"textLines":1,"bbox":[1455.71,2047.8,44.41,41]}
+{"kind":"textbox","id":"sh/8n65kjah","slide":1,"name":"s110","text":"14.7","textPreview":"14.7","textChars":4,"textLines":1,"bbox":[1505.87,2040.03,48.83,41]}
+{"kind":"textbox","id":"sh/7mx4re9w","slide":1,"name":"s111","text":"22.2","textPreview":"22.2","textChars":4,"textLines":1,"bbox":[1555.57,2023.55,54.26,41]}
+{"kind":"textbox","id":"sh/mloni9sb","slide":1,"name":"s112","text":"27.1","textPreview":"27.1","textChars":4,"textLines":1,"bbox":[1611.57,2012.72,46.72,41]}
+{"kind":"textbox","id":"sh/hczmx8ry","slide":1,"name":"s113","text":"27.1","textPreview":"27.1","textChars":4,"textLines":1,"bbox":[1663.96,2067.74,46.72,41]}
+{"kind":"textbox","id":"sh/wbq5o3ad","slide":1,"name":"s114","text":"61.8","textPreview":"61.8","textChars":4,"textLines":1,"bbox":[1715.27,1936,48.91,41]}
+{"kind":"textbox","id":"sh/vqx4vy9s","slide":1,"name":"s115","text":"38.5","textPreview":"38.5","textChars":4,"textLines":1,"bbox":[1801.32,2046.07,53.95,41]}
+{"kind":"textbox","id":"sh/uponmtsn","slide":1,"name":"s116","text":"61.6","textPreview":"61.6","textChars":4,"textLines":1,"bbox":[1856.24,1936.31,48.91,41]}
+{"kind":"textbox","id":"sh/xgvml4bu","slide":1,"name":"s117","text":"52.9","textPreview":"52.9","textChars":4,"textLines":1,"bbox":[1906.16,2010.64,53.86,41]}
+{"kind":"textbox","id":"sh/cvmlcza9","slide":1,"name":"s118","text":"72.7","textPreview":"72.7","textChars":4,"textLines":1,"bbox":[1960.02,1911.87,51.23,41]}
+{"kind":"textbox","id":"sh/ozq5szi5","slide":1,"name":"s119","text":"78.9","textPreview":"78.9","textChars":4,"textLines":1,"bbox":[2011.42,1898,52.92,41]}
+{"kind":"textbox","id":"sh/p0zm14jq","slide":1,"name":"s120","text":"78.9","textPreview":"78.9","textChars":4,"textLines":1,"bbox":[2063.81,1956.63,52.92,41]}
+{"kind":"textbox","id":"sh/2x8nq90z","slide":1,"name":"s121","text":"74.7","textPreview":"74.7","textChars":4,"textLines":1,"bbox":[2116.49,1907.31,52.67,41]}
+{"kind":"textbox","id":"sh/nyl8vilo","slide":1,"name":"t0","text":"Building Legal RAG: what each component contributes","textPreview":"Building Legal RAG: what each component contributes","textChars":51,"textLines":1,"bbox":[40.23,19.03,1891.77,102.06]}
+{"kind":"textbox","id":"sh/mxc72dkj","slide":1,"name":"t1","text":"1. Research Context","textPreview":"1. Research Context","textChars":19,"textLines":1,"bbox":[44.23,148.67,280.89,48.8]}
+{"kind":"textbox","id":"sh/903qxs3u","slide":1,"name":"t2","text":"RAG grounds language-model answers in external documents, but legal QA","textPreview":"RAG grounds language-model answers in external documents, but legal QA","textChars":70,"textLines":1,"bbox":[47.23,209,808.63,42.4]}
+{"kind":"textbox","id":"sh/8zup4n29","slide":1,"name":"t3","text":"requires a pipeline to satisfy two goals at once: retrieve enough relevant","textPreview":"requires a pipeline to satisfy two goals at once: retrieve enough relevant","textChars":74,"textLines":1,"bbox":[47.23,243,791.67,42.4]}
+{"kind":"textbox","id":"sh/ru587218","slide":1,"name":"t4","text":"evidence to produce a correct answer, while keeping source-page citations","textPreview":"evidence to produce a correct answer, while keeping source-page citations","textChars":73,"textLines":1,"bbox":[47.23,276,823.47,42.4]}
+{"kind":"textbox","id":"sh/6tw7ehkn","slide":1,"name":"t5","text":"precise and complete. This is challenging because legal PDFs may lack","textPreview":"precise and complete. This is challenging because legal PDFs may lack","textChars":69,"textLines":1,"bbox":[47.23,310,772.05,42.4]}
+{"kind":"textbox","id":"sh/e1cb21gr","slide":1,"name":"t6","text":"machine-readable text, evidence can appear at different textual scales, and","textPreview":"machine-readable text, evidence can appear at different textual scales, and","textChars":75,"textLines":1,"bbox":[47.23,344,829.36,42.4]}
+{"kind":"textbox","id":"sh/f25cv6hc","slide":1,"name":"t7","text":"questions may depend on either exact legal references or semantic similarity.","textPreview":"questions may depend on either exact legal references or semantic similarity.","textChars":77,"textLines":1,"bbox":[47.23,377,851.7,42.4]}
+{"kind":"textbox","id":"sh/03et4byx","slide":1,"name":"t8","text":"Moreover, retrieving more evidence can improve coverage while also","textPreview":"Moreover, retrieving more evidence can improve coverage while also","textChars":66,"textLines":1,"bbox":[47.23,411,749.2,42.4]}
+{"kind":"textbox","id":"sh/14nuxgzi","slide":1,"name":"t9","text":"introducing irrelevant source pages. We therefore examine how design choices","textPreview":"introducing irrelevant source pages. We therefore examine how design choices","textChars":76,"textLines":1,"bbox":[47.23,444,863.28,42.4]}
+{"kind":"textbox","id":"sh/qdcby1gv","slide":1,"name":"t10","text":"in document processing, retrieval, and attribution can improve answer quality","textPreview":"in document processing, retrieval, and attribution can improve answer quality","textChars":77,"textLines":1,"bbox":[47.23,478,848.37,42.4]}
+{"kind":"textbox","id":"sh/rylsrmhg","slide":1,"name":"t11","text":"without sacrificing citation quality.","textPreview":"without sacrificing citation quality.","textChars":37,"textLines":1,"bbox":[47.23,512,385.3,42.4]}
+{"kind":"textbox","id":"sh/szut0ry1","slide":1,"name":"t12","text":"2. Prior Work & Study Focus","textPreview":"2. Prior Work & Study Focus","textChars":27,"textLines":1,"bbox":[44.23,592.67,392.62,48.8]}
+{"kind":"textbox","id":"sh/d03atwz6","slide":1,"name":"t13","text":"Retrieval-augmented generation (RAG) conditions language-model answers on","textPreview":"Retrieval-augmented generation (RAG) conditions language-model answers on","textChars":73,"textLines":1,"bbox":[47.23,654,851.89,42.4]}
+{"kind":"textbox","id":"sh/atwbalgz","slide":1,"name":"t14","text":"retrieved documents [1]. Legal retrieval must balance precision and coverage:","textPreview":"retrieved documents [1]. Legal retrieval must balance precision and coverage:","textChars":77,"textLines":1,"bbox":[47.23,687,852.05,42.4]}
+{"kind":"textbox","id":"sh/bupc3qhk","slide":1,"name":"t15","text":"LegalBench-RAG targets minimal relevant passages [2], while regulatory QA","textPreview":"LegalBench-RAG targets minimal relevant passages [2], while regulatory QA","textChars":73,"textLines":1,"bbox":[47.23,721,822.03,42.4]}
+{"kind":"textbox","id":"sh/loretkjm","slide":1,"name":"t16","text":"studies show that retrieving all supporting evidence becomes harder when it","textPreview":"studies show that retrieving all supporting evidence becomes harder when it","textChars":75,"textLines":1,"bbox":[47.23,754,837.55,42.4]}
+{"kind":"textbox","id":"sh/knid0fi1","slide":1,"name":"t17","text":"spans multiple passages [3]. In an end-to-end legal benchmark, retrieval-model","textPreview":"spans multiple passages [3]. In an end-to-end legal benchmark, retrieval-model","textChars":78,"textLines":1,"bbox":[47.23,788,871.44,42.4]}
+{"kind":"textbox","id":"sh/z29wra1w","slide":1,"name":"t18","text":"choice had a larger effect on answer correctness than generator choice [4].","textPreview":"choice had a larger effect on answer correctness than generator choice [4].","textChars":75,"textLines":1,"bbox":[47.23,822,831.22,42.4]}
+{"kind":"textbox","id":"sh/y1gvyp0b","slide":1,"name":"t19","text":"Evaluation also extends beyond correctness. Legal QA research examines","textPreview":"Evaluation also extends beyond correctness. Legal QA research examines","textChars":70,"textLines":1,"bbox":[47.23,865,798.9,42.4]}
+{"kind":"textbox","id":"sh/x07epkjq","slide":1,"name":"t20","text":"whether answers are supported by the supplied context [5], while ALCE","textPreview":"whether answers are supported by the supplied context [5], while ALCE","textChars":69,"textLines":1,"bbox":[47.23,899,777.91,42.4]}
+{"kind":"textbox","id":"sh/czydwfi5","slide":1,"name":"t21","text":"evaluates answer correctness and citation quality separately [6]. Together,","textPreview":"evaluates answer correctness and citation quality separately [6]. Together,","textChars":75,"textLines":1,"bbox":[47.23,932,818.71,42.4]}
+{"kind":"textbox","id":"sh/bypwna1k","slide":1,"name":"t22","text":"these studies motivate evaluating both the evidence available to the generator","textPreview":"these studies motivate evaluating both the evidence available to the generator","textChars":78,"textLines":1,"bbox":[47.23,966,859.09,42.4]}
+{"kind":"textbox","id":"sh/axgvu50z","slide":1,"name":"t23","text":"and the sources ultimately cited.","textPreview":"and the sources ultimately cited.","textChars":33,"textLines":1,"bbox":[47.23,999,361.23,42.4]}
+{"kind":"textbox","id":"sh/hwbe14ju","slide":1,"name":"t24","text":"Our study complements these approaches by holding the generator fixed and","textPreview":"Our study complements these approaches by holding the generator fixed and","textChars":73,"textLines":1,"bbox":[47.23,1043,842.45,42.4]}
+{"kind":"textbox","id":"sh/wv2x8zi9","slide":1,"name":"t25","text":"examining a broader sequence of pipeline choices, from document processing","textPreview":"examining a broader sequence of pipeline choices, from document processing","textChars":74,"textLines":1,"bbox":[47.23,1077,857.27,42.4]}
+{"kind":"textbox","id":"sh/0bupk7ux","slide":1,"name":"t26","text":"to final page selection.","textPreview":"to final page selection.","textChars":24,"textLines":1,"bbox":[47.23,1110,252.5,42.4]}
+{"kind":"textbox","id":"sh/1c3qtcbi","slide":1,"name":"t27","text":"3. Research question","textPreview":"3. Research question","textChars":20,"textLines":1,"bbox":[44.23,1191.67,299.25,48.8]}
+{"kind":"textbox","id":"sh/e9s7ixcr","slide":1,"name":"t28","text":"With the answer generator fixed, which pipeline additions improve","textPreview":"With the answer generator fixed, which pipeline additions improve","textChars":65,"textLines":1,"bbox":[82.47,1255.67,805.77,44]}
+{"kind":"textbox","id":"sh/fal8r2tc","slide":1,"name":"t29","text":"answer quality and page-level citation precision and recall, and where","textPreview":"answer quality and page-level citation precision and recall, and where","textChars":70,"textLines":1,"bbox":[58.94,1292.67,852.83,44]}
+{"kind":"textbox","id":"sh/s7apg7ul","slide":1,"name":"t30","text":"do these objectives conflict?","textPreview":"do these objectives conflict?","textChars":29,"textLines":1,"bbox":[308.09,1329.67,354.51,44]}
+{"kind":"textbox","id":"sh/d8jqpcb6","slide":1,"name":"t31","text":"4. Our Contribution","textPreview":"4. Our Contribution","textChars":19,"textLines":1,"bbox":[44.23,1415.67,270.44,48.8]}
+{"kind":"textbox","id":"sh/65s7excv","slide":1,"name":"t32","text":"We build a Legal RAG pipeline and provide an empirical comparison of seven","textPreview":"We build a Legal RAG pipeline and provide an empirical comparison of seven","textChars":74,"textLines":1,"bbox":[47.23,1477,830.9,42.4]}
+{"kind":"textbox","id":"sh/r61on2t0","slide":1,"name":"t33","text":"cumulative configurations on 30 documents and 100 questions. By adding","textPreview":"cumulative configurations on 30 documents and 100 questions. By adding","textChars":70,"textLines":1,"bbox":[47.23,1510,806.16,42.4]}
+{"kind":"textbox","id":"sh/4japcnup","slide":1,"name":"t34","text":"components sequentially while keeping the answer generator fixed, we measure","textPreview":"components sequentially while keeping the answer generator fixed, we measure","textChars":76,"textLines":1,"bbox":[47.23,1544,875.92,42.4]}
+{"kind":"textbox","id":"sh/5kj6lsba","slide":1,"name":"t35","text":"changes in answer quality and page-level citation precision and recall across","textPreview":"changes in answer quality and page-level citation precision and recall across","textChars":77,"textLines":1,"bbox":[47.23,1577,842.19,42.4]}
+{"kind":"textbox","id":"sh/7eh8vixw","slide":1,"name":"t36","text":"stages of document processing, retrieval, reranking, answer processing, and","textPreview":"stages of document processing, retrieval, reranking, answer processing, and","textChars":75,"textLines":1,"bbox":[47.23,1611,833.97,42.4]}
+{"kind":"textbox","id":"sh/md872dwb","slide":1,"name":"t37","text":"citation selection.","textPreview":"citation selection.","textChars":19,"textLines":1,"bbox":[47.23,1645,199.98,42.4]}
+{"kind":"textbox","id":"sh/9gzqxsf2","slide":1,"name":"t38","text":"5. Hypothesis","textPreview":"5. Hypothesis","textChars":13,"textLines":1,"bbox":[44.23,1725.67,196.63,48.8]}
+{"kind":"textbox","id":"sh/8fq94neh","slide":1,"name":"t39","text":"H1 — Retrieval","textPreview":"H1 — Retrieval","textChars":14,"textLines":1,"bbox":[44.23,1789.67,172.44,44]}
+{"kind":"textbox","id":"sh/vih8z2x8","slide":1,"name":"t40","text":"Combining multiple text granularities, semantic and lexical retrieval, and","textPreview":"Combining multiple text granularities, semantic and lexical retrieval, and","textChars":74,"textLines":1,"bbox":[44.23,1831,792.59,42.4]}
+{"kind":"textbox","id":"sh/uh8r6xwn","slide":1,"name":"t41","text":"relevance reranking will improve answer quality and evidence retrieval","textPreview":"relevance reranking will improve answer quality and evidence retrieval","textChars":70,"textLines":1,"bbox":[44.23,1864,771.38,42.4]}
+{"kind":"textbox","id":"sh/h4jq1sfy","slide":1,"name":"t42","text":"compared with a simple semantic-retrieval baseline.","textPreview":"compared with a simple semantic-retrieval baseline.","textChars":51,"textLines":1,"bbox":[44.23,1898,576.82,42.4]}
+{"kind":"textbox","id":"sh/wja98net","slide":1,"name":"t43","text":"H2 — Robustness to scanned documents","textPreview":"H2 — Robustness to scanned documents","textChars":36,"textLines":1,"bbox":[44.23,1957.67,490.72,44]}
+{"kind":"textbox","id":"sh/j61832x4","slide":1,"name":"t44","text":"Recovering text from scan-like legal documents will reduce the performance","textPreview":"Recovering text from scan-like legal documents will reduce the performance","textChars":74,"textLines":1,"bbox":[44.23,1999,837.62,42.4]}
+{"kind":"textbox","id":"sh/i5sraxwj","slide":1,"name":"t45","text":"loss caused by the absence of a machine-readable text layer.","textPreview":"loss caused by the absence of a machine-readable text layer.","textChars":60,"textLines":1,"bbox":[44.23,2033,669.94,42.4]}
+{"kind":"textbox","id":"sh/qt8by1s3","slide":1,"name":"t46","text":"H3 — Citation attribution","textPreview":"H3 — Citation attribution","textChars":25,"textLines":1,"bbox":[44.23,2093.67,298.95,44]}
+{"kind":"textbox","id":"sh/ruhcr6t8","slide":1,"name":"t47","text":"Selecting source pages after answer generation will produce a more focused","textPreview":"Selecting source pages after answer generation will produce a more focused","textChars":74,"textLines":1,"bbox":[44.23,2135,839.31,42.4]}
+{"kind":"textbox","id":"sh/cvqt0bat","slide":1,"name":"t48","text":"citation set without substantially reducing the coverage of relevant evidence.","textPreview":"citation set without substantially reducing the coverage of relevant evidence.","textChars":78,"textLines":1,"bbox":[44.23,2168,844.27,42.4]}
+{"kind":"textbox","id":"sh/dgzutwbe","slide":1,"name":"t49","text":"6. Data and Methods","textPreview":"6. Data and Methods","textChars":19,"textLines":1,"bbox":[966.48,148.67,287.39,48.8]}
+{"kind":"textbox","id":"sh/eh8b21sz","slide":1,"name":"t50","text":"Data","textPreview":"Data","textChars":4,"textLines":1,"bbox":[969.48,209.67,61.29,44]}
+{"kind":"textbox","id":"sh/zi1cv6tk","slide":1,"name":"t51","text":"30 DIFC legal PDFs (590 pages), 100 questions, including 70 structured-answer and 30 free-text questions.","textPreview":"30 DIFC legal PDFs (590 pages), 100 questions, including 70 structured-answer and 30 free-text questions.","textChars":105,"textLines":1,"bbox":[969.48,251,1153.36,42.4]}
+{"kind":"textbox","id":"sh/0jad4ba5","slide":1,"name":"t52","text":"Reference source pages are available for 95 questions. For the scan-robustness test, 10 of the 30 documents","textPreview":"Reference source pages are available for 95 questions. For the scan-robustness test, 10 of the 30 documents","textChars":107,"textLines":1,"bbox":[969.48,285,1186.42,42.4]}
+{"kind":"textbox","id":"sh/1kjuxgbq","slide":1,"name":"t53","text":"(107 pages) were converted into synthetic scans: each page was rasterised as an image and its machine-","textPreview":"(107 pages) were converted into synthetic scans: each page was rasterised as an image and its machine-","textChars":102,"textLines":1,"bbox":[969.48,318,1144.95,42.4]}
+{"kind":"textbox","id":"sh/mlsv6lsv","slide":1,"name":"t54","text":"readable text layer was removed.","textPreview":"readable text layer was removed.","textChars":32,"textLines":1,"bbox":[969.48,352,363.98,42.4]}
+{"kind":"textbox","id":"sh/nm1czqtg","slide":1,"name":"t55","text":"Pipeline","textPreview":"Pipeline","textChars":8,"textLines":1,"bbox":[969.48,398.67,101.95,44]}
+{"kind":"textbox","id":"sh/xg3epkvy","slide":1,"name":"t56","text":"Starting from a simple baseline, we add one capability at a time. Each variant includes all previous additions.","textPreview":"Starting from a simple baseline, we add one capability at a time. Each variant includes all previous additions.","textChars":111,"textLines":1,"bbox":[969.48,440,1186.99,42.4]}
+{"kind":"textbox","id":"sh/wfuxwfud","slide":1,"name":"t57","text":"DOCUMENT PROCESSING","textPreview":"DOCUMENT PROCESSING","textChars":19,"textLines":1,"bbox":[1040.87,651.67,254.41,39.2]}
+{"kind":"textbox","id":"sh/belwnads","slide":1,"name":"t58","text":"RETRIEVAL","textPreview":"RETRIEVAL","textChars":9,"textLines":1,"bbox":[1512.02,651.67,118.53,39.2]}
+{"kind":"textbox","id":"sh/adcfu5c7","slide":1,"name":"t59","text":"ANSWERING","textPreview":"ANSWERING","textChars":9,"textLines":1,"bbox":[1808.61,651.67,130.18,39.2]}
+{"kind":"textbox","id":"sh/lknetkvu","slide":1,"name":"t60","text":"CITATIONS","textPreview":"CITATIONS","textChars":9,"textLines":1,"bbox":[2018.66,651.67,113.31,39.2]}
+{"kind":"textbox","id":"sh/kjex0fu9","slide":1,"name":"t61","text":"Answer generation:","textPreview":"Answer generation:","textChars":18,"textLines":1,"bbox":[969.48,1200,232.4,42.4]}
+{"kind":"textbox","id":"sh/ji5wrudo","slide":1,"name":"t62","text":" A fixed GPT-5.4-mini configuration is used across variants, so changes in performance","textPreview":"A fixed GPT-5.4-mini configuration is used across variants, so changes in performance","textChars":86,"textLines":1,"bbox":[1195.89,1200,951.12,42.4]}
+{"kind":"textbox","id":"sh/yhwfypc3","slide":1,"name":"t63","text":"reflect modifications to the surrounding pipeline rather than a change of the generating LLM.","textPreview":"reflect modifications to the surrounding pipeline rather than a change of the generating LLM.","textChars":93,"textLines":1,"bbox":[969.48,1233,1016.02,42.4]}
+{"kind":"textbox","id":"sh/t87yx4v6","slide":1,"name":"t64","text":"7. Evaluation","textPreview":"7. Evaluation","textChars":13,"textLines":1,"bbox":[966.48,1298.67,186.18,48.8]}
+{"kind":"textbox","id":"sh/87ex4zul","slide":1,"name":"t65","text":"A correct answer does not necessarily imply good citations. A system may produce the right answer while","textPreview":"A correct answer does not necessarily imply good citations. A system may produce the right answer while","textChars":103,"textLines":1,"bbox":[969.48,1359,1148.66,42.4]}
+{"kind":"textbox","id":"sh/9oj29gf6","slide":1,"name":"t66","text":"citing irrelevant pages, or it may cite only part of the evidence required to support the answer. We therefore","textPreview":"citing irrelevant pages, or it may cite only part of the evidence required to support the answer. We therefore","textChars":110,"textLines":1,"bbox":[969.48,1393,1176.91,42.4]}
+{"kind":"textbox","id":"sh/8na1gvel","slide":1,"name":"t67","text":"evaluate answer quality and citation quality separately.","textPreview":"evaluate answer quality and citation quality separately.","textChars":56,"textLines":1,"bbox":[969.48,1426,604.34,42.4]}
+{"kind":"textbox","id":"sh/7m1k7qxg","slide":1,"name":"t68","text":"Answer quality","textPreview":"Answer quality","textChars":14,"textLines":1,"bbox":[979.48,1481.67,184.61,44]}
+{"kind":"textbox","id":"sh/mlsjelwv","slide":1,"name":"t69","text":"Is the generated answer correct?","textPreview":"Is the generated answer correct?","textChars":32,"textLines":1,"bbox":[977.88,1525,374.83,42.4]}
+{"kind":"textbox","id":"sh/hs32d0fi","slide":1,"name":"t70","text":"Q = 0.7 × structured score","textPreview":"Q = 0.7 × structured score","textChars":26,"textLines":1,"bbox":[979.48,1569,301.23,42.4]}
+{"kind":"textbox","id":"sh/wru1kvex","slide":1,"name":"t71","text":"+ 0.3 × free-text score","textPreview":"+ 0.3 × free-text score","textChars":23,"textLines":1,"bbox":[979.48,1602,264.08,42.4]}
+{"kind":"textbox","id":"sh/vqlkbqxc","slide":1,"name":"t72","text":"Citation precision","textPreview":"Citation precision","textChars":18,"textLines":1,"bbox":[1382.03,1481.67,219.07,44]}
+{"kind":"textbox","id":"sh/upcjilwr","slide":1,"name":"t73","text":"Are the cited pages actually","textPreview":"Are the cited pages actually","textChars":28,"textLines":1,"bbox":[1380.43,1525,316.05,42.4]}
+{"kind":"textbox","id":"sh/5gn2h0fe","slide":1,"name":"t74","text":"relevant?","textPreview":"relevant?","textChars":9,"textLines":1,"bbox":[1380.43,1559,115.57,42.4]}
+{"kind":"textbox","id":"sh/4vu1ofet","slide":1,"name":"t75","text":"Share of cited pages that support","textPreview":"Share of cited pages that support","textChars":33,"textLines":1,"bbox":[1382.03,1602,370.13,42.4]}
+{"kind":"textbox","id":"sh/21ozixcb","slide":1,"name":"t76","text":"the answer.","textPreview":"the answer.","textChars":11,"textLines":1,"bbox":[1382.03,1636,131.95,42.4]}
+{"kind":"textbox","id":"sh/n2xgb2dw","slide":1,"name":"t77","text":"Citation recall","textPreview":"Citation recall","textChars":15,"textLines":1,"bbox":[1784.58,1481.67,174.97,44]}
+{"kind":"textbox","id":"sh/o36hk7uh","slide":1,"name":"t78","text":"Did the system cite all required","textPreview":"Did the system cite all required","textChars":32,"textLines":1,"bbox":[1782.98,1525,353.17,42.4]}
+{"kind":"textbox","id":"sh/p4fydcv2","slide":1,"name":"t79","text":"evidence?","textPreview":"evidence?","textChars":9,"textLines":1,"bbox":[1782.98,1559,125.07,42.4]}
+{"kind":"textbox","id":"sh/a58zmhcn","slide":1,"name":"t80","text":"Share of annotated supporting","textPreview":"Share of annotated supporting","textChars":29,"textLines":1,"bbox":[1784.58,1602,337.71,42.4]}
+{"kind":"textbox","id":"sh/b6hgfmds","slide":1,"name":"t81","text":"pages that were cited.","textPreview":"pages that were cited.","textChars":22,"textLines":1,"bbox":[1784.58,1636,247.6,42.4]}
+{"kind":"textbox","id":"sh/crqhorud","slide":1,"name":"t82","text":"8. Results","textPreview":"8. Results","textChars":10,"textLines":1,"bbox":[966.48,1712.67,146.51,48.8]}
+{"kind":"textbox","id":"sh/xszyhcvy","slide":1,"name":"t83","text":"Answer quality Q, %","textPreview":"Answer quality Q, %","textChars":19,"textLines":1,"bbox":[974,1778.25,275.11,48.9]}
+{"kind":"textbox","id":"sh/yt8zqhcj","slide":1,"name":"t84","text":"100 questions","textPreview":"100 questions","textChars":13,"textLines":1,"bbox":[974,1829.39,145.6,39.93]}
+{"kind":"textbox","id":"sh/zuh0jmd4","slide":1,"name":"t85","text":"0","textPreview":"0","textChars":1,"textLines":1,"bbox":[994.39,2103.22,19.29,39.93]}
+{"kind":"textbox","id":"sh/vy1g7m9c","slide":1,"name":"t86","text":"50","textPreview":"50","textChars":2,"textLines":1,"bbox":[982.14,1992.62,31.54,39.93]}
+{"kind":"textbox","id":"sh/uxsfe1sr","slide":1,"name":"t87","text":"100","textPreview":"100","textChars":3,"textLines":1,"bbox":[973.43,1882.03,40.25,39.93]}
+{"kind":"textbox","id":"sh/h0jy9wr2","slide":1,"name":"t88","text":"46.2","textPreview":"46.2","textChars":4,"textLines":1,"bbox":[994.2,2029.24,55.41,41.42]}
+{"kind":"textbox","id":"sh/wzaxgrax","slide":1,"name":"t89","text":"R0","textPreview":"R0","textChars":2,"textLines":1,"bbox":[1005.62,2149.12,32.56,39.93]}
+{"kind":"textbox","id":"sh/7uhg3m90","slide":1,"name":"t90","text":"63.2","textPreview":"63.2","textChars":4,"textLines":1,"bbox":[1047.34,1933.01,53.91,41.42]}
+{"kind":"textbox","id":"sh/mt8fahsf","slide":1,"name":"t91","text":"R1","textPreview":"R1","textChars":2,"textLines":1,"bbox":[1060.82,2149.12,26.93,39.93]}
+{"kind":"textbox","id":"sh/9wzy5wr6","slide":1,"name":"t92","text":"49.8","textPreview":"49.8","textChars":4,"textLines":1,"bbox":[1099.03,2017.65,55.32,41.42]}
+{"kind":"textbox","id":"sh/8vqxcral","slide":1,"name":"t93","text":"R2","textPreview":"R2","textChars":2,"textLines":1,"bbox":[1111.04,2149.12,31.3,39.93]}
+{"kind":"textbox","id":"sh/z6hgz2t4","slide":1,"name":"t94","text":"74.6","textPreview":"74.6","textChars":4,"textLines":1,"bbox":[1151.87,1907.77,54.44,41.42]}
+{"kind":"textbox","id":"sh/y58f6xsj","slide":1,"name":"t95","text":"R3","textPreview":"R3","textChars":2,"textLines":1,"bbox":[1163.36,2149.12,31.48,39.93]}
+{"kind":"textbox","id":"sh/oz2lkjm5","slide":1,"name":"t96","text":"84.4","textPreview":"84.4","textChars":4,"textLines":1,"bbox":[1203.06,1886.1,56.85,41.42]}
+{"kind":"textbox","id":"sh/p0vmto3q","slide":1,"name":"t97","text":"R4","textPreview":"R4","textChars":2,"textLines":1,"bbox":[1215.64,2149.12,31.69,39.93]}
+{"kind":"textbox","id":"sh/2xk3i94z","slide":1,"name":"t98","text":"84.4","textPreview":"84.4","textChars":4,"textLines":1,"bbox":[1255.46,1944.74,56.85,41.42]}
+{"kind":"textbox","id":"sh/3yt4relk","slide":1,"name":"t99","text":"R5","textPreview":"R5","textChars":2,"textLines":1,"bbox":[1268.12,2149.12,31.51,39.93]}
+{"kind":"textbox","id":"sh/cnm5ojm1","slide":1,"name":"t100","text":"84.4","textPreview":"84.4","textChars":4,"textLines":1,"bbox":[1307.86,1886.1,56.85,41.42]}
+{"kind":"textbox","id":"sh/dovmxo3m","slide":1,"name":"t101","text":"R6","textPreview":"R6","textChars":2,"textLines":1,"bbox":[1320.51,2149.12,31.54,39.93]}
+{"kind":"textbox","id":"sh/q143mt4b","slide":1,"name":"t102","text":"Citation precision, %","textPreview":"Citation precision, %","textChars":21,"textLines":1,"bbox":[1376.95,1778.25,288.95,48.9]}
+{"kind":"textbox","id":"sh/b2d4velw","slide":1,"name":"t103","text":"95 questions","textPreview":"95 questions","textChars":12,"textLines":1,"bbox":[1376.95,1829.39,135.66,39.93]}
+{"kind":"textbox","id":"sh/srilczmx","slide":1,"name":"t104","text":"0","textPreview":"0","textChars":1,"textLines":1,"bbox":[1397.32,2103.22,19.29,39.93]}
+{"kind":"textbox","id":"sh/tsrml4ni","slide":1,"name":"t105","text":"50","textPreview":"50","textChars":2,"textLines":1,"bbox":[1385.07,1992.62,31.54,39.93]}
+{"kind":"textbox","id":"sh/l0nm1o7y","slide":1,"name":"t106","text":"100","textPreview":"100","textChars":3,"textLines":1,"bbox":[1376.37,1882.03,40.25,39.93]}
+{"kind":"textbox","id":"sh/kze58jqd","slide":1,"name":"t107","text":"7.6","textPreview":"7.6","textChars":3,"textLines":1,"bbox":[1405.89,2055.98,37.92,41.42]}
+{"kind":"textbox","id":"sh/jy54ze9s","slide":1,"name":"t108","text":"R0","textPreview":"R0","textChars":2,"textLines":1,"bbox":[1408.57,2149.12,32.56,39.93]}
+{"kind":"textbox","id":"sh/yxwn6t8n","slide":1,"name":"t109","text":"11.2","textPreview":"11.2","textChars":4,"textLines":1,"bbox":[1455.21,2047.98,44.06,41.42]}
+{"kind":"textbox","id":"sh/xwnmxor2","slide":1,"name":"t110","text":"R1","textPreview":"R1","textChars":2,"textLines":1,"bbox":[1463.78,2149.12,26.93,39.93]}
+{"kind":"textbox","id":"sh/wve54jqh","slide":1,"name":"t111","text":"14.7","textPreview":"14.7","textChars":4,"textLines":1,"bbox":[1505.39,2040.19,48.52,41.42]}
+{"kind":"textbox","id":"sh/ba54ve9w","slide":1,"name":"t112","text":"R2","textPreview":"R2","textChars":2,"textLines":1,"bbox":[1514,2149.12,31.3,39.93]}
+{"kind":"textbox","id":"sh/a9c3298b","slide":1,"name":"t113","text":"22.2","textPreview":"22.2","textChars":4,"textLines":1,"bbox":[1555.07,2023.73,53.91,41.42]}
+{"kind":"textbox","id":"sh/983mt4rq","slide":1,"name":"t114","text":"R3","textPreview":"R3","textChars":2,"textLines":1,"bbox":[1566.29,2149.12,31.48,39.93]}
+{"kind":"textbox","id":"sh/o7ul0zq5","slide":1,"name":"t115","text":"27.1","textPreview":"27.1","textChars":4,"textLines":1,"bbox":[1611.07,2012.9,46.71,41.42]}
+{"kind":"textbox","id":"sh/edsja5o3","slide":1,"name":"t116","text":"R4","textPreview":"R4","textChars":2,"textLines":1,"bbox":[1618.59,2149.12,31.69,39.93]}
+{"kind":"textbox","id":"sh/fe1k3apo","slide":1,"name":"t117","text":"27.1","textPreview":"27.1","textChars":4,"textLines":1,"bbox":[1663.46,2067.91,46.71,41.42]}
+{"kind":"textbox","id":"sh/0fa1cf69","slide":1,"name":"t118","text":"R5","textPreview":"R5","textChars":2,"textLines":1,"bbox":[1671.07,2149.12,31.51,39.93]}
+{"kind":"textbox","id":"sh/1gj25k7u","slide":1,"name":"t119","text":"61.8","textPreview":"61.8","textChars":4,"textLines":1,"bbox":[1714.78,1936.16,48.9,41.42]}
+{"kind":"textbox","id":"sh/q98j65o7","slide":1,"name":"t120","text":"R6","textPreview":"R6","textChars":2,"textLines":1,"bbox":[1723.45,2149.12,31.54,39.93]}
+{"kind":"textbox","id":"sh/rahkzqps","slide":1,"name":"t121","text":"Citation recall, %","textPreview":"Citation recall, %","textChars":18,"textLines":1,"bbox":[1779.89,1778.25,239.69,48.9]}
+{"kind":"textbox","id":"sh/sba18v6x","slide":1,"name":"t122","text":"95 questions","textPreview":"95 questions","textChars":12,"textLines":1,"bbox":[1779.89,1829.39,135.66,39.93]}
+{"kind":"textbox","id":"sh/dcj2107i","slide":1,"name":"t123","text":"0","textPreview":"0","textChars":1,"textLines":1,"bbox":[1800.28,2103.22,19.29,39.93]}
+{"kind":"textbox","id":"sh/i58j2lov","slide":1,"name":"t124","text":"50","textPreview":"50","textChars":2,"textLines":1,"bbox":[1788.03,1992.62,31.54,39.93]}
+{"kind":"textbox","id":"sh/36h0vqpg","slide":1,"name":"t125","text":"100","textPreview":"100","textChars":3,"textLines":1,"bbox":[1779.32,1882.03,40.25,39.93]}
+{"kind":"textbox","id":"sh/7et8ni1w","slide":1,"name":"t126","text":"38.5","textPreview":"38.5","textChars":4,"textLines":1,"bbox":[1800.82,2046.24,53.95,41.42]}
+{"kind":"textbox","id":"sh/mdk7ex0b","slide":1,"name":"t127","text":"R0","textPreview":"R0","textChars":2,"textLines":1,"bbox":[1811.53,2149.12,32.56,39.93]}
+{"kind":"textbox","id":"sh/90vqpsj2","slide":1,"name":"t128","text":"61.6","textPreview":"61.6","textChars":4,"textLines":1,"bbox":[1855.75,1936.48,48.9,41.42]}
+{"kind":"textbox","id":"sh/8fmpgnih","slide":1,"name":"t129","text":"R1","textPreview":"R1","textChars":2,"textLines":1,"bbox":[1866.73,2149.12,26.93,39.93]}
+{"kind":"textbox","id":"sh/v2d8r218","slide":1,"name":"t130","text":"52.9","textPreview":"52.9","textChars":4,"textLines":1,"bbox":[1905.67,2010.8,53.85,41.42]}
+{"kind":"textbox","id":"sh/u147ix0n","slide":1,"name":"t131","text":"R2","textPreview":"R2","textChars":2,"textLines":1,"bbox":[1916.93,2149.12,31.3,39.93]}
+{"kind":"textbox","id":"sh/h4vqtcjy","slide":1,"name":"t132","text":"72.7","textPreview":"72.7","textChars":4,"textLines":1,"bbox":[1959.53,1912.04,50.92,41.42]}
+{"kind":"textbox","id":"sh/w3mpk7it","slide":1,"name":"t133","text":"R3","textPreview":"R3","textChars":2,"textLines":1,"bbox":[1969.25,2149.12,31.48,39.93]}
+{"kind":"textbox","id":"sh/b69ofy1o","slide":1,"name":"t134","text":"78.9","textPreview":"78.9","textChars":4,"textLines":1,"bbox":[2010.92,1898.18,52.92,41.42]}
+{"kind":"textbox","id":"sh/a5076d0j","slide":1,"name":"t135","text":"R4","textPreview":"R4","textChars":2,"textLines":1,"bbox":[2021.54,2149.12,31.69,39.93]}
+{"kind":"textbox","id":"sh/0by5gzy1","slide":1,"name":"t136","text":"78.9","textPreview":"78.9","textChars":4,"textLines":1,"bbox":[2063.32,1956.8,52.92,41.42]}
+{"kind":"textbox","id":"sh/1c7mp4zm","slide":1,"name":"t137","text":"R5","textPreview":"R5","textChars":2,"textLines":1,"bbox":[2074.03,2149.12,31.51,39.93]}
+{"kind":"textbox","id":"sh/epgne9gb","slide":1,"name":"t138","text":"74.7","textPreview":"74.7","textChars":4,"textLines":1,"bbox":[2116,1907.48,52.36,41.42]}
+{"kind":"textbox","id":"sh/fap4nehg","slide":1,"name":"t139","text":"R6","textPreview":"R6","textChars":2,"textLines":1,"bbox":[2126.4,2149.12,31.54,39.93]}
+{"kind":"textbox","id":"sh/sne5czy5","slide":1,"name":"t140","text":"9. OCR robustness","textPreview":"9. OCR robustness","textChars":17,"textLines":1,"bbox":[2216.13,148.67,258.64,48.8]}
+{"kind":"textbox","id":"sh/to7ml4zq","slide":1,"name":"t141","text":"OCR recovers performance on scanned documents","textPreview":"OCR recovers performance on scanned documents","textChars":45,"textLines":1,"bbox":[2219.13,206,591.86,42.4]}
+{"kind":"textbox","id":"sh/6lwnapgz","slide":1,"name":"t142","text":"Original corpus · R0","textPreview":"Original corpus · R0","textChars":20,"textLines":1,"bbox":[2219.13,250.67,200.12,39.2]}
+{"kind":"textbox","id":"sh/rm54juhk","slide":1,"name":"t143","text":"Mixed corpus (original + synthetic scans) · R0","textPreview":"Mixed corpus (original + synthetic scans) · R0","textChars":46,"textLines":1,"bbox":[2219.13,312.67,454.87,39.2]}
+{"kind":"textbox","id":"sh/cji5ojy9","slide":1,"name":"t144","text":"Mixed corpus + OCR · R1","textPreview":"Mixed corpus + OCR · R1","textChars":23,"textLines":1,"bbox":[2219.13,375.67,238.95,39.2]}
+{"kind":"textbox","id":"sh/xkr6xozu","slide":1,"name":"t145","text":"0","textPreview":"0","textChars":1,"textLines":1,"bbox":[2219.13,439,18.43,37.6]}
+{"kind":"textbox","id":"sh/lkbih07e","slide":1,"name":"t146","text":"50","textPreview":"50","textChars":2,"textLines":1,"bbox":[2601.5,439,29.88,37.6]}
+{"kind":"textbox","id":"sh/kj21ovqt","slide":1,"name":"t147","text":"100%","textPreview":"100%","textChars":4,"textLines":1,"bbox":[2995.33,439,59.9,37.6]}
+{"kind":"textbox","id":"sh/jit0fqp8","slide":1,"name":"t148","text":"Converting 10 documents into synthetic scans reduces answer quality from 65.4%","textPreview":"Converting 10 documents into synthetic scans reduces answer quality from 65.4%","textChars":78,"textLines":1,"bbox":[2219.13,479,897.49,42.4]}
+{"kind":"textbox","id":"sh/yhkzml8n","slide":1,"name":"t149","text":"to 46.2%. OCR restores most of this loss, reaching 63.2%.","textPreview":"to 46.2%. OCR restores most of this loss, reaching 63.2%.","textChars":57,"textLines":1,"bbox":[2219.13,513,631.66,42.4]}
+{"kind":"textbox","id":"sh/tovilk7a","slide":1,"name":"t150","text":"10. Hypothesis evaluation","textPreview":"10. Hypothesis evaluation","textChars":25,"textLines":1,"bbox":[2216.13,574.67,358.54,48.8]}
+{"kind":"textbox","id":"sh/8nm1sfqp","slide":1,"name":"t151","text":"H1 — Retrieval & representation","textPreview":"H1 — Retrieval & representation","textChars":31,"textLines":1,"bbox":[2228.13,645,370.19,42.4]}
+{"kind":"textbox","id":"sh/7md0jap4","slide":1,"name":"t152","text":"Partially supported.","textPreview":"Partially supported.","textChars":20,"textLines":1,"bbox":[2608.73,645,234.74,42.4]}
+{"kind":"textbox","id":"sh/6lkjq58j","slide":1,"name":"t153","text":" Multi-scale","textPreview":"Multi-scale","textChars":12,"textLines":1,"bbox":[2837.48,645,130.51,42.4]}
+{"kind":"textbox","id":"sh/9sri9g76","slide":1,"name":"t154","text":"representations alone reduce Q, but adding lexical retrieval and reranking","textPreview":"representations alone reduce Q, but adding lexical retrieval and reranking","textChars":74,"textLines":1,"bbox":[2228.13,679,803.99,42.4]}
+{"kind":"textbox","id":"sh/orihgbql","slide":1,"name":"t155","text":"substantially improves answer quality and source-page recall.","textPreview":"substantially improves answer quality and source-page recall.","textChars":61,"textLines":1,"bbox":[2228.13,712,677.49,42.4]}
+{"kind":"textbox","id":"sh/exgfqhoj","slide":1,"name":"t156","text":"H2 — Scan robustness","textPreview":"H2 — Scan robustness","textChars":20,"textLines":1,"bbox":[2228.13,773,259.82,42.4]}
+{"kind":"textbox","id":"sh/zypgjm5o","slide":1,"name":"t157","text":"Supported.","textPreview":"Supported.","textChars":10,"textLines":1,"bbox":[2498.36,773,132.34,42.4]}
+{"kind":"textbox","id":"sh/0zyxsr69","slide":1,"name":"t158","text":" OCR restores most of the answer-quality loss","textPreview":"OCR restores most of the answer-quality loss","textChars":45,"textLines":1,"bbox":[2624.7,773,499.44,42.4]}
+{"kind":"textbox","id":"sh/107ylwnu","slide":1,"name":"t159","text":"caused by removing the machine-readable text layer.","textPreview":"caused by removing the machine-readable text layer.","textChars":51,"textLines":1,"bbox":[2228.13,806,583.34,42.4]}
+{"kind":"textbox","id":"sh/mlgfu1of","slide":1,"name":"t160","text":"H3 — Citation selection","textPreview":"H3 — Citation selection","textChars":23,"textLines":1,"bbox":[2228.13,867,269.94,42.4]}
+{"kind":"textbox","id":"sh/nm9gnm50","slide":1,"name":"t161","text":"Supported with a trade-off.","textPreview":"Supported with a trade-off.","textChars":27,"textLines":1,"bbox":[2508.47,867,321.84,42.4]}
+{"kind":"textbox","id":"sh/onixwr6l","slide":1,"name":"t162","text":" Precision rises from 27.1%","textPreview":"Precision rises from 27.1%","textChars":27,"textLines":1,"bbox":[2824.31,867,300.08,42.4]}
+{"kind":"textbox","id":"sh/9orypwn6","slide":1,"name":"t163","text":"to 61.8%, while recall decreases moderately from 78.9% to 74.7%.","textPreview":"to 61.8%, while recall decreases moderately from 78.9% to 74.7%.","textChars":64,"textLines":1,"bbox":[2228.13,901,722.74,42.4]}
+{"kind":"textbox","id":"sh/2pwfixob","slide":1,"name":"t164","text":"11. Conclusion and takeaways","textPreview":"11. Conclusion and takeaways","textChars":28,"textLines":1,"bbox":[2216.13,974.67,411.06,48.8]}
+{"kind":"textbox","id":"sh/3q5wb25g","slide":1,"name":"t165","text":"Legal RAG should be designed as a multi-stage pipeline: OCR improves","textPreview":"Legal RAG should be designed as a multi-stage pipeline: OCR improves","textChars":68,"textLines":1,"bbox":[2233.13,1046,766,42.4]}
+{"kind":"textbox","id":"sh/ob610jmx","slide":1,"name":"t166","text":"robustness to unreadable PDFs, hybrid retrieval and reranking improve answer","textPreview":"robustness to unreadable PDFs, hybrid retrieval and reranking improve answer","textChars":76,"textLines":1,"bbox":[2233.13,1079,855.57,42.4]}
+{"kind":"textbox","id":"sh/pcf2to3i","slide":1,"name":"t167","text":"quality, and post-answer citation selection improves citation precision. However,","textPreview":"quality, and post-answer citation selection improves citation precision. However,","textChars":81,"textLines":1,"bbox":[2233.13,1113,882,42.4]}
+{"kind":"textbox","id":"sh/294jy94r","slide":1,"name":"t168","text":"citation selection introduces a precision–recall trade-off, so answer quality and","textPreview":"citation selection introduces a precision–recall trade-off, so answer quality and","textChars":81,"textLines":1,"bbox":[2233.13,1146,869.11,42.4]}
+{"kind":"textbox","id":"sh/nadkrelc","slide":1,"name":"t169","text":"citation quality should be optimized and evaluated separately.","textPreview":"citation quality should be optimized and evaluated separately.","textChars":62,"textLines":1,"bbox":[2233.13,1180,678.64,42.4]}
+{"kind":"textbox","id":"sh/cz614jm9","slide":1,"name":"t170","text":"1 · Ensure document robustness","textPreview":"1 · Ensure document robustness","textChars":30,"textLines":1,"bbox":[2219.13,1238,373.14,42.4]}
+{"kind":"textbox","id":"sh/x0f2xo3e","slide":1,"name":"t171","text":" OCR provides robustness when machine-","textPreview":"OCR provides robustness when machine-","textChars":38,"textLines":1,"bbox":[2594.27,1238,455.35,42.4]}
+{"kind":"textbox","id":"sh/adoj2t43","slide":1,"name":"t172","text":"readable text is unavailable. It recovered most of the performance loss introduced","textPreview":"readable text is unavailable. It recovered most of the performance loss introduced","textChars":82,"textLines":1,"bbox":[2219.13,1271,897.62,42.4]}
+{"kind":"textbox","id":"sh/byxkvylo","slide":1,"name":"t173","text":"by synthetic scans.","textPreview":"by synthetic scans.","textChars":19,"textLines":1,"bbox":[2219.13,1305,213.78,42.4]}
+{"kind":"textbox","id":"sh/s3m1szmp","slide":1,"name":"t174","text":"2 · Optimize retrieval","textPreview":"2 · Optimize retrieval","textChars":22,"textLines":1,"bbox":[2219.13,1346,245.36,42.4]}
+{"kind":"textbox","id":"sh/d4v2l43a","slide":1,"name":"t175","text":" Hybrid retrieval and reranking produced the largest","textPreview":"Hybrid retrieval and reranking produced the largest","textChars":52,"textLines":1,"bbox":[2466.5,1346,568.95,42.4]}
+{"kind":"textbox","id":"sh/vy14725s","slide":1,"name":"t176","text":"observed gains in answer quality. Additional representation complexity did not","textPreview":"observed gains in answer quality. Additional representation complexity did not","textChars":78,"textLines":1,"bbox":[2219.13,1380,855.73,42.4]}
+{"kind":"textbox","id":"sh/uxsnyxo7","slide":1,"name":"t177","text":"consistently improve performance.","textPreview":"consistently improve performance.","textChars":33,"textLines":1,"bbox":[2219.13,1414,385.23,42.4]}
+{"kind":"textbox","id":"sh/h0jm9cny","slide":1,"name":"t178","text":"3 · Optimize citations separately","textPreview":"3 · Optimize citations separately","textChars":33,"textLines":1,"bbox":[2219.13,1455,379.18,42.4]}
+{"kind":"textbox","id":"sh/gza5076d","slide":1,"name":"t179","text":" Post-answer citation selection substantially","textPreview":"Post-answer citation selection substantially","textChars":45,"textLines":1,"bbox":[2600.31,1455,487.99,42.4]}
+{"kind":"textbox","id":"sh/7u143i5w","slide":1,"name":"t180","text":"increased precision, with a small reduction in recall.","textPreview":"increased precision, with a small reduction in recall.","textChars":54,"textLines":1,"bbox":[2219.13,1489,571.47,42.4]}
+{"kind":"textbox","id":"sh/6t8nuxob","slide":1,"name":"t181","text":"Unexpected outcome:","textPreview":"Unexpected outcome:","textChars":19,"textLines":1,"bbox":[2219.13,1543,259.66,42.4]}
+{"kind":"textbox","id":"sh/twjm5snm","slide":1,"name":"t182","text":" Multi-scale representations did not improve performance; Q","textPreview":"Multi-scale representations did not improve performance; Q","textChars":59,"textLines":1,"bbox":[2472.8,1543,659.86,42.4]}
+{"kind":"textbox","id":"sh/8va5wn6h","slide":1,"name":"t183","text":"decreased from 63.2% to 49.8% after R2.","textPreview":"decreased from 63.2% to 49.8% after R2.","textChars":39,"textLines":1,"bbox":[2219.13,1577,458.58,42.4]}
+{"kind":"textbox","id":"sh/j6h4zi5k","slide":1,"name":"t184","text":"12. Limitations","textPreview":"12. Limitations","textChars":15,"textLines":1,"bbox":[2216.13,1638.67,210.55,48.8]}
+{"kind":"textbox","id":"sh/y583qdoz","slide":1,"name":"t185","text":"one DIFC corpus and 100 questions; one run per condition with no significance","textPreview":"one DIFC corpus and 100 questions; one run per condition with no significance","textChars":77,"textLines":1,"bbox":[2219.13,1696,856.47,42.4]}
+{"kind":"textbox","id":"sh/21on2d87","slide":1,"name":"t186","text":"testing; LLM-based evaluation of free-text answers.","textPreview":"testing; LLM-based evaluation of free-text answers.","textChars":51,"textLines":1,"bbox":[2219.13,1729,564.37,42.4]}
+{"kind":"textbox","id":"sh/n2xobi9c","slide":1,"name":"t187","text":"13. References","textPreview":"13. References","textChars":14,"textLines":1,"bbox":[2216.13,1792,183.35,42.4]}
+{"kind":"textbox","id":"sh/o3q54nqx","slide":1,"name":"t188","text":"1. Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., ... & Kiela, D. (2020). Retrieval-augmented generation for","textPreview":"1. Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., ... & Kiela, D. (2020). Retrieval-augmented generation for","textChars":134,"textLines":1,"bbox":[2229.55,1844.67,900.88,29.6]}
+{"kind":"textbox","id":"sh/94z6dsri","slide":1,"name":"t189","text":"knowledge-intensive nlp tasks. Advances in neural information processing systems, 33, 9459-9474.","textPreview":"knowledge-intensive nlp tasks. Advances in neural information processing systems, 33, 9459-9474.","textChars":96,"textLines":1,"bbox":[2251.13,1865.67,718.58,29.6]}
+{"kind":"textbox","id":"sh/a58n6d83","slide":1,"name":"t190","text":"2. Pipitone, Nicholas, and Ghita Houir Alami. \"Legalbench-rag: A benchmark for retrieval-augmented generation in the legal","textPreview":"2. Pipitone, Nicholas, and Ghita Houir Alami. \"Legalbench-rag: A benchmark for retrieval-augmented generation in the legal","textChars":122,"textLines":1,"bbox":[2229.55,1889.67,895.53,29.6]}
+{"kind":"textbox","id":"sh/bqhofi9o","slide":1,"name":"t191","text":"domain.\" arXiv preprint arXiv:2408.10343 (2024).","textPreview":"domain.\" arXiv preprint arXiv:2408.10343 (2024).","textChars":48,"textLines":1,"bbox":[2251.13,1911.67,352.54,29.6]}
+{"kind":"textbox","id":"sh/wrq58nq9","slide":1,"name":"t192","text":"3. Gokhan, T., & Briscoe, T. (2025, November). Grounded Answers from Multi-Passage Regulations: Learning-to-Rank for","textPreview":"3. Gokhan, T., & Briscoe, T. (2025, November). Grounded Answers from Multi-Passage Regulations: Learning-to-Rank for","textChars":116,"textLines":1,"bbox":[2229.55,1935.67,866.18,29.6]}
+{"kind":"textbox","id":"sh/xsz6hs7u","slide":1,"name":"t193","text":"Regulatory RAG. In Proceedings of the Natural Legal Language Processing Workshop 2025 (pp. 135-146).","textPreview":"Regulatory RAG. In Proceedings of the Natural Legal Language Processing Workshop 2025 (pp. 135-146).","textChars":100,"textLines":1,"bbox":[2251.13,1956.67,748.01,29.6]}
+{"kind":"textbox","id":"sh/yt8nax8f","slide":1,"name":"t194","text":"4. Butler, A. R., & Butler, U. (2026). Legal RAG Bench: an end-to-end benchmark for legal RAG. arXiv preprint arXiv:2603.01710.","textPreview":"4. Butler, A. R., & Butler, U. (2026). Legal RAG Bench: an end-to-end benchmark for legal RAG. arXiv preprint arXiv:2603.01710.","textChars":127,"textLines":1,"bbox":[2229.55,1981.67,903.21,29.6]}
+{"kind":"textbox","id":"sh/ju1oj2pk","slide":1,"name":"t195","text":"5. Trautmann, D., Ostapuk, N., Grail, Q., Pol, A., Bonifazi, G., Gao, S., & Gajek, M. (2024, November). Measuring the groundedness","textPreview":"5. Trautmann, D., Ostapuk, N., Grail, Q., Pol, A., Bonifazi, G., Gao, S., & Gajek, M. (2024, November). Measuring the groundedness","textChars":130,"textLines":1,"bbox":[2229.55,2005.67,909.12,29.6]}
+{"kind":"textbox","id":"sh/t0nip0fy","slide":1,"name":"t196","text":"of legal question-answering systems. In Proceedings of the Natural Legal Language Processing Workshop 2024 (pp. 176-","textPreview":"of legal question-answering systems. In Proceedings of the Natural Legal Language Processing Workshop 2024 (pp. 176-","textChars":116,"textLines":1,"bbox":[2251.13,2026.67,871.12,29.6]}
+{"kind":"textbox","id":"sh/szehwvet","slide":1,"name":"t197","text":"186).","textPreview":"186).","textChars":5,"textLines":1,"bbox":[2251.13,2048.67,37.99,29.6]}
+{"kind":"textbox","id":"sh/7yl0nqx8","slide":1,"name":"t198","text":"6. Gao, T., Yen, H., Yu, J., & Chen, D. (2023, December). Enabling large language models to generate text with citations. In","textPreview":"6. Gao, T., Yen, H., Yu, J., & Chen, D. (2023, December). Enabling large language models to generate text with citations. In","textChars":124,"textLines":1,"bbox":[2229.55,2072.67,872.2,29.6]}
+{"kind":"textbox","id":"sh/6xczulwn","slide":1,"name":"t199","text":"Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (pp. 6465-6488).","textPreview":"Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (pp. 6465-6488).","textChars":103,"textLines":1,"bbox":[2251.13,2093.67,783.14,29.6]}
+{"kind":"textbox","id":"sh/h4nit0fa","slide":1,"name":"t200","text":"Code, protocol & results","textPreview":"Code, protocol & results","textChars":24,"textLines":1,"bbox":[2215.13,2134,285.71,42.4]}
+{"kind":"textbox","id":"sh/g3eh0vep","slide":1,"name":"t201","text":"github.com/SteinVR/Trends-in-NLP-Poster","textPreview":"github.com/SteinVR/Trends-in-NLP-Poster","textChars":39,"textLines":1,"bbox":[2215.13,2167,469.3,42.4]}
+{"kind":"textbox","id":"sh/f250rqx4","slide":1,"name":"t202","text":"R0 ·","textPreview":"R0 ·","textChars":4,"textLines":1,"bbox":[982.48,526,49.17,42.4]}
+{"kind":"textbox","id":"sh/u1wzylwj","slide":1,"name":"t203","text":"Baseline","textPreview":"Baseline","textChars":8,"textLines":1,"bbox":[982.48,561,104.4,42.4]}
+{"kind":"textbox","id":"sh/ps7ixkv6","slide":1,"name":"t204","text":"PDF text","textPreview":"PDF text","textChars":8,"textLines":1,"bbox":[1157.48,509,102.51,42.4]}
+{"kind":"textbox","id":"sh/4ryh4fel","slide":1,"name":"t205","text":"300-token","textPreview":"300-token","textChars":9,"textLines":1,"bbox":[1157.48,544,118.54,42.4]}
+{"kind":"textbox","id":"sh/0nilwjyt","slide":1,"name":"t206","text":"passages","textPreview":"passages","textChars":8,"textLines":1,"bbox":[1157.48,579,107.41,42.4]}
+{"kind":"textbox","id":"sh/1or2p4fe","slide":1,"name":"t207","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[1285.55,543.6,44,46.45]}
+{"kind":"textbox","id":"sh/el03u9g3","slide":1,"name":"t208","text":"Semantic retrieval","textPreview":"Semantic retrieval","textChars":18,"textLines":1,"bbox":[1370.55,524,219.6,42.4]}
+{"kind":"textbox","id":"sh/zm9k3eho","slide":1,"name":"t209","text":"Qwen3-Embedding-0.6B","textPreview":"Qwen3-Embedding-0.6B","textChars":20,"textLines":1,"bbox":[1370.55,564,266.58,42.4]}
+{"kind":"textbox","id":"sh/czilszyx","slide":1,"name":"t210","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[1633.75,543.6,44,46.45]}
+{"kind":"textbox","id":"sh/d0r214zi","slide":1,"name":"t211","text":"Generate","textPreview":"Generate","textChars":8,"textLines":1,"bbox":[1718.75,506,110.74,42.4]}
+{"kind":"textbox","id":"sh/qxgjqpgr","slide":1,"name":"t212","text":"answer","textPreview":"answer","textChars":6,"textLines":1,"bbox":[1718.75,541,90.48,42.4]}
+{"kind":"textbox","id":"sh/rypkzuhc","slide":1,"name":"t213","text":"GPT-5.4-mini","textPreview":"GPT-5.4-mini","textChars":12,"textLines":1,"bbox":[1718.75,581,146.54,42.4]}
+{"kind":"textbox","id":"sh/wv2l43y1","slide":1,"name":"t214","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[1885.44,543.6,44,46.45]}
+{"kind":"textbox","id":"sh/xwb2xofm","slide":1,"name":"t215","text":"Answer +","textPreview":"Answer +","textChars":8,"textLines":1,"bbox":[1970.44,526,112.05,42.4]}
+{"kind":"textbox","id":"sh/7qxo32ho","slide":1,"name":"t216","text":"retrieved pages","textPreview":"retrieved pages","textChars":15,"textLines":1,"bbox":[1970.44,561,188.05,42.4]}
+{"kind":"textbox","id":"sh/6ponux0j","slide":1,"name":"t217","text":"R1 · Read","textPreview":"R1 · Read","textChars":9,"textLines":1,"bbox":[976.48,709,107.5,42.4]}
+{"kind":"textbox","id":"sh/tcf65szu","slide":1,"name":"t218","text":"scans","textPreview":"scans","textChars":5,"textLines":1,"bbox":[976.48,744,74.83,42.4]}
+{"kind":"textbox","id":"sh/sb65w7i9","slide":1,"name":"t219","text":"Convert","textPreview":"Convert","textChars":7,"textLines":1,"bbox":[976.48,820,89.46,42.4]}
+{"kind":"textbox","id":"sh/fexo72h0","slide":1,"name":"t220","text":"scanned pages","textPreview":"scanned pages","textChars":13,"textLines":1,"bbox":[976.48,854,169.2,42.4]}
+{"kind":"textbox","id":"sh/udonyx0f","slide":1,"name":"t221","text":"into searchable","textPreview":"into searchable","textChars":15,"textLines":1,"bbox":[976.48,887,173.74,42.4]}
+{"kind":"textbox","id":"sh/hgf69cz6","slide":1,"name":"t222","text":"text","textPreview":"text","textChars":4,"textLines":1,"bbox":[976.48,921,48.14,42.4]}
+{"kind":"textbox","id":"sh/gf6507il","slide":1,"name":"t223","text":"PP-OCRv5","textPreview":"PP-OCRv5","textChars":8,"textLines":1,"bbox":[976.48,1029,112.56,42.4]}
+{"kind":"textbox","id":"sh/vid4vi1w","slide":1,"name":"t224","text":"R2 · Multiple","textPreview":"R2 · Multiple","textChars":13,"textLines":1,"bbox":[1178.08,709,144.91,42.4]}
+{"kind":"textbox","id":"sh/ahknmd0b","slide":1,"name":"t225","text":"scales","textPreview":"scales","textChars":6,"textLines":1,"bbox":[1178.08,744,81.14,42.4]}
+{"kind":"textbox","id":"sh/edsrulkz","slide":1,"name":"t226","text":"Represent","textPreview":"Represent","textChars":9,"textLines":1,"bbox":[1178.08,820,116.18,42.4]}
+{"kind":"textbox","id":"sh/ze183q14","slide":1,"name":"t227","text":"evidence at","textPreview":"evidence at","textChars":11,"textLines":1,"bbox":[1178.08,854,131.79,42.4]}
+{"kind":"textbox","id":"sh/0fa9wb2p","slide":1,"name":"t228","text":"multiple scales","textPreview":"multiple scales","textChars":15,"textLines":1,"bbox":[1178.08,887,168.98,42.4]}
+{"kind":"textbox","id":"sh/103q5gja","slide":1,"name":"t229","text":"Pages, sections,","textPreview":"Pages, sections,","textChars":16,"textLines":1,"bbox":[1178.08,1029,181.01,42.4]}
+{"kind":"textbox","id":"sh/q9s7q1kn","slide":1,"name":"t230","text":"clauses,","textPreview":"clauses,","textChars":8,"textLines":1,"bbox":[1178.08,1064,94,42.4]}
+{"kind":"textbox","id":"sh/ra18z618","slide":1,"name":"t231","text":"microchunks,","textPreview":"microchunks,","textChars":12,"textLines":1,"bbox":[1178.08,1099,152.62,42.4]}
+{"kind":"textbox","id":"sh/cba9sb2t","slide":1,"name":"t232","text":"tables","textPreview":"tables","textChars":6,"textLines":1,"bbox":[1178.08,1133,72.02,42.4]}
+{"kind":"textbox","id":"sh/dcjq1gje","slide":1,"name":"t233","text":"R3 · Find exact","textPreview":"R3 · Find exact","textChars":15,"textLines":1,"bbox":[1379.69,709,175.73,42.4]}
+{"kind":"textbox","id":"sh/2587m1kr","slide":1,"name":"t234","text":"terms too","textPreview":"terms too","textChars":9,"textLines":1,"bbox":[1379.69,744,118.42,42.4]}
+{"kind":"textbox","id":"sh/36h8v61w","slide":1,"name":"t235","text":"Combine","textPreview":"Combine","textChars":7,"textLines":1,"bbox":[1379.69,820,100.69,42.4]}
+{"kind":"textbox","id":"sh/5c72ho7q","slide":1,"name":"t236","text":"semantic and","textPreview":"semantic and","textChars":12,"textLines":1,"bbox":[1379.69,854,153.3,42.4]}
+{"kind":"textbox","id":"sh/4bylojq5","slide":1,"name":"t237","text":"exact-word","textPreview":"exact-word","textChars":10,"textLines":1,"bbox":[1379.69,887,128.69,42.4]}
+{"kind":"textbox","id":"sh/japkfyp0","slide":1,"name":"t238","text":"search","textPreview":"search","textChars":6,"textLines":1,"bbox":[1379.69,921,79.73,42.4]}
+{"kind":"textbox","id":"sh/i9g3mt8f","slide":1,"name":"t239","text":"BM25 + RRF","textPreview":"BM25 + RRF","textChars":10,"textLines":1,"bbox":[1379.69,1029,131.22,42.4]}
+{"kind":"textbox","id":"sh/h872do7u","slide":1,"name":"t240","text":"R4 · Prioritize","textPreview":"R4 · Prioritize","textChars":15,"textLines":1,"bbox":[1581.3,709,162.54,42.4]}
+{"kind":"textbox","id":"sh/w7y1kjq9","slide":1,"name":"t241","text":"better","textPreview":"better","textChars":6,"textLines":1,"bbox":[1581.3,744,77.04,42.4]}
+{"kind":"textbox","id":"sh/v6pkbepo","slide":1,"name":"t242","text":"evidence","textPreview":"evidence","textChars":8,"textLines":1,"bbox":[1581.3,779,110.8,42.4]}
+{"kind":"textbox","id":"sh/a5gji983","slide":1,"name":"t243","text":"Move the most","textPreview":"Move the most","textChars":13,"textLines":1,"bbox":[1581.3,820,162.9,42.4]}
+{"kind":"textbox","id":"sh/9kn2947i","slide":1,"name":"t244","text":"relevant","textPreview":"relevant","textChars":8,"textLines":1,"bbox":[1581.3,854,94.13,42.4]}
+{"kind":"textbox","id":"sh/8je1gzqd","slide":1,"name":"t245","text":"passages to the","textPreview":"passages to the","textChars":15,"textLines":1,"bbox":[1581.3,887,177.17,42.4]}
+{"kind":"textbox","id":"sh/076hcvy9","slide":1,"name":"t246","text":"top","textPreview":"top","textChars":3,"textLines":1,"bbox":[1581.3,921,41.52,42.4]}
+{"kind":"textbox","id":"sh/l8fylgfu","slide":1,"name":"t247","text":"Qwen3-","textPreview":"Qwen3-","textChars":6,"textLines":1,"bbox":[1581.3,1029,87.25,42.4]}
+{"kind":"textbox","id":"sh/y5ofalg3","slide":1,"name":"t248","text":"Reranker","textPreview":"Reranker","textChars":8,"textLines":1,"bbox":[1581.3,1064,104.27,42.4]}
+{"kind":"textbox","id":"sh/z6xgjqxo","slide":1,"name":"t249","text":"R5 · Check the","textPreview":"R5 · Check the","textChars":14,"textLines":1,"bbox":[1782.91,709,170.45,42.4]}
+{"kind":"textbox","id":"sh/8bqhgvy5","slide":1,"name":"t250","text":"answer","textPreview":"answer","textChars":6,"textLines":1,"bbox":[1782.91,744,90.48,42.4]}
+{"kind":"textbox","id":"sh/9czy90fq","slide":1,"name":"t251","text":"Normalize and","textPreview":"Normalize and","textChars":13,"textLines":1,"bbox":[1782.91,820,162.1,42.4]}
+{"kind":"textbox","id":"sh/m9ozelgf","slide":1,"name":"t252","text":"validate the","textPreview":"validate the","textChars":12,"textLines":1,"bbox":[1782.91,854,133.46,42.4]}
+{"kind":"textbox","id":"sh/nahg7qxk","slide":1,"name":"t253","text":"expected","textPreview":"expected","textChars":8,"textLines":1,"bbox":[1782.91,887,105.65,42.4]}
+{"kind":"textbox","id":"sh/wfqhkfyh","slide":1,"name":"t254","text":"answer type","textPreview":"answer type","textChars":11,"textLines":1,"bbox":[1782.91,921,137.78,42.4]}
+{"kind":"textbox","id":"sh/xgzyd0f2","slide":1,"name":"t255","text":"Typed schema","textPreview":"Typed schema","textChars":12,"textLines":1,"bbox":[1782.91,1029,162.38,42.4]}
+{"kind":"textbox","id":"sh/r65szylg","slide":1,"name":"t256","text":"R6 · Refine","textPreview":"R6 · Refine","textChars":11,"textLines":1,"bbox":[1984.52,709,128.94,42.4]}
+{"kind":"textbox","id":"sh/6lcrqt4v","slide":1,"name":"t257","text":"citations","textPreview":"citations","textChars":9,"textLines":1,"bbox":[1984.52,744,108.43,42.4]}
+{"kind":"textbox","id":"sh/t8na1836","slide":1,"name":"t258","text":"Keep only","textPreview":"Keep only","textChars":9,"textLines":1,"bbox":[1984.52,820,111.02,42.4]}
+{"kind":"textbox","id":"sh/s7ets3m1","slide":1,"name":"t259","text":"pages that","textPreview":"pages that","textChars":10,"textLines":1,"bbox":[1984.52,854,121.33,42.4]}
+{"kind":"textbox","id":"sh/jilsvyl4","slide":1,"name":"t260","text":"support the","textPreview":"support the","textChars":11,"textLines":1,"bbox":[1984.52,887,131.63,42.4]}
+{"kind":"textbox","id":"sh/ihcr2t4j","slide":1,"name":"t261","text":"final answer","textPreview":"final answer","textChars":12,"textLines":1,"bbox":[1984.52,921,138.8,42.4]}
+{"kind":"textbox","id":"sh/5k3axo3a","slide":1,"name":"t262","text":"Supporting-","textPreview":"Supporting-","textChars":11,"textLines":1,"bbox":[1984.52,1029,134.9,42.4]}
+{"kind":"textbox","id":"sh/4ju9ojmp","slide":1,"name":"t263","text":"chunk","textPreview":"chunk","textChars":5,"textLines":1,"bbox":[1984.52,1064,72.53,42.4]}
+{"kind":"textbox","id":"sh/3eps7ilo","slide":1,"name":"t264","text":"references","textPreview":"references","textChars":10,"textLines":1,"bbox":[1984.52,1099,123.6,42.4]}
+{"kind":"textbox","id":"sh/2dwbyd43","slide":1,"name":"t265","text":"65.4","textPreview":"65.4","textChars":4,"textLines":1,"bbox":[2770.02,279.34,54.62,40.79]}
+{"kind":"textbox","id":"sh/rmds3qts","slide":1,"name":"t266","text":"46.2","textPreview":"46.2","textChars":4,"textLines":1,"bbox":[2610.62,342.34,54.59,40.79]}
+{"kind":"textbox","id":"sh/ql4rals7","slide":1,"name":"t267","text":"63.2","textPreview":"63.2","textChars":4,"textLines":1,"bbox":[2751.75,405.34,53.12,40.79]}
+{"kind":"image","id":"im/adcfix0j","slide":1,"name":"","alt":"icon-file","bbox":[1109.48,543.38,40,40]}
+{"kind":"image","id":"im/9cjy9sze","slide":1,"name":"","alt":"icon-search","bbox":[1322.55,543.38,40,40]}
+{"kind":"image","id":"im/8baxgnit","slide":1,"name":"","alt":"icon-answer","bbox":[1670.75,543.38,40,40]}
+{"kind":"image","id":"im/na1g7ih8","slide":1,"name":"","alt":"icon-file","bbox":[1922.44,543.38,40,40]}
+{"kind":"image","id":"im/m9sfex0n","slide":1,"name":"","alt":"icon-scan","bbox":[1039.28,965.45,50,50]}
+{"kind":"image","id":"im/l8je5sz2","slide":1,"name":"","alt":"icon-layers","bbox":[1240.88,965.45,50,50]}
+{"kind":"image","id":"im/07axcnih","slide":1,"name":"","alt":"icon-search","bbox":[1442.48,965.45,50,50]}
+{"kind":"image","id":"im/q1o3qpc3","slide":1,"name":"","alt":"icon-rank","bbox":[1644.09,965.45,50,50]}
+{"kind":"image","id":"im/r2x4zuto","slide":1,"name":"","alt":"icon-check","bbox":[1845.7,965.45,50,50]}
+{"kind":"image","id":"im/s36lszu9","slide":1,"name":"","alt":"icon-link","bbox":[2047.31,965.45,50,50]}
+{"kind":"image","id":"im/d4fm14bu","slide":1,"name":"","alt":"Universität Trier","bbox":[2838.34,30.23,300,75.61]}
+{"kind":"notes","id":"nt/n9li1a","slide":1,"text":"Faithful editable reconstruction of the approved layout-v4 poster. Source: ../index.html and ../poster.pdf. Text, cards, plot series and data labels are native editable objects; charts use grouped vector elements to preserve the approved layout rather than Excel chart objects. Icons and university logo are vector SVG graphics. Measurements: ../../results/metrics.csv. Scientific text: external/Final layout and text.pdf. Code and reproducibility: https://github.com/SteinVR/Trends-in-NLP-Poster"}

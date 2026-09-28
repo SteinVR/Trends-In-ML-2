@@ -1,0 +1,22 @@
+{
+  "text_runs_verified": 289,
+  "missing": [],
+  "maximum_origin_error_px": 0.027994791666742458,
+  "maximum_baseline_error_px": 0.03401692708337123,
+  "page_count": 1,
+  "size_mm": [
+    841.0000013563367,
+    594.0000047471788
+  ],
+  "reference_pdf_sha256": "8569cad50f64a74aed4c10e83c9108e0753bb79fde389f46a1ec0417ba76cb1e",
+  "font_mapping": {
+    "BarlowCondensed": "Barlow Condensed",
+    "NotoSans": "Noto Sans",
+    "LiberationSans": "Liberation Sans"
+  },
+  "note": "Source PDF uses PostScript names without spaces. Font policy validates chosen matching family names; source mappings verified separately.",
+  "final_pptx_sha256": "d10773f88c4559591b616b255dc03fb9ffd323ac26f41deafb34b256b18d1dd9",
+  "final_render_matches_reviewed_candidate": true,
+  "visual_review": "Final full poster and enlarged methodology inspected; approved column flow 1-5 / 6-8 / 9-13, icons, chart labels, text spacing and font sizes preserved.",
+  "native_powerpoint_verified": false
+}

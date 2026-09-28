@@ -1,0 +1,2912 @@
+{
+  "width": 3178.5826771653547,
+  "height": 2245.0393700787404,
+  "items": [
+    {
+      "id": "s0",
+      "group": null,
+      "kind": "rect",
+      "left": 30.234375,
+      "top": 123.84375,
+      "width": 3118.109375,
+      "height": 2,
+      "fill": "#a8cbdc",
+      "stroke": "none",
+      "name": "Rule"
+    },
+    {
+      "id": "s1",
+      "group": "g0",
+      "kind": "rect",
+      "left": 30.234375,
+      "top": 143.84375,
+      "width": 904.25,
+      "height": 54.3125,
+      "fill": {
+        "type": "gradient",
+        "gradientKind": "linear",
+        "angleDeg": 0,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#056097"
+          },
+          {
+            "offset": 100000,
+            "color": "#0071ae"
+          }
+        ]
+      },
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        6,
+        6,
+        0,
+        0
+      ],
+      "name": "Panel H2"
+    },
+    {
+      "id": "s2",
+      "group": "g0",
+      "kind": "rect",
+      "left": 30.234375,
+      "top": 198.15625,
+      "width": 904.25,
+      "height": 363.9375,
+      "fill": "#f2f8fc",
+      "stroke": "#d9e9f1",
+      "strokeWidth": 1,
+      "radii": [
+        0,
+        0,
+        9,
+        9
+      ],
+      "name": "Panel content"
+    },
+    {
+      "id": "s3",
+      "group": "g1",
+      "kind": "rect",
+      "left": 30.234375,
+      "top": 588.21875,
+      "width": 904.25,
+      "height": 54.3125,
+      "fill": {
+        "type": "gradient",
+        "gradientKind": "linear",
+        "angleDeg": 0,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#056097"
+          },
+          {
+            "offset": 100000,
+            "color": "#0071ae"
+          }
+        ]
+      },
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        6,
+        6,
+        0,
+        0
+      ],
+      "name": "Panel H2"
+    },
+    {
+      "id": "s4",
+      "group": "g1",
+      "kind": "rect",
+      "left": 30.234375,
+      "top": 642.53125,
+      "width": 904.25,
+      "height": 518.3125,
+      "fill": "#f2f8fc",
+      "stroke": "#d9e9f1",
+      "strokeWidth": 1,
+      "radii": [
+        0,
+        0,
+        9,
+        9
+      ],
+      "name": "Panel content"
+    },
+    {
+      "id": "s5",
+      "group": "g2",
+      "kind": "rect",
+      "left": 30.234375,
+      "top": 1186.96875,
+      "width": 904.25,
+      "height": 54.3125,
+      "fill": {
+        "type": "gradient",
+        "gradientKind": "linear",
+        "angleDeg": 0,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#056097"
+          },
+          {
+            "offset": 100000,
+            "color": "#0071ae"
+          }
+        ]
+      },
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        6,
+        6,
+        0,
+        0
+      ],
+      "name": "Panel H2"
+    },
+    {
+      "id": "s6",
+      "group": "g2",
+      "kind": "rect",
+      "left": 30.234375,
+      "top": 1241.28125,
+      "width": 904.25,
+      "height": 143.96875,
+      "fill": "#eaf5fc",
+      "stroke": "#d9e9f1",
+      "strokeWidth": 1,
+      "radii": [
+        0,
+        0,
+        9,
+        9
+      ],
+      "name": "Panel content"
+    },
+    {
+      "id": "s7",
+      "group": "g3",
+      "kind": "rect",
+      "left": 30.234375,
+      "top": 1411.375,
+      "width": 904.25,
+      "height": 54.3125,
+      "fill": {
+        "type": "gradient",
+        "gradientKind": "linear",
+        "angleDeg": 0,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#056097"
+          },
+          {
+            "offset": 100000,
+            "color": "#0071ae"
+          }
+        ]
+      },
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        6,
+        6,
+        0,
+        0
+      ],
+      "name": "Panel H2"
+    },
+    {
+      "id": "s8",
+      "group": "g3",
+      "kind": "rect",
+      "left": 30.234375,
+      "top": 1465.6875,
+      "width": 904.25,
+      "height": 229.5625,
+      "fill": "#f2f8fc",
+      "stroke": "#d9e9f1",
+      "strokeWidth": 1,
+      "radii": [
+        0,
+        0,
+        9,
+        9
+      ],
+      "name": "Panel content"
+    },
+    {
+      "id": "s9",
+      "group": "g4",
+      "kind": "rect",
+      "left": 30.234375,
+      "top": 1721.375,
+      "width": 904.25,
+      "height": 54.3125,
+      "fill": {
+        "type": "gradient",
+        "gradientKind": "linear",
+        "angleDeg": 0,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#056097"
+          },
+          {
+            "offset": 100000,
+            "color": "#0071ae"
+          }
+        ]
+      },
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        6,
+        6,
+        0,
+        0
+      ],
+      "name": "Panel H2"
+    },
+    {
+      "id": "s10",
+      "group": "g4",
+      "kind": "rect",
+      "left": 30.234375,
+      "top": 1781.6875,
+      "width": 904.25,
+      "height": 433.109375,
+      "fill": "#ffffff",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        0,
+        0,
+        9,
+        9
+      ],
+      "name": "Panel content"
+    },
+    {
+      "id": "s11",
+      "group": "g4",
+      "kind": "rect",
+      "left": 30.234375,
+      "top": 1781.6875,
+      "width": 904.25,
+      "height": 162.765625,
+      "fill": "#eaf4fb",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "name": "Panel hyp h1"
+    },
+    {
+      "id": "s12",
+      "group": "g4",
+      "kind": "rect",
+      "left": 30.234375,
+      "top": 1950.453125,
+      "width": 904.25,
+      "height": 129.171875,
+      "fill": "#eff7e9",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "name": "Panel hyp h2"
+    },
+    {
+      "id": "s13",
+      "group": "g4",
+      "kind": "rect",
+      "left": 30.234375,
+      "top": 2085.625,
+      "width": 904.25,
+      "height": 129.171875,
+      "fill": "#f2ebfa",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "name": "Panel hyp h3"
+    },
+    {
+      "id": "s14",
+      "group": "g5",
+      "kind": "rect",
+      "left": 952.484375,
+      "top": 143.84375,
+      "width": 1231.640625,
+      "height": 54.3125,
+      "fill": {
+        "type": "gradient",
+        "gradientKind": "linear",
+        "angleDeg": 0,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#056097"
+          },
+          {
+            "offset": 100000,
+            "color": "#0071ae"
+          }
+        ]
+      },
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        6,
+        6,
+        0,
+        0
+      ],
+      "name": "Panel H2"
+    },
+    {
+      "id": "s15",
+      "group": "g5",
+      "kind": "rect",
+      "left": 952.484375,
+      "top": 198.15625,
+      "width": 1231.640625,
+      "height": 1085.671875,
+      "fill": "#f2f8fc",
+      "stroke": "#d9e9f1",
+      "strokeWidth": 1,
+      "radii": [
+        0,
+        0,
+        9,
+        9
+      ],
+      "name": "Panel content"
+    },
+    {
+      "id": "s16",
+      "group": "g6",
+      "kind": "rect",
+      "left": 969.484375,
+      "top": 493.09375,
+      "width": 1197.640625,
+      "height": 140.5625,
+      "fill": "#e6f3fb",
+      "stroke": "#cfdfeb",
+      "strokeWidth": 1,
+      "radii": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "name": "Panel baseline"
+    },
+    {
+      "id": "s17",
+      "group": "g5",
+      "kind": "rect",
+      "left": 969.484375,
+      "top": 647.65625,
+      "width": 391.203125,
+      "height": 44.78125,
+      "fill": "#eaf5fc",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "name": "Panel phase doc"
+    },
+    {
+      "id": "s18",
+      "group": "g5",
+      "kind": "rect",
+      "left": 1372.6875,
+      "top": 647.65625,
+      "width": 391.21875,
+      "height": 44.78125,
+      "fill": "#eef7e9",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "name": "Panel phase retr"
+    },
+    {
+      "id": "s19",
+      "group": "g5",
+      "kind": "rect",
+      "left": 1775.90625,
+      "top": 647.65625,
+      "width": 189.609375,
+      "height": 44.78125,
+      "fill": "#fff1e5",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "name": "Panel phase ans single"
+    },
+    {
+      "id": "s20",
+      "group": "g5",
+      "kind": "rect",
+      "left": 1977.515625,
+      "top": 647.65625,
+      "width": 189.59375,
+      "height": 44.78125,
+      "fill": "#f1eafb",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "name": "Panel phase cit single"
+    },
+    {
+      "id": "s21",
+      "group": "g7",
+      "kind": "rect",
+      "left": 969.484375,
+      "top": 700.4375,
+      "width": 189.59375,
+      "height": 480.203125,
+      "fill": "#eaf5fc",
+      "stroke": "#c7dce8",
+      "strokeWidth": 1,
+      "radii": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "name": "Panel stage doc"
+    },
+    {
+      "id": "s22",
+      "group": "g7",
+      "kind": "rect",
+      "left": 970.484375,
+      "top": 1023.453125,
+      "width": 187.59375,
+      "height": 156.1875,
+      "fill": "#dceef9",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        6,
+        6,
+        7,
+        7
+      ],
+      "name": "Panel tech"
+    },
+    {
+      "id": "s23",
+      "group": "g8",
+      "kind": "rect",
+      "left": 1171.078125,
+      "top": 700.4375,
+      "width": 189.609375,
+      "height": 480.203125,
+      "fill": "#eaf5fc",
+      "stroke": "#c7dce8",
+      "strokeWidth": 1,
+      "radii": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "name": "Panel stage doc"
+    },
+    {
+      "id": "s24",
+      "group": "g8",
+      "kind": "rect",
+      "left": 1172.078125,
+      "top": 1023.453125,
+      "width": 187.609375,
+      "height": 156.1875,
+      "fill": "#dceef9",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        6,
+        6,
+        7,
+        7
+      ],
+      "name": "Panel tech"
+    },
+    {
+      "id": "s25",
+      "group": "g9",
+      "kind": "rect",
+      "left": 1372.6875,
+      "top": 700.4375,
+      "width": 189.609375,
+      "height": 480.203125,
+      "fill": "#eef7e9",
+      "stroke": "#c7dce8",
+      "strokeWidth": 1,
+      "radii": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "name": "Panel stage retr"
+    },
+    {
+      "id": "s26",
+      "group": "g9",
+      "kind": "rect",
+      "left": 1373.6875,
+      "top": 1023.453125,
+      "width": 187.609375,
+      "height": 156.1875,
+      "fill": "#e1efd9",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        6,
+        6,
+        7,
+        7
+      ],
+      "name": "Panel tech"
+    },
+    {
+      "id": "s27",
+      "group": "g10",
+      "kind": "rect",
+      "left": 1574.296875,
+      "top": 700.4375,
+      "width": 189.609375,
+      "height": 480.203125,
+      "fill": "#eef7e9",
+      "stroke": "#c7dce8",
+      "strokeWidth": 1,
+      "radii": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "name": "Panel stage retr"
+    },
+    {
+      "id": "s28",
+      "group": "g10",
+      "kind": "rect",
+      "left": 1575.296875,
+      "top": 1023.453125,
+      "width": 187.609375,
+      "height": 156.1875,
+      "fill": "#e1efd9",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        6,
+        6,
+        7,
+        7
+      ],
+      "name": "Panel tech"
+    },
+    {
+      "id": "s29",
+      "group": "g11",
+      "kind": "rect",
+      "left": 1775.90625,
+      "top": 700.4375,
+      "width": 189.609375,
+      "height": 480.203125,
+      "fill": "#fff1e5",
+      "stroke": "#c7dce8",
+      "strokeWidth": 1,
+      "radii": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "name": "Panel stage ans"
+    },
+    {
+      "id": "s30",
+      "group": "g11",
+      "kind": "rect",
+      "left": 1776.90625,
+      "top": 1023.453125,
+      "width": 187.609375,
+      "height": 156.1875,
+      "fill": "#f8e3cf",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        6,
+        6,
+        7,
+        7
+      ],
+      "name": "Panel tech"
+    },
+    {
+      "id": "s31",
+      "group": "g12",
+      "kind": "rect",
+      "left": 1977.515625,
+      "top": 700.4375,
+      "width": 189.59375,
+      "height": 480.203125,
+      "fill": "#f1eafb",
+      "stroke": "#c7dce8",
+      "strokeWidth": 1,
+      "radii": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "name": "Panel stage cit"
+    },
+    {
+      "id": "s32",
+      "group": "g12",
+      "kind": "rect",
+      "left": 1978.515625,
+      "top": 1023.453125,
+      "width": 187.59375,
+      "height": 156.1875,
+      "fill": "#e7ddf4",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        6,
+        6,
+        7,
+        7
+      ],
+      "name": "Panel tech"
+    },
+    {
+      "id": "s33",
+      "group": "g5",
+      "kind": "rect",
+      "left": 969.484375,
+      "top": 1191.640625,
+      "width": 1197.640625,
+      "height": 1,
+      "fill": "#cbdde7",
+      "stroke": "none",
+      "name": "Rule"
+    },
+    {
+      "id": "s34",
+      "group": "g13",
+      "kind": "rect",
+      "left": 952.484375,
+      "top": 1293.828125,
+      "width": 1231.640625,
+      "height": 54.3125,
+      "fill": {
+        "type": "gradient",
+        "gradientKind": "linear",
+        "angleDeg": 0,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#056097"
+          },
+          {
+            "offset": 100000,
+            "color": "#0071ae"
+          }
+        ]
+      },
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        6,
+        6,
+        0,
+        0
+      ],
+      "name": "Panel H2"
+    },
+    {
+      "id": "s35",
+      "group": "g13",
+      "kind": "rect",
+      "left": 952.484375,
+      "top": 1348.140625,
+      "width": 1231.640625,
+      "height": 348.140625,
+      "fill": "#f2f8fc",
+      "stroke": "#d9e9f1",
+      "strokeWidth": 1,
+      "radii": [
+        0,
+        0,
+        9,
+        9
+      ],
+      "name": "Panel content"
+    },
+    {
+      "id": "s36",
+      "group": "g13",
+      "kind": "rect",
+      "left": 969.484375,
+      "top": 1473.921875,
+      "width": 392.546875,
+      "height": 208.359375,
+      "fill": "#eaf5fc",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "name": "Panel doc"
+    },
+    {
+      "id": "s37",
+      "group": "g13",
+      "kind": "rect",
+      "left": 1372.03125,
+      "top": 1473.921875,
+      "width": 392.546875,
+      "height": 208.359375,
+      "fill": "#eef7e9",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "name": "Panel retr"
+    },
+    {
+      "id": "s38",
+      "group": "g13",
+      "kind": "rect",
+      "left": 1774.578125,
+      "top": 1473.921875,
+      "width": 392.546875,
+      "height": 208.359375,
+      "fill": "#fff1e5",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "name": "Panel ans"
+    },
+    {
+      "id": "s39",
+      "group": "g14",
+      "kind": "rect",
+      "left": 952.484375,
+      "top": 1708.328125,
+      "width": 1231.640625,
+      "height": 54.3125,
+      "fill": {
+        "type": "gradient",
+        "gradientKind": "linear",
+        "angleDeg": 0,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#056097"
+          },
+          {
+            "offset": 100000,
+            "color": "#0071ae"
+          }
+        ]
+      },
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        6,
+        6,
+        0,
+        0
+      ],
+      "name": "Panel H2"
+    },
+    {
+      "id": "s40",
+      "group": "g14",
+      "kind": "rect",
+      "left": 952.484375,
+      "top": 1762.640625,
+      "width": 1231.640625,
+      "height": 452.15625,
+      "fill": "#f2f8fc",
+      "stroke": "#d9e9f1",
+      "strokeWidth": 1,
+      "radii": [
+        0,
+        0,
+        9,
+        9
+      ],
+      "name": "Panel content"
+    },
+    {
+      "id": "s41",
+      "group": "g15",
+      "kind": "rect",
+      "left": 2202.125,
+      "top": 143.84375,
+      "width": 946.21875,
+      "height": 54.3125,
+      "fill": {
+        "type": "gradient",
+        "gradientKind": "linear",
+        "angleDeg": 0,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#056097"
+          },
+          {
+            "offset": 100000,
+            "color": "#0071ae"
+          }
+        ]
+      },
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        6,
+        6,
+        0,
+        0
+      ],
+      "name": "Panel H2"
+    },
+    {
+      "id": "s42",
+      "group": "g15",
+      "kind": "rect",
+      "left": 2202.125,
+      "top": 198.15625,
+      "width": 946.21875,
+      "height": 361.46875,
+      "fill": "#f2f8fc",
+      "stroke": "#d9e9f1",
+      "strokeWidth": 1,
+      "radii": [
+        0,
+        0,
+        9,
+        9
+      ],
+      "name": "Panel content"
+    },
+    {
+      "id": "s43",
+      "group": "g16",
+      "kind": "rect",
+      "left": 2219.125,
+      "top": 288.484375,
+      "width": 830.109375,
+      "height": 20,
+      "fill": "#e4edf3",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Panel track"
+    },
+    {
+      "id": "s44",
+      "group": "g16",
+      "kind": "rect",
+      "left": 2219.125,
+      "top": 288.484375,
+      "width": 542.890625,
+      "height": 20,
+      "fill": "#087ab9",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Panel bar"
+    },
+    {
+      "id": "s45",
+      "group": "g16",
+      "kind": "rect",
+      "left": 2219.125,
+      "top": 351.265625,
+      "width": 830.109375,
+      "height": 20,
+      "fill": "#e4edf3",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Panel track"
+    },
+    {
+      "id": "s46",
+      "group": "g16",
+      "kind": "rect",
+      "left": 2219.125,
+      "top": 351.265625,
+      "width": 383.5,
+      "height": 20,
+      "fill": "#087ab9",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Panel bar"
+    },
+    {
+      "id": "s47",
+      "group": "g16",
+      "kind": "rect",
+      "left": 2219.125,
+      "top": 414.046875,
+      "width": 830.109375,
+      "height": 20,
+      "fill": "#e4edf3",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Panel track"
+    },
+    {
+      "id": "s48",
+      "group": "g16",
+      "kind": "rect",
+      "left": 2219.125,
+      "top": 414.046875,
+      "width": 524.625,
+      "height": 20,
+      "fill": "#087ab9",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Panel bar"
+    },
+    {
+      "id": "s49",
+      "group": "g17",
+      "kind": "rect",
+      "left": 2202.125,
+      "top": 569.703125,
+      "width": 946.21875,
+      "height": 54.3125,
+      "fill": {
+        "type": "gradient",
+        "gradientKind": "linear",
+        "angleDeg": 0,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#056097"
+          },
+          {
+            "offset": 100000,
+            "color": "#0071ae"
+          }
+        ]
+      },
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        6,
+        6,
+        0,
+        0
+      ],
+      "name": "Panel H2"
+    },
+    {
+      "id": "s50",
+      "group": "g17",
+      "kind": "rect",
+      "left": 2202.125,
+      "top": 624.015625,
+      "width": 946.21875,
+      "height": 336.15625,
+      "fill": "#ffffff",
+      "stroke": "#d9e9f1",
+      "strokeWidth": 1,
+      "radii": [
+        0,
+        0,
+        9,
+        9
+      ],
+      "name": "Panel content"
+    },
+    {
+      "id": "s51",
+      "group": "g17",
+      "kind": "rect",
+      "left": 2215.125,
+      "top": 637.015625,
+      "width": 920.21875,
+      "height": 121.78125,
+      "fill": "#eaf4fb",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "name": "Panel hyp-result h1"
+    },
+    {
+      "id": "s52",
+      "group": "g17",
+      "kind": "rect",
+      "left": 2215.125,
+      "top": 764.796875,
+      "width": 920.21875,
+      "height": 88.1875,
+      "fill": "#eff7e9",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "name": "Panel hyp-result h2"
+    },
+    {
+      "id": "s53",
+      "group": "g17",
+      "kind": "rect",
+      "left": 2215.125,
+      "top": 858.984375,
+      "width": 920.21875,
+      "height": 88.1875,
+      "fill": "#f2ebfa",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "name": "Panel hyp-result h3"
+    },
+    {
+      "id": "s54",
+      "group": "g18",
+      "kind": "rect",
+      "left": 2202.125,
+      "top": 970.25,
+      "width": 946.21875,
+      "height": 54.3125,
+      "fill": {
+        "type": "gradient",
+        "gradientKind": "linear",
+        "angleDeg": 0,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#056097"
+          },
+          {
+            "offset": 100000,
+            "color": "#0071ae"
+          }
+        ]
+      },
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        6,
+        6,
+        0,
+        0
+      ],
+      "name": "Panel H2"
+    },
+    {
+      "id": "s55",
+      "group": "g18",
+      "kind": "rect",
+      "left": 2202.125,
+      "top": 1024.5625,
+      "width": 946.21875,
+      "height": 598.90625,
+      "fill": "#f2f8fc",
+      "stroke": "#d9e9f1",
+      "strokeWidth": 1,
+      "radii": [
+        0,
+        0,
+        9,
+        9
+      ],
+      "name": "Panel content"
+    },
+    {
+      "id": "s56",
+      "group": "g18",
+      "kind": "rect",
+      "left": 2219.125,
+      "top": 1034.5625,
+      "width": 912.21875,
+      "height": 195.96875,
+      "fill": "#075c91",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "name": "Panel main-takeaway"
+    },
+    {
+      "id": "s57",
+      "group": "g18",
+      "kind": "rect",
+      "left": 2219.125,
+      "top": 1535.28125,
+      "width": 912.21875,
+      "height": 1,
+      "fill": "#c8dce7",
+      "stroke": "none",
+      "name": "Rule"
+    },
+    {
+      "id": "s58",
+      "group": "g19",
+      "kind": "rect",
+      "left": 2202.125,
+      "top": 1633.546875,
+      "width": 946.21875,
+      "height": 54.3125,
+      "fill": {
+        "type": "gradient",
+        "gradientKind": "linear",
+        "angleDeg": 0,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#056097"
+          },
+          {
+            "offset": 100000,
+            "color": "#0071ae"
+          }
+        ]
+      },
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        6,
+        6,
+        0,
+        0
+      ],
+      "name": "Panel H2"
+    },
+    {
+      "id": "s59",
+      "group": "g19",
+      "kind": "rect",
+      "left": 2202.125,
+      "top": 1687.859375,
+      "width": 946.21875,
+      "height": 89.1875,
+      "fill": "#f2f8fc",
+      "stroke": "#d9e9f1",
+      "strokeWidth": 1,
+      "radii": [
+        0,
+        0,
+        9,
+        9
+      ],
+      "name": "Panel content"
+    },
+    {
+      "id": "s60",
+      "group": "g20",
+      "kind": "rect",
+      "left": 2202.125,
+      "top": 1787.125,
+      "width": 946.21875,
+      "height": 48.546875,
+      "fill": {
+        "type": "gradient",
+        "gradientKind": "linear",
+        "angleDeg": 0,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#056097"
+          },
+          {
+            "offset": 100000,
+            "color": "#0071ae"
+          }
+        ]
+      },
+      "stroke": "none",
+      "strokeWidth": 0,
+      "radii": [
+        6,
+        6,
+        0,
+        0
+      ],
+      "name": "Panel H2"
+    },
+    {
+      "id": "s61",
+      "group": "g20",
+      "kind": "rect",
+      "left": 2202.125,
+      "top": 1835.671875,
+      "width": 946.21875,
+      "height": 379.125,
+      "fill": "#f8fbfd",
+      "stroke": "#d9e9f1",
+      "strokeWidth": 1,
+      "radii": [
+        0,
+        0,
+        9,
+        9
+      ],
+      "name": "Panel content"
+    },
+    {
+      "id": "s62",
+      "group": "g20",
+      "kind": "rect",
+      "left": 2215.125,
+      "top": 2127.609375,
+      "width": 920.21875,
+      "height": 1,
+      "fill": "#c8dce7",
+      "stroke": "none",
+      "name": "Rule"
+    },
+    {
+      "id": "s63",
+      "group": "g7",
+      "kind": "path",
+      "left": 1159.078125,
+      "top": 981.453125,
+      "width": 11,
+      "height": 18,
+      "fill": "#147ba7",
+      "stroke": "none",
+      "name": "Stage connector",
+      "points": [
+        {
+          "x": 0,
+          "y": 5.3999999999999995
+        },
+        {
+          "x": 6.050000000000001,
+          "y": 5.3999999999999995
+        },
+        {
+          "x": 6.050000000000001,
+          "y": 0
+        },
+        {
+          "x": 11,
+          "y": 9
+        },
+        {
+          "x": 6.050000000000001,
+          "y": 18
+        },
+        {
+          "x": 6.050000000000001,
+          "y": 12.6
+        },
+        {
+          "x": 0,
+          "y": 12.6
+        }
+      ],
+      "close": true
+    },
+    {
+      "id": "s64",
+      "group": "g8",
+      "kind": "path",
+      "left": 1360.6875,
+      "top": 981.453125,
+      "width": 11,
+      "height": 18,
+      "fill": "#147ba7",
+      "stroke": "none",
+      "name": "Stage connector",
+      "points": [
+        {
+          "x": 0,
+          "y": 5.3999999999999995
+        },
+        {
+          "x": 6.050000000000001,
+          "y": 5.3999999999999995
+        },
+        {
+          "x": 6.050000000000001,
+          "y": 0
+        },
+        {
+          "x": 11,
+          "y": 9
+        },
+        {
+          "x": 6.050000000000001,
+          "y": 18
+        },
+        {
+          "x": 6.050000000000001,
+          "y": 12.6
+        },
+        {
+          "x": 0,
+          "y": 12.6
+        }
+      ],
+      "close": true
+    },
+    {
+      "id": "s65",
+      "group": "g9",
+      "kind": "path",
+      "left": 1562.296875,
+      "top": 981.453125,
+      "width": 11,
+      "height": 18,
+      "fill": "#3b782d",
+      "stroke": "none",
+      "name": "Stage connector",
+      "points": [
+        {
+          "x": 0,
+          "y": 5.3999999999999995
+        },
+        {
+          "x": 6.050000000000001,
+          "y": 5.3999999999999995
+        },
+        {
+          "x": 6.050000000000001,
+          "y": 0
+        },
+        {
+          "x": 11,
+          "y": 9
+        },
+        {
+          "x": 6.050000000000001,
+          "y": 18
+        },
+        {
+          "x": 6.050000000000001,
+          "y": 12.6
+        },
+        {
+          "x": 0,
+          "y": 12.6
+        }
+      ],
+      "close": true
+    },
+    {
+      "id": "s66",
+      "group": "g10",
+      "kind": "path",
+      "left": 1763.90625,
+      "top": 981.453125,
+      "width": 11,
+      "height": 18,
+      "fill": "#3b782d",
+      "stroke": "none",
+      "name": "Stage connector",
+      "points": [
+        {
+          "x": 0,
+          "y": 5.3999999999999995
+        },
+        {
+          "x": 6.050000000000001,
+          "y": 5.3999999999999995
+        },
+        {
+          "x": 6.050000000000001,
+          "y": 0
+        },
+        {
+          "x": 11,
+          "y": 9
+        },
+        {
+          "x": 6.050000000000001,
+          "y": 18
+        },
+        {
+          "x": 6.050000000000001,
+          "y": 12.6
+        },
+        {
+          "x": 0,
+          "y": 12.6
+        }
+      ],
+      "close": true
+    },
+    {
+      "id": "s67",
+      "group": "g11",
+      "kind": "path",
+      "left": 1965.515625,
+      "top": 981.453125,
+      "width": 11,
+      "height": 18,
+      "fill": "#ab5826",
+      "stroke": "none",
+      "name": "Stage connector",
+      "points": [
+        {
+          "x": 0,
+          "y": 5.3999999999999995
+        },
+        {
+          "x": 6.050000000000001,
+          "y": 5.3999999999999995
+        },
+        {
+          "x": 6.050000000000001,
+          "y": 0
+        },
+        {
+          "x": 11,
+          "y": 9
+        },
+        {
+          "x": 6.050000000000001,
+          "y": 18
+        },
+        {
+          "x": 6.050000000000001,
+          "y": 12.6
+        },
+        {
+          "x": 0,
+          "y": 12.6
+        }
+      ],
+      "close": true
+    },
+    {
+      "id": "s68",
+      "group": "g14",
+      "kind": "path",
+      "left": 1019.396599264706,
+      "top": 2123.8249908088237,
+      "width": 324.35477941176475,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#dce6ed",
+      "strokeWidth": 1.8712775735294118,
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 324.35477941176475,
+          "y": 0
+        }
+      ],
+      "name": "Chart grid"
+    },
+    {
+      "id": "s69",
+      "group": "g14",
+      "kind": "path",
+      "left": 1019.396599264706,
+      "top": 2013.2324862132352,
+      "width": 324.35477941176475,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#dce6ed",
+      "strokeWidth": 1.8712775735294118,
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 324.35477941176475,
+          "y": 0
+        }
+      ],
+      "name": "Chart grid"
+    },
+    {
+      "id": "s70",
+      "group": "g14",
+      "kind": "path",
+      "left": 1019.396599264706,
+      "top": 1902.639981617647,
+      "width": 324.35477941176475,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#dce6ed",
+      "strokeWidth": 1.8712775735294118,
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 324.35477941176475,
+          "y": 0
+        }
+      ],
+      "name": "Chart grid"
+    },
+    {
+      "id": "s71",
+      "group": "g14",
+      "kind": "path",
+      "left": 1019.396599264706,
+      "top": 1937.1463400735295,
+      "width": 314.37463235294115,
+      "height": 84.49442003676472,
+      "fill": "none",
+      "stroke": "#0674b6",
+      "strokeWidth": 4.990073529411765,
+      "points": [
+        {
+          "x": 0,
+          "y": 84.49442003676472
+        },
+        {
+          "x": 52.39577205882358,
+          "y": 46.894215992647105
+        },
+        {
+          "x": 104.79154411764705,
+          "y": 76.52277757352931
+        },
+        {
+          "x": 157.18731617647052,
+          "y": 21.669394301470447
+        },
+        {
+          "x": 209.5830882352942,
+          "y": 0
+        },
+        {
+          "x": 261.9788602941177,
+          "y": 0
+        },
+        {
+          "x": 314.37463235294115,
+          "y": 0
+        }
+      ],
+      "name": "Measured series"
+    },
+    {
+      "id": "s72",
+      "group": "g14",
+      "kind": "ellipse",
+      "left": 1013.1590073529412,
+      "top": 2015.4031681985296,
+      "width": 12.475183823529413,
+      "height": 12.475183823529413,
+      "fill": "#0674b6",
+      "stroke": "none",
+      "name": "Measured point"
+    },
+    {
+      "id": "s73",
+      "group": "g14",
+      "kind": "ellipse",
+      "left": 1065.554779411765,
+      "top": 1977.802964154412,
+      "width": 12.475183823529413,
+      "height": 12.475183823529413,
+      "fill": "#0674b6",
+      "stroke": "none",
+      "name": "Measured point"
+    },
+    {
+      "id": "s74",
+      "group": "g14",
+      "kind": "ellipse",
+      "left": 1117.9505514705884,
+      "top": 2007.4315257352941,
+      "width": 12.475183823529413,
+      "height": 12.475183823529413,
+      "fill": "#0674b6",
+      "stroke": "none",
+      "name": "Measured point"
+    },
+    {
+      "id": "s75",
+      "group": "g14",
+      "kind": "ellipse",
+      "left": 1170.3463235294118,
+      "top": 1952.5781424632353,
+      "width": 12.475183823529413,
+      "height": 12.475183823529413,
+      "fill": "#0674b6",
+      "stroke": "none",
+      "name": "Measured point"
+    },
+    {
+      "id": "s76",
+      "group": "g14",
+      "kind": "ellipse",
+      "left": 1222.7420955882355,
+      "top": 1930.9087481617648,
+      "width": 12.475183823529413,
+      "height": 12.475183823529413,
+      "fill": "#0674b6",
+      "stroke": "none",
+      "name": "Measured point"
+    },
+    {
+      "id": "s77",
+      "group": "g14",
+      "kind": "ellipse",
+      "left": 1275.137867647059,
+      "top": 1930.9087481617648,
+      "width": 12.475183823529413,
+      "height": 12.475183823529413,
+      "fill": "#0674b6",
+      "stroke": "none",
+      "name": "Measured point"
+    },
+    {
+      "id": "s78",
+      "group": "g14",
+      "kind": "ellipse",
+      "left": 1327.5336397058825,
+      "top": 1930.9087481617648,
+      "width": 12.475183823529413,
+      "height": 12.475183823529413,
+      "fill": "#0674b6",
+      "stroke": "none",
+      "name": "Measured point"
+    },
+    {
+      "id": "s79",
+      "group": "g14",
+      "kind": "path",
+      "left": 1422.345036764706,
+      "top": 2123.8249908088237,
+      "width": 324.35477941176464,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#dce6ed",
+      "strokeWidth": 1.8712775735294118,
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 324.35477941176464,
+          "y": 0
+        }
+      ],
+      "name": "Chart grid"
+    },
+    {
+      "id": "s80",
+      "group": "g14",
+      "kind": "path",
+      "left": 1422.345036764706,
+      "top": 2013.2324862132352,
+      "width": 324.35477941176464,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#dce6ed",
+      "strokeWidth": 1.8712775735294118,
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 324.35477941176464,
+          "y": 0
+        }
+      ],
+      "name": "Chart grid"
+    },
+    {
+      "id": "s81",
+      "group": "g14",
+      "kind": "path",
+      "left": 1422.345036764706,
+      "top": 1902.639981617647,
+      "width": 324.35477941176464,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#dce6ed",
+      "strokeWidth": 1.8712775735294118,
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 324.35477941176464,
+          "y": 0
+        }
+      ],
+      "name": "Chart grid"
+    },
+    {
+      "id": "s82",
+      "group": "g14",
+      "kind": "path",
+      "left": 1422.345036764706,
+      "top": 1987.209252757353,
+      "width": 314.37463235294126,
+      "height": 119.79919025735285,
+      "fill": "none",
+      "stroke": "#0674b6",
+      "strokeWidth": 4.990073529411765,
+      "points": [
+        {
+          "x": 0,
+          "y": 119.79919025735285
+        },
+        {
+          "x": 52.39577205882347,
+          "y": 111.80259742647081
+        },
+        {
+          "x": 104.79154411764694,
+          "y": 104.03055790441181
+        },
+        {
+          "x": 157.18731617647063,
+          "y": 87.55084007352957
+        },
+        {
+          "x": 209.58308823529387,
+          "y": 76.72238051470572
+        },
+        {
+          "x": 261.97886029411757,
+          "y": 76.72238051470572
+        },
+        {
+          "x": 314.37463235294126,
+          "y": 0
+        }
+      ],
+      "name": "Measured series"
+    },
+    {
+      "id": "s83",
+      "group": "g14",
+      "kind": "ellipse",
+      "left": 1416.1074448529414,
+      "top": 2100.770851102941,
+      "width": 12.475183823529413,
+      "height": 12.475183823529413,
+      "fill": "#0674b6",
+      "stroke": "none",
+      "name": "Measured point"
+    },
+    {
+      "id": "s84",
+      "group": "g14",
+      "kind": "ellipse",
+      "left": 1468.5032169117649,
+      "top": 2092.774258272059,
+      "width": 12.475183823529413,
+      "height": 12.475183823529413,
+      "fill": "#0674b6",
+      "stroke": "none",
+      "name": "Measured point"
+    },
+    {
+      "id": "s85",
+      "group": "g14",
+      "kind": "ellipse",
+      "left": 1520.8989889705883,
+      "top": 2085.00221875,
+      "width": 12.475183823529413,
+      "height": 12.475183823529413,
+      "fill": "#0674b6",
+      "stroke": "none",
+      "name": "Measured point"
+    },
+    {
+      "id": "s86",
+      "group": "g14",
+      "kind": "ellipse",
+      "left": 1573.294761029412,
+      "top": 2068.5225009191176,
+      "width": 12.475183823529413,
+      "height": 12.475183823529413,
+      "fill": "#0674b6",
+      "stroke": "none",
+      "name": "Measured point"
+    },
+    {
+      "id": "s87",
+      "group": "g14",
+      "kind": "ellipse",
+      "left": 1625.6905330882353,
+      "top": 2057.694041360294,
+      "width": 12.475183823529413,
+      "height": 12.475183823529413,
+      "fill": "#0674b6",
+      "stroke": "none",
+      "name": "Measured point"
+    },
+    {
+      "id": "s88",
+      "group": "g14",
+      "kind": "ellipse",
+      "left": 1678.086305147059,
+      "top": 2057.694041360294,
+      "width": 12.475183823529413,
+      "height": 12.475183823529413,
+      "fill": "#0674b6",
+      "stroke": "none",
+      "name": "Measured point"
+    },
+    {
+      "id": "s89",
+      "group": "g14",
+      "kind": "ellipse",
+      "left": 1730.4820772058827,
+      "top": 1980.9716608455883,
+      "width": 12.475183823529413,
+      "height": 12.475183823529413,
+      "fill": "#0674b6",
+      "stroke": "none",
+      "name": "Measured point"
+    },
+    {
+      "id": "s90",
+      "group": "g14",
+      "kind": "path",
+      "left": 1825.293474264706,
+      "top": 2123.8249908088237,
+      "width": 324.35477941176464,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#dce6ed",
+      "strokeWidth": 1.8712775735294118,
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 324.35477941176464,
+          "y": 0
+        }
+      ],
+      "name": "Chart grid"
+    },
+    {
+      "id": "s91",
+      "group": "g14",
+      "kind": "path",
+      "left": 1825.293474264706,
+      "top": 2013.2324862132352,
+      "width": 324.35477941176464,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#dce6ed",
+      "strokeWidth": 1.8712775735294118,
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 324.35477941176464,
+          "y": 0
+        }
+      ],
+      "name": "Chart grid"
+    },
+    {
+      "id": "s92",
+      "group": "g14",
+      "kind": "path",
+      "left": 1825.293474264706,
+      "top": 1902.639981617647,
+      "width": 324.35477941176464,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#dce6ed",
+      "strokeWidth": 1.8712775735294118,
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 324.35477941176464,
+          "y": 0
+        }
+      ],
+      "name": "Chart grid"
+    },
+    {
+      "id": "s93",
+      "group": "g14",
+      "kind": "path",
+      "left": 1825.293474264706,
+      "top": 1949.2098428308823,
+      "width": 314.37463235294103,
+      "height": 89.43459283088237,
+      "fill": "none",
+      "stroke": "#0674b6",
+      "strokeWidth": 4.990073529411765,
+      "points": [
+        {
+          "x": 0,
+          "y": 89.43459283088237
+        },
+        {
+          "x": 52.39577205882347,
+          "y": 38.311289522058814
+        },
+        {
+          "x": 104.79154411764716,
+          "y": 57.62287408088241
+        },
+        {
+          "x": 157.1873161764704,
+          "y": 13.872404411764819
+        },
+        {
+          "x": 209.5830882352941,
+          "y": 0
+        },
+        {
+          "x": 261.9788602941178,
+          "y": 0
+        },
+        {
+          "x": 314.37463235294103,
+          "y": 9.306487132352913
+        }
+      ],
+      "name": "Measured series"
+    },
+    {
+      "id": "s94",
+      "group": "g14",
+      "kind": "ellipse",
+      "left": 1819.0558823529414,
+      "top": 2032.40684375,
+      "width": 12.475183823529413,
+      "height": 12.475183823529413,
+      "fill": "#0674b6",
+      "stroke": "none",
+      "name": "Measured point"
+    },
+    {
+      "id": "s95",
+      "group": "g14",
+      "kind": "ellipse",
+      "left": 1871.4516544117648,
+      "top": 1981.2835404411765,
+      "width": 12.475183823529413,
+      "height": 12.475183823529413,
+      "fill": "#0674b6",
+      "stroke": "none",
+      "name": "Measured point"
+    },
+    {
+      "id": "s96",
+      "group": "g14",
+      "kind": "ellipse",
+      "left": 1923.8474264705885,
+      "top": 2000.595125,
+      "width": 12.475183823529413,
+      "height": 12.475183823529413,
+      "fill": "#0674b6",
+      "stroke": "none",
+      "name": "Measured point"
+    },
+    {
+      "id": "s97",
+      "group": "g14",
+      "kind": "ellipse",
+      "left": 1976.2431985294118,
+      "top": 1956.8446553308825,
+      "width": 12.475183823529413,
+      "height": 12.475183823529413,
+      "fill": "#0674b6",
+      "stroke": "none",
+      "name": "Measured point"
+    },
+    {
+      "id": "s98",
+      "group": "g14",
+      "kind": "ellipse",
+      "left": 2028.6389705882355,
+      "top": 1942.9722509191176,
+      "width": 12.475183823529413,
+      "height": 12.475183823529413,
+      "fill": "#0674b6",
+      "stroke": "none",
+      "name": "Measured point"
+    },
+    {
+      "id": "s99",
+      "group": "g14",
+      "kind": "ellipse",
+      "left": 2081.034742647059,
+      "top": 1942.9722509191176,
+      "width": 12.475183823529413,
+      "height": 12.475183823529413,
+      "fill": "#0674b6",
+      "stroke": "none",
+      "name": "Measured point"
+    },
+    {
+      "id": "s100",
+      "group": "g14",
+      "kind": "ellipse",
+      "left": 2133.430514705882,
+      "top": 1952.2787380514706,
+      "width": 12.475183823529413,
+      "height": 12.475183823529413,
+      "fill": "#0674b6",
+      "stroke": "none",
+      "name": "Measured point"
+    },
+    {
+      "id": "s101",
+      "group": "g14",
+      "kind": "text",
+      "left": 994.6856689453125,
+      "top": 2029.0643310546875,
+      "width": 55.7540283203125,
+      "height": 41.0001220703125,
+      "text": "46.2",
+      "baseline": 2060.0643262867648,
+      "name": "46.2",
+      "style": {
+        "fontSize": 31.18795955882353,
+        "family": "Barlow Condensed",
+        "bold": true,
+        "italic": false,
+        "color": "#13304c",
+        "tracking": 0
+      }
+    },
+    {
+      "id": "s102",
+      "group": "g14",
+      "kind": "text",
+      "left": 1047.8314208984375,
+      "top": 1932.830810546875,
+      "width": 54.2578125,
+      "height": 41,
+      "text": "63.2",
+      "baseline": 1963.8307582720588,
+      "name": "63.2",
+      "style": {
+        "fontSize": 31.18795955882353,
+        "family": "Barlow Condensed",
+        "bold": true,
+        "italic": false,
+        "color": "#13304c",
+        "tracking": 0
+      }
+    },
+    {
+      "id": "s103",
+      "group": "g14",
+      "kind": "text",
+      "left": 1099.5240478515625,
+      "top": 2017.474853515625,
+      "width": 55.328125,
+      "height": 41,
+      "text": "49.8",
+      "baseline": 2048.474880514706,
+      "name": "49.8",
+      "style": {
+        "fontSize": 31.18795955882353,
+        "family": "Barlow Condensed",
+        "bold": true,
+        "italic": false,
+        "color": "#13304c",
+        "tracking": 0
+      }
+    },
+    {
+      "id": "s104",
+      "group": "g14",
+      "kind": "text",
+      "left": 1152.357421875,
+      "top": 1907.60595703125,
+      "width": 54.4530029296875,
+      "height": 41,
+      "text": "74.6",
+      "baseline": 1938.6059365808824,
+      "name": "74.6",
+      "style": {
+        "fontSize": 31.18795955882353,
+        "family": "Barlow Condensed",
+        "bold": true,
+        "italic": false,
+        "color": "#13304c",
+        "tracking": 0
+      }
+    },
+    {
+      "id": "s105",
+      "group": "g14",
+      "kind": "text",
+      "left": 1203.557861328125,
+      "top": 1885.9365234375,
+      "width": 56.84375,
+      "height": 41,
+      "text": "84.4",
+      "baseline": 1916.9365422794117,
+      "name": "84.4",
+      "style": {
+        "fontSize": 31.18795955882353,
+        "family": "Barlow Condensed",
+        "bold": true,
+        "italic": false,
+        "color": "#13304c",
+        "tracking": 0
+      }
+    },
+    {
+      "id": "s106",
+      "group": "g14",
+      "kind": "text",
+      "left": 1255.95361328125,
+      "top": 1944.5699462890625,
+      "width": 56.84375,
+      "height": 41,
+      "text": "84.4",
+      "baseline": 1975.56990625,
+      "name": "84.4",
+      "style": {
+        "fontSize": 31.18795955882353,
+        "family": "Barlow Condensed",
+        "bold": true,
+        "italic": false,
+        "color": "#13304c",
+        "tracking": 0
+      }
+    },
+    {
+      "id": "s107",
+      "group": "g14",
+      "kind": "text",
+      "left": 1308.349365234375,
+      "top": 1885.9365234375,
+      "width": 56.84375,
+      "height": 41,
+      "text": "84.4",
+      "baseline": 1916.9365422794117,
+      "name": "84.4",
+      "style": {
+        "fontSize": 31.18795955882353,
+        "family": "Barlow Condensed",
+        "bold": true,
+        "italic": false,
+        "color": "#13304c",
+        "tracking": 0
+      }
+    },
+    {
+      "id": "s108",
+      "group": "g14",
+      "kind": "text",
+      "left": 1406.3841552734375,
+      "top": 2055.798583984375,
+      "width": 37.921875,
+      "height": 41,
+      "text": "7.6",
+      "baseline": 2086.7986452205882,
+      "name": "7.6",
+      "style": {
+        "fontSize": 31.18795955882353,
+        "family": "Barlow Condensed",
+        "bold": true,
+        "italic": false,
+        "color": "#13304c",
+        "tracking": 0
+      }
+    },
+    {
+      "id": "s109",
+      "group": "g14",
+      "kind": "text",
+      "left": 1455.7095947265625,
+      "top": 2047.802001953125,
+      "width": 44.407470703125,
+      "height": 41,
+      "text": "11.2",
+      "baseline": 2078.8020523897058,
+      "name": "11.2",
+      "style": {
+        "fontSize": 31.18795955882353,
+        "family": "Barlow Condensed",
+        "bold": true,
+        "italic": false,
+        "color": "#13304c",
+        "tracking": 0
+      }
+    },
+    {
+      "id": "s110",
+      "group": "g14",
+      "kind": "text",
+      "left": 1505.8709716796875,
+      "top": 2040.030029296875,
+      "width": 48.8311767578125,
+      "height": 41,
+      "text": "14.7",
+      "baseline": 2071.030012867647,
+      "name": "14.7",
+      "style": {
+        "fontSize": 31.18795955882353,
+        "family": "Barlow Condensed",
+        "bold": true,
+        "italic": false,
+        "color": "#13304c",
+        "tracking": 0
+      }
+    },
+    {
+      "id": "s111",
+      "group": "g14",
+      "kind": "text",
+      "left": 1555.5714111328125,
+      "top": 2023.55029296875,
+      "width": 54.2578125,
+      "height": 41,
+      "text": "22.2",
+      "baseline": 2054.5502950367645,
+      "name": "22.2",
+      "style": {
+        "fontSize": 31.18795955882353,
+        "family": "Barlow Condensed",
+        "bold": true,
+        "italic": false,
+        "color": "#13304c",
+        "tracking": 0
+      }
+    },
+    {
+      "id": "s112",
+      "group": "g14",
+      "kind": "text",
+      "left": 1611.56884765625,
+      "top": 2012.7218017578125,
+      "width": 46.71875,
+      "height": 41.0001220703125,
+      "text": "27.1",
+      "baseline": 2043.721835477941,
+      "name": "27.1",
+      "style": {
+        "fontSize": 31.18795955882353,
+        "family": "Barlow Condensed",
+        "bold": true,
+        "italic": false,
+        "color": "#13304c",
+        "tracking": 0
+      }
+    },
+    {
+      "id": "s113",
+      "group": "g14",
+      "kind": "text",
+      "left": 1663.964599609375,
+      "top": 2067.7373046875,
+      "width": 46.71875,
+      "height": 41,
+      "text": "27.1",
+      "baseline": 2098.737396139706,
+      "name": "27.1",
+      "style": {
+        "fontSize": 31.18795955882353,
+        "family": "Barlow Condensed",
+        "bold": true,
+        "italic": false,
+        "color": "#13304c",
+        "tracking": 0
+      }
+    },
+    {
+      "id": "s114",
+      "group": "g14",
+      "kind": "text",
+      "left": 1715.2666015625,
+      "top": 1935.99951171875,
+      "width": 48.90625,
+      "height": 40.9998779296875,
+      "text": "61.8",
+      "baseline": 1966.9994549632354,
+      "name": "61.8",
+      "style": {
+        "fontSize": 31.18795955882353,
+        "family": "Barlow Condensed",
+        "bold": true,
+        "italic": false,
+        "color": "#13304c",
+        "tracking": 0
+      }
+    },
+    {
+      "id": "s115",
+      "group": "g14",
+      "kind": "text",
+      "left": 1801.31689453125,
+      "top": 2046.0679931640625,
+      "width": 53.953125,
+      "height": 41.0001220703125,
+      "text": "38.5",
+      "baseline": 2077.0680018382354,
+      "name": "38.5",
+      "style": {
+        "fontSize": 31.18795955882353,
+        "family": "Barlow Condensed",
+        "bold": true,
+        "italic": false,
+        "color": "#13304c",
+        "tracking": 0
+      }
+    },
+    {
+      "id": "s116",
+      "group": "g14",
+      "kind": "text",
+      "left": 1856.2362060546875,
+      "top": 1936.311279296875,
+      "width": 48.9061279296875,
+      "height": 41,
+      "text": "61.6",
+      "baseline": 1967.3113345588235,
+      "name": "61.6",
+      "style": {
+        "fontSize": 31.18795955882353,
+        "family": "Barlow Condensed",
+        "bold": true,
+        "italic": false,
+        "color": "#13304c",
+        "tracking": 0
+      }
+    },
+    {
+      "id": "s117",
+      "group": "g14",
+      "kind": "text",
+      "left": 1906.1552734375,
+      "top": 2010.638427734375,
+      "width": 53.859375,
+      "height": 41,
+      "text": "52.9",
+      "baseline": 2041.6384797794117,
+      "name": "52.9",
+      "style": {
+        "fontSize": 31.18795955882353,
+        "family": "Barlow Condensed",
+        "bold": true,
+        "italic": false,
+        "color": "#13304c",
+        "tracking": 0
+      }
+    },
+    {
+      "id": "s118",
+      "group": "g14",
+      "kind": "text",
+      "left": 1960.0198974609375,
+      "top": 1911.8724365234375,
+      "width": 51.2313232421875,
+      "height": 41,
+      "text": "72.7",
+      "baseline": 1942.8724494485293,
+      "name": "72.7",
+      "style": {
+        "fontSize": 31.18795955882353,
+        "family": "Barlow Condensed",
+        "bold": true,
+        "italic": false,
+        "color": "#13304c",
+        "tracking": 0
+      }
+    },
+    {
+      "id": "s119",
+      "group": "g14",
+      "kind": "text",
+      "left": 2011.4156494140625,
+      "top": 1898,
+      "width": 52.9217529296875,
+      "height": 41,
+      "text": "78.9",
+      "baseline": 1929.0000450367647,
+      "name": "78.9",
+      "style": {
+        "fontSize": 31.18795955882353,
+        "family": "Barlow Condensed",
+        "bold": true,
+        "italic": false,
+        "color": "#13304c",
+        "tracking": 0
+      }
+    },
+    {
+      "id": "s120",
+      "group": "g14",
+      "kind": "text",
+      "left": 2063.8115234375,
+      "top": 1956.6334228515625,
+      "width": 52.921875,
+      "height": 41,
+      "text": "78.9",
+      "baseline": 1987.6334090073528,
+      "name": "78.9",
+      "style": {
+        "fontSize": 31.18795955882353,
+        "family": "Barlow Condensed",
+        "bold": true,
+        "italic": false,
+        "color": "#13304c",
+        "tracking": 0
+      }
+    },
+    {
+      "id": "s121",
+      "group": "g14",
+      "kind": "text",
+      "left": 2116.48828125,
+      "top": 1907.3065185546875,
+      "width": 52.66552734375,
+      "height": 41,
+      "text": "74.7",
+      "baseline": 1938.3065321691176,
+      "name": "74.7",
+      "style": {
+        "fontSize": 31.18795955882353,
+        "family": "Barlow Condensed",
+        "bold": true,
+        "italic": false,
+        "color": "#13304c",
+        "tracking": 0
+      }
+    },
+    {
+      "id": "s122",
+      "group": "g6",
+      "kind": "image",
+      "left": 1109.484375,
+      "top": 543.375,
+      "width": 40,
+      "height": 40,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"rgb(24, 51, 74)\" stroke-width=\"2px\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 4h18l10 10v30H10zM28 4v12h10M17 24h14M17 30h14M17 36h10\"></path></svg>",
+      "name": "icon-file"
+    },
+    {
+      "id": "s123",
+      "group": "g6",
+      "kind": "image",
+      "left": 1322.546875,
+      "top": 543.375,
+      "width": 40,
+      "height": 40,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"rgb(24, 51, 74)\" stroke-width=\"2px\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"20\" cy=\"20\" r=\"14\"></circle><path d=\"m30 30 14 14\"></path></svg>",
+      "name": "icon-search"
+    },
+    {
+      "id": "s124",
+      "group": "g6",
+      "kind": "image",
+      "left": 1670.75,
+      "top": 543.375,
+      "width": 40,
+      "height": 40,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"rgb(24, 51, 74)\" stroke-width=\"2px\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 5h36v28H23l-11 10V33H6z\"></path><circle cx=\"15\" cy=\"19\" r=\"2\" fill=\"rgb(24, 51, 74)\"></circle><circle cx=\"24\" cy=\"19\" r=\"2\" fill=\"rgb(24, 51, 74)\"></circle><circle cx=\"33\" cy=\"19\" r=\"2\" fill=\"rgb(24, 51, 74)\"></circle></svg>",
+      "name": "icon-answer"
+    },
+    {
+      "id": "s125",
+      "group": "g6",
+      "kind": "image",
+      "left": 1922.4375,
+      "top": 543.375,
+      "width": 40,
+      "height": 40,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"rgb(24, 51, 74)\" stroke-width=\"2px\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 4h18l10 10v30H10zM28 4v12h10M17 24h14M17 30h14M17 36h10\"></path></svg>",
+      "name": "icon-file"
+    },
+    {
+      "id": "s126",
+      "group": "g7",
+      "kind": "image",
+      "left": 1039.28125,
+      "top": 965.453125,
+      "width": 50,
+      "height": 50,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"50\" height=\"50\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"rgb(20, 123, 167)\" stroke-width=\"2px\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 3h21l9 10v32H9zM30 3v12h9\"></path><path d=\"m14 35 7-9 7 7 5-5 2 7z\" fill=\"rgb(20, 123, 167)\" stroke=\"none\"></path><circle cx=\"17\" cy=\"21\" r=\"2\" fill=\"rgb(20, 123, 167)\" stroke=\"none\"></circle></svg>",
+      "name": "icon-scan"
+    },
+    {
+      "id": "s127",
+      "group": "g8",
+      "kind": "image",
+      "left": 1240.875,
+      "top": 965.453125,
+      "width": 50,
+      "height": 50,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"50\" height=\"50\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"rgb(20, 123, 167)\" stroke-width=\"2px\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m24 5 20 11-20 11L4 16zM5 25l19 11 19-11M5 34l19 11 19-11\"></path></svg>",
+      "name": "icon-layers"
+    },
+    {
+      "id": "s128",
+      "group": "g9",
+      "kind": "image",
+      "left": 1442.484375,
+      "top": 965.453125,
+      "width": 50,
+      "height": 50,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"50\" height=\"50\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"rgb(59, 120, 45)\" stroke-width=\"2px\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"20\" cy=\"20\" r=\"14\"></circle><path d=\"m30 30 14 14\"></path></svg>",
+      "name": "icon-search"
+    },
+    {
+      "id": "s129",
+      "group": "g10",
+      "kind": "image",
+      "left": 1644.09375,
+      "top": 965.453125,
+      "width": 50,
+      "height": 50,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"50\" height=\"50\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"rgb(59, 120, 45)\" stroke-width=\"2px\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 10h3v9M5 19h7M5 27q6-6 7-1c1 3-7 4-7 8h8M5 39h5q4 0 1 3 4 3-1 4H5\"></path><rect x=\"19\" y=\"11\" width=\"26\" height=\"6\" rx=\"1\" fill=\"rgb(59, 120, 45)\" stroke=\"none\"></rect><rect x=\"19\" y=\"26\" width=\"21\" height=\"6\" rx=\"1\" fill=\"rgb(59, 120, 45)\" stroke=\"none\" opacity=\".7\"></rect><rect x=\"19\" y=\"40\" width=\"15\" height=\"6\" rx=\"1\" fill=\"rgb(59, 120, 45)\" stroke=\"none\" opacity=\".45\"></rect></svg>",
+      "name": "icon-rank"
+    },
+    {
+      "id": "s130",
+      "group": "g11",
+      "kind": "image",
+      "left": 1845.703125,
+      "top": 965.453125,
+      "width": 50,
+      "height": 50,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"50\" height=\"50\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"rgb(171, 88, 38)\" stroke-width=\"2px\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 3h20l10 11v11M8 3v40h14M28 3v12h10M15 22h14M15 29h9\"></path><circle cx=\"34\" cy=\"36\" r=\"11\" fill=\"rgb(171, 88, 38)\" stroke=\"none\"></circle><path d=\"m28 36 4 4 8-9\" stroke=\"white\" stroke-width=\"3\"></path></svg>",
+      "name": "icon-check"
+    },
+    {
+      "id": "s131",
+      "group": "g12",
+      "kind": "image",
+      "left": 2047.3125,
+      "top": 965.453125,
+      "width": 50,
+      "height": 50,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"50\" height=\"50\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"rgb(104, 69, 160)\" stroke-width=\"2px\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 3h20l10 10v13M8 3v41h14M28 3v11h10M15 22h14M15 29h9\"></path><circle cx=\"34\" cy=\"35\" r=\"13\" fill=\"#f1eafb\" stroke=\"none\"></circle><g transform=\"translate(21 22)\"><path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"></path></g></svg>",
+      "name": "icon-link"
+    },
+    {
+      "id": "s132",
+      "group": null,
+      "kind": "image",
+      "left": 2838.34375,
+      "top": 30.234375,
+      "width": 300,
+      "height": 75.609375,
+      "src": "assets/trier-university.svg",
+      "name": "Universität Trier"
+    }
+  ],
+  "groups": [
+    {
+      "id": "g0",
+      "parent": null,
+      "name": "1. Research Context",
+      "left": 30.234375,
+      "top": 143.84375,
+      "width": 904.25,
+      "height": 418.25
+    },
+    {
+      "id": "g1",
+      "parent": null,
+      "name": "2. Prior Work & Study Focus",
+      "left": 30.234375,
+      "top": 588.21875,
+      "width": 904.25,
+      "height": 572.625
+    },
+    {
+      "id": "g2",
+      "parent": null,
+      "name": "3. Research question",
+      "left": 30.234375,
+      "top": 1186.96875,
+      "width": 904.25,
+      "height": 198.28125
+    },
+    {
+      "id": "g3",
+      "parent": null,
+      "name": "4. Our Contribution",
+      "left": 30.234375,
+      "top": 1411.375,
+      "width": 904.25,
+      "height": 283.875
+    },
+    {
+      "id": "g4",
+      "parent": null,
+      "name": "5. Hypothesis",
+      "left": 30.234375,
+      "top": 1721.375,
+      "width": 904.25,
+      "height": 493.421875
+    },
+    {
+      "id": "g5",
+      "parent": null,
+      "name": "6. Data and Methods",
+      "left": 952.484375,
+      "top": 143.84375,
+      "width": 1231.640625,
+      "height": 1139.984375
+    },
+    {
+      "id": "g6",
+      "parent": "g5",
+      "name": "R0 · Baseline",
+      "left": 969.484375,
+      "top": 493.09375,
+      "width": 1197.640625,
+      "height": 140.5625
+    },
+    {
+      "id": "g7",
+      "parent": "g5",
+      "name": "R1 · Read scans",
+      "left": 969.484375,
+      "top": 700.4375,
+      "width": 189.59375,
+      "height": 480.203125
+    },
+    {
+      "id": "g8",
+      "parent": "g5",
+      "name": "R2 · Multiple scales",
+      "left": 1171.078125,
+      "top": 700.4375,
+      "width": 189.609375,
+      "height": 480.203125
+    },
+    {
+      "id": "g9",
+      "parent": "g5",
+      "name": "R3 · Find exact terms too",
+      "left": 1372.6875,
+      "top": 700.4375,
+      "width": 189.609375,
+      "height": 480.203125
+    },
+    {
+      "id": "g10",
+      "parent": "g5",
+      "name": "R4 · Prioritize better evidence",
+      "left": 1574.296875,
+      "top": 700.4375,
+      "width": 189.609375,
+      "height": 480.203125
+    },
+    {
+      "id": "g11",
+      "parent": "g5",
+      "name": "R5 · Check the answer",
+      "left": 1775.90625,
+      "top": 700.4375,
+      "width": 189.609375,
+      "height": 480.203125
+    },
+    {
+      "id": "g12",
+      "parent": "g5",
+      "name": "R6 · Refine citations",
+      "left": 1977.515625,
+      "top": 700.4375,
+      "width": 189.59375,
+      "height": 480.203125
+    },
+    {
+      "id": "g13",
+      "parent": null,
+      "name": "7. Evaluation",
+      "left": 952.484375,
+      "top": 1293.828125,
+      "width": 1231.640625,
+      "height": 402.453125
+    },
+    {
+      "id": "g14",
+      "parent": null,
+      "name": "8. Results",
+      "left": 952.484375,
+      "top": 1708.328125,
+      "width": 1231.640625,
+      "height": 506.46875
+    },
+    {
+      "id": "g15",
+      "parent": null,
+      "name": "9. OCR robustness",
+      "left": 2202.125,
+      "top": 143.84375,
+      "width": 946.21875,
+      "height": 415.78125
+    },
+    {
+      "id": "g16",
+      "parent": "g15",
+      "name": "ocr-bars",
+      "left": 2219.125,
+      "top": 253.703125,
+      "width": 912.21875,
+      "height": 217.734375
+    },
+    {
+      "id": "g17",
+      "parent": null,
+      "name": "10. Hypothesis evaluation",
+      "left": 2202.125,
+      "top": 569.703125,
+      "width": 946.21875,
+      "height": 390.46875
+    },
+    {
+      "id": "g18",
+      "parent": null,
+      "name": "11. Conclusion and takeaways",
+      "left": 2202.125,
+      "top": 970.25,
+      "width": 946.21875,
+      "height": 653.21875
+    },
+    {
+      "id": "g19",
+      "parent": null,
+      "name": "12. Limitations",
+      "left": 2202.125,
+      "top": 1633.546875,
+      "width": 946.21875,
+      "height": 143.5
+    },
+    {
+      "id": "g20",
+      "parent": null,
+      "name": "13. References",
+      "left": 2202.125,
+      "top": 1787.125,
+      "width": 946.21875,
+      "height": 427.671875
+    }
+  ],
+  "italicRegions": [
+    {
+      "left": 979.484375,
+      "top": 1527.90625,
+      "width": 372.546875,
+      "height": 33.59375
+    },
+    {
+      "left": 1382.03125,
+      "top": 1527.90625,
+      "width": 372.546875,
+      "height": 67.1875
+    },
+    {
+      "left": 1784.578125,
+      "top": 1527.90625,
+      "width": 372.546875,
+      "height": 67.1875
+    }
+  ]
+}
