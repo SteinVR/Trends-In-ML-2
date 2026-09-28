@@ -1,0 +1,2 @@
+const {chromium}=require('playwright');
+(async()=>{const b=await chromium.launch({headless:true,executablePath:'/usr/bin/chromium',args:['--no-sandbox']});let p=await b.newPage();await p.goto('file://'+process.cwd()+'/output/poster-narrative-3/layout-v4/index.html');await p.emulateMedia({media:'print'});console.log(await p.evaluate(()=>[...document.querySelector('#s6 .content').children].map(e=>[e.className,e.getBoundingClientRect().height,...[...e.children].map(x=>[x.className,x.getBoundingClientRect().height])])));await b.close()})()
