@@ -1,0 +1,243 @@
+{
+  "changes": [
+    "Shared row grid aligns all six stage titles, descriptions, icons and technology labels",
+    "R0 labels share the same top baseline",
+    "Main narrative reads 1-5, 6-7, then 8-12; bibliography is separate"
+  ],
+  "text_preserved": "Exact token multiset equals the prior HTML; no words added or removed",
+  "visual_review": "Inspected enlarged methodology and full rendered final PDF",
+  "alignment": {
+    "cards": [
+      {
+        "title": 725.953125,
+        "description": 839.59375,
+        "icon": 985.96875,
+        "technology": 1041.96875
+      },
+      {
+        "title": 725.953125,
+        "description": 839.59375,
+        "icon": 985.96875,
+        "technology": 1041.96875
+      },
+      {
+        "title": 725.953125,
+        "description": 839.59375,
+        "icon": 985.96875,
+        "technology": 1041.96875
+      },
+      {
+        "title": 725.953125,
+        "description": 839.59375,
+        "icon": 985.96875,
+        "technology": 1041.96875
+      },
+      {
+        "title": 725.953125,
+        "description": 839.59375,
+        "icon": 985.96875,
+        "technology": 1041.96875
+      },
+      {
+        "title": 725.953125,
+        "description": 839.59375,
+        "icon": 985.96875,
+        "technology": 1041.96875
+      }
+    ],
+    "spreads": {
+      "title": 0,
+      "description": 0,
+      "icon": 0,
+      "technology": 0
+    },
+    "baselineLabelSpread": 0,
+    "rightColumnOrder": [
+      "s8",
+      "s9",
+      "s10",
+      "s11",
+      "s12"
+    ]
+  },
+  "layout": {
+    "stageRowSpreads": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "baselineSpread": 0,
+    "rightColumnOrder": [
+      "s8",
+      "s9",
+      "s10",
+      "s11",
+      "s12"
+    ],
+    "poster": {
+      "x": 0,
+      "y": 0,
+      "width": 3178.578125,
+      "height": 2245.03125,
+      "bottom": 2245.03125,
+      "right": 3178.578125
+    },
+    "cols": [
+      {
+        "class": "col left",
+        "x": 30.234375,
+        "y": 143.84375,
+        "width": 904.25,
+        "height": 2070.953125,
+        "bottom": 2214.796875,
+        "right": 934.484375,
+        "scrollHeight": 2071
+      },
+      {
+        "class": "col center",
+        "x": 952.484375,
+        "y": 143.84375,
+        "width": 1278.421875,
+        "height": 2070.953125,
+        "bottom": 2214.796875,
+        "right": 2230.90625,
+        "scrollHeight": 2071
+      },
+      {
+        "class": "col right",
+        "x": 2248.90625,
+        "y": 143.84375,
+        "width": 899.4375,
+        "height": 2070.953125,
+        "bottom": 2214.796875,
+        "right": 3148.34375,
+        "scrollHeight": 2071
+      }
+    ],
+    "sections": [
+      {
+        "id": "s1",
+        "x": 30.234375,
+        "y": 143.84375,
+        "width": 904.25,
+        "height": 418.25,
+        "bottom": 562.09375,
+        "right": 934.484375
+      },
+      {
+        "id": "s2",
+        "x": 30.234375,
+        "y": 588.21875,
+        "width": 904.25,
+        "height": 572.625,
+        "bottom": 1160.84375,
+        "right": 934.484375
+      },
+      {
+        "id": "s3",
+        "x": 30.234375,
+        "y": 1186.96875,
+        "width": 904.25,
+        "height": 198.28125,
+        "bottom": 1385.25,
+        "right": 934.484375
+      },
+      {
+        "id": "s4",
+        "x": 30.234375,
+        "y": 1411.375,
+        "width": 904.25,
+        "height": 283.875,
+        "bottom": 1695.25,
+        "right": 934.484375
+      },
+      {
+        "id": "s5",
+        "x": 30.234375,
+        "y": 1721.375,
+        "width": 904.25,
+        "height": 493.421875,
+        "bottom": 2214.796875,
+        "right": 934.484375
+      },
+      {
+        "id": "s6",
+        "x": 952.484375,
+        "y": 143.84375,
+        "width": 1278.421875,
+        "height": 1126.09375,
+        "bottom": 1269.9375,
+        "right": 2230.90625
+      },
+      {
+        "id": "s7",
+        "x": 952.484375,
+        "y": 1283.9375,
+        "width": 1278.421875,
+        "height": 402.453125,
+        "bottom": 1686.390625,
+        "right": 2230.90625
+      },
+      {
+        "id": "s13",
+        "x": 952.484375,
+        "y": 1733.234375,
+        "width": 1278.421875,
+        "height": 481.5625,
+        "bottom": 2214.796875,
+        "right": 2230.90625
+      },
+      {
+        "id": "s8",
+        "x": 2248.90625,
+        "y": 143.84375,
+        "width": 899.4375,
+        "height": 380.8125,
+        "bottom": 524.65625,
+        "right": 3148.34375
+      },
+      {
+        "id": "s9",
+        "x": 2248.90625,
+        "y": 538.046875,
+        "width": 899.4375,
+        "height": 415.78125,
+        "bottom": 953.828125,
+        "right": 3148.34375
+      },
+      {
+        "id": "s10",
+        "x": 2248.90625,
+        "y": 967.234375,
+        "width": 899.4375,
+        "height": 390.46875,
+        "bottom": 1357.703125,
+        "right": 3148.34375
+      },
+      {
+        "id": "s11",
+        "x": 2248.90625,
+        "y": 1371.09375,
+        "width": 899.4375,
+        "height": 686.8125,
+        "bottom": 2057.90625,
+        "right": 3148.34375
+      },
+      {
+        "id": "s12",
+        "x": 2248.90625,
+        "y": 2071.296875,
+        "width": 899.4375,
+        "height": 143.5,
+        "bottom": 2214.796875,
+        "right": 3148.34375
+      }
+    ],
+    "paragraphFonts": [
+      "32px",
+      "33.3333px"
+    ],
+    "missingImages": []
+  }
+}

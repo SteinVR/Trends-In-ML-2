@@ -1,0 +1,225 @@
+{
+  "page_count": 1,
+  "size_mm": [
+    840.99,
+    594.11
+  ],
+  "raster_images": 0,
+  "text_delta": {
+    "removed": {
+      "retrieval": 1,
+      "methodology": 1,
+      "dense": 1
+    },
+    "added": {
+      "answer": 1,
+      "scales": 1,
+      "multiple": 1,
+      "generate": 1
+    }
+  },
+  "text_delta_reason": "Removed requested heading suffix and redundant Dense retrieval label. Added functional Generate answer node label and short R2 heading; complete original R2 instruction remains in its description. No research paragraph, numerical value or reference removed.",
+  "checks": {
+    "overflow": [],
+    "badFonts": [],
+    "chartOverlaps": [],
+    "rangeOverflow": []
+  },
+  "layout": {
+    "stageRowSpreads": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "baselineSpread": 20.09375,
+    "sectionOrder": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6",
+      "s7",
+      "s8",
+      "s9",
+      "s10",
+      "s11",
+      "s12",
+      "s13"
+    ],
+    "embeddingParent": "Semantic retrievalQwen3-Embedding-0.6B",
+    "rightColumnOrder": [
+      "s9",
+      "s10",
+      "s11",
+      "s12",
+      "s13"
+    ],
+    "poster": {
+      "x": 0,
+      "y": 0,
+      "width": 3178.578125,
+      "height": 2245.03125,
+      "bottom": 2245.03125,
+      "right": 3178.578125
+    },
+    "cols": [
+      {
+        "class": "col left",
+        "x": 30.234375,
+        "y": 143.84375,
+        "width": 904.25,
+        "height": 2070.953125,
+        "bottom": 2214.796875,
+        "right": 934.484375,
+        "scrollHeight": 2071
+      },
+      {
+        "class": "col center",
+        "x": 952.484375,
+        "y": 143.84375,
+        "width": 1231.640625,
+        "height": 2070.953125,
+        "bottom": 2214.796875,
+        "right": 2184.125,
+        "scrollHeight": 2071
+      },
+      {
+        "class": "col right",
+        "x": 2202.125,
+        "y": 143.84375,
+        "width": 946.21875,
+        "height": 2070.953125,
+        "bottom": 2214.796875,
+        "right": 3148.34375,
+        "scrollHeight": 2071
+      }
+    ],
+    "sections": [
+      {
+        "id": "s1",
+        "x": 30.234375,
+        "y": 143.84375,
+        "width": 904.25,
+        "height": 418.25,
+        "bottom": 562.09375,
+        "right": 934.484375
+      },
+      {
+        "id": "s2",
+        "x": 30.234375,
+        "y": 588.21875,
+        "width": 904.25,
+        "height": 572.625,
+        "bottom": 1160.84375,
+        "right": 934.484375
+      },
+      {
+        "id": "s3",
+        "x": 30.234375,
+        "y": 1186.96875,
+        "width": 904.25,
+        "height": 198.28125,
+        "bottom": 1385.25,
+        "right": 934.484375
+      },
+      {
+        "id": "s4",
+        "x": 30.234375,
+        "y": 1411.375,
+        "width": 904.25,
+        "height": 283.875,
+        "bottom": 1695.25,
+        "right": 934.484375
+      },
+      {
+        "id": "s5",
+        "x": 30.234375,
+        "y": 1721.375,
+        "width": 904.25,
+        "height": 493.421875,
+        "bottom": 2214.796875,
+        "right": 934.484375
+      },
+      {
+        "id": "s6",
+        "x": 952.484375,
+        "y": 143.84375,
+        "width": 1231.640625,
+        "height": 1139.984375,
+        "bottom": 1283.828125,
+        "right": 2184.125
+      },
+      {
+        "id": "s7",
+        "x": 952.484375,
+        "y": 1293.828125,
+        "width": 1231.640625,
+        "height": 402.453125,
+        "bottom": 1696.28125,
+        "right": 2184.125
+      },
+      {
+        "id": "s8",
+        "x": 952.484375,
+        "y": 1708.328125,
+        "width": 1231.640625,
+        "height": 506.46875,
+        "bottom": 2214.796875,
+        "right": 2184.125
+      },
+      {
+        "id": "s9",
+        "x": 2202.125,
+        "y": 143.84375,
+        "width": 946.21875,
+        "height": 415.78125,
+        "bottom": 559.625,
+        "right": 3148.34375
+      },
+      {
+        "id": "s10",
+        "x": 2202.125,
+        "y": 569.703125,
+        "width": 946.21875,
+        "height": 390.46875,
+        "bottom": 960.171875,
+        "right": 3148.34375
+      },
+      {
+        "id": "s11",
+        "x": 2202.125,
+        "y": 970.25,
+        "width": 946.21875,
+        "height": 653.21875,
+        "bottom": 1623.46875,
+        "right": 3148.34375
+      },
+      {
+        "id": "s12",
+        "x": 2202.125,
+        "y": 1633.546875,
+        "width": 946.21875,
+        "height": 143.5,
+        "bottom": 1777.046875,
+        "right": 3148.34375
+      },
+      {
+        "id": "s13",
+        "x": 2202.125,
+        "y": 1787.125,
+        "width": 946.21875,
+        "height": 427.671875,
+        "bottom": 2214.796875,
+        "right": 3148.34375
+      }
+    ],
+    "paragraphFonts": [
+      "32px",
+      "33.3333px"
+    ],
+    "missingImages": []
+  },
+  "visual_review": "Whole PDF and enlarged methodology inspected against old PowerPoint composition."
+}

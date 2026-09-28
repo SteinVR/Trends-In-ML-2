@@ -1,0 +1,54 @@
+{
+  "cards": [
+    {
+      "title": 725.953125,
+      "description": 839.59375,
+      "icon": 985.96875,
+      "technology": 1041.96875
+    },
+    {
+      "title": 725.953125,
+      "description": 839.59375,
+      "icon": 985.96875,
+      "technology": 1041.96875
+    },
+    {
+      "title": 725.953125,
+      "description": 839.59375,
+      "icon": 985.96875,
+      "technology": 1041.96875
+    },
+    {
+      "title": 725.953125,
+      "description": 839.59375,
+      "icon": 985.96875,
+      "technology": 1041.96875
+    },
+    {
+      "title": 725.953125,
+      "description": 839.59375,
+      "icon": 985.96875,
+      "technology": 1041.96875
+    },
+    {
+      "title": 725.953125,
+      "description": 839.59375,
+      "icon": 985.96875,
+      "technology": 1041.96875
+    }
+  ],
+  "spreads": {
+    "title": 0,
+    "description": 0,
+    "icon": 0,
+    "technology": 0
+  },
+  "baselineLabelSpread": 0,
+  "rightColumnOrder": [
+    "s8",
+    "s9",
+    "s10",
+    "s11",
+    "s12"
+  ]
+}
