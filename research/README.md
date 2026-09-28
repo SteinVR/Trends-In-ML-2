@@ -1,7 +1,9 @@
 # Рабочая копия Legal RAG
 
-`legal-rag/` — отдельный клон https://github.com/SteinVR/Legal-RAG-Challenge
-на коммите `56f61f0872e402f5e1f49eb08e1e33a3dda252ef`.
+`legal-rag/` — рабочая копия кода из https://github.com/SteinVR/Legal-RAG-Challenge
+на основе коммита `56f61f0872e402f5e1f49eb08e1e33a3dda252ef`.
+Код и эксперименты отслеживаются в основном репозитории как обычные файлы;
+вложенного Git-репозитория нет.
 
 Экспериментальный код находится в `legal-rag/experiments/`, производные данные —
 в `legal-rag/experiment_data/`. Исходный репозиторий вне этой папки не изменяется.
